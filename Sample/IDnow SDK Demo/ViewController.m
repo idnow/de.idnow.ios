@@ -30,6 +30,7 @@
 	self.settings = [IDnowSettings new];
 	self.settings.showErrorSuccessScreen = true;
 	self.settings.showVideoOverviewCheck = true;
+	self.settings.environment = IDnowEnvironmentDev;
 
 
 	// Set up IDnowController

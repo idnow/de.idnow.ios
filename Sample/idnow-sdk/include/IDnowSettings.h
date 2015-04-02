@@ -9,9 +9,33 @@
 #import <Foundation/Foundation.h>
 
 /**
+ *  Possible server environments for executing an identification
+ */
+typedef NS_ENUM(NSInteger, IDnowEnvironment)
+{
+	/**
+	 *  Server environment not defined
+	 */
+	IDnowEnvironmentNotDefined,
+	/**
+	 *  Dev server environment
+	 */
+	IDnowEnvironmentDev,
+	/**
+	 *  Test server environment
+	 */
+	IDnowEnvironmentTest,
+	/**
+	 *  Live server environment
+	 */
+	IDnowEnvironmentLive
+};
+
+/**
  *  This class is used to instantiate an instance of IDnowController.
  *  It lets you customize the identification process.
  *  At least a transactionToken and a companyID have to be set before calling [IDnowController initialize].
+ *  You can also explicitly set the environment, which describes on which server the identificaton will be executed.
  */
 @interface IDnowSettings : NSObject
 
@@ -44,6 +68,11 @@
  *  The company id provided by IDnow.
  */
 @property (strong, nonatomic) NSString *companyID;
+
+/**
+ *  The environment that should be used for the identification (DEV, TEST, LIVE)
+ */
+@property (assign, nonatomic) IDnowEnvironment environment;
 
 /**
  *  If set to `false`, the Error-Success-Screen provided by the SDK will not be shown.
