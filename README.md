@@ -12,9 +12,9 @@
 ```
 pod 'Masonry', '0.6.1'
 pod 'SocketRocket', '0.3.1-beta2'
-pod 'AFNetworking', '2.5.0'
+pod 'AFNetworking', '2.5.2'
 pod 'UIAlertView+Blocks', '0.8.1'
-pod 'OpenTok', '2.4.0'
+pod 'OpenTok', '2.4.1'
 ```
 - Copy the idnow-sdk folder to your project directory or add the repo as a git submodule.
 - Drag idnow-sdk folder into your Xcode project
