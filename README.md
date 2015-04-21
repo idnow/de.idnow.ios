@@ -12,7 +12,7 @@
 ```
 pod 'Masonry', '0.6.1'
 pod 'SocketRocket', '0.3.1-beta2'
-pod 'AFNetworking', '2.5.2'
+pod 'AFNetworking', '2.5.3'
 pod 'UIAlertView+Blocks', '0.8.1'
 pod 'OpenTok', '2.4.1'
 ```
