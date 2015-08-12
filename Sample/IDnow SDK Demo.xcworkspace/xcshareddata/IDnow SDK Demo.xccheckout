@@ -10,14 +10,14 @@
 	<string>IDnow SDK Demo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B1830C30418EEDC9CF21FEA23654709095E3E00D</key>
+		<key>B77DD729AA6ABF1EB44CDA6940FCBF7D59AB2BDB</key>
 		<string>https://github.com/idnow/de.idnow.ios</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Sample/IDnow SDK Demo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B1830C30418EEDC9CF21FEA23654709095E3E00D</key>
+		<key>B77DD729AA6ABF1EB44CDA6940FCBF7D59AB2BDB</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B1830C30418EEDC9CF21FEA23654709095E3E00D</string>
+	<string>B77DD729AA6ABF1EB44CDA6940FCBF7D59AB2BDB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B1830C30418EEDC9CF21FEA23654709095E3E00D</string>
+			<string>B77DD729AA6ABF1EB44CDA6940FCBF7D59AB2BDB</string>
 			<key>IDESourceControlWCCName</key>
 			<string>IDnow-IOS-SDK-Github</string>
 		</dict>
