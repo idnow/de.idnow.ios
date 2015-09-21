@@ -8,27 +8,29 @@
 
 #import <Foundation/Foundation.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 /**
  *  Possible server environments for executing an identification
  */
-typedef NS_ENUM(NSInteger, IDnowEnvironment)
+typedef NS_ENUM (NSInteger, IDnowEnvironment)
 {
-	/**
-	 *  Server environment not defined
-	 */
-	IDnowEnvironmentNotDefined,
-	/**
-	 *  Dev server environment
-	 */
-	IDnowEnvironmentDev,
-	/**
-	 *  Test server environment
-	 */
-	IDnowEnvironmentTest,
-	/**
-	 *  Live server environment
-	 */
-	IDnowEnvironmentLive
+    /**
+     *  Server environment not defined
+     */
+    IDnowEnvironmentNotDefined,
+    /**
+     *  Dev server environment
+     */
+    IDnowEnvironmentDev,
+    /**
+     *  Test server environment
+     */
+    IDnowEnvironmentTest,
+    /**
+     *  Live server environment
+     */
+    IDnowEnvironmentLive
 };
 
 /**
@@ -57,17 +59,17 @@ typedef NS_ENUM(NSInteger, IDnowEnvironment)
  *
  *  @return An IDnowSettings instance.
  */
-+ (instancetype) settingsWithCompanyID: (NSString *) companyID andTransactionToken: (NSString *) transactionToken;
++ (instancetype) settingsWithCompanyID: (NSString *) companyID transactionToken: (NSString *) transactionToken;
 
 /**
  *  A token that will be used for instantiating a photo or video identification.
  */
-@property (strong, nonatomic) NSString *transactionToken;
+@property (nullable, strong, nonatomic) NSString *transactionToken;
 
 /**
  *  The company id provided by IDnow.
  */
-@property (strong, nonatomic) NSString *companyID;
+@property (nullable, strong, nonatomic) NSString *companyID;
 
 /**
  *  The environment that should be used for the identification (DEV, TEST, LIVE)
@@ -92,3 +94,5 @@ typedef NS_ENUM(NSInteger, IDnowEnvironment)
 @property (assign, nonatomic) BOOL forceModalPresentation;
 
 @end
+
+NS_ASSUME_NONNULL_END

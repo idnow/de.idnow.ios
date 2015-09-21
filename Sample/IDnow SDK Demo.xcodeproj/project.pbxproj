@@ -47,8 +47,8 @@
 
 /* Begin PBXFileReference section */
 		1BC7A885E1EC50D40991E38B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6F3F68A21BAFEAC900431366 /* NSError+IDnowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+IDnowError.h"; sourceTree = "<group>"; };
 		6F555C5C1AC300640017E939 /* IDnowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowController.h; sourceTree = "<group>"; };
-		6F555C5D1AC300640017E939 /* IDnowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowError.h; sourceTree = "<group>"; };
 		6F555C5E1AC300640017E939 /* IDnowSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSDK.h; sourceTree = "<group>"; };
 		6F555C5F1AC300640017E939 /* IDnowSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSettings.h; sourceTree = "<group>"; };
 		6FC64E6F1AC1EFC800BA9B5B /* IDnow SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDnow SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,8 +118,8 @@
 		6F555C5B1AC300640017E939 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				6F3F68A21BAFEAC900431366 /* NSError+IDnowError.h */,
 				6F555C5C1AC300640017E939 /* IDnowController.h */,
-				6F555C5D1AC300640017E939 /* IDnowError.h */,
 				6F555C5E1AC300640017E939 /* IDnowSDK.h */,
 				6F555C5F1AC300640017E939 /* IDnowSettings.h */,
 			);

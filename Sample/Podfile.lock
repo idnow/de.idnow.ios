@@ -1,42 +1,42 @@
 PODS:
-  - AFNetworking (2.5.0):
-    - AFNetworking/NSURLConnection (= 2.5.0)
-    - AFNetworking/NSURLSession (= 2.5.0)
-    - AFNetworking/Reachability (= 2.5.0)
-    - AFNetworking/Security (= 2.5.0)
-    - AFNetworking/Serialization (= 2.5.0)
-    - AFNetworking/UIKit (= 2.5.0)
-  - AFNetworking/NSURLConnection (2.5.0):
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.0):
+  - AFNetworking/NSURLSession (2.5.4):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.0)
-  - AFNetworking/Security (2.5.0)
-  - AFNetworking/Serialization (2.5.0)
-  - AFNetworking/UIKit (2.5.0):
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Masonry (0.6.1)
-  - OpenTok (2.4.0)
-  - SocketRocket (0.3.1-beta2)
+  - Masonry (0.6.2)
+  - OpenTok (2.4.1)
+  - SocketRocket (0.4.1)
   - UIAlertView+Blocks (0.8.1)
 
 DEPENDENCIES:
-  - AFNetworking (= 2.5.0)
-  - Masonry (= 0.6.1)
-  - OpenTok (= 2.4.0)
-  - SocketRocket (= 0.3.1-beta2)
-  - UIAlertView+Blocks (= 0.8.1)
+  - AFNetworking (~> 2.5.3)
+  - Masonry (~> 0.6.2)
+  - OpenTok (~> 2.4.1)
+  - SocketRocket (~> 0.4)
+  - UIAlertView+Blocks (~> 0.8.1)
 
 SPEC CHECKSUMS:
-  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
-  Masonry: 2cb49fd14d203d2db5ca6bb017135b235dde9980
-  OpenTok: fc1cbb14a2470b1186027291777d6a504a3aec67
-  SocketRocket: 79a68ae186063c65e1fe6f638b1ae2927aa5f304
-  UIAlertView+Blocks: 0b749f1f7bd5131ff2233b30a406c1585a7171b2
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  OpenTok: 7d069f7f2a9cef6062e00856aaeab2fe242f785e
+  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+  UIAlertView+Blocks: 45c3d3b7194906702d3e9a14c7ece5581505646d
 
-COCOAPODS: 0.36.0
+COCOAPODS: 0.39.0.beta.4

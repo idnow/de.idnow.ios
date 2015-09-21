@@ -43,19 +43,19 @@
 - (IBAction) startVideoIdent: (id) sender
 {
 	// Setting dummy dev token and company id -> will instantiate a video identification
-	self.settings.transactionToken = @"DEV-XKWYJ";
+	self.settings.transactionToken = @"DEV-TXJKC";
 	self.settings.companyID = @"ihrebank";
 
 	self.idnowController.delegate  = nil;
 	__weak typeof(self) weakSelf   = self;
 
 	// Initialize identification using blocks (alternatively you can set the delegate and implement the IDnowControllerDelegate protocol)
-	[self.idnowController initializeWithCompletionBlock: ^(bool success, IDnowError *idnowError, bool canceledByUser)
+	[self.idnowController initializeWithCompletionBlock: ^(bool success, NSError *error, bool canceledByUser)
 	{
 		if ( success )
 		{
 	        // Start identification using blocks
-			[weakSelf.idnowController startIdentificationFromViewController: self withCompletionBlock: ^(bool success, IDnowError *idnowError, bool canceledByUser)
+			[weakSelf.idnowController startIdentificationFromViewController: self withCompletionBlock: ^(bool success, NSError *error, bool canceledByUser)
 				{
 					if ( success )
 					{
@@ -69,11 +69,11 @@
 					}
 				}];
 		}
-		else if ( idnowError )
+		else if ( error )
 		{
 	        // Present an alert containing localized error description
 			// When targeting iOS 7 and later, you should use an UIAlertView instead when running on iOS 7.
-			UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" message: idnowError.localizedErrorDescription preferredStyle: UIAlertControllerStyleAlert];
+			UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" message: error.localizedDescription preferredStyle: UIAlertControllerStyleAlert];
 			UIAlertAction *action = [UIAlertAction actionWithTitle: @"Ok" style: UIAlertActionStyleCancel handler: nil];
 			[alertController addAction: action];
 			[weakSelf presentViewController: alertController animated: true completion: nil];
@@ -85,7 +85,7 @@
 - (IBAction) startPhotoIdent: (id) sender
 {
 	// Setting dummy dev token and company id -> will instantiate a photo identification
-	self.settings.transactionToken = @"DEV-USUGJ";
+	self.settings.transactionToken = @"DEV-LDFRG";
 	self.settings.companyID = @"idnow";
 	
 	// This time we use the delegate instead of blocks (it's your choice)
@@ -98,11 +98,11 @@
 
 #pragma mark - IDnowControllerDelegate -
 
-- (void) idnowController: (IDnowController *) idnowController initializationDidFailWithError: (IDnowError *) error
+- (void) idnowController: (IDnowController *) idnowController initializationDidFailWithError: (NSError *) error
 {
 	// Initialization failed -> Present an alert containing localized error description
 	// When targeting iOS 7 and later, you should use an UIAlertView instead when running on iOS 7.
-	UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" message: error.localizedErrorDescription preferredStyle: UIAlertControllerStyleAlert];
+	UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" message: error.localizedDescription preferredStyle: UIAlertControllerStyleAlert];
 	UIAlertAction	  *action		   = [UIAlertAction actionWithTitle: @"Ok" style: UIAlertActionStyleCancel handler: nil];
 	[alertController addAction: action];
 	[self presentViewController: alertController animated: true completion: nil];
@@ -124,7 +124,7 @@
 }
 
 
-- (void) idnowController: (IDnowController *) idnowController identificationDidFailWithError: (IDnowError *) error
+- (void) idnowController: (IDnowController *) idnowController identificationDidFailWithError: (NSError *) error
 {
 	// Identification failed
 	// If showErrorSuccessScreen (Settings) is disabled and error.type == IDnowErrorTypeIdentificationFailed

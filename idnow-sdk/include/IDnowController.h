@@ -8,18 +8,21 @@
 
 #import <UIKit/UIKit.h>
 #import "IDnowSettings.h"
-#import "IDnowError.h"
+
+NS_ASSUME_NONNULL_BEGIN
 
 @protocol IDnowControllerDelegate;
+
 
 /**
  *  Used as the callback for initializing and performing an identification.
  *
  *  @param success        Describes if the initialization or identification was successfull or not.
- *  @param idnowError     The error that occurred during initializatio or identification. Optionally, can be nil.
+ *  @param error          The error that occurred during initialization or identification. Optionally, can be nil.
  *  @param canceledByUser Describes if the identification was canceled by the user.
  */
-typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool canceledByUser);
+typedef void (^IDnowCompletionBlock)(BOOL success, NSError *__nullable error, BOOL canceledByUser);
+
 
 /**
  *  The main class of the SDK. It provides functionality to instantiate a new
@@ -37,23 +40,22 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *  Alternatively you can set the delegate property and call initialize to get informed about success or failure.
  *  For more information take a look at IDnowControllerDelegate.
  *
- *  When the initialization failed, you will receive an IDnowError object, that contains additional information about the error.
- *  An IDnowError object contains the type of the error and a localizedErrorDescription.
- *  E.g. you can show an UIAlertView / UIAlertController taking the localizedErrorDescription into account.
+ *  When the initialization failed, you will receive an error object, that contains additional information about the error.
+ *  E.g. you can show an UIAlertView / UIAlertController taking the localizedDescription into account.
  *
  *  When the initialization was successfull, you can start the identification process by
  *  calling startIdentificationFromViewController:presentModal:withCompletionBlock:.
  *  The completion block will contain additional information of success or failure of the identification process.
  *  For more information take a look at IDnowCompletionBlock.
- *  Alternatively you can set the delegate property and call startIdentificationFromViewController:presentModal: 
+ *  Alternatively you can set the delegate property and call startIdentificationFromViewController:presentModal:
  *  to get information about success or failure.
  *  For more information take a look at IDnowControllerDelegate.
  *
- *  When the identification failed the success value of the completion block will be set to false and you will receive an IDnowError object,
+ *  When the identification failed the success value of the completion block will be set to false and you will receive an error object,
  *  that contains additional information about the error.
  *  The errors are automatically handled by the SDK, so you don't have to display an extra alert to the user.
  *
- *  When the identification was canceled by the user the canceledByUser value will be true (see IDnowCompletionBlock) 
+ *  When the identification was canceled by the user the canceledByUser value will be true (see IDnowCompletionBlock)
  *  or you will get the appropriate callback from the delegate (see IDnowControllerDelegate).
  *
  *  When the identification was successfull the success value will be set to true (see IDnowCompletionBlock) or you will get the appropriate callback from the delegate (see IDnowControllerDelegate).
@@ -64,7 +66,7 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *  The delegate that should be notified by the IDnowController.
  *  Instead of using a delegate you can also use completion blocks (see IDnowCompletionBlock).
  */
-@property (weak, nonatomic) NSObject<IDnowControllerDelegate> *delegate;
+@property (nullable, weak, nonatomic) NSObject<IDnowControllerDelegate> *delegate;
 
 /**
  *  Creates a new instance of IDNowController with the specified settings object.
@@ -74,7 +76,7 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *
  *  @return An IDnowController instance.
  */
-- (id)initWithSettings:(IDnowSettings *)settings;
+- (instancetype) initWithSettings: (IDnowSettings *) settings;
 
 /**
  *  Initializes an identification process provided by IDnow.
@@ -89,12 +91,12 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *
  *  @warning *Note:* You can also call initializeWithCompletionBlock: instead if you don't want to use a delegate.
  */
-- (void)initialize;
+- (void) initialize;
 
 /**
  *  Initializes an identification process provided by IDnow.
  *  The completion block will contain information about success or failure of the identification.
- *  When initialization was successfull you can call startIdentificationFromViewController:presentModal: 
+ *  When initialization was successfull you can call startIdentificationFromViewController:presentModal:
  *  or startIdentificationFromViewController:presentModal:withCompletionBlock: to start the identification process.
  *
  *  @warning *Note:* You can also call initialize instead if you want to use the IDnowControllerDelegate protocol.
@@ -102,7 +104,7 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *  @param completionBlock Block that will be executed when operation was successfull or failed.
  *
  */
-- (void)initializeWithCompletionBlock:(IDnowCompletionBlock) completionBlock;
+- (void) initializeWithCompletionBlock: (nullable IDnowCompletionBlock) completionBlock;
 
 /**
  *  Starts the identification process and presents necessary UI from the given view controller.
@@ -110,7 +112,7 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *
  *  @param presentingViewController The viewcontroller the identification UI should be presented from.
  */
-- (void)startIdentificationFromViewController:(UIViewController *)presentingViewController;
+- (void) startIdentificationFromViewController: (UIViewController *) presentingViewController;
 
 /**
  *  Starts the identification process and presents necessary UI from the given view controller.
@@ -119,10 +121,11 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *  @param presentingViewController The viewcontroller the identification UI should be presented from.
  *  @param completion Block that will be executed when operation was successfull or failed.
  */
-- (void)startIdentificationFromViewController:(UIViewController *)presentingViewController
-						  withCompletionBlock:(IDnowCompletionBlock)completion;
+- (void) startIdentificationFromViewController: (UIViewController *) presentingViewController
+                           withCompletionBlock: (nullable IDnowCompletionBlock) completion;
 
 @end
+
 
 /**
  *  Notifies the delegate
@@ -135,15 +138,15 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *
  *  @param idnowController The responsible caller.
  */
-- (void)idnowControllerDidFinishInitializing:(IDnowController *)idnowController;
+- (void) idnowControllerDidFinishInitializing: (IDnowController *) idnowController;
 
 /**
  *  Sent to the delegate when an initialization (e.g. triggered by [IDnowController initialize]) failed.
  *
  *  @param idnowController The responsible caller.
- *  @param error The error that occurred (contains type + localizedDescription). See IDnowError.
+ *  @param error The error that occurred
  */
-- (void)idnowController:(IDnowController *)idnowController initializationDidFailWithError:(IDnowError *)error;
+- (void) idnowController: (IDnowController *) idnowController initializationDidFailWithError: (NSError *) error;
 
 @optional
 
@@ -152,22 +155,24 @@ typedef void (^IDnowCompletionBlock)(bool success, IDnowError *idnowError, bool 
  *
  *  @param idnowController The responsible caller.
  */
-- (void)idnowControllerDidFinishIdentification:(IDnowController *)idnowController;
+- (void) idnowControllerDidFinishIdentification: (IDnowController *) idnowController;
 
 /**
  *  Sent to the delegate when an identification (e.g. triggered by [IDnowController startIdentificationFromViewController:]) was canceled by the user.
  *
  *  @param idnowController The responsible caller.
  */
-- (void)idnowControllerCanceledByUser:(IDnowController *)idnowController;
+- (void) idnowControllerCanceledByUser: (IDnowController *) idnowController;
 
 /**
- *  Sent to the delegate when an identification 
+ *  Sent to the delegate when an identification
  *  (e.g. triggered by [IDnowController startIdentificationFromViewController:]) failed.
  *
  *  @param idnowController The responsible caller.
- *  @param error The error that occurred (contains type + localizedDescription). See IDnowError.
+ *  @param error The error that occurred.
  */
-- (void)idnowController:(IDnowController *)idnowController identificationDidFailWithError:(IDnowError *)error;
+- (void) idnowController: (IDnowController *) idnowController identificationDidFailWithError: (NSError *) error;
 
 @end
+
+NS_ASSUME_NONNULL_END

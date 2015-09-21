@@ -6,6 +6,6 @@
 //  Copyright (c) 2015 IDnow GmbH. All rights reserved.
 //
 
-#import "IDnowError.h"
+#import "NSError+IDnowError.h"
 #import "IDnowController.h"
 #import "IDnowSettings.h"
