@@ -1,6 +1,6 @@
 ## Requirements
 
-- Xcode 6.2 or later
+- Xcode 7.0 or later
 - Deployment Target: iOS 7 or later
 - Supported Devices: iPhone
 - Recommended: Cocoapods installed
@@ -10,11 +10,11 @@
 
 - Add the following pod dependencies to your podfile:
 ```
-pod 'Masonry', '~> 0.6'
-pod 'SocketRocket', '~> 0.3'
-pod 'AFNetworking', '~> 2.5'
-pod 'UIAlertView+Blocks', '~> 0.8'
-pod 'OpenTok', '~> 2.4'
+pod 'Masonry', '~> 0.6.2'
+pod 'SocketRocket', '~> 0.4'
+pod 'AFNetworking', '~> 2.5.3'
+pod 'UIAlertView+Blocks', '~> 0.8.1'
+pod 'OpenTok', '~> 2.4.1'
 ```
 - Copy the idnow-sdk folder to your project directory or add the repo as a git submodule.
 - Drag idnow-sdk folder into your Xcode project
@@ -34,13 +34,13 @@ IDnowController *idnowController = [[IDnowController alloc] initWithSettings: se
 
 // Initialize identification using blocks (alternatively you can set the delegate and
 // implement the IDnowControllerDelegate protocol)
-[idnowController initializeWithCompletionBlock: ^(bool success, IDnowError *idnowError, bool canceledByUser)
+[idnowController initializeWithCompletionBlock: ^(bool success, NSError *error, bool canceledByUser)
 {
 		if ( success )
 		{
 		      // Start identification using blocks
 			  [idnowController startIdentificationFromViewController: self 
-			  withCompletionBlock: ^(bool success, IDnowError *idnowError, bool canceledByUser)
+			  withCompletionBlock: ^(bool success, NSError *error, bool canceledByUser)
 			  {
 					  if ( success )
 					  {
@@ -52,11 +52,11 @@ IDnowController *idnowController = [[IDnowController alloc] initWithSettings: se
 					  }
 				}];
 		}
-		else if ( idnowError )
+		else if ( error )
 		{
 		      // Present an alert containing localized error description
 			  UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" 
-			  message: idnowError.localizedErrorDescription 
+			  message: error.localizedDescription 
 			  preferredStyle: UIAlertControllerStyleAlert];
 			  UIAlertAction *action = [UIAlertAction actionWithTitle: @"Ok" 
 			  style: UIAlertActionStyleCancel 
