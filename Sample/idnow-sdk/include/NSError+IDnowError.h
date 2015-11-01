@@ -68,7 +68,7 @@ typedef NS_ENUM (NSInteger, IDnowError)
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize])
      *  and identification process (e.g. triggered by [IDnowController startIdentificationFromViewController:]).
-     *  The IDnowError object will also contain the status code returned by the server.
+     *  The error object will also contain the status code returned by the server.
      */
     IDnowErrorServer = 1009,
     /**

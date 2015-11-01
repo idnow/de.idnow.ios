@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "IDnowSettings.h"
+
+@class IDnowSettings;
 
 NS_ASSUME_NONNULL_BEGIN
 

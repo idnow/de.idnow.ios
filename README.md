@@ -14,7 +14,7 @@ pod 'Masonry', '~> 0.6.2'
 pod 'SocketRocket', '~> 0.4'
 pod 'AFNetworking', '~> 2.6.0'
 pod 'UIAlertView+Blocks', '~> 0.8.1'
-pod 'OpenTok', '~> 2.6.0'
+pod 'OpenTok', '~> 2.6.1'
 ```
 - Copy the idnow-sdk folder to your project directory or add the repo as a git submodule.
 - Drag idnow-sdk folder into your Xcode project
@@ -36,6 +36,7 @@ Your company id provided by IDnow.
 Optional: The environment that should be used for the identification (DEV, TEST, LIVE)
 The default value is `IDnowEnvironmentNotDefined`. 
 The used environment will then base on the prefix of the transaction token (DEV -> DEV, TST -> Test, else -> Live).
+You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the apiHost and websocketHost.
 
 #### showErrorSuccessScreen
 Optional: If set to `false`, the Error-Success-Screen provided by the SDK will not be displayed.
@@ -49,6 +50,14 @@ The default value of this property is `true`.
 Optional: If set to `true`, the UI for the identification will always be displayed modal. 
 By default the value of this property is `false` and the identification UI will be pushed on an existing navigation controller if possible.
 
+#### apiHost
+The target server url for REST calls if custom server is used.
+
+#### websocketHost
+The target server url for websocket calls if custom server is used.
+
+#### connectionType
+The connection type to use to talk the backend. (Websocket (default) or long polling)
 
 ## Branding (IDnowAppearance)
 Warning: Branding is only allowed if you have the permissions from IDnow.
@@ -68,6 +77,10 @@ Used in headlines, checkboxes, links, alerts etc.
 Recommendation: Should be a color that does not collide with white color.
 
 #### proceedButtonBackgroundColor
+Optional color, that replaces the default color of textfield backgrounds and borders
+Default: defaultTextColor
+
+#### textFieldColor
 Optional color, that replaces the default color of textfield backgrounds and borders
 Default: defaultTextColor
 
@@ -133,6 +146,11 @@ settings.showErrorSuccessScreen = NO;
 settings.showVideoOverviewCheck = NO;
 settings.forceModalPresentation = YES;
 
+//Enable custom server with long polling
+settings.environment = IDnowEnvironmentCustom;
+settings.apiHost = "https://api.yourserver.com";
+settings.websocketHost = "https://websocket.yourserver.com";
+settings.connectionType = IDnowConnectionTypeLongPolling;
 
 // Initialise and start identification
 IDnowController *idnowController = [[IDnowController alloc] initWithSettings: settings];

@@ -9,3 +9,4 @@
 #import "NSError+IDnowError.h"
 #import "IDnowController.h"
 #import "IDnowSettings.h"
+#import "IDnowAppearance.h"

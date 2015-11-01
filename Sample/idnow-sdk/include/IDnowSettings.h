@@ -28,9 +28,40 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
      */
     IDnowEnvironmentTest,
     /**
+     *  Test server environment
+     */
+    IDnowEnvironmentTest1,
+    /**
+     *  Test server environment
+     */
+    IDnowEnvironmentTest2,
+    /**
+     *  Test server environment
+     */
+    IDnowEnvironmentTest3,
+    /**
      *  Live server environment
      */
-    IDnowEnvironmentLive
+    IDnowEnvironmentLive,
+    /**
+     *  Custom server environment
+     */
+    IDnowEnvironmentCustom
+};
+
+/**
+ *  The type of connection used to get events from the backend
+ */
+typedef NS_ENUM (NSInteger, IDnowConnectionType)
+{
+    /**
+     *  Use websockets using SocketRocket (default)
+     */
+    IDnowConnectionTypeWebsocket,
+    /**
+     *  Use long polling
+     */
+    IDnowConnectionTypeLongPolling
 };
 
 /**
@@ -72,7 +103,10 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
 @property (nullable, strong, nonatomic) NSString *companyID;
 
 /**
- *  The environment that should be used for the identification (DEV, TEST, LIVE)
+ *  Optional: The environment that should be used for the identification (DEV, TEST, LIVE, Custom)
+ *  The default value is `IDnowEnvironmentNotDefined`. 
+ *  Then the used environment is based on the prefix of the transaction token (DEV -> DEV, TST -> Test, TS1 -> Test1, TS2 -> Test2, TS3 -> Test3, else -> Live).
+ *  You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the apiHost and websocketHost.
  */
 @property (assign, nonatomic) IDnowEnvironment environment;
 
@@ -89,9 +123,26 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
 @property (assign, nonatomic) BOOL showVideoOverviewCheck;
 
 /**
- *  If set to `true`, the UI for the identification will always be displayed modal.
+ *  If set to `true`, the UI for the identification will always be displayed modal. 
+ *  By default the value of this property is `false` and the identification UI 
+ *  will be pushed on an existing navigation controller if possible.
  */
 @property (assign, nonatomic) BOOL forceModalPresentation;
+
+/**
+ *  The target server url for REST calls if custom server is used
+ */
+@property (nullable, strong, nonatomic) NSString *apiHost;
+
+/**
+ *  The target server url for websocket calls if custom server is used
+ */
+@property (nullable, strong, nonatomic) NSString *websocketHost;
+
+/**
+ *  The connection type to use to talk the backend
+ */
+@property (assign, nonatomic) IDnowConnectionType connectionType;
 
 @end
 

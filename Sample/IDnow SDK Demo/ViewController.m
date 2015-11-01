@@ -45,6 +45,10 @@
 	// Setting dummy dev token and company id -> will instantiate a video identification
 	self.settings.transactionToken = @"DEV-TXJKC";
 	self.settings.companyID = @"ihrebank";
+    self.settings.connectionType = IDnowConnectionTypeLongPolling;
+    self.settings.websocketHost = @"http://api.internal.dev.idnow.de";
+    self.settings.apiHost = @"http://api.dev.idnow.de";
+    self.settings.environment = IDnowEnvironmentCustom;
 
 	self.idnowController.delegate  = nil;
 	__weak typeof(self) weakSelf   = self;

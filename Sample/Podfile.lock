@@ -1,42 +1,42 @@
 PODS:
-  - AFNetworking (2.5.4):
-    - AFNetworking/NSURLConnection (= 2.5.4)
-    - AFNetworking/NSURLSession (= 2.5.4)
-    - AFNetworking/Reachability (= 2.5.4)
-    - AFNetworking/Security (= 2.5.4)
-    - AFNetworking/Serialization (= 2.5.4)
-    - AFNetworking/UIKit (= 2.5.4)
-  - AFNetworking/NSURLConnection (2.5.4):
+  - AFNetworking (2.6.1):
+    - AFNetworking/NSURLConnection (= 2.6.1)
+    - AFNetworking/NSURLSession (= 2.6.1)
+    - AFNetworking/Reachability (= 2.6.1)
+    - AFNetworking/Security (= 2.6.1)
+    - AFNetworking/Serialization (= 2.6.1)
+    - AFNetworking/UIKit (= 2.6.1)
+  - AFNetworking/NSURLConnection (2.6.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.5.4):
+  - AFNetworking/NSURLSession (2.6.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.5.4)
-  - AFNetworking/Security (2.5.4)
-  - AFNetworking/Serialization (2.5.4)
-  - AFNetworking/UIKit (2.5.4):
+  - AFNetworking/Reachability (2.6.1)
+  - AFNetworking/Security (2.6.1)
+  - AFNetworking/Serialization (2.6.1)
+  - AFNetworking/UIKit (2.6.1):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - Masonry (0.6.2)
-  - OpenTok (2.4.1)
+  - OpenTok (2.6.1)
   - SocketRocket (0.4.1)
   - UIAlertView+Blocks (0.8.1)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.5.3)
+  - AFNetworking (~> 2.6.0)
   - Masonry (~> 0.6.2)
-  - OpenTok (~> 2.4.1)
+  - OpenTok (~> 2.6.1)
   - SocketRocket (~> 0.4)
   - UIAlertView+Blocks (~> 0.8.1)
 
 SPEC CHECKSUMS:
-  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
   Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
-  OpenTok: 7d069f7f2a9cef6062e00856aaeab2fe242f785e
+  OpenTok: 6c094ee06dc954a4327c0a736f494f0eaf35c48c
   SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
   UIAlertView+Blocks: 45c3d3b7194906702d3e9a14c7ece5581505646d
 
-COCOAPODS: 0.39.0.beta.4
+COCOAPODS: 0.39.0

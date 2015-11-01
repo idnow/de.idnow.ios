@@ -56,7 +56,11 @@
 	
 	<optgroup label="Properties">
 		
+		<option value="//api/name/apiHost">apiHost</option>
+		
 		<option value="//api/name/companyID">companyID</option>
+		
+		<option value="//api/name/connectionType">connectionType</option>
 		
 		<option value="//api/name/environment">environment</option>
 		
@@ -68,6 +72,8 @@
 		
 		<option value="//api/name/transactionToken">transactionToken</option>
 		
+		<option value="//api/name/websocketHost">websocketHost</option>
+		
 	</optgroup>
 	
 
@@ -76,7 +82,7 @@
 		
 		<option value="//api/name/settingsWithCompanyID:">+ settingsWithCompanyID:</option>
 		
-		<option value="//api/name/settingsWithCompanyID:andTransactionToken:">+ settingsWithCompanyID:andTransactionToken:</option>
+		<option value="//api/name/settingsWithCompanyID:transactionToken:">+ settingsWithCompanyID:transactionToken:</option>
 		
 	</optgroup>
 	
@@ -196,8 +202,8 @@ You can also explicitly set the <a href="#//api/name/environment">environment</a
 		</div>
 	</div>
 </div><div class="section-method">
-	<a name="//api/name/settingsWithCompanyID:andTransactionToken:" title="settingsWithCompanyID:andTransactionToken:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/settingsWithCompanyID:andTransactionToken:">+&nbsp;settingsWithCompanyID:andTransactionToken:</a></code>
+	<a name="//api/name/settingsWithCompanyID:transactionToken:" title="settingsWithCompanyID:transactionToken:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/settingsWithCompanyID:transactionToken:">+&nbsp;settingsWithCompanyID:transactionToken:</a></code>
 </h3>
 
 	<div class="method-info">
@@ -212,7 +218,7 @@ You can also explicitly set the <a href="#//api/name/environment">environment</a
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>+ (instancetype)settingsWithCompanyID:(NSString *)<em>companyID</em> andTransactionToken:(NSString *)<em>transactionToken</em></code></div>
+			<div class="method-subsection method-declaration"><code>+ (instancetype)settingsWithCompanyID:(NSString *)<em>companyID</em> transactionToken:(NSString *)<em>transactionToken</em></code></div>
 
 		    
 			
@@ -280,7 +286,7 @@ You can also explicitly set the <a href="#//api/name/environment">environment</a
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) NSString *transactionToken</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nullable, strong, nonatomic) NSString *transactionToken</code></div>
 
 		    
 			
@@ -326,7 +332,7 @@ You can also explicitly set the <a href="#//api/name/environment">environment</a
 			
 		    
 
-			<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) NSString *companyID</code></div>
+			<div class="method-subsection method-declaration"><code>@property (nullable, strong, nonatomic) NSString *companyID</code></div>
 
 		    
 			
@@ -367,7 +373,10 @@ You can also explicitly set the <a href="#//api/name/environment">environment</a
 			
 			
 			<div class="method-subsection brief-description">
-				<p>The environment that should be used for the identification (DEV, TEST, LIVE)</p>
+				<p>Optional: The environment that should be used for the identification (DEV, TEST, LIVE, Custom)
+The default value is <code>IDnowEnvironmentNotDefined</code>.
+Then the used environment is based on the prefix of the transaction token (DEV -> DEV, TST -> Test, TS1 -> Test1, TS2 -> Test2, TS3 -> Test3, else -> Live).
+You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the <a href="#//api/name/apiHost">apiHost</a> and <a href="#//api/name/websocketHost">websocketHost</a>.</p>
 			</div>
 			
 		    
@@ -384,7 +393,10 @@ You can also explicitly set the <a href="#//api/name/environment">environment</a
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>The environment that should be used for the identification (DEV, TEST, LIVE)</p>
+				<p>Optional: The environment that should be used for the identification (DEV, TEST, LIVE, Custom)
+The default value is <code>IDnowEnvironmentNotDefined</code>.
+Then the used environment is based on the prefix of the transaction token (DEV -> DEV, TST -> Test, TS1 -> Test1, TS2 -> Test2, TS3 -> Test3, else -> Live).
+You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the <a href="#//api/name/apiHost">apiHost</a> and <a href="#//api/name/websocketHost">websocketHost</a>.</p>
 			</div>
 			
 
@@ -509,7 +521,9 @@ The default value of this property is <code>true</code>.</p>
 			
 			
 			<div class="method-subsection brief-description">
-				<p>If set to <code>true</code>, the UI for the identification will always be displayed modal.</p>
+				<p>If set to <code>true</code>, the UI for the identification will always be displayed modal.
+By default the value of this property is <code>false</code> and the identification UI
+will be pushed on an existing navigation controller if possible.</p>
 			</div>
 			
 		    
@@ -526,7 +540,147 @@ The default value of this property is <code>true</code>.</p>
 			
 			<div class="method-subsection discussion-section">
 				<h4 class="method-subtitle">Discussion</h4>
-				<p>If set to <code>true</code>, the UI for the identification will always be displayed modal.</p>
+				<p>If set to <code>true</code>, the UI for the identification will always be displayed modal.
+By default the value of this property is <code>false</code> and the identification UI
+will be pushed on an existing navigation controller if possible.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">IDnowSettings.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/apiHost" title="apiHost"></a>
+	<h3 class="method-title"><code><a href="#//api/name/apiHost">&nbsp;&nbsp;apiHost</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The target server url for REST calls if custom server is used</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, strong, nonatomic) NSString *apiHost</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The target server url for REST calls if custom server is used</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">IDnowSettings.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/websocketHost" title="websocketHost"></a>
+	<h3 class="method-title"><code><a href="#//api/name/websocketHost">&nbsp;&nbsp;websocketHost</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The target server url for websocket calls if custom server is used</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, strong, nonatomic) NSString *websocketHost</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The target server url for websocket calls if custom server is used</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">IDnowSettings.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/connectionType" title="connectionType"></a>
+	<h3 class="method-title"><code><a href="#//api/name/connectionType">&nbsp;&nbsp;connectionType</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The connection type to use to talk the backend</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) IDnowConnectionType connectionType</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The connection type to use to talk the backend</p>
 			</div>
 			
 
@@ -551,12 +705,14 @@ The default value of this property is <code>true</code>.</p>
 					
 
                     
+                    
+          
 				</main>
 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 IDnow GmbH. All rights reserved. Updated: 2015-04-02</p>
+						<p class="copyright">Copyright &copy; 2015 IDnow GmbH. All rights reserved. Updated: 2015-11-01</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
