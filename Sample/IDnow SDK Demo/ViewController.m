@@ -54,12 +54,12 @@
 	__weak typeof(self) weakSelf   = self;
 
 	// Initialize identification using blocks (alternatively you can set the delegate and implement the IDnowControllerDelegate protocol)
-	[self.idnowController initializeWithCompletionBlock: ^(bool success, NSError *error, bool canceledByUser)
+	[self.idnowController initializeWithCompletionBlock:^(BOOL success, NSError * _Nullable error, BOOL canceledByUser)
 	{
 		if ( success )
 		{
 	        // Start identification using blocks
-			[weakSelf.idnowController startIdentificationFromViewController: self withCompletionBlock: ^(bool success, NSError *error, bool canceledByUser)
+            [weakSelf.idnowController startIdentificationFromViewController:self withCompletionBlock:^(BOOL success, NSError * _Nullable error, BOOL canceledByUser)
 				{
 					if ( success )
 					{
