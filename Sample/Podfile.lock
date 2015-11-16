@@ -1,28 +1,28 @@
 PODS:
-  - AFNetworking (2.6.1):
-    - AFNetworking/NSURLConnection (= 2.6.1)
-    - AFNetworking/NSURLSession (= 2.6.1)
-    - AFNetworking/Reachability (= 2.6.1)
-    - AFNetworking/Security (= 2.6.1)
-    - AFNetworking/Serialization (= 2.6.1)
-    - AFNetworking/UIKit (= 2.6.1)
-  - AFNetworking/NSURLConnection (2.6.1):
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.6.1):
+  - AFNetworking/NSURLSession (2.6.3):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (2.6.1)
-  - AFNetworking/Security (2.6.1)
-  - AFNetworking/Serialization (2.6.1)
-  - AFNetworking/UIKit (2.6.1):
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Masonry (0.6.2)
+  - Masonry (0.6.3)
   - OpenTok (2.6.1)
-  - SocketRocket (0.4.1)
+  - SocketRocket (0.4.2)
   - UIAlertView+Blocks (0.8.1)
 
 DEPENDENCIES:
@@ -33,10 +33,10 @@ DEPENDENCIES:
   - UIAlertView+Blocks (~> 0.8.1)
 
 SPEC CHECKSUMS:
-  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
-  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   OpenTok: 6c094ee06dc954a4327c0a736f494f0eaf35c48c
-  SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
   UIAlertView+Blocks: 45c3d3b7194906702d3e9a14c7ece5581505646d
 
 COCOAPODS: 0.39.0
