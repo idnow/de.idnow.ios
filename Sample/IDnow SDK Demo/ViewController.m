@@ -43,7 +43,7 @@
 - (IBAction) startVideoIdent: (id) sender
 {
 	// Setting dummy dev token and company id -> will instantiate a video identification
-	self.settings.transactionToken = @"DEV-TXJKC";
+	self.settings.transactionToken = @"DEV-EUWEP";
 	self.settings.companyID = @"ihrebank";
     self.settings.connectionType = IDnowConnectionTypeLongPolling;
     self.settings.websocketHost = @"http://api.internal.dev.idnow.de";
