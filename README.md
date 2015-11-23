@@ -10,9 +10,9 @@
 ## Installation
 - Add the following pod dependencies to your podfile:
 ```
-pod 'Masonry', '~> 0.6.2'
+pod 'Masonry', '~> 0.6.3'
 pod 'SocketRocket', '~> 0.4'
-pod 'AFNetworking', '~> 2.6.0'
+pod 'AFNetworking', '~> 2.6.3'
 pod 'UIAlertView+Blocks', '~> 0.8.1'
 pod 'OpenTok', '~> 2.6.1'
 ```
