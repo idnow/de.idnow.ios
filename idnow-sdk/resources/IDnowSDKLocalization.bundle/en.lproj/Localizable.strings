@@ -22,28 +22,28 @@
 "CHECK_AGREEMENT_GTC_TERMS_OF_USE_LINK" = "http://www.idnow.eu/terms";
 
 /* No comment provided by engineer. */
-"CHECK_AGREEMENT_TBD_DESCRIPTION" = "I agree to the making of the following: images of myself, my identity document and a sound recording of the conversation.";
+"CHECK_AGREEMENT_TBD_DESCRIPTION" = "By starting the Identification, you agree to the making of the following: images of yourself, your identity document and a sound recording of the conversation.";
 
 /* No comment provided by engineer. */
-"CHECK_AGREEMENT_TITLE" = "Consent";
+"CHECK_AGREEMENT_TITLE" = "Your consent";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_DESCRIPTION" = "Your identity document will be checked during the identification.";
+  "CHECK_LICENSE_DESCRIPTION" = "Your identity document will be checked during the identification, so please have it ready and at hand.";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_TITLE" = "I have my identity document readily available";
+"CHECK_LICENSE_TITLE" = "Your readily available identity document";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_DESCRIPTION" = "We will send you your Ident-Code to this mobile number by SMS during the identification.";
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "We will send you an Ident-Code to this mobile number by SMS during the identification.";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_TITLE" = "Mobile Phone Number";
+"CHECK_MOBILE_NUMBER_TITLE" = "Your mobile phone number";
 
 /* No comment provided by engineer. */
 "CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Start identification";
 
 /* No comment provided by engineer. */
-"CHECK_TITLE" = "The following information is required before you can identify yourself.";
+"CHECK_TITLE" = "The following is required in order to start the identification:";
 
 /* No comment provided by engineer. */
 "CONTINUE" = "Continue";
@@ -91,10 +91,10 @@
 "GERMANY" = "Germany";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Confirm";
+"IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Continue";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_MESSAGE" = "The Ident-Code has been sent to the following phone number by SMS: %@ . Please enter the Ident-Code and confirm.";
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Your Ident-Code has been sent to the following phone number by SMS: %@ . Please enter your Ident-Code to continue.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_ENTER_CODE_TITLE" = "Enter Ident-Code";
@@ -118,10 +118,10 @@
 "IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Request Ident-Code by SMS";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1000" = "A transaction number is required for the identification process.";
+"IDNOW_ERROR_DESCRIPTION_1000" = "A transaction number is required for the identification.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1001" = "A company identifier is required for the identification process.";
+"IDNOW_ERROR_DESCRIPTION_1001" = "A company identifier is required for the identification.";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1002" = "Identifications cannot be performed on an iPhone 4. Please use an iPhone 4s or newer model. Thank you.";
@@ -142,7 +142,7 @@
 "IDNOW_ERROR_DESCRIPTION_1007" = "You need a microphone for the identification.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1008" = "An internet connection is required for the identification process. Please establish an internet connection and try again.";
+"IDNOW_ERROR_DESCRIPTION_1008" = "An internet connection is required for the identification. Please establish an internet connection and try again.";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009" = "An unexpected error has occurred. Please try again.";
@@ -229,7 +229,7 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2016" = "Your signature could not be uploaded. Please try again.";
 
 /* No comment provided by engineer. */
-"IDNOW_INTERNAL_ERROR_DESCRIPTION_2017" = "A WiFi connection is recommended for the identification process.";
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2017" = "A WiFi connection is recommended for the identification.";
 
 /* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "An unexpected error has occurred. Please try again.";
@@ -562,7 +562,7 @@
 "RESULT_FAILURE_DONE_BUTTON_TITLE" = "Close app";
 
 /* No comment provided by engineer. */
-"RESULT_FAILURE_MESSAGE" = "Your identification couldn't be completed.\n\nPlease use an alternative method to identify yourself.";
+"RESULT_FAILURE_MESSAGE" = "Your identification couldn't be completed.\n\nPlease use an alternative method to identify yourself or try again.";
 
 /* No comment provided by engineer. */
 "RESULT_FAILURE_TITLE" = "Identification Failed";
@@ -616,7 +616,7 @@
 "START_OVER" = "Start Over";
 
 /* No comment provided by engineer. */
-"VIDEO_IDENT_CANCEL_ALERT_MESSAGE" = "Do you really want to cancel the identification process?";
+"VIDEO_IDENT_CANCEL_ALERT_MESSAGE" = "Do you really want to cancel the identification?";
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_CANCEL_ALERT_TITLE" = "Cancel Identification";
