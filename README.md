@@ -18,6 +18,7 @@ pod 'OpenTok', '~> 2.6.1'
 ```
 - Copy the idnow-sdk folder to your project directory or add the repo as a git submodule.
 - Drag idnow-sdk folder into your Xcode project
+- Add "Webkit.framework" and "Accelerate.framework" to your "Link binary with libraries" section
 - Import 'IDnowSDK.h'
 
 Note: To get the sample project work, you have to call "pod install" to install dependencies.
