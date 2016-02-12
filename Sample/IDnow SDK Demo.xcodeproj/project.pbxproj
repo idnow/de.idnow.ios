@@ -7,42 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		486477B51C6E1A8100C72893 /* libidnow-sdk-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 486477971C6E1A8100C72893 /* libidnow-sdk-universal.a */; };
+		486477B61C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477991C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */; };
+		486477B71C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4864779A1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg */; };
+		486477B81C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4864779B1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg */; };
+		486477B91C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4864779C1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg */; };
+		486477BA1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4864779D1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg */; };
+		486477BB1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4864779E1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg */; };
+		486477BC1C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4864779F1C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@2x.jpg */; };
+		486477BD1C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A01C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@3x.jpg */; };
+		486477BE1C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A11C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg */; };
+		486477BF1C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A21C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg */; };
+		486477C01C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A31C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg */; };
+		486477C11C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A41C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg */; };
+		486477C21C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A51C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg */; };
+		486477C31C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A61C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg */; };
+		486477C41C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A71C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg */; };
+		486477C51C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A81C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg */; };
+		486477C61C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477A91C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg */; };
+		486477C71C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477AA1C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg */; };
+		486477C81C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477AB1C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg */; };
+		486477C91C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477AC1C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg */; };
+		486477CA1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477AD1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg */; };
+		486477CB1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477AE1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg */; };
+		486477CC1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477AF1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg */; };
+		486477CD1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477B01C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg */; };
+		486477CE1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477B11C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg */; };
+		486477CF1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477B21C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg */; };
+		486477D01C6E1A8100C72893 /* IDnowImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486477B31C6E1A8100C72893 /* IDnowImages.xcassets */; };
+		486477D11C6E1A8100C72893 /* IDnowSDKLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 486477B41C6E1A8100C72893 /* IDnowSDKLocalization.bundle */; };
+		486477D21C6E1B8300C72893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E7F1AC1EFC800BA9B5B /* Main.storyboard */; };
+		486477D31C6E1B8300C72893 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E841AC1EFC800BA9B5B /* LaunchScreen.xib */; };
 		48E1A2771C6E05C90062A9F5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E1A2761C6E05C90062A9F5 /* libz.tbd */; };
+		48E1A2791C6E0F3E0062A9F5 /* libidnow-sdk-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E1A2781C6E0F3E0062A9F5 /* libidnow-sdk-universal.a */; };
 		6FC64E751AC1EFC800BA9B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E741AC1EFC800BA9B5B /* main.m */; };
 		6FC64E781AC1EFC800BA9B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E771AC1EFC800BA9B5B /* AppDelegate.m */; };
 		6FC64E7E1AC1EFC800BA9B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E7D1AC1EFC800BA9B5B /* ViewController.m */; };
-		6FC64E811AC1EFC800BA9B5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E7F1AC1EFC800BA9B5B /* Main.storyboard */; };
 		6FC64E831AC1EFC800BA9B5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E821AC1EFC800BA9B5B /* Images.xcassets */; };
-		6FC64E861AC1EFC800BA9B5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E841AC1EFC800BA9B5B /* LaunchScreen.xib */; };
-		6FF626D01AC291E700C59432 /* libidnow-sdk-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF626B21AC291E700C59432 /* libidnow-sdk-universal.a */; };
-		6FF626D11AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626B41AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */; };
-		6FF626D21AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626B51AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg */; };
-		6FF626D31AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626B61AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg */; };
-		6FF626D41AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626B71AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg */; };
-		6FF626D51AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626B81AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg */; };
-		6FF626D61AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626B91AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg */; };
-		6FF626D71AC291E700C59432 /* idn-helper-FACESCREENSHOT@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626BA1AC291E700C59432 /* idn-helper-FACESCREENSHOT@2x.jpg */; };
-		6FF626D81AC291E700C59432 /* idn-helper-FACESCREENSHOT@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626BB1AC291E700C59432 /* idn-helper-FACESCREENSHOT@3x.jpg */; };
-		6FF626D91AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626BC1AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg */; };
-		6FF626DA1AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626BD1AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg */; };
-		6FF626DB1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626BE1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg */; };
-		6FF626DC1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626BF1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg */; };
-		6FF626DD1AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C01AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg */; };
-		6FF626DE1AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C11AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg */; };
-		6FF626DF1AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C21AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg */; };
-		6FF626E01AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C31AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg */; };
-		6FF626E11AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C41AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg */; };
-		6FF626E21AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C51AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg */; };
-		6FF626E31AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C61AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg */; };
-		6FF626E41AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C71AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg */; };
-		6FF626E51AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C81AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg */; };
-		6FF626E61AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626C91AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg */; };
-		6FF626E71AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626CA1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg */; };
-		6FF626E81AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626CB1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg */; };
-		6FF626E91AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626CC1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg */; };
-		6FF626EA1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626CD1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg */; };
-		6FF626EB1AC291E700C59432 /* IDnowImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626CE1AC291E700C59432 /* IDnowImages.xcassets */; };
-		6FF626EC1AC291E700C59432 /* IDnowSDKLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626CF1AC291E700C59432 /* IDnowSDKLocalization.bundle */; };
 		CDA17FE93E3D2797F79F0B1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3FD7B889A3224A4D8A997 /* libPods.a */; };
 		D62DFA8F1C007D5700BD5788 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62DFA8E1C007D5700BD5788 /* Accelerate.framework */; };
 		D62DFA911C007D6400BD5788 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62DFA901C007D6400BD5788 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -50,11 +51,42 @@
 
 /* Begin PBXFileReference section */
 		1BC7A885E1EC50D40991E38B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		486477921C6E1A8100C72893 /* IDnowAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowAppearance.h; sourceTree = "<group>"; };
+		486477931C6E1A8100C72893 /* IDnowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowController.h; sourceTree = "<group>"; };
+		486477941C6E1A8100C72893 /* IDnowSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSDK.h; sourceTree = "<group>"; };
+		486477951C6E1A8100C72893 /* IDnowSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSettings.h; sourceTree = "<group>"; };
+		486477961C6E1A8100C72893 /* NSError+IDnowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+IDnowError.h"; sourceTree = "<group>"; };
+		486477971C6E1A8100C72893 /* libidnow-sdk-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libidnow-sdk-universal.a"; sourceTree = "<group>"; };
+		486477991C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg"; sourceTree = "<group>"; };
+		4864779A1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg"; sourceTree = "<group>"; };
+		4864779B1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
+		4864779C1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
+		4864779D1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg"; sourceTree = "<group>"; };
+		4864779E1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg"; sourceTree = "<group>"; };
+		4864779F1C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-FACESCREENSHOT@2x.jpg"; sourceTree = "<group>"; };
+		486477A01C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-FACESCREENSHOT@3x.jpg"; sourceTree = "<group>"; };
+		486477A11C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDBACKSIDE@2x.jpg"; sourceTree = "<group>"; };
+		486477A21C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDBACKSIDE@3x.jpg"; sourceTree = "<group>"; };
+		486477A31C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
+		486477A41C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
+		486477A51C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg"; sourceTree = "<group>"; };
+		486477A61C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg"; sourceTree = "<group>"; };
+		486477A71C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDBACKSIDE@2x.jpg"; sourceTree = "<group>"; };
+		486477A81C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDBACKSIDE@3x.jpg"; sourceTree = "<group>"; };
+		486477A91C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
+		486477AA1C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
+		486477AB1C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg"; sourceTree = "<group>"; };
+		486477AC1C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg"; sourceTree = "<group>"; };
+		486477AD1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg"; sourceTree = "<group>"; };
+		486477AE1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg"; sourceTree = "<group>"; };
+		486477AF1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
+		486477B01C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
+		486477B11C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg"; sourceTree = "<group>"; };
+		486477B21C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg"; sourceTree = "<group>"; };
+		486477B31C6E1A8100C72893 /* IDnowImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IDnowImages.xcassets; sourceTree = "<group>"; };
+		486477B41C6E1A8100C72893 /* IDnowSDKLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IDnowSDKLocalization.bundle; sourceTree = "<group>"; };
 		48E1A2761C6E05C90062A9F5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		6F3F68A21BAFEAC900431366 /* NSError+IDnowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+IDnowError.h"; sourceTree = "<group>"; };
-		6F555C5C1AC300640017E939 /* IDnowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowController.h; sourceTree = "<group>"; };
-		6F555C5E1AC300640017E939 /* IDnowSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSDK.h; sourceTree = "<group>"; };
-		6F555C5F1AC300640017E939 /* IDnowSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSettings.h; sourceTree = "<group>"; };
+		48E1A2781C6E0F3E0062A9F5 /* libidnow-sdk-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libidnow-sdk-universal.a"; path = "../idnow-sdk/libidnow-sdk-universal.a"; sourceTree = "<group>"; };
 		6FC64E6F1AC1EFC800BA9B5B /* IDnow SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDnow SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC64E731AC1EFC800BA9B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC64E741AC1EFC800BA9B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,35 +97,6 @@
 		6FC64E801AC1EFC800BA9B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FC64E821AC1EFC800BA9B5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6FC64E851AC1EFC800BA9B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6FF626B21AC291E700C59432 /* libidnow-sdk-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libidnow-sdk-universal.a"; path = "idnow-sdk/libidnow-sdk-universal.a"; sourceTree = SOURCE_ROOT; };
-		6FF626B41AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg"; sourceTree = "<group>"; };
-		6FF626B51AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg"; sourceTree = "<group>"; };
-		6FF626B61AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
-		6FF626B71AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
-		6FF626B81AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg"; sourceTree = "<group>"; };
-		6FF626B91AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg"; sourceTree = "<group>"; };
-		6FF626BA1AC291E700C59432 /* idn-helper-FACESCREENSHOT@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-FACESCREENSHOT@2x.jpg"; sourceTree = "<group>"; };
-		6FF626BB1AC291E700C59432 /* idn-helper-FACESCREENSHOT@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-FACESCREENSHOT@3x.jpg"; sourceTree = "<group>"; };
-		6FF626BC1AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDBACKSIDE@2x.jpg"; sourceTree = "<group>"; };
-		6FF626BD1AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDBACKSIDE@3x.jpg"; sourceTree = "<group>"; };
-		6FF626BE1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
-		6FF626BF1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
-		6FF626C01AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg"; sourceTree = "<group>"; };
-		6FF626C11AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg"; sourceTree = "<group>"; };
-		6FF626C21AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDBACKSIDE@2x.jpg"; sourceTree = "<group>"; };
-		6FF626C31AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDBACKSIDE@3x.jpg"; sourceTree = "<group>"; };
-		6FF626C41AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
-		6FF626C51AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
-		6FF626C61AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg"; sourceTree = "<group>"; };
-		6FF626C71AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg"; sourceTree = "<group>"; };
-		6FF626C81AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg"; sourceTree = "<group>"; };
-		6FF626C91AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg"; sourceTree = "<group>"; };
-		6FF626CA1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
-		6FF626CB1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
-		6FF626CC1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg"; sourceTree = "<group>"; };
-		6FF626CD1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg"; sourceTree = "<group>"; };
-		6FF626CE1AC291E700C59432 /* IDnowImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IDnowImages.xcassets; sourceTree = "<group>"; };
-		6FF626CF1AC291E700C59432 /* IDnowSDKLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IDnowSDKLocalization.bundle; sourceTree = "<group>"; };
 		A2BCE840F067D17C648EA3DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D62DFA8E1C007D5700BD5788 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D62DFA901C007D6400BD5788 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -105,10 +108,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E1A2791C6E0F3E0062A9F5 /* libidnow-sdk-universal.a in Frameworks */,
 				48E1A2771C6E05C90062A9F5 /* libz.tbd in Frameworks */,
 				D62DFA911C007D6400BD5788 /* WebKit.framework in Frameworks */,
 				D62DFA8F1C007D5700BD5788 /* Accelerate.framework in Frameworks */,
-				6FF626D01AC291E700C59432 /* libidnow-sdk-universal.a in Frameworks */,
+				486477B51C6E1A8100C72893 /* libidnow-sdk-universal.a in Frameworks */,
 				CDA17FE93E3D2797F79F0B1C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,9 +120,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		486477901C6E1A8100C72893 /* idnow-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				486477911C6E1A8100C72893 /* include */,
+				486477971C6E1A8100C72893 /* libidnow-sdk-universal.a */,
+				486477981C6E1A8100C72893 /* resources */,
+			);
+			name = "idnow-sdk";
+			path = "../../idnow-sdk";
+			sourceTree = "<group>";
+		};
+		486477911C6E1A8100C72893 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				486477921C6E1A8100C72893 /* IDnowAppearance.h */,
+				486477931C6E1A8100C72893 /* IDnowController.h */,
+				486477941C6E1A8100C72893 /* IDnowSDK.h */,
+				486477951C6E1A8100C72893 /* IDnowSettings.h */,
+				486477961C6E1A8100C72893 /* NSError+IDnowError.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		486477981C6E1A8100C72893 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				486477991C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */,
+				4864779A1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg */,
+				4864779B1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg */,
+				4864779C1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg */,
+				4864779D1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg */,
+				4864779E1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg */,
+				4864779F1C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@2x.jpg */,
+				486477A01C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@3x.jpg */,
+				486477A11C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg */,
+				486477A21C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg */,
+				486477A31C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg */,
+				486477A41C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg */,
+				486477A51C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg */,
+				486477A61C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg */,
+				486477A71C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg */,
+				486477A81C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg */,
+				486477A91C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg */,
+				486477AA1C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg */,
+				486477AB1C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg */,
+				486477AC1C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg */,
+				486477AD1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg */,
+				486477AE1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg */,
+				486477AF1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg */,
+				486477B01C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg */,
+				486477B11C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg */,
+				486477B21C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg */,
+				486477B31C6E1A8100C72893 /* IDnowImages.xcassets */,
+				486477B41C6E1A8100C72893 /* IDnowSDKLocalization.bundle */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		4A9E5A247C8C4F21351B0837 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48E1A2781C6E0F3E0062A9F5 /* libidnow-sdk-universal.a */,
 				48E1A2761C6E05C90062A9F5 /* libz.tbd */,
 				D62DFA901C007D6400BD5788 /* WebKit.framework */,
 				D62DFA8E1C007D5700BD5788 /* Accelerate.framework */,
@@ -126,18 +189,6 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
-		};
-		6F555C5B1AC300640017E939 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				6F3F68A21BAFEAC900431366 /* NSError+IDnowError.h */,
-				6F555C5C1AC300640017E939 /* IDnowController.h */,
-				6F555C5E1AC300640017E939 /* IDnowSDK.h */,
-				6F555C5F1AC300640017E939 /* IDnowSettings.h */,
-			);
-			name = include;
-			path = "idnow-sdk/include";
-			sourceTree = SOURCE_ROOT;
 		};
 		6FC64E661AC1EFC800BA9B5B = {
 			isa = PBXGroup;
@@ -160,7 +211,7 @@
 		6FC64E711AC1EFC800BA9B5B /* IDnow SDK Demo */ = {
 			isa = PBXGroup;
 			children = (
-				6FF626B11AC291D600C59432 /* idnow-sdk */,
+				486477901C6E1A8100C72893 /* idnow-sdk */,
 				6FC64E761AC1EFC800BA9B5B /* AppDelegate.h */,
 				6FC64E771AC1EFC800BA9B5B /* AppDelegate.m */,
 				6FC64E7C1AC1EFC800BA9B5B /* ViewController.h */,
@@ -181,52 +232,6 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
-		};
-		6FF626B11AC291D600C59432 /* idnow-sdk */ = {
-			isa = PBXGroup;
-			children = (
-				6F555C5B1AC300640017E939 /* include */,
-				6FF626B21AC291E700C59432 /* libidnow-sdk-universal.a */,
-				6FF626B31AC291E700C59432 /* resources */,
-			);
-			name = "idnow-sdk";
-			sourceTree = "<group>";
-		};
-		6FF626B31AC291E700C59432 /* resources */ = {
-			isa = PBXGroup;
-			children = (
-				6FF626B41AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */,
-				6FF626B51AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg */,
-				6FF626B61AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg */,
-				6FF626B71AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg */,
-				6FF626B81AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg */,
-				6FF626B91AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg */,
-				6FF626BA1AC291E700C59432 /* idn-helper-FACESCREENSHOT@2x.jpg */,
-				6FF626BB1AC291E700C59432 /* idn-helper-FACESCREENSHOT@3x.jpg */,
-				6FF626BC1AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg */,
-				6FF626BD1AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg */,
-				6FF626BE1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg */,
-				6FF626BF1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg */,
-				6FF626C01AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg */,
-				6FF626C11AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg */,
-				6FF626C21AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg */,
-				6FF626C31AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg */,
-				6FF626C41AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg */,
-				6FF626C51AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg */,
-				6FF626C61AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg */,
-				6FF626C71AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg */,
-				6FF626C81AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg */,
-				6FF626C91AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg */,
-				6FF626CA1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg */,
-				6FF626CB1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg */,
-				6FF626CC1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg */,
-				6FF626CD1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg */,
-				6FF626CE1AC291E700C59432 /* IDnowImages.xcassets */,
-				6FF626CF1AC291E700C59432 /* IDnowSDKLocalization.bundle */,
-			);
-			name = resources;
-			path = "idnow-sdk/resources";
-			sourceTree = SOURCE_ROOT;
 		};
 		CE2020585E6556BFADD82030 /* Pods */ = {
 			isa = PBXGroup;
@@ -298,37 +303,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FF626E91AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg in Resources */,
-				6FF626D91AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg in Resources */,
-				6FF626D21AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg in Resources */,
-				6FC64E811AC1EFC800BA9B5B /* Main.storyboard in Resources */,
-				6FF626DB1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg in Resources */,
-				6FF626E21AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg in Resources */,
-				6FF626D51AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg in Resources */,
-				6FF626DF1AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg in Resources */,
-				6FF626DA1AC291E700C59432 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg in Resources */,
-				6FF626EB1AC291E700C59432 /* IDnowImages.xcassets in Resources */,
-				6FF626D31AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg in Resources */,
-				6FC64E861AC1EFC800BA9B5B /* LaunchScreen.xib in Resources */,
-				6FF626D61AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg in Resources */,
-				6FF626E61AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg in Resources */,
-				6FF626E71AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg in Resources */,
-				6FF626E01AC291E700C59432 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg in Resources */,
-				6FF626E81AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg in Resources */,
-				6FF626EA1AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg in Resources */,
-				6FF626E31AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg in Resources */,
-				6FF626D71AC291E700C59432 /* idn-helper-FACESCREENSHOT@2x.jpg in Resources */,
-				6FF626E11AC291E700C59432 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg in Resources */,
-				6FF626EC1AC291E700C59432 /* IDnowSDKLocalization.bundle in Resources */,
-				6FF626DE1AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg in Resources */,
-				6FF626D41AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg in Resources */,
+				486477D21C6E1B8300C72893 /* Main.storyboard in Resources */,
+				486477D31C6E1B8300C72893 /* LaunchScreen.xib in Resources */,
+				486477B81C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg in Resources */,
+				486477CC1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@2x.jpg in Resources */,
+				486477C51C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg in Resources */,
+				486477B91C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg in Resources */,
+				486477B61C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg in Resources */,
+				486477BA1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg in Resources */,
+				486477CD1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDFRONTSIDE@3x.jpg in Resources */,
+				486477BE1C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@2x.jpg in Resources */,
+				486477C71C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@3x.jpg in Resources */,
+				486477C01C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg in Resources */,
+				486477C11C6E1A8100C72893 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg in Resources */,
+				486477B71C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg in Resources */,
+				486477C61C6E1A8100C72893 /* idn-helper-PASSPORT-IDFRONTSIDE@2x.jpg in Resources */,
+				486477CE1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg in Resources */,
+				486477CF1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg in Resources */,
+				486477CB1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg in Resources */,
+				486477C91C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg in Resources */,
+				486477BB1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@3x.jpg in Resources */,
+				486477C31C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@3x.jpg in Resources */,
+				486477D01C6E1A8100C72893 /* IDnowImages.xcassets in Resources */,
+				486477BF1C6E1A8100C72893 /* idn-helper-IDCARD-IDBACKSIDE@3x.jpg in Resources */,
+				486477C81C6E1A8100C72893 /* idn-helper-PASSPORT-IDHOLOGRAMS@2x.jpg in Resources */,
 				6FC64E831AC1EFC800BA9B5B /* Images.xcassets in Resources */,
-				6FF626D11AC291E700C59432 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg in Resources */,
-				6FF626E41AC291E700C59432 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg in Resources */,
-				6FF626D81AC291E700C59432 /* idn-helper-FACESCREENSHOT@3x.jpg in Resources */,
-				6FF626E51AC291E700C59432 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg in Resources */,
-				6FF626DC1AC291E700C59432 /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg in Resources */,
-				6FF626DD1AC291E700C59432 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg in Resources */,
+				486477C41C6E1A8100C72893 /* idn-helper-PASSPORT-IDBACKSIDE@2x.jpg in Resources */,
+				486477BC1C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@2x.jpg in Resources */,
+				486477BD1C6E1A8100C72893 /* idn-helper-FACESCREENSHOT@3x.jpg in Resources */,
+				486477C21C6E1A8100C72893 /* idn-helper-IDCARD-IDHOLOGRAMS@2x.jpg in Resources */,
+				486477D11C6E1A8100C72893 /* IDnowSDKLocalization.bundle in Resources */,
+				486477CA1C6E1A8100C72893 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,7 +519,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/idnow-sdk",
+					"$(PROJECT_DIR)/../idnow-sdk",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -543,7 +548,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/idnow-sdk",
+					"$(PROJECT_DIR)/../idnow-sdk",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
