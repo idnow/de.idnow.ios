@@ -19,11 +19,37 @@ pod 'OpenTok', '~> 2.6.1'
 - Download the current release from and copy the idnow-sdk folder to your project directory
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
 - Drag idnow-sdk folder into your Xcode project
-- Add "Webkit.framework" and "Accelerate.framework" to your "Link binary with libraries" section
+- Add "Webkit.framework", "Accelerate.framework" and "libz.dylib" to your "Link binary with libraries" section
 - Import 'IDnowSDK.h'
 
 Note: To get the sample project work, you have to call "pod install" to install dependencies.
 
+## Bitcode Support (Beta)
+To enable bitcode support you have to use beta version of OpenTok.
+- Remove OpenTok from the Pods file and run pods install
+- Download the OpenTok Beta from https://tokbox.com/downloads/opentok-ios-sdk-2.7.2-beta.1 and include as framework
+- Add the following libraries:
+```
+AudioToolbox.framework
+AVFoundation.framework
+CoreGraphics.framework
+CoreMedia.framework
+CoreTelephony.framework
+CoreVideo.framework
+Foundation.framework
+GLKit.framework
+libc++.dylib
+libsqlite3.dylyp
+OpenGLES.framework
+QuartzCore.framework
+SystemConfiguration.framework
+UIKit.framework
+VideoToolbox.framework
+libz.dylib
+```
+- Enable bitcode support in your project
+
+A sample bitcode project is under Sample-Bitcode/
 
 ## Settings (IDnowSettings)
 The settings that should be used for the identification process provided by IDnow.

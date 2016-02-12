@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48E1A2771C6E05C90062A9F5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E1A2761C6E05C90062A9F5 /* libz.tbd */; };
 		6FC64E751AC1EFC800BA9B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E741AC1EFC800BA9B5B /* main.m */; };
 		6FC64E781AC1EFC800BA9B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E771AC1EFC800BA9B5B /* AppDelegate.m */; };
 		6FC64E7E1AC1EFC800BA9B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E7D1AC1EFC800BA9B5B /* ViewController.m */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		1BC7A885E1EC50D40991E38B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		48E1A2761C6E05C90062A9F5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		6F3F68A21BAFEAC900431366 /* NSError+IDnowError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+IDnowError.h"; sourceTree = "<group>"; };
 		6F555C5C1AC300640017E939 /* IDnowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowController.h; sourceTree = "<group>"; };
 		6F555C5E1AC300640017E939 /* IDnowSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSDK.h; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E1A2771C6E05C90062A9F5 /* libz.tbd in Frameworks */,
 				D62DFA911C007D6400BD5788 /* WebKit.framework in Frameworks */,
 				D62DFA8F1C007D5700BD5788 /* Accelerate.framework in Frameworks */,
 				6FF626D01AC291E700C59432 /* libidnow-sdk-universal.a in Frameworks */,
@@ -116,6 +119,7 @@
 		4A9E5A247C8C4F21351B0837 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48E1A2761C6E05C90062A9F5 /* libz.tbd */,
 				D62DFA901C007D6400BD5788 /* WebKit.framework */,
 				D62DFA8E1C007D5700BD5788 /* Accelerate.framework */,
 				FCF3FD7B889A3224A4D8A997 /* libPods.a */,
