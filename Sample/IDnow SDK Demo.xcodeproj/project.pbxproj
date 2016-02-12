@@ -43,6 +43,8 @@
 		6FF626EB1AC291E700C59432 /* IDnowImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626CE1AC291E700C59432 /* IDnowImages.xcassets */; };
 		6FF626EC1AC291E700C59432 /* IDnowSDKLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6FF626CF1AC291E700C59432 /* IDnowSDKLocalization.bundle */; };
 		CDA17FE93E3D2797F79F0B1C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF3FD7B889A3224A4D8A997 /* libPods.a */; };
+		D62DFA8F1C007D5700BD5788 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62DFA8E1C007D5700BD5788 /* Accelerate.framework */; };
+		D62DFA911C007D6400BD5788 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62DFA901C007D6400BD5788 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +93,8 @@
 		6FF626CE1AC291E700C59432 /* IDnowImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IDnowImages.xcassets; sourceTree = "<group>"; };
 		6FF626CF1AC291E700C59432 /* IDnowSDKLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IDnowSDKLocalization.bundle; sourceTree = "<group>"; };
 		A2BCE840F067D17C648EA3DB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D62DFA8E1C007D5700BD5788 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		D62DFA901C007D6400BD5788 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FCF3FD7B889A3224A4D8A997 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -99,6 +103,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62DFA911C007D6400BD5788 /* WebKit.framework in Frameworks */,
+				D62DFA8F1C007D5700BD5788 /* Accelerate.framework in Frameworks */,
 				6FF626D01AC291E700C59432 /* libidnow-sdk-universal.a in Frameworks */,
 				CDA17FE93E3D2797F79F0B1C /* libPods.a in Frameworks */,
 			);
@@ -110,6 +116,8 @@
 		4A9E5A247C8C4F21351B0837 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D62DFA901C007D6400BD5788 /* WebKit.framework */,
+				D62DFA8E1C007D5700BD5788 /* Accelerate.framework */,
 				FCF3FD7B889A3224A4D8A997 /* libPods.a */,
 			);
 			name = Frameworks;
