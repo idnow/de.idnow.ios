@@ -3,9 +3,9 @@
 ## Requirements
 - Xcode 7.0 or later
 - Deployment Target: iOS 7 or later
-- Supported Devices: iPhone
+- Supported Devices: iPhone (4s + later), iPod Touch (5 + later), iPad (2 + later) by using upscaling
 - Cocoapods installed
-
+- Device with Wifi / 3G / LTE
 
 ## Installation
 - Add the following pod dependencies to your podfile:
@@ -16,7 +16,8 @@ pod 'AFNetworking', '~> 2.6.3'
 pod 'UIAlertView+Blocks', '~> 0.8.1'
 pod 'OpenTok', '~> 2.6.1'
 ```
-- Copy the idnow-sdk folder to your project directory or add the repo as a git submodule.
+- Download the current release from and copy the idnow-sdk folder to your project directory
+- Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
 - Drag idnow-sdk folder into your Xcode project
 - Add "Webkit.framework" and "Accelerate.framework" to your "Link binary with libraries" section
 - Import 'IDnowSDK.h'
