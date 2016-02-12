@@ -1,0 +1,646 @@
+/* Created with Localizable Strings Merge, the swiss-army knife for iOS and OS X localization. */
+
+/* No comment provided by engineer. */
+"CAMERA_ACCESS_DENIED_ALERT_TITLE" = "Accesso alla fotocamera negato";
+
+/* No comment provided by engineer. */
+"CANCEL" = "Interrompere";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Accetto le CG di IDnow GmbH e ho letto la dichiarazione sulla riservatezza.";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_PRIVACY_POLICY_BUTTON_TITLE" = "Dichiarazione sulla riservatezza";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_PRIVACY_POLICY_LINK" = "https://www.idnow.de/datenschutz";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_TERMS_OF_USE_BUTTON_TITLE" = "Condizioni di utilizzo";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_TERMS_OF_USE_LINK" = "https://www.idnow.de/nutzungsbedingungen";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_TBD_DESCRIPTION" = "Accetto che per scopi d'identificazione vengano scattate foto della mia persona e del mio documento d'identità e venga effettuata una registrazione vocale della conversazione.";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_TITLE" = "Consenso";
+
+/* No comment provided by engineer. */
+"CHECK_LICENSE_DESCRIPTION" = "Per l'identificazione viene controllato il suo documento d'identità.";
+
+/* No comment provided by engineer. */
+"CHECK_LICENSE_TITLE" = "Documento d'identità pronto";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Durante la procedura d'identificazione riceverà su questo numero un SMS con un codice d'identificazione.";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_TITLE" = "Numero di cellulare";
+
+/* No comment provided by engineer. */
+"CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Avviare l'identificazione";
+
+/* No comment provided by engineer. */
+"CHECK_TITLE" = "I dati seguenti sono necessari prima di poter procedere all'identificazione.";
+
+/* No comment provided by engineer. */
+"CONTINUE" = "Proseguire";
+
+/* No comment provided by engineer. */
+"CONTRACT_ID_LABEL" = "IDENTIFICATIVO CONTRATTO";
+
+/* No comment provided by engineer. */
+"CONTRACTS_BACK_BUTTON_TITLE" = "Indietro";
+
+/* No comment provided by engineer. */
+"CONTRACTS_LOADING_ERROR_DESCRIPTION" = "Non è stato possibile caricare il documento richiesto. Riprovi.";
+
+/* No comment provided by engineer. */
+"CONTRACTS_LOADING_ERROR_RELOAD_BUTTON_TITLE" = "Ricaricare";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_COMMENT" = "Selezionare il paese";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_HELP_TEXT" = "Selezionare il paese in cui è stato emesso il suo documento d'identità.";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_NEXT_BUTTON_TITLE" = "Avanti";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_TITLE" = "Selezione paesi";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_COMMENT" = "Selezionare il tipo di documento.";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_LOADING_MESSAGE" = "Avvio dell'identificazione in corso. La preghiamo di pazientare.";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_TITLE" = "Documento";
+
+/* No comment provided by engineer. */
+"ERROR" = "Errore";
+
+/* No comment provided by engineer. */
+"ESIGNATURE_CHECK_CONTRACT_BUTTON_TITLE" = "Verificare contratto";
+
+/* No comment provided by engineer. */
+"GERMANY" = "Germania";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Confermare";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Verifichi il numero di cellulare %@ e richieda subito il suo codice d'identificazione tramite SMS.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_TITLE" = "Immettere il codice d'identificazione";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "Il suo numero di cellulare";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_PLACEHOLDER" = "Codice d'identificazione";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Codice d'identificazione non ricevuto o numero errato?\nRichiedere il codice d'identificazione";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Didn't receive an Ident-Code or entered a wrong number?";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Verifichi adesso il suo numero di cellulare e richieda il codice d'identificazione tramite SMS.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_TITLE" = "Richiedere il codice d'identificazione";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Richiedere il codice d'identificazione tramite SMS";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1000" = "Per il processo d'identificazione è necessario un numero di procedura.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1001" = "Per il processo d'identificazione è necessario un identificativo della ditta.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1002" = "Purtroppo non è possibile effettuare l'identificazione su un iPhone 4. Utilizzare un iPhone 4S o un modello più recente. Grazie.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1003" = "Al momento il nostro servizio d'identificazione video non è attivo.\n\nPuò eseguire l'identificazione video negli orari seguenti. Non è necessario fissare un appuntamento in precedenza.\n\nI nostri orari di servizio:\n%@\n\nRiavvii l'identificazione durante i nostri orari di servizio.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1004" = "Per l'identificazione è necessario disporre di un apparecchio con videocamera frontale integrata.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1005" = "L'app necessita dell'accesso alla sua fotocamera.\n\nPermetta l'accesso alla fotocamera nelle impostazioni dell'app.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1006" = "L'app necessita dell'accesso al suo microfono.\n\nPermetta l'accesso al microfono nelle impostazioni dell'app.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1007" = "Per eseguire un'identificazione è necessario un microfono.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1008" = "Per il processo d'identificazione è necessario un collegamento Internet. Stabilisca un collegamento Internet e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009" = "Si è verificato un errore inatteso. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_404" = "L'ID della procedura non è corretto. Verifichi l'ID e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_500" = "Purtroppo si è verificato un errore interno. Contatti il nostro supporto %@ e indichi il seguente codice di errore: %@";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_503" = "IDnow al momento è sottoposto a manutenzione e sarà presto di nuovo disponibile. La preghiamo di pazientare e di riprovare più tardi.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1011" = "Identificazione non riuscita.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_TITLE" = "Identificazione non riuscita";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_TITLE_412" = "Identificazione terminata";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "L'identificazione non è riuscita. Non è stato possibile stabilire un collegamento video. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2001" = "L'identificazione non è riuscita. Non è stato possibile stabilire un collegamento video. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2002" = "L'identificazione non è riuscita. Non è stato possibile stabilire un collegamento video. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2006" = "L'identificazione non è riuscita. Si è verificato un problema con il collegamento video. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2007" = "L'identificazione non è riuscita. Si è verificato un problema con il collegamento video. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008" = "Verifichi il suo collegamento Internet e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008_404" = "L'ID della procedura non è corretto. Verifichi l'ID e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008_410" = "La sua versione dell'app è scaduta. La preghiamo di scaricare la versione più recente dall'App Store e di riprovare.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009" = "Verifichi il suo collegamento Internet e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009_404" = "L'ID della procedura non è corretto. Verifichi l'ID e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009_410" = "La sua versione dell'app è scaduta. La preghiamo di scaricare la versione più recente dall'App Store e di riprovare.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2010" = "L'identificazione non è riuscita. Verifichi il suo collegamento Internet e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2010_412" = "L'identificazione con questo ID della procedura è già stata conclusa e non può essere ripetuta.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2011" = "L'identificazione non è riuscita. Verifichi il suo collegamento Internet e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2011_412" = "L'identificazione con questo ID della procedura è già stata conclusa e non può essere ripetuta.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2012" = "L'identificazione non è riuscita. Verifichi il suo collegamento Internet e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2012_412" = "L'identificazione con questo ID della procedura è già stata conclusa e non può essere ripetuta.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2013" = "La sua richiesta di inviare un codice d'identificazione sul suo numero di cellulare non è riuscita. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2014" = "L'invio del suo codice d'identificazione non è riuscito. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2014_400" = "Il codice d'identificazione non è corretto. Immetta di nuovo il codice.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2016" = "Non è stato possibile caricare la sua firma. Riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2017" = "Per il processo d'identificazione si raccomanda un collegamento WLAN.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Si è verificato un errore inatteso. Riprovi.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION" = "Sarà collegato con il prossimo collaboratore libero. L'operazione potrebbe richiedere fino a due minuti.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_LINES_BUSY" = "Attualmente a causa dell'elevato volume di chiamate sono previsti tempi di attesa più lunghi. Il servizio di identificazione è a sua disposizione ogni giorno dalle ore 8:00 alle 24:00.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_TITLE" = "Collegamento viene stabilito";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_TITLE_LINES_BUSY" = "Attendere un collaboratore libero";
+
+/* No comment provided by engineer. */
+"INFO_FACE_PHOTO_DESCRIPTION" = "Indichi nome e cognome completo e guardi nella fotocamera.";
+
+/* No comment provided by engineer. */
+"INFO_FACE_PHOTO_TITLE" = "Nome e foto";
+
+/* No comment provided by engineer. */
+"INFO_GOODBYE_DESCRIPTION" = "Grazie per avere scelto l'identificazione online!";
+
+/* No comment provided by engineer. */
+"INFO_GOODBYE_TITLE" = "Identificazione terminata";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Ora tenga la parte posteriore del suo documento d'identità nella fotocamera per permetterci di leggere i dati.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_BACKSIDE_TITLE" = "Parte posteriore del documento d'identità";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Ora tenga la parte anteriore del suo documento d'identità nella fotocamera, per permetterci di leggere i dati.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_FRONTSIDE_TITLE" = "Parte anteriore documento d'identità";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Legga ad alta voce alta il suo numero di documento d'identità che si trova nella parte anteriore in alto a destra.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_WIGGLE_DESCRIPTION" = "Adesso ruoti il documento d'identità dall'alto verso il basso in modo che siano visibili le caratteristiche di sicurezza.";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Indietro";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_RESULT" = "NAVIGATION_ITEM_TITLE_RESULT";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO";
+
+/* No comment provided by engineer. */
+"NO" = "No";
+
+/* No comment provided by engineer. */
+"NO_WIFI_CONNECTION" = "Nessun collegamento WIFI";
+
+/* No comment provided by engineer. */
+"OK" = "Ok";
+
+/* No comment provided by engineer. */
+"OPENTRUST_LOADING_ERROR_DESCRIPTION" = "Non è stato possibile caricare il contenuto. Riprovi.";
+
+/* No comment provided by engineer. */
+"OPENTRUST_LOADING_ERROR_RELOAD_BUTTON_TITLE" = "Ricaricare";
+
+/* No comment provided by engineer. */
+"PHOTO_CHECK_RETRY_BUTTON_TITLE" = "Ripetere";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_DRIVERS_LICENSE_TITLE" = "Licenza di condurre";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_IDCARD_TITLE" = "Documento d'identità personale";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_PASSPORT_TITLE" = "Passaporto";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_RESIDENCE_PERMIT_TITLE" = "Permesso di soggiorno";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_CAPTION" = "Esempio:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_DESCRIPTION" = "Deponga la sua licenza di condurre su una base neutra. La posizioni nel riquadro verde. Realizzi una foto della parte posteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_LIST" = "•\\tParte posteriore completamente visibile\n•\\tNon nascosta da dita od oggetti\n•\\tImmagine nitida e scritta leggibile";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_TITLE" = "Foto parte posteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_DESCRIPTION" = "Deponga la sua licenza di condurre su una base neutra. La posizioni nel riquadro verde. Realizzi una foto della parte anteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_LIST" = "•\\tParte anteriore completamente visibile\n•\\tNon nascosta da dita od oggetti\n•\\tImmagine nitida e scritta leggibile";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Foto parte anteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_DESCRIPTION" = "Prenda in mano la sua licenza di condurre. La inclini verso la luce in modo che gli ologrammi siano visibili. A tale scopo può attivare il flash. Realizzi una foto degli ologrammi.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_LIST" = "•\\tLicenza di condurre completamente visibile\n•\\tOlogrammi riconoscibili";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_TITLE" = "Foto ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_DESCRIPTION" = "Posizioni il volto nel riquadro verde e realizzi una foto (selfie).";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_LIST" = "•\\tVolto nitido e ben riconoscibile\n•\\tNon nascosto da dita od oggetti";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_TITLE" = "Foto volto";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_DESCRIPTION" = "Deponga il suo documento d'identità su una base neutra. Lo posizioni nel riquadro verde. Realizzi una foto della parte posteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_LIST" = "•\\tParte posteriore completamente visibile\n•\\tNon nascosta da dita od oggetti\n•\\tImmagine nitida e scritta leggibile";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_TITLE" = "Foto parte posteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_DESCRIPTION" = "Deponga il suo documento d'identità su una base neutra. Lo posizioni nel riquadro verde. Realizzi una foto della parte anteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_LIST" = "•\\tParte anteriore completamente visibile\n•\\tNon nascosta da dita od oggetti\n•\\tImmagine nitida e scritta leggibile";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_TITLE" = "Foto parte anteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_DESCRIPTION" = "Prenda in mano il suo documento d'identità. Lo inclini verso la luce in modo che gli ologrammi siano visibili. A tale scopo può attivare il flash. Realizzi una foto degli ologrammi.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_LIST" = "•\\tDocumento d'identità completamente visibile\n•\\tOlogrammi riconoscibili";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_TITLE" = "Foto ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_TITLE" = "Sulla foto deve essere presente:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_DESCRIPTION" = "Deponga il suo passaporto su una base neutra. Lo posizioni nel riquadro verde. Realizzi una foto della seconda pagina dei dati.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_LIST" = "•\\tSeconda pagina dei dati completamente visibile\n•\\tNon nascosta da dita od oggetti\n•\\tImmagine nitida e scritta leggibile";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_TITLE" = "Foto della seconda pagina dei dati";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_DESCRIPTION" = "Deponga il suo passaporto su una base neutra. Lo posizioni nel riquadro verde. Realizzi una foto della pagina dei dati.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_LIST" = "•\\tPagina dei dati completamente visibile\n•\\tNon nascosta da dita od oggetti\n•\\tImmagine nitida e scritta ben leggibile";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_TITLE" = "Foto pagina dei dati";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_DESCRIPTION" = "Prenda in mano il suo passaporto. Inclini la pagina dei dati verso la luce in modo che gli ologrammi siano visibili. A tale scopo può attivare il flash. Realizzi una foto degli ologrammi.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_LIST" = "•\\tPassaporto completamente visibile\n•\\tOlogrammi riconoscibili";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_TITLE" = "Foto ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_DESCRIPTION" = "Deponga il suo permesso di soggiorno su una base neutra. Lo posizioni nel riquadro verde. Realizzi una foto della parte posteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_LIST" = "•\\tParte posteriore completamente visibile\n•\\tNon nascosta da dita od oggetti\n•\\tImmagine nitida e scritta leggibile";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_TITLE" = "Foto parte posteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_DESCRIPTION" = "Deponga il suo permesso di soggiorno su una base neutra. Lo posizioni nel riquadro verde. Realizzi una foto della parte anteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_LIST" = "•\\tParte anteriore completamente visibile\n•\\tNon nascosta da dita od oggetti\n•\\tImmagine nitida e scritta leggibile";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Foto parte anteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_DESCRIPTION" = "Prenda in mano il suo permesso di soggiorno. Lo inclini verso la luce in modo che gli ologrammi siano visibili. A tale scopo può attivare il flash. Realizzi una foto degli ologrammi.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_LIST" = "•\\tDocumento completamente visibile\n•\\tOlogrammi riconoscibili";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Foto ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_TAKE_PICTURE_BUTTON_TITLE" = "Scattare la foto";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDBACKSIDE_SUBTITLE" = "Realizzare una foto della parte posteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDBACKSIDE_TITLE" = "Parte posteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_SUBTITLE" = "Realizzare una foto della parte anteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Parte anteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_SUBTITLE" = "Realizzare una foto delle caratteristiche di sicurezza.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_FACESCREENSHOT_SUBTITLE" = "Realizzare una foto del suo volto.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_FACESCREENSHOT_TITLE" = "Volto";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDBACKSIDE_SUBTITLE" = "Realizzare una foto della parte posteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDBACKSIDE_TITLE" = "Parte posteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDFRONTSIDE_SUBTITLE" = "Realizzare una foto della parte anteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDFRONTSIDE_TITLE" = "Parte anteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMS_SUBTITLE" = "Realizzare una foto delle caratteristiche di sicurezza.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMS_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_MESSAGE" = "Realizzare tutte le foto della lista seguente. Dopodiché sarà possibile trasferire i dati.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDBACKSIDE_SUBTITLE" = "Realizzare una foto della seconda pagina dei dati.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDBACKSIDE_TITLE" = "Seconda pagina dei dati";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDFRONTSIDE_SUBTITLE" = "Realizzare una foto della pagina dei dati.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDFRONTSIDE_TITLE" = "Pagina dei dati";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMS_SUBTITLE" = "Realizzare una foto delle caratteristiche di sicurezza.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMS_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDBACKSIDE_SUBTITLE" = "Realizzare una foto della parte posteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDBACKSIDE_TITLE" = "Parte posteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_SUBTITLE" = "Realizzare una foto della parte anteriore.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Parte anteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_SUBTITLE" = "Realizzare una foto delle caratteristiche di sicurezza.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESTART_ALERT_MESSAGE" = "Desidera riavviare questa procedura d'identificazione?";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_TRANSFER_BUTTON_TITLE" = "Trasferire i dati";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_TRANSFER_MESSAGE" = "Con un clic sul pulsante acconsente alla trasmissione e al salvataggio delle foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_UPLOAD_FAILED_ALERT_MESSAGE" = "Durante l'invio dei suoi dati si è verificato un errore. Riprovi.";
+
+/* No comment provided by engineer. */
+"PHOTO_UPLOAD_PROGRESS_MESSAGE" = "I suoi dati sono stati criptati e saranno trasferiti sul nostro server.";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_DONE_BUTTON_TITLE" = "Terminare";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_MESSAGE" = "Non è stato possibile concludere la sua identificazione.\n\nRiprovi o utilizzi un metodo alternativo";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_TITLE" = "Identificazione non riuscita";
+
+/* No comment provided by engineer. */
+"RESULT_RETRY_BUTTON_TITLE" = "Riprovare";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Fine";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_MESSAGE_PHOTO_IDENT" = "Grazie per avere scelto l'identificazione online! Adesso può chiudere l'app e sarà informato sui passi successivi.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_MESSAGE_VIDEO_IDENT" = "Grazie per avere scelto l'identificazione online! Adesso può chiudere l'app e sarà informato sui passi successivi.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Trasferimento dati riuscito";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Identificazione conclusa";
+
+/* No comment provided by engineer. */
+"RESULT_TRANSACTION_ID" = "ID DELLA PROCEDURA";
+
+/* No comment provided by engineer. */
+"RETRY" = "Riprovare";
+
+/* No comment provided by engineer. */
+"SAVE" = "Salvare";
+
+/* No comment provided by engineer. */
+"SETTINGS" = "Impostazioni";
+
+/* No comment provided by engineer. */
+"SIGNATURE_DECLINE_BUTTON_TITLE" = "No, respingere contratto";
+
+/* No comment provided by engineer. */
+"SIGNATURE_DRAWING_DESCRIPTION" = "Inserisca la sua firma nel campo in alto e prema il tasto in basso per proseguire.";
+
+/* No comment provided by engineer. */
+"SIGNATURE_REDRAW_BUTTON_TITLE" = "Firmare di nuovo";
+
+/* No comment provided by engineer. */
+"SIGNATURE_SEND_BUTTON_TITLE" = "Firmare contratto";
+
+/* No comment provided by engineer. */
+"SIGNATURE_TITLE" = "Firmare qui";
+
+/* No comment provided by engineer. */
+"START_OVER" = "Riavviare";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_CANCEL_ALERT_MESSAGE" = "Desidera interrompere la procedura d'identificazione?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_CANCEL_ALERT_TITLE" = "Interrompere l'identificazione";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_DOCUMENTS_EXPLANATION" = "Per l'identificazione video IDnow le occorre un documento d'identità personale valido o un passaporto.\n\nA tale proposito viene supportata una grande varietà di moderni documenti d'identità con caratteristiche di sicurezza olografiche.\n\nIn particolare documenti d'identità personale e i passaporti dell'Unione Europea, Turchia, Norvegia, Svizzera, Islanda e Stati Uniti.";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_DOCUMENTS_TITLE" = "Quali documenti d'identità possono essere utilizzati?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_FAILED_ALERT_MESSAGE" = "Identificazione non riuscita";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_MESSAGE" = "La preghiamo di pazientare mentre il nostro agente aggiorna i suoi dati. Sarà inoltrato automaticamente.";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_TITLE" = "Chiusura dell'identificazione in corso...";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Attendere prego...";
+
+/* No comment provided by engineer. */
+"YES" = "Sì";

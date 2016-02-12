@@ -130,6 +130,14 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 @property (assign, nonatomic) BOOL forceModalPresentation;
 
 /**
+ *  If set to `true`, the SDK will accept invalid (e.g. self signed certificates).
+ *  Please note that iOS might still reject the certs if you dont also set
+ *  NSAllowsArbitraryLoads in NSAppTransportSecurity and also NSTemporaryExceptionAllowsInsecureHTTPLoads
+ *  in NSExceptionDomains for your domains
+ */
+@property (assign, nonatomic) BOOL allowInvalidCertificates;
+
+/**
  *  The target server url for REST calls if custom server is used
  */
 @property (nullable, strong, nonatomic) NSString *apiHost;
@@ -138,6 +146,21 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  *  The target server url for websocket calls if custom server is used
  */
 @property (nullable, strong, nonatomic) NSString *websocketHost;
+
+/**
+ *  The target server url for video rest calls if custom server is used
+ */
+@property (nullable, strong, nonatomic) NSString *videoHost;
+
+/**
+ *  The target server for stun calls if custom server is used
+ */
+@property (nullable, strong, nonatomic) NSString *stunHost;
+
+/**
+ *  The target port for stun calls if custom server is used
+ */
+@property (assign, nonatomic) NSInteger stunPort;
 
 /**
  *  The connection type to use to talk the backend

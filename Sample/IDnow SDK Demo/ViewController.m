@@ -43,12 +43,12 @@
 - (IBAction) startVideoIdent: (id) sender
 {
 	// Setting dummy dev token and company id -> will instantiate a video identification
-	self.settings.transactionToken = @"DEV-TXJKC";
-	self.settings.companyID = @"ihrebank";
-    self.settings.connectionType = IDnowConnectionTypeLongPolling;
-    self.settings.websocketHost = @"http://api.internal.dev.idnow.de";
-    self.settings.apiHost = @"http://api.dev.idnow.de";
-    self.settings.environment = IDnowEnvironmentCustom;
+	self.settings.transactionToken = @"TST-VXQQD";
+	self.settings.companyID = @"ebase";
+    //self.settings.connectionType = IDnowConnectionTypeLongPolling;
+    //self.settings.websocketHost = @"http://api.internal.dev.idnow.de";
+    //self.settings.apiHost = @"http://api.dev.idnow.de";
+    self.settings.environment = IDnowEnvironmentTest;
 
 	self.idnowController.delegate  = nil;
 	__weak typeof(self) weakSelf   = self;

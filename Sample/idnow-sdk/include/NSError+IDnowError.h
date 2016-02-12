@@ -17,6 +17,7 @@ FOUNDATION_EXPORT NSString *const IDnowExceptionIDErrorKey;
 
 FOUNDATION_EXPORT NSString *const IDnowCauseErrorKey;
 
+FOUNDATION_EXPORT NSString *const IDnowSupportEmail;
 
 typedef NS_ENUM (NSInteger, IDnowError)
 {
@@ -72,14 +73,18 @@ typedef NS_ENUM (NSInteger, IDnowError)
      */
     IDnowErrorServer = 1009,
     /**
-     *  Can occur during an identification process (e.g. triggered by [IDnowController startIdentificationFromViewController:]).
+     *  Can occur during an identification process (e.g. Tokbox could not establish a video connection).
      */
     IDnowErrorTokbox = 1010,
     /**
      *  Can occur during an identification process (e.g. triggered by [IDnowController startIdentificationFromViewController:]).
      *  Describes that an identification failed.
      */
-    IDnowErrorIdentificationFailed = 1011
+    IDnowErrorIdentificationFailed = 1011,
+    /**
+     *  Can occur during an identification process (e.g. IceLink could not establish a video connection).
+     */
+    IDnowErrorIceLink = 1012,
 };
 
 @interface NSError (IDnowError)

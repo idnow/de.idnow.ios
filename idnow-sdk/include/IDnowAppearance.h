@@ -42,11 +42,33 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  Optional color, that replaces the default brand color.
- *  Default: defaultTextColor
+ *  Default: defaultTextColor.
  *  Used in headlines, checkboxes, links, alerts etc.
  *  Recommendation: Should be a color that does not collide with white color.
  */
 @property (strong, nonatomic) UIColor *primaryBrandColor;
+
+/**
+ *  Optional color, that replaces the color that will be used for headlines.
+ *  Default: primaryBrandColor.
+ *  Recommendation: Should be a color that does not collide with white color.
+ */
+@property (strong, nonatomic) UIColor *headlineColor;
+
+/**
+ *  Optional color, that replaces the color that will be used for links.
+ *  Default: primaryBrandColor.
+ *  Recommendation: Should be a color that does not collide with white color.
+ */
+@property (strong, nonatomic) UIColor *linkColor;
+
+/**
+ *  Optional color, that replaces the color that will be used for checkboxes.
+ *  Default: primaryBrandColor.
+ *  Recommendation: Should be a color that does not collide with white color.
+ */
+@property (strong, nonatomic) UIColor *checkIconColor;
+
 
 /**
  *  Optional color, that replaces the procees button background color.

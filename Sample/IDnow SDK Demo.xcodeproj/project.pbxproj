@@ -259,6 +259,7 @@
 				TargetAttributes = {
 					6FC64E6E1AC1EFC800BA9B5B = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 4W3KTRTP73;
 					};
 				};
 			};
@@ -484,6 +485,7 @@
 			baseConfigurationReference = 1BC7A885E1EC50D40991E38B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -502,7 +504,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/idnow-sdk",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "anfe.ma.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -512,6 +514,7 @@
 			baseConfigurationReference = A2BCE840F067D17C648EA3DB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -530,7 +533,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/idnow-sdk",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "anfe.ma.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

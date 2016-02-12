@@ -43,7 +43,7 @@
 "CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Identifizierung starten";
 
 /* No comment provided by engineer. */
-"CHECK_TITLE" = "Folgende Angaben werden benötigt, bevor sie sich identifizieren können.";
+"CHECK_TITLE" = "Folgende Angaben werden benötigt bevor Sie sich identifizieren können:";
 
 /* No comment provided by engineer. */
 "CONTINUE" = "Fortsetzen";
@@ -94,7 +94,7 @@
 "IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Bestätigen";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_MESSAGE" = "Sie erhalten den Ident-Code per SMS an Ihre Mobilnummer %@. Bitte geben Sie jetzt den Ident-Code ein und bestätigen Sie.";
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Bitte geben Sie Ihren Ident-Code ein. Dieser wurde Ihnen als SMS-Nachricht an die Nummer %@ gesendet.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_ENTER_CODE_TITLE" = "Ident-Code eingeben";
@@ -106,10 +106,13 @@
 "IDENT_CODE_PLACEHOLDER" = "Ident-Code";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Ident-Code nicht erhalten oder falsche Nummer?\nIdent-Code erneut anfordern";
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Ident-Code erneut anfordern";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Überprüfen Sie jetzt Ihre Mobilnummer und fordern Sie den Ident-Code per SMS an.";
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Ident-Code nicht erhalten oder falsche Nummer angegeben?";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Bitte überprüfen Sie Ihre Mobilnummer und fordern Sie jetzt Ihren Ident-Code per SMS an.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_REQUEST_CODE_TITLE" = "Ident-Code anfordern";
@@ -637,8 +640,7 @@
 "VIDEO_IDENT_PROGRESS_TITLE" = "Identifizierung wird abgeschlossen…";
 
 /* No comment provided by engineer. */
-"VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Einen Moment Geduld...";
+"VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Einen Moment Geduld…";
 
 /* No comment provided by engineer. */
 "YES" = "Ja";
-

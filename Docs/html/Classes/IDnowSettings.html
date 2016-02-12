@@ -56,6 +56,8 @@
 	
 	<optgroup label="Properties">
 		
+		<option value="//api/name/allowInvalidCertificates">allowInvalidCertificates</option>
+		
 		<option value="//api/name/apiHost">apiHost</option>
 		
 		<option value="//api/name/companyID">companyID</option>
@@ -70,7 +72,13 @@
 		
 		<option value="//api/name/showVideoOverviewCheck">showVideoOverviewCheck</option>
 		
+		<option value="//api/name/stunHost">stunHost</option>
+		
+		<option value="//api/name/stunPort">stunPort</option>
+		
 		<option value="//api/name/transactionToken">transactionToken</option>
+		
+		<option value="//api/name/videoHost">videoHost</option>
 		
 		<option value="//api/name/websocketHost">websocketHost</option>
 		
@@ -560,6 +568,58 @@ will be pushed on an existing navigation controller if possible.</p>
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/allowInvalidCertificates" title="allowInvalidCertificates"></a>
+	<h3 class="method-title"><code><a href="#//api/name/allowInvalidCertificates">&nbsp;&nbsp;allowInvalidCertificates</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>If set to <code>true</code>, the SDK will accept invalid (e.g. self signed certificates).
+Please note that iOS might still reject the certs if you dont also set
+NSAllowsArbitraryLoads in NSAppTransportSecurity and also NSTemporaryExceptionAllowsInsecureHTTPLoads
+in NSExceptionDomains for your domains</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) BOOL allowInvalidCertificates</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If set to <code>true</code>, the SDK will accept invalid (e.g. self signed certificates).
+Please note that iOS might still reject the certs if you dont also set
+NSAllowsArbitraryLoads in NSAppTransportSecurity and also NSTemporaryExceptionAllowsInsecureHTTPLoads
+in NSExceptionDomains for your domains</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">IDnowSettings.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/apiHost" title="apiHost"></a>
 	<h3 class="method-title"><code><a href="#//api/name/apiHost">&nbsp;&nbsp;apiHost</a></code>
 </h3>
@@ -652,6 +712,144 @@ will be pushed on an existing navigation controller if possible.</p>
 		</div>
 	</div>
 </div><div class="section-method">
+	<a name="//api/name/videoHost" title="videoHost"></a>
+	<h3 class="method-title"><code><a href="#//api/name/videoHost">&nbsp;&nbsp;videoHost</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The target server url for video rest calls if custom server is used</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, strong, nonatomic) NSString *videoHost</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The target server url for video rest calls if custom server is used</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">IDnowSettings.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stunHost" title="stunHost"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stunHost">&nbsp;&nbsp;stunHost</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The target server for stun calls if custom server is used</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nullable, strong, nonatomic) NSString *stunHost</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The target server for stun calls if custom server is used</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">IDnowSettings.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stunPort" title="stunPort"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stunPort">&nbsp;&nbsp;stunPort</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The target port for stun calls if custom server is used</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (assign, nonatomic) NSInteger stunPort</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The target port for stun calls if custom server is used</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">IDnowSettings.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
 	<a name="//api/name/connectionType" title="connectionType"></a>
 	<h3 class="method-title"><code><a href="#//api/name/connectionType">&nbsp;&nbsp;connectionType</a></code>
 </h3>
@@ -712,7 +910,7 @@ will be pushed on an existing navigation controller if possible.</p>
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2015 IDnow GmbH. All rights reserved. Updated: 2015-11-23</p>
+						<p class="copyright">Copyright &copy; 2016 IDnow GmbH. All rights reserved. Updated: 2016-02-11</p>
 						
 						
 						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
