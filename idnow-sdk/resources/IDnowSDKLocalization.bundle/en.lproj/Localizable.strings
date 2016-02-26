@@ -28,7 +28,7 @@
 "CHECK_AGREEMENT_TITLE" = "Your consent";
 
 /* No comment provided by engineer. */
-  "CHECK_LICENSE_DESCRIPTION" = "Your identity document will be checked during the identification, so please have it ready and at hand.";
+"CHECK_LICENSE_DESCRIPTION" = "Your identity document will be checked during the identification, so please have it ready and at hand.";
 
 /* No comment provided by engineer. */
 "CHECK_LICENSE_TITLE" = "Your readily available identity document";
@@ -106,7 +106,10 @@
 "IDENT_CODE_PLACEHOLDER" = "Ident-Code";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Didn't receive an Ident-Code or entered a wrong number?\nRequest Ident-Code again";
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Request Ident-Code again";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Didn't receive an Ident-Code or entered a wrong number?";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_REQUEST_CODE_MESSAGE" = "Please check your mobile number and request your Ident-Code by SMS.";
@@ -553,7 +556,7 @@
 "PHOTO_TODO_TRANSFER_MESSAGE" = "By tapping the button, you accept that the images will be transmitted and stored.";
 
 /* No comment provided by engineer. */
-"PHOTO_UPLOAD_FAILED_ALERT_MESSAGE" = "An error occured while sending your data. Please try again. ";
+"PHOTO_UPLOAD_FAILED_ALERT_MESSAGE" = "An error occurred while sending your data. Please try again. ";
 
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Your data has been encrypted and is being transferred to our secure servers.";
@@ -637,8 +640,7 @@
 "VIDEO_IDENT_PROGRESS_TITLE" = "Identification is being completed…";
 
 /* No comment provided by engineer. */
-"VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "One moment please...";
+"VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "One moment please…";
 
 /* No comment provided by engineer. */
 "YES" = "Yes";
-

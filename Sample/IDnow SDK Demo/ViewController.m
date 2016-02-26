@@ -9,6 +9,20 @@
 #import "ViewController.h"
 #import "IDnowSDK.h"
 
+
+// The transaction token that should be used for a video identification
+static NSString *const TRANSACTION_TOKEN_VIDEO_IDENT = @"DEV-MLFSL";
+
+// Your company id provided by IDnow
+static NSString *const COMPANY_ID_VIDEO_IDENT = @"ihrebank";
+
+// The transaction token that should be used for a photo identification
+static NSString *const TRANSACTION_TOKEN_PHOTO_IDENT = @"DEV-TAZLS";
+
+// Your company id provided by IDnow
+static NSString *const COMPANY_ID_PHOTO_IDENT = @"idnow";
+
+
 @interface ViewController () <IDnowControllerDelegate>
 
 @property (strong, nonatomic) IDnowController *idnowController;
@@ -30,8 +44,6 @@
 	self.settings = [IDnowSettings new];
 	self.settings.showErrorSuccessScreen = true;
 	self.settings.showVideoOverviewCheck = true;
-	self.settings.environment = IDnowEnvironmentDev;
-
 
 	// Set up IDnowController
 	self.idnowController = [[IDnowController alloc] initWithSettings: self.settings];
@@ -43,12 +55,8 @@
 - (IBAction) startVideoIdent: (id) sender
 {
 	// Setting dummy dev token and company id -> will instantiate a video identification
-	self.settings.transactionToken = @"DEV-TXJKC";
-	self.settings.companyID = @"ihrebank";
-    self.settings.connectionType = IDnowConnectionTypeLongPolling;
-    self.settings.websocketHost = @"http://api.internal.dev.idnow.de";
-    self.settings.apiHost = @"http://api.dev.idnow.de";
-    self.settings.environment = IDnowEnvironmentCustom;
+    self.settings.transactionToken = TRANSACTION_TOKEN_VIDEO_IDENT;
+    self.settings.companyID = COMPANY_ID_VIDEO_IDENT;
 
 	self.idnowController.delegate  = nil;
 	__weak typeof(self) weakSelf   = self;
@@ -89,8 +97,8 @@
 - (IBAction) startPhotoIdent: (id) sender
 {
 	// Setting dummy dev token and company id -> will instantiate a photo identification
-	self.settings.transactionToken = @"DEV-LDFRG";
-	self.settings.companyID = @"idnow";
+    self.settings.transactionToken = TRANSACTION_TOKEN_PHOTO_IDENT;
+    self.settings.companyID = COMPANY_ID_PHOTO_IDENT;
 	
 	// This time we use the delegate instead of blocks (it's your choice)
 	self.idnowController.delegate = self;
