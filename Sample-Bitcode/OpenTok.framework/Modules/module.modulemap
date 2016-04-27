@@ -1,6 +1,0 @@
-framework module OpenTok {
-  umbrella header "OpenTok.h"
-
-  export *
-  module * { export * }
-}
