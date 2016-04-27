@@ -7,23 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4854A9FD1C6DFEFD00DCD8D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854A9FC1C6DFEFD00DCD8D8 /* AVFoundation.framework */; };
-		4854AA031C6DFF8800DCD8D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA021C6DFF8800DCD8D8 /* AudioToolbox.framework */; };
-		4854AA051C6DFF9200DCD8D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA041C6DFF9200DCD8D8 /* CoreGraphics.framework */; };
-		4854AA071C6DFF9B00DCD8D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA061C6DFF9B00DCD8D8 /* CoreMedia.framework */; };
-		4854AA091C6DFFA300DCD8D8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA081C6DFFA300DCD8D8 /* CoreTelephony.framework */; };
-		4854AA0A1C6DFFAF00DCD8D8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA001C6DFF6500DCD8D8 /* CoreVideo.framework */; };
-		4854AA0C1C6DFFB500DCD8D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA0B1C6DFFB500DCD8D8 /* Foundation.framework */; };
-		4854AA0E1C6DFFBD00DCD8D8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA0D1C6DFFBD00DCD8D8 /* GLKit.framework */; };
-		4854AA101C6DFFC600DCD8D8 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA0F1C6DFFC600DCD8D8 /* libc++.tbd */; };
-		4854AA121C6DFFCF00DCD8D8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA111C6DFFCF00DCD8D8 /* libsqlite3.tbd */; };
-		4854AA141C6DFFEA00DCD8D8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA131C6DFFEA00DCD8D8 /* OpenGLES.framework */; };
-		4854AA161C6DFFF100DCD8D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA151C6DFFF100DCD8D8 /* QuartzCore.framework */; };
-		4854AA181C6DFFFB00DCD8D8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA171C6DFFFB00DCD8D8 /* SystemConfiguration.framework */; };
-		4854AA1A1C6E000300DCD8D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA191C6E000300DCD8D8 /* UIKit.framework */; };
-		4854AA1C1C6E000B00DCD8D8 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4854AA1B1C6E000B00DCD8D8 /* VideoToolbox.framework */; };
 		486F997E1C6DF66C00913E08 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 486F997D1C6DF66C00913E08 /* libz.tbd */; };
-		486F99801C6DFE6800913E08 /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 486F997F1C6DFE6800913E08 /* OpenTok.framework */; };
 		487E1D241C6E1D4F00EC2859 /* libidnow-sdk-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 487E1D061C6E1D4F00EC2859 /* libidnow-sdk-universal.a */; };
 		487E1D251C6E1D4F00EC2859 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 487E1D081C6E1D4F00EC2859 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */; };
 		487E1D261C6E1D4F00EC2859 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 487E1D091C6E1D4F00EC2859 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg */; };
@@ -139,24 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4854AA1C1C6E000B00DCD8D8 /* VideoToolbox.framework in Frameworks */,
-				4854AA1A1C6E000300DCD8D8 /* UIKit.framework in Frameworks */,
-				4854AA181C6DFFFB00DCD8D8 /* SystemConfiguration.framework in Frameworks */,
-				4854AA161C6DFFF100DCD8D8 /* QuartzCore.framework in Frameworks */,
 				487E1D241C6E1D4F00EC2859 /* libidnow-sdk-universal.a in Frameworks */,
-				4854AA141C6DFFEA00DCD8D8 /* OpenGLES.framework in Frameworks */,
-				4854AA121C6DFFCF00DCD8D8 /* libsqlite3.tbd in Frameworks */,
-				4854AA101C6DFFC600DCD8D8 /* libc++.tbd in Frameworks */,
-				4854AA0E1C6DFFBD00DCD8D8 /* GLKit.framework in Frameworks */,
-				4854AA0C1C6DFFB500DCD8D8 /* Foundation.framework in Frameworks */,
-				4854AA0A1C6DFFAF00DCD8D8 /* CoreVideo.framework in Frameworks */,
-				4854AA091C6DFFA300DCD8D8 /* CoreTelephony.framework in Frameworks */,
-				4854AA071C6DFF9B00DCD8D8 /* CoreMedia.framework in Frameworks */,
-				4854AA051C6DFF9200DCD8D8 /* CoreGraphics.framework in Frameworks */,
-				4854AA031C6DFF8800DCD8D8 /* AudioToolbox.framework in Frameworks */,
-				4854A9FD1C6DFEFD00DCD8D8 /* AVFoundation.framework in Frameworks */,
 				486F997E1C6DF66C00913E08 /* libz.tbd in Frameworks */,
-				486F99801C6DFE6800913E08 /* OpenTok.framework in Frameworks */,
 				D62DFA911C007D6400BD5788 /* WebKit.framework in Frameworks */,
 				D62DFA8F1C007D5700BD5788 /* Accelerate.framework in Frameworks */,
 				CDA17FE93E3D2797F79F0B1C /* libPods.a in Frameworks */,
@@ -338,7 +306,6 @@
 				TargetAttributes = {
 					6FC64E6E1AC1EFC800BA9B5B = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 4W3KTRTP73;
 					};
 				};
 			};

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		486477B51C6E1A8100C72893 /* libidnow-sdk-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 486477971C6E1A8100C72893 /* libidnow-sdk-universal.a */; };
 		486477B61C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 486477991C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */; };
 		486477B71C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4864779A1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@3x.jpg */; };
 		486477B81C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4864779B1C6E1A8100C72893 /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@2x.jpg */; };
@@ -112,7 +111,6 @@
 				48E1A2771C6E05C90062A9F5 /* libz.tbd in Frameworks */,
 				D62DFA911C007D6400BD5788 /* WebKit.framework in Frameworks */,
 				D62DFA8F1C007D5700BD5788 /* Accelerate.framework in Frameworks */,
-				486477B51C6E1A8100C72893 /* libidnow-sdk-universal.a in Frameworks */,
 				CDA17FE93E3D2797F79F0B1C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +274,6 @@
 				TargetAttributes = {
 					6FC64E6E1AC1EFC800BA9B5B = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 4W3KTRTP73;
 					};
 				};
 			};
