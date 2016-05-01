@@ -1,0 +1,4 @@
+module IDnowSDK {
+    umbrella header "IDnowSDK.h"
+    export *
+}
