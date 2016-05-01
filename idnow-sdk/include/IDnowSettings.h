@@ -7,8 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
+// -----------------------------------------------------------------------------------
+//									Enumerations
+// -----------------------------------------------------------------------------------
 
 /**
  *  Possible server environments for executing an identification
@@ -44,6 +49,10 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
      */
     IDnowEnvironmentLive,
     /**
+     *  Intrum server environment
+     */
+    IDnowEnvironmentIntrum,
+    /**
      *  Custom server environment
      */
     IDnowEnvironmentCustom
@@ -64,6 +73,8 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
     IDnowConnectionTypeLongPolling
 };
 
+
+
 /**
  *  This class is used to instantiate an instance of IDnowController.
  *  It lets you customize the identification process.
@@ -71,6 +82,10 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  *  You can also explicitly set the environment, which describes on which server the identificaton will be executed.
  */
 @interface IDnowSettings : NSObject
+
+// -----------------------------------------------------------------------------------
+//									Initialization
+// -----------------------------------------------------------------------------------
 
 /**
  *  Creates an instance of IDnowSettings taking a company identifier into account.
@@ -92,6 +107,12 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  */
 + (instancetype) settingsWithCompanyID: (NSString *) companyID transactionToken: (NSString *) transactionToken;
 
+
+
+// -----------------------------------------------------------------------------------
+//									Basic Properties
+// -----------------------------------------------------------------------------------
+
 /**
  *  A token that will be used for instantiating a photo or video identification.
  */
@@ -102,13 +123,11 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  */
 @property (nullable, strong, nonatomic) NSString *companyID;
 
-/**
- *  Optional: The environment that should be used for the identification (DEV, TEST, LIVE, Custom)
- *  The default value is `IDnowEnvironmentNotDefined`. 
- *  Then the used environment is based on the prefix of the transaction token (DEV -> DEV, TST -> Test, TS1 -> Test1, TS2 -> Test2, TS3 -> Test3, else -> Live).
- *  You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the apiHost and websocketHost.
- */
-@property (assign, nonatomic) IDnowEnvironment environment;
+
+
+// -----------------------------------------------------------------------------------
+//									Extended Properties (optional)
+// -----------------------------------------------------------------------------------
 
 /**
  *  If set to `false`, the Error-Success-Screen provided by the SDK will not be shown.
@@ -123,11 +142,30 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 @property (assign, nonatomic) BOOL showVideoOverviewCheck;
 
 /**
- *  If set to `true`, the UI for the identification will always be displayed modal. 
- *  By default the value of this property is `false` and the identification UI 
+ *  If set to `true`, the UI for the identification will always be displayed modal.
+ *  By default the value of this property is `false` and the identification UI
  *  will be pushed on an existing navigation controller if possible.
  */
 @property (assign, nonatomic) BOOL forceModalPresentation;
+
+/**
+ * Specifies the presentation style for the modal ident viewcontroller.
+ * E.g. Can be set to `UIModalPresentationCurrentContext` to allow presenting ident view controller within a popover on an iPad.
+ */
+@property (assign, nonatomic) UIModalPresentationStyle modalPresentationStyle;
+
+
+// -----------------------------------------------------------------------------------
+//									Server Properties (optional)
+// -----------------------------------------------------------------------------------
+
+/**
+ *  Optional: The environment that should be used for the identification (DEV, TEST, LIVE, Custom)
+ *  The default value is `IDnowEnvironmentNotDefined`. 
+ *  Then the used environment is based on the prefix of the transaction token (DEV -> DEV, TST -> Test, TS1 -> Test1, TS2 -> Test2, TS3 -> Test3, else -> Live).
+ *  You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the apiHost and websocketHost.
+ */
+@property (assign, nonatomic) IDnowEnvironment environment;
 
 /**
  *  If set to `true`, the SDK will accept invalid (e.g. self signed certificates).

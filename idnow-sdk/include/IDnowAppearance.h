@@ -71,11 +71,34 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- *  Optional color, that replaces the procees button background color.
+ *  Optional color, that replaces the proceed button background color.
  *  Default value: An orange color
  *  Recommendation: Should be a color that does not collide with white font color (e.g. orange, blue, red etc.).
  */
 @property (strong, nonatomic) UIColor *proceedButtonBackgroundColor;
+
+/**
+ *  Optional color, that replaces the proceed button text color.
+ *  Default value: White color
+ *  Recommendation: Should be a color that does not collide with proceedButtonBackgroundColor.
+ */
+@property (strong, nonatomic) UIColor *proceedButtonTextColor;
+
+
+/**
+ *  Optional color, that replaces the photo ident retake button background color.
+ *  Default value: defaultTextColor
+ *  Recommendation: Should be a color that does not collide with photoIdentRetakeButtonTextColor.
+ */
+@property (strong, nonatomic) UIColor *photoIdentRetakeButtonBackgroundColor;
+
+/**
+ *  Optional color, that replaces the photo ident retake button text color.
+ *  Default value: proceedButtonTextColor
+ *  Recommendation: Should be a color that does not collide with photoIdentRetakeButtonBackgroundColor.
+ */
+@property (strong, nonatomic) UIColor *photoIdentRetakeButtonTextColor;
+
 
 /**
  *  Optional color, that replaces the default color of textfield backgrounds and borders
