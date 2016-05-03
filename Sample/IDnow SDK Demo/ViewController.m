@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "IDnowSDK.h"
+
+@import IDnowSDK;
 
 
 // The transaction token that should be used for a video identification
