@@ -1,7 +1,3 @@
 platform :ios, '8.0'
 
-pod 'Masonry', '~> 0.6.2'
-pod 'SocketRocket', '~> 0.4'
-pod 'AFNetworking', '~> 2.6.0'
-pod 'UIAlertView+Blocks', '~> 0.8.1'
-pod 'OpenTok', '~> 2.7.2-beta.1'
+pod 'IDnowSDK', '2.3.0-bitcode'

@@ -19,6 +19,9 @@ FOUNDATION_EXPORT NSString *const IDnowCauseErrorKey;
 
 FOUNDATION_EXPORT NSString *const IDnowSupportEmail;
 
+/**
+ * Declares possible error codes that can occur within a video or photo identification.
+ */
 typedef NS_ENUM (NSInteger, IDnowError)
 {
     /**
@@ -40,51 +43,47 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when an identification cannot be initialized because the time is outside business hours.
      */
-    IDnowErrorOfficeClosed	= 1003,
+    IDnowErrorOfficeClosed                    = 1003,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when the device does either have no front camera or no back camera.
      */
-    IDnowErrorMissingCamera = 1004,
+    IDnowErrorMissingCamera                   = 1004,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when a video ident was request, but the camera access was not granted by the user.
      */
-    IDnowErrorCameraAccessNotGranted	 = 1005,
+    IDnowErrorCameraAccessNotGranted          = 1005,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when a video ident was requested, but the microphone access was not granted by the user.
      */
-    IDnowErrorMicrophoneAccessNotGranted = 1006,
+    IDnowErrorMicrophoneAccessNotGranted      = 1006,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when a video ident was requested, but the device does not provide a microphone.
      */
-    IDnowErrorMissingMicrophone = 1007,
+    IDnowErrorMissingMicrophone               = 1007,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when a video ident was requested, but no internet connection is present.
      */
-    IDnowErrorNoInternetConnection		 = 1008,
+    IDnowErrorNoInternetConnection            = 1008,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize])
      *  and identification process (e.g. triggered by [IDnowController startIdentificationFromViewController:]).
      *  The error object will also contain the status code returned by the server.
      */
-    IDnowErrorServer = 1009,
+    IDnowErrorServer                          = 1009,
     /**
-     *  Can occur during an identification process (e.g. Tokbox could not establish a video connection).
+     *  Can occur during an identification process (e.g. WebRTC service could not establish a video connection).
      */
-    IDnowErrorTokbox = 1010,
+    IDnowErrorWebRTC                          = 1010,
     /**
      *  Can occur during an identification process (e.g. triggered by [IDnowController startIdentificationFromViewController:]).
      *  Describes that an identification failed.
      */
-    IDnowErrorIdentificationFailed = 1011,
-    /**
-     *  Can occur during an identification process (e.g. IceLink could not establish a video connection).
-     */
-    IDnowErrorIceLink = 1012,
+    IDnowErrorIdentificationFailed            = 1011,
 };
 
 @interface NSError (IDnowError)

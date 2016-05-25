@@ -2,10 +2,19 @@
 
 ## Changelog
 
+### 2.3.0
+
+Improvements:
+- Better handling of connection loss during video chat
+- Prevent screenshots from containing sensitive data
+
+Bugfixes:
+- Fixed bug when starting several identification directly after each other
+
 ### 2.2.0
 
 Improvements:
-- iPad now support natively
+- iPad now supported natively
 - Third party keyboards are disable due to security considerations
 - Support for swiss environment
 - Cocoapods support
@@ -22,6 +31,13 @@ Bugfixes:
 Improvements
 - Added support for echo cancellation
 
+### 2.0.0
+
+Improvements
+- Bitcode support (see Bitcode Sample for details)
+- New video technology für custom video stream routing and better quality
+- Supported languages: de, en, fr, it
+
 ## Requirements
 - Xcode 7.0 or later
 - Deployment Target: iOS 7 or later
@@ -30,6 +46,21 @@ Improvements
 - Device with Wifi / 3G / LTE
 
 ## Installation
+
+### CocoaPods
+- Add the following pod dependencies to your podfile:
+```
+pod 'IDnowSDK'
+```
+
+- Then, run the following command:
+```
+pod install
+```
+
+- Import SDK by using "@import IDnowSDK"
+
+### Manually 
 - Add the following pod dependencies to your podfile:
 ```
 pod 'Masonry', '~> 0.6.3'
@@ -49,11 +80,25 @@ libz.dylib
 ```   
 - Import 'IDnowSDK.h'
 
-Note: To get the sample project work, you have to call "pod install" to install dependencies.
+__Note__: To get the sample projects work, you have to call "pod install" to install dependencies.
 
 ## Bitcode Support (Beta)
-To enable bitcode support you have to use beta version of OpenTok.
-- Update OpenTok entry in your podfile:
+To enable bitcode support you have to use a beta version of OpenTok.
+
+### CocoaPods
+- Add the following pod dependencies to your podfile:
+```
+pod 'IDnowSDK', '2.2.0-bitcode'
+```
+- Then, run the following command:
+```
+pod install
+```
+- Enable bitcode support in your project
+- Import SDK by using "@import IDnowSDK" 
+
+### Manually
+Update OpenTok entry in your podfile:
 ```
 pod 'OpenTok', '~> 2.7.2-beta.1'
 ```
@@ -61,7 +106,7 @@ pod 'OpenTok', '~> 2.7.2-beta.1'
 
 A sample bitcode project is under Sample-Bitcode/
 
-Note: To get the bitcode sample project work, you have to call "pod install" to install dependencies.
+__Note__: To get the bitcode sample project work, you have to call "pod install" to install dependencies.
 
 ## Settings (IDnowSettings)
 The settings that should be used for the identification process provided by IDnow.
