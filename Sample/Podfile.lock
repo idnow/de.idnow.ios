@@ -20,7 +20,7 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - IDnowSDK (2.2.0):
+  - IDnowSDK (2.3.0):
     - AFNetworking (~> 2.6.3)
     - Masonry (~> 0.6.3)
     - OpenTok (~> 2.6.1)
@@ -28,18 +28,18 @@ PODS:
     - UIAlertView+Blocks (~> 0.8.1)
   - Masonry (0.6.4)
   - OpenTok (2.6.1)
-  - SocketRocket (0.5.0)
+  - SocketRocket (0.5.1)
   - UIAlertView+Blocks (0.8.1)
 
 DEPENDENCIES:
-  - IDnowSDK
+  - IDnowSDK (= 2.3.0)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  IDnowSDK: afaf859ba786e4ebe94bd97e348197581d44beac
+  IDnowSDK: 4d8597baa2d50b49f32f4ba1cb2730bea0853020
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   OpenTok: 6c094ee06dc954a4327c0a736f494f0eaf35c48c
-  SocketRocket: 2c51efccd2d73c99a923407ca4b06e7e9da95dbf
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
   UIAlertView+Blocks: 45c3d3b7194906702d3e9a14c7ece5581505646d
 
 COCOAPODS: 0.39.0
