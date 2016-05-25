@@ -2,6 +2,15 @@
 
 ## Changelog
 
+### 2.3.0
+
+Improvements:
+- Better handling of connection loss during video chat
+- Prevent screenshots from containing sensitive data
+
+Bugfixes:
+- Fixed bug when starting several identification directly after each other
+
 ### 2.2.0
 
 Improvements:
