@@ -2,6 +2,14 @@
 
 ## Changelog
 
+### 2.3.1
+
+Improvements:
+- Additional handling of more connection loss cases
+
+Bugs:
+- Translated some missing keys to french and spanish
+
 ### 2.3.0
 
 Improvements:
