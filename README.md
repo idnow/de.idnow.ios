@@ -2,6 +2,11 @@
 
 ## Changelog
 
+### 2.3.2
+
+Improvements:
+- Better candidate gathering over slow connections
+
 ### 2.3.1
 
 Improvements:
