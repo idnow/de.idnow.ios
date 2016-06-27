@@ -2,6 +2,17 @@
 
 ## Changelog
 
+### 2.4.0
+
+Improvements:
+- Added jailbreak / rooting detection
+- Better wording for Ident-ID
+- Dependencies have been updated
+- Support for AFNetworking from 2.6 to 3.2
+
+Bugs:
+- Fixed crash when launching with launch options
+
 ### 2.3.2
 
 Improvements:
@@ -76,11 +87,11 @@ pod install
 ### Manually 
 - Add the following pod dependencies to your podfile:
 ```
-pod 'Masonry', '~> 0.6.3'
-pod 'SocketRocket', '~> 0.4'
-pod 'AFNetworking', '~> 2.6.3'
-pod 'UIAlertView+Blocks', '~> 0.8.1'
-pod 'OpenTok', '~> 2.6.1'
+pod 'Masonry', '~> 1.0.0'
+pod 'SocketRocket', '~> 0.5.0'
+pod 'AFNetworking', ['>= 2.6.0', '< 3.2.0']
+pod 'UIAlertView+Blocks', '~> 0.9'
+pod 'OpenTok', '~> 2.8.2'
 ```
 - Download the current release from and copy the idnow-sdk folder to your project directory
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
@@ -101,7 +112,7 @@ To enable bitcode support you have to use a beta version of OpenTok.
 ### CocoaPods
 - Add the following pod dependencies to your podfile:
 ```
-pod 'IDnowSDK', '2.2.0-bitcode'
+pod 'IDnowSDK', '2.4.0-bitcode'
 ```
 - Then, run the following command:
 ```
@@ -113,7 +124,7 @@ pod install
 ### Manually
 Update OpenTok entry in your podfile:
 ```
-pod 'OpenTok', '~> 2.7.2-beta.1'
+pod 'OpenTok', '~> 2.8.2-beta.1'
 ```
 - Enable bitcode support in your project
 
