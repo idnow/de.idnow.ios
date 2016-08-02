@@ -2,6 +2,17 @@
 
 ## Changelog
 
+### 2.5.0
+
+Improvements:
+- Added support for spatial and temporal resampling of the video stream
+- Better handling slow STUN requests
+- Prevent parallel uploading of images for faster uploads
+- Return success if user aborts on the goodbye screen instead of failure
+
+Bugs:
+- Fixed bug where audio was not reconnected if user temporarily lost connection
+
 ### 2.4.0
 
 Improvements:
