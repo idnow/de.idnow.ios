@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - IDnowSDK (2.4.0):
+  - IDnowSDK (2.5.0):
     - AFNetworking (< 3.2.0, >= 2.6.0)
     - Masonry (~> 1.0.0)
     - OpenTok (~> 2.8.2)
@@ -26,11 +26,11 @@ PODS:
   - UIAlertView+Blocks (0.9)
 
 DEPENDENCIES:
-  - IDnowSDK (= 2.4.0)
+  - IDnowSDK (= 2.5.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  IDnowSDK: 53f9d76338bb9cf9b6f10ea00546a3ca12e6b9f5
+  IDnowSDK: 16eea947436674775fbe382a392aa182f20ca61f
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   OpenTok: ad14a09847ba5d6485820f5946484b749de944d7
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
