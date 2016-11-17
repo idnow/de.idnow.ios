@@ -2,6 +2,27 @@
 
 ## Changelog
 
+
+### 2.8.0
+
+Improvements:
+- Added support for text chat between user and agent
+- Improved behaviour of the reconnect screen if connection is lost
+
+Bugs:
+- Fixed crash during reconnect after ident has been aborted
+
+### 2.7.0
+
+No changes
+
+### 2.6.0
+
+Improvements:
+- Support for back navigation
+- Updated libraries to new versions
+- Bitcode support now integrated in main version, no separate bitcode version necessary anymore
+
 ### 2.5.0
 
 Improvements:
@@ -102,7 +123,7 @@ pod 'Masonry', '~> 1.0.0'
 pod 'SocketRocket', '~> 0.5.0'
 pod 'AFNetworking', ['>= 2.6.0', '< 3.2.0']
 pod 'UIAlertView+Blocks', '~> 0.9'
-pod 'OpenTok', '~> 2.8.2'
+pod 'OpenTok', '~> 2.9.0'
 ```
 - Download the current release from and copy the idnow-sdk folder to your project directory
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
@@ -116,32 +137,6 @@ libz.dylib
 - Import 'IDnowSDK.h'
 
 __Note__: To get the sample projects work, you have to call "pod install" to install dependencies.
-
-## Bitcode Support (Beta)
-To enable bitcode support you have to use a beta version of OpenTok.
-
-### CocoaPods
-- Add the following pod dependencies to your podfile:
-```
-pod 'IDnowSDK', '2.4.0-bitcode'
-```
-- Then, run the following command:
-```
-pod install
-```
-- Enable bitcode support in your project
-- Import SDK by using "@import IDnowSDK" 
-
-### Manually
-Update OpenTok entry in your podfile:
-```
-pod 'OpenTok', '~> 2.8.2-beta.1'
-```
-- Enable bitcode support in your project
-
-A sample bitcode project is under Sample-Bitcode/
-
-__Note__: To get the bitcode sample project work, you have to call "pod install" to install dependencies.
 
 ## Settings (IDnowSettings)
 The settings that should be used for the identification process provided by IDnow.
@@ -278,28 +273,19 @@ appearance.fontNameMedium = @"AmericanTypewriter-CondensedBold";
 // Setup IDnowSettings
 IDnowSettings *settings = [IDnowSettings settingsWithCompanyID:@"yourCompanyIdentifier"];
 settings.transactionToken = @"DEV-TXTXT";
-settings.showErrorSuccessScreen = NO;
-settings.showVideoOverviewCheck = NO;
-settings.forceModalPresentation = YES;
-
-//Enable custom server with long polling
-settings.environment = IDnowEnvironmentCustom;
-settings.apiHost = "https://api.yourserver.com";
-settings.websocketHost = "https://websocket.yourserver.com";
-settings.connectionType = IDnowConnectionTypeLongPolling;
 
 // Initialise and start identification
 IDnowController *idnowController = [[IDnowController alloc] initWithSettings: settings];
 
 // Initialize identification using blocks 
 // (alternatively you can set the delegate and implement the IDnowControllerDelegate protocol)
-[idnowController initializeWithCompletionBlock: ^(bool success, NSError *error, bool canceledByUser)
+[idnowController initializeWithCompletionBlock: ^(BOOL success, NSError *error, BOOL canceledByUser)
 {
 		if ( success )
 		{
 		      // Start identification using blocks
 			  [idnowController startIdentificationFromViewController: self 
-			  withCompletionBlock: ^(bool success, NSError *error, bool canceledByUser)
+			  withCompletionBlock: ^(BOOL success, NSError *error, BOOL canceledByUser)
 			  {
 					  if ( success )
 					  {
@@ -326,6 +312,20 @@ IDnowController *idnowController = [[IDnowController alloc] initWithSettings: se
 	}];
 ```
 
+You can also change some of the optional settings:
+
+```objective-c
+// Optionally disable success and error screens
+settings.showErrorSuccessScreen = NO;
+settings.showVideoOverviewCheck = NO;
+settings.forceModalPresentation = YES;
+
+// Optionally enable custom server with long polling
+settings.environment = IDnowEnvironmentCustom;
+settings.apiHost = @"https://api.yourserver.com";
+settings.websocketHost = @"https://websocket.yourserver.com";
+settings.connectionType = IDnowConnectionTypeLongPolling;
+```
 
 ## Localization
 Warning: Adapting localizations is only allowed if you have the permissions from IDnow.
