@@ -2,6 +2,20 @@
 
 ## Changelog
 
+
+### 2.8.0
+
+Improvements:
+- Added support for text chat between user and agent
+- Improved behaviour of the reconnect screen if connection is lost
+
+Bugs:
+- Fixed crash during reconnect after ident has been aborted
+
+### 2.7.0
+
+No changes
+
 ### 2.6.0
 
 Improvements:
