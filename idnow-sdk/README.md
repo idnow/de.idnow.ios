@@ -2,12 +2,18 @@
 
 ## Changelog
 
+### 2.8.2
+
+Improvements:
+- Improved images sizes for high resolution cameras
 
 ### 2.8.0
 
 Improvements:
 - Added support for text chat between user and agent
 - Improved behaviour of the reconnect screen if connection is lost
+- Updated OpenTok from 2.8.2 to 2.9.2
+- Updated Masonry from 1.0.1 to 1.0.2
 
 Bugs:
 - Fixed crash during reconnect after ident has been aborted
