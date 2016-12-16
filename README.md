@@ -2,6 +2,9 @@
 
 ## Changelog
 
+### 2.9.0
+- Added information about the current waiting queue position and estimated waiting time
+
 ### 2.8.2
 
 Improvements:
