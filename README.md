@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### 2.10.0
+
+- Added ability to receive the ident code via email
+
 ### 2.9.0
 - Added information about the current waiting queue position and estimated waiting time
 
@@ -104,8 +108,8 @@ Improvements
 - Supported languages: de, en, fr, it
 
 ## Requirements
-- Xcode 7.0 or later
-- Deployment Target: iOS 7 or later
+- Xcode 8.0 or later
+- Deployment Target: iOS 8.0 or later
 - Supported Devices: iPhone (4s + later), iPod Touch (5 + later), iPad (2 + later)
 - Cocoapods installed
 - Device with Wifi / 3G / LTE
@@ -131,7 +135,6 @@ pod install
 pod 'Masonry', '~> 1.0.0'
 pod 'SocketRocket', '~> 0.5.0'
 pod 'AFNetworking', ['>= 2.6.0', '< 3.2.0']
-pod 'UIAlertView+Blocks', '~> 0.9'
 pod 'OpenTok', '~> 2.9.0'
 ```
 - Download the current release from and copy the idnow-sdk folder to your project directory

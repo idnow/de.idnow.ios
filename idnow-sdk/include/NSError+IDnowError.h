@@ -36,11 +36,6 @@ typedef NS_ENUM (NSInteger, IDnowError)
     IDnowErrorMissingCompanyID				  = 1001,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
-     *  Occurs when the user tries to initialize a video ident on an iPhone 4 (not supported).
-     */
-    IDnowErrorVideoIdentNotSupportedOniPhone4 = 1002,
-    /**
-     *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when an identification cannot be initialized because the time is outside business hours.
      */
     IDnowErrorOfficeClosed                    = 1003,
