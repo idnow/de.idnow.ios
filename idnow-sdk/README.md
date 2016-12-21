@@ -6,6 +6,8 @@
 
 Improvements:
 - Added the ability to receive the Ident code via email
+- Better support for XCode 8
+- Deployment target is now iOS 8
 
 Migration Guide:
 - Note that as of this version the pod UIAlertView+Blocks is no longer needed. Please remove the line from the dependencies and execute 'pod install'.
