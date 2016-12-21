@@ -4,7 +4,12 @@
 
 ### 2.10.0
 
-- Added ability to receive the ident code via email
+Improvements:
+- Added the ability to receive the Ident code via email
+
+Migration Guide:
+- Note that as of this version the pod UIAlertView+Blocks is no longer needed. Please remove the line from the dependencies and execute 'pod install'.
+- This version supports deployement targets iOS 8 and higher
 
 ### 2.9.0
 - Added information about the current waiting queue position and estimated waiting time
