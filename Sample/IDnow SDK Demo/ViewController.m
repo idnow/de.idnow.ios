@@ -85,7 +85,6 @@ static NSString *const COMPANY_ID_PHOTO_IDENT = @"idnow";
 		else if ( error )
 		{
 	        // Present an alert containing localized error description
-			// When targeting iOS 7 and later, you should use an UIAlertView instead when running on iOS 7.
 			UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" message: error.localizedDescription preferredStyle: UIAlertControllerStyleAlert];
 			UIAlertAction *action = [UIAlertAction actionWithTitle: @"Ok" style: UIAlertActionStyleCancel handler: nil];
 			[alertController addAction: action];
@@ -114,7 +113,6 @@ static NSString *const COMPANY_ID_PHOTO_IDENT = @"idnow";
 - (void) idnowController: (IDnowController *) idnowController initializationDidFailWithError: (NSError *) error
 {
 	// Initialization failed -> Present an alert containing localized error description
-	// When targeting iOS 7 and later, you should use an UIAlertView instead when running on iOS 7.
 	UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" message: error.localizedDescription preferredStyle: UIAlertControllerStyleAlert];
 	UIAlertAction	  *action		   = [UIAlertAction actionWithTitle: @"Ok" style: UIAlertActionStyleCancel handler: nil];
 	[alertController addAction: action];
