@@ -2,10 +2,20 @@
 
 ## Changelog
 
+### 2.10.1
+
+Improvements:
+- custom error success/failure messages
+
+Bugs:
+- Fixed connection issues with low quality connections
+
 ### 2.10.0
 
 Improvements:
 - Added the ability to receive the Ident code via email
+- Better support for XCode 8
+- Deployment target is now iOS 8
 
 Migration Guide:
 - Note that as of this version the pod UIAlertView+Blocks is no longer needed. Please remove the line from the dependencies and execute 'pod install'.
