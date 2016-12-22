@@ -2,6 +2,14 @@
 
 ## Changelog
 
+### 2.10.1
+
+Improvements:
+- custom error success/failure messages
+
+Bugs:
+- Fixed connection issues with low quality connections
+
 ### 2.10.0
 
 Improvements:
