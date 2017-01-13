@@ -73,7 +73,10 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
     IDnowConnectionTypeLongPolling
 };
 
-
+/**
+ * forward declaration of the certificate provider interface
+ */
+@class IDnowCertificateProvider;
 
 /**
  *  This class is used to instantiate an instance of IDnowController.
@@ -153,6 +156,14 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  * E.g. Can be set to `UIModalPresentationCurrentContext` to allow presenting ident view controller within a popover on an iPad.
  */
 @property (assign, nonatomic) UIModalPresentationStyle modalPresentationStyle;
+
+/**
+ * Sets a certificate provider for custom DTLS certificates used by the WebRTC connection.
+ * Please subclass IDnowCertificateProvider and implement:
+ * - providePrivateKeyBytestream
+ * - provideCertificateBytestream
+ */
+@property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
 
 
 // -----------------------------------------------------------------------------------
