@@ -10,3 +10,4 @@
 #import "IDnowController.h"
 #import "IDnowSettings.h"
 #import "IDnowAppearance.h"
+#import "IDnowCertificateProvider.h"
