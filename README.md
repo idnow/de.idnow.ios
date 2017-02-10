@@ -10,8 +10,7 @@ Improvements:
 
 Migration Guide:
 - Please execute >pod install< to get rid of the now not needed OpenTok dependency
-- Make sure to reference the following frameworks in your host application:
-  Accelerate, AudioToolBox, AVFoundation, CoreMedia, GLKit, OpenGLES and WebKit
+- Make sure to reference the following frameworks in your host application: Accelerate, AudioToolBox, AVFoundation, CoreMedia, GLKit, OpenGLES, SystemConfiguration and WebKit
 - For everyone who uses opensll in some kind please note that the IDnow SDK does not provide the openssl implementation anymore. Since this was part of OpenTok the implementation is now NOT included anymore and needs to be added by any host application using openssl features.
 
 ### 2.11.0
