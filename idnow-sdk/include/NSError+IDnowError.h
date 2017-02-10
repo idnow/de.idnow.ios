@@ -79,6 +79,10 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *  Describes that an identification failed.
      */
     IDnowErrorIdentificationFailed            = 1011,
+    /**
+     *  With version 3.0.0 we stopped to support TokBox
+     */
+    IDnowErrorTokBoxNotSupported              = 1012,
 };
 
 @interface NSError (IDnowError)
