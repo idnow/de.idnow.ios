@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - IDnowSDK (3.0.0):
+  - IDnowSDK (3.0.1):
     - AFNetworking (< 3.2.0, >= 2.6.0)
     - Masonry (~> 1.0.0)
     - SocketRocket (~> 0.5.0)
@@ -22,14 +22,14 @@ PODS:
   - SocketRocket (0.5.1)
 
 DEPENDENCIES:
-  - IDnowSDK (= 3.0.0)
+  - IDnowSDK (= 3.0.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  IDnowSDK: 822d216c6818130ed23d07e440ad4595c43af556
+  IDnowSDK: 547387dfe0ea1b0a07ec1e2e0c552b8793ba1df4
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 38b93f5462efa152d3b43499822536c2d73cec02
+PODFILE CHECKSUM: f8f519d32c772dd2956a6ad0c99bd3e849d67530
 
 COCOAPODS: 1.1.1
