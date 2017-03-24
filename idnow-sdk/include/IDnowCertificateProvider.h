@@ -39,4 +39,19 @@
  */
 - (NSMutableData*)provideCertificateBytestream;
 
+/**
+ *  subclasses need to implement this function in a way that it returns the raw bytes containing the SHA256 fingerprint
+ *  of the used server certificate
+ *
+ *  @return raw bytes of the SHA256 fingerprint
+ */
+- (NSData*)provideServerFingerPrintByteStream;
+
+/**
+ *  these bool flags configure which features the underlying WebRTC conference uses
+ *  Override these in case you only need one of the features.
+ */
+- (BOOL)featureCertificate;  // DEFAULT: true
+- (BOOL)featureFingerPrint;  // DEFAULT: true
+
 @end
