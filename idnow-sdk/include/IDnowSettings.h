@@ -165,7 +165,6 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  */
 @property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
 
-
 // -----------------------------------------------------------------------------------
 //									Server Properties (optional)
 // -----------------------------------------------------------------------------------
