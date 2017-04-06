@@ -73,6 +73,13 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
     IDnowConnectionTypeLongPolling
 };
 
+// -----------------------------------------------------------------------------------
+//									Notification names
+// -----------------------------------------------------------------------------------
+static NSString* const IDNDeviceTokenNotification    = @"IDNDeviceTokenReceived";
+static NSString* const IDNPushNotification           = @"IDNPushNotificationReceived";
+static NSString* const IDNPushNotificationNotAllowed = @"IDNPushNotificationNotAllowed";
+
 /**
  * forward declaration of the certificate provider interface
  */
@@ -164,6 +171,11 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  * - provideCertificateBytestream
  */
 @property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
+
+/**
+ * The device token is needed to uniquely identify the device. Its used to send push notifications.
+ */
+@property (strong, nullable, nonatomic)NSString* pushDeviceToken;
 
 // -----------------------------------------------------------------------------------
 //									Server Properties (optional)

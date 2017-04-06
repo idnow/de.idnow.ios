@@ -2,6 +2,16 @@
 
 ## Changelog
 
+### 3.1.0
+Improvements:
+- waiting list (only available by customer config setting) 
+
+Bugfixes:
+- correct translations of backend texts
+
+Migration Guide:
+- please call pod install and change the SDK reference to 3.1.0
+
 ### 3.0.1
 Improvements:
 - updated audio/video client
