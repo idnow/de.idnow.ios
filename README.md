@@ -4,13 +4,13 @@
 
 ### 3.1.0
 Improvements:
-- waiting list (only available by customer config setting) 
+- Optional support for waiting list feature
 
 Bugfixes:
-- correct translations of backend texts
+- Fixed success messages sometimes being shown in the wrong language
 
 Migration Guide:
-- please call pod install and change the SDK reference to 3.1.0
+- please change the SDK reference to 3.1.0 and call pod install
 
 ### 3.0.1
 Improvements:
