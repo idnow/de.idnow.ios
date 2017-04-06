@@ -638,6 +638,30 @@
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "I suoi dati sono stati criptati e saranno trasferiti sul nostro server.";
 
 /* No comment provided by engineer. */
+"PUSH_REQUESTPUSHBUTTON_TITLE" = "";
+
+/* No comment provided by engineer. */
+"PUSH_RETRYPUSHBUTTON_TILE" = "";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_DETAILS" = "";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_TITLE" = "";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_DETAILS" = "";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_TITLE" = "";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_DETAILS" = "";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_TITLE" = "";
+
+/* No comment provided by engineer. */
 "RESULT_FAILURE_DONE_BUTTON_TITLE" = "Terminare";
 
 /* No comment provided by engineer. */
@@ -650,6 +674,12 @@
 "RESULT_RETRY_BUTTON_TITLE" = "Riprovare";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Fine";
 
 /* No comment provided by engineer. */
@@ -660,6 +690,12 @@
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Trasferimento dati riuscito";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Identificazione conclusa";
@@ -690,6 +726,24 @@
 
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "Firmare qui";
+
+/* No comment provided by engineer. */
+"SMS_REQUESTPUSHBUTTON_TITLE" = "";
+
+/* No comment provided by engineer. */
+"SMS_RETRYPUSHBUTTON_TILE" = "";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_DETAILS" = "";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_TITLE" = "";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_DETAILS" = "";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_TITLE" = "";
 
 /* No comment provided by engineer. */
 "START_OVER" = "Riavviare";

@@ -11,3 +11,4 @@
 #import "IDnowSettings.h"
 #import "IDnowAppearance.h"
 #import "IDnowCertificateProvider.h"
+#import "IDnowAppDelegate.h"

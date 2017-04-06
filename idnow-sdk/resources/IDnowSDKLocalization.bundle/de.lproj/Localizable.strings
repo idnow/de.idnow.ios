@@ -638,6 +638,30 @@
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Ihre Daten wurden verschlüsselt und werden nun auf unseren Server übertragen.";
 
 /* No comment provided by engineer. */
+"PUSH_REQUESTPUSHBUTTON_TITLE" = "per Push benachrichtigen";
+
+/* No comment provided by engineer. */
+"PUSH_RETRYPUSHBUTTON_TILE" = "per Push benachrichtigen";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_DETAILS" = "Möchten Sie benachrichtigt werden wenn ein Ident Spezialist für Sie bereit steht?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_TITLE" = "Warteliste";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_DETAILS" = "Aktuell wird unser Dienst von ungewöhnlich vielen Kunden in Anspruch genommen. Wir können Sie per Push Nachricht informieren wenn ein Ident Spezialist für Sie bereit steht.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_TITLE" = "Warteliste";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_DETAILS" = "Um Push Nachrichten zu empfangen müssen Sie dies in den Einstellungen Ihres Telefons erlauben.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_TITLE" = "Push Nachrichten (nicht zugelassen)";
+
+/* No comment provided by engineer. */
 "RESULT_FAILURE_DONE_BUTTON_TITLE" = "Beenden";
 
 /* No comment provided by engineer. */
@@ -650,6 +674,12 @@
 "RESULT_RETRY_BUTTON_TITLE" = "Erneut versuchen";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Vielen Dank, wir haben Sie in die Warteliste eingetragen. Wir werden Sie sofort benachrichtigen sobald ein Ident Spezialist zur Verfügung steht. Wenn Sie Ihren Identifizierungs Prozess fortsetzen werden Sie an den Anfang der Warteliste gesetzt.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Vielen Dank, wir haben Sie in die Warteliste eingetragen. Wir werden Sie sofort benachrichtigen sobald ein Ident Spezialist zur Verfügung steht. Wenn Sie Ihren Identifizierungs Prozess fortsetzen werden Sie an den Anfang der Warteliste gesetzt.";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Fertig";
 
 /* No comment provided by engineer. */
@@ -660,6 +690,12 @@
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Daten erfolgreich übertragen";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Warteliste";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Warteliste";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Identifizierung abgeschlossen";
@@ -690,6 +726,24 @@
 
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "Hier unterzeichnen";
+
+/* No comment provided by engineer. */
+"SMS_REQUESTPUSHBUTTON_TITLE" = "per SMS benachrichtigen";
+
+/* No comment provided by engineer. */
+"SMS_RETRYPUSHBUTTON_TILE" = "per SMS benachrichtigen";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_DETAILS" = "Möchten Sie benachrichtigt werden wenn ein Ident Spezialist für Sie bereit steht?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_TITLE" = "Warteliste";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_DETAILS" = "Aktuell wird unser Dienst von ungewöhnlich vielen Kunden in Anspruch genommen. Wir können Sie per SMS Nachricht informieren wenn ein Ident Spezialist für Sie bereit steht.";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_TITLE" = "Warteliste";
 
 /* No comment provided by engineer. */
 "START_OVER" = "Neu starten";

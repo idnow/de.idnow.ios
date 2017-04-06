@@ -638,6 +638,30 @@
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Vos données ont été cryptées et vont maintenant être transmises à notre serveur.";
 
 /* No comment provided by engineer. */
+"PUSH_REQUESTPUSHBUTTON_TITLE" = "Notify me via push notification";
+
+/* No comment provided by engineer. */
+"PUSH_RETRYPUSHBUTTON_TILE" = "Notify me via push notification";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_DETAILS" = "Do you wish to be notified when an identification expert is ready for you?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_TITLE" = "Waiting List";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_DETAILS" = "Our service is currently being used by an exceptional high number of customers. We can notify you by push notification when an identification expert is available for you.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_TITLE" = "Waiting List";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_DETAILS" = "In order to receive the push notification please allow this app to send push notifications in your phone's settings.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_TITLE" = "Push Notification (disabled)";
+
+/* No comment provided by engineer. */
 "RESULT_FAILURE_DONE_BUTTON_TITLE" = "Terminer";
 
 /* No comment provided by engineer. */
@@ -650,6 +674,12 @@
 "RESULT_RETRY_BUTTON_TITLE" = "Réessayer";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Thank you, we added you to our waiting list. We will notify you as soon as an identification expert becomes available. When you start the identification you will be placed at the top of the queue.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Thank you, we added you to our waiting list. We will notify you as soon as an identification expert becomes available. When you start the identification you will be placed at the top of the queue.";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Terminé";
 
 /* No comment provided by engineer. */
@@ -660,6 +690,12 @@
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Données transmises";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Waiting List";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Waiting List";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Identification terminée";
@@ -690,6 +726,24 @@
 
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "Signer ici";
+
+/* No comment provided by engineer. */
+"SMS_REQUESTPUSHBUTTON_TITLE" = "Notify me via SMS notification";
+
+/* No comment provided by engineer. */
+"SMS_RETRYPUSHBUTTON_TILE" = "Notify me via SMS";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_DETAILS" = "Do you wish to be notified when an identification expert is ready for you?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_TITLE" = "Waiting List";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_DETAILS" = "Our service is currently being used by an exceptional high number of customers. We can notify you by SMS notification when an identification expert is available for you.";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_TITLE" = "Waiting List";
 
 /* No comment provided by engineer. */
 "START_OVER" = "Relancer";
