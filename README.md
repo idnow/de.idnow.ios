@@ -185,7 +185,6 @@ pod install
 pod 'Masonry', '~> 1.0.0'
 pod 'SocketRocket', '~> 0.5.0'
 pod 'AFNetworking', ['>= 2.6.0', '< 3.2.0']
-pod 'OpenTok', '~> 2.9.0'
 ```
 - Download the current release from and copy the idnow-sdk folder to your project directory
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
