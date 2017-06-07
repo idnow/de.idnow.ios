@@ -2,6 +2,16 @@
 
 ## Changelog
 
+### 3.1.1
+Improvements:
+- Portugese language support
+
+Bugfixes:
+- Fixed a minor bug regarding the push notifications mechanism
+
+Migration Guide:
+- please change the SDK reference to 3.1.1 and call pod install
+
 ### 3.1.0
 Improvements:
 - Optional support for waiting list feature

@@ -49,7 +49,6 @@
 
 /**
  *  these bool flags configure which features the underlying WebRTC conference uses
- *  Override these in case you only need one of the features.
  */
 - (BOOL)featureCertificate;  // DEFAULT: true
 - (BOOL)featureFingerPrint;  // DEFAULT: true

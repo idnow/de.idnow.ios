@@ -638,28 +638,28 @@
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "I suoi dati sono stati criptati e saranno trasferiti sul nostro server.";
 
 /* No comment provided by engineer. */
-"PUSH_REQUESTPUSHBUTTON_TITLE" = "";
+"PUSH_REQUESTPUSHBUTTON_TITLE" = "Avvisatemi tramite notifica push";
 
 /* No comment provided by engineer. */
-"PUSH_RETRYPUSHBUTTON_TILE" = "";
+"PUSH_RETRYPUSHBUTTON_TILE" = "Avvisatemi tramite notifica push";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE1_DETAILS" = "";
+"PUSH_STAGE1_DETAILS" = "Desideri ricevere una notifica non appena un esperto di identificazione si renderà disponibile per te?";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE1_TITLE" = "";
+"PUSH_STAGE1_TITLE" = "Lista d'Attesa";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE2_DETAILS" = "";
+"PUSH_STAGE2_DETAILS" = "Al momento, un elevatissimo numero di clienti sta utilizzando il nostro servizio. Possiamo avvisarti tramite una notifica push non appena un esperto di identificazione sarà disponibile per aiutarti.";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE2_TITLE" = "";
+"PUSH_STAGE2_TITLE" = "Lista d'Attesa";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE3_DETAILS" = "";
+"PUSH_STAGE3_DETAILS" = "Per poter utilizzare il servizio di notifica push, ti invitiamo ad autorizzare questa app ad inviare notifiche push configurando opportunamente le impostazioni del tuo telefono";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE3_TITLE" = "";
+"PUSH_STAGE3_TITLE" = "Notifica Push (disattivata)";
 
 /* No comment provided by engineer. */
 "RESULT_FAILURE_DONE_BUTTON_TITLE" = "Terminare";
@@ -674,10 +674,10 @@
 "RESULT_RETRY_BUTTON_TITLE" = "Riprovare";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "";
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Grazie, ti abbiamo inserito nella nostra lista d'attesa. Ti invieremo una notifica non appena un esperto di identificazione si renderà disponibile. Quando incomincerai l'identificazione, verrai posizionato in testa alla coda.";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "";
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Grazie, ti abbiamo inserito nella nostra lista d'attesa. Ti invieremo una notifica non appena un esperto di identificazione si renderà disponibile. Quando incomincerai l'identificazione, verrai posizionato in testa alla coda.";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Fine";
@@ -692,10 +692,10 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Trasferimento dati riuscito";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "";
+"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Lista d'Attesa";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "";
+"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Lista d'Attesa";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Identificazione conclusa";
@@ -728,22 +728,22 @@
 "SIGNATURE_TITLE" = "Firmare qui";
 
 /* No comment provided by engineer. */
-"SMS_REQUESTPUSHBUTTON_TITLE" = "";
+"SMS_REQUESTPUSHBUTTON_TITLE" = "Avvisatemi tramite messaggio SMS";
 
 /* No comment provided by engineer. */
-"SMS_RETRYPUSHBUTTON_TILE" = "";
+"SMS_RETRYPUSHBUTTON_TILE" = "Avvisatemi tramite messaggio SMS";
 
 /* No comment provided by engineer. */
-"SMS_STAGE1_DETAILS" = "";
+"SMS_STAGE1_DETAILS" = "Desideri ricevere una notifica non appena un esperto di identificazione si renderà disponibile per te?";
 
 /* No comment provided by engineer. */
-"SMS_STAGE1_TITLE" = "";
+"SMS_STAGE1_TITLE" = "Lista d'Attesa";
 
 /* No comment provided by engineer. */
-"SMS_STAGE2_DETAILS" = "";
+"SMS_STAGE2_DETAILS" = "Al momento, un elevatissimo numero di clienti sta utilizzando il nostro servizio. Possiamo inviarti un messaggio SMS per avvisarti non appena un esperto di identificazione si renderà disponibile per aiutarti.";
 
 /* No comment provided by engineer. */
-"SMS_STAGE2_TITLE" = "";
+"SMS_STAGE2_TITLE" = "Lista d'Attesa";
 
 /* No comment provided by engineer. */
 "START_OVER" = "Riavviare";

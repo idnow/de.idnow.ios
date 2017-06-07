@@ -638,28 +638,28 @@
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Vos données ont été cryptées et vont maintenant être transmises à notre serveur.";
 
 /* No comment provided by engineer. */
-"PUSH_REQUESTPUSHBUTTON_TITLE" = "Notify me via push notification";
+"PUSH_REQUESTPUSHBUTTON_TITLE" = "Être notifié par notification push";
 
 /* No comment provided by engineer. */
-"PUSH_RETRYPUSHBUTTON_TILE" = "Notify me via push notification";
+"PUSH_RETRYPUSHBUTTON_TILE" = "Être notifié par notification push";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE1_DETAILS" = "Do you wish to be notified when an identification expert is ready for you?";
+"PUSH_STAGE1_DETAILS" = "Souhaitez-vous être notifié lorsqu'un expert en identification devient disponible ?";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE1_TITLE" = "Waiting List";
+"PUSH_STAGE1_TITLE" = "Liste d'attente";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE2_DETAILS" = "Our service is currently being used by an exceptional high number of customers. We can notify you by push notification when an identification expert is available for you.";
+"PUSH_STAGE2_DETAILS" = "Notre service est actuellement utilisé par un nombre particulièrement élevé de clients. Nous pouvons vous notifier par notification push lorsqu'un expert en identification devient disponible.";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE2_TITLE" = "Waiting List";
+"PUSH_STAGE2_TITLE" = "Liste d'attente";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE3_DETAILS" = "In order to receive the push notification please allow this app to send push notifications in your phone's settings.";
+"PUSH_STAGE3_DETAILS" = "Afin d'utiliser le service de notification push, veuillez vous rendre dans les réglages de votre téléphone afin d'autoriser cette application à envoyer des notifications push";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE3_TITLE" = "Push Notification (disabled)";
+"PUSH_STAGE3_TITLE" = "Notification push (désactivée)";
 
 /* No comment provided by engineer. */
 "RESULT_FAILURE_DONE_BUTTON_TITLE" = "Terminer";
@@ -674,10 +674,10 @@
 "RESULT_RETRY_BUTTON_TITLE" = "Réessayer";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Thank you, we added you to our waiting list. We will notify you as soon as an identification expert becomes available. When you start the identification you will be placed at the top of the queue.";
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Merci, nous vous avons ajouté à notre liste d'attente. Nous vous notifierons dès qu'un expert en identification devient disponible. Lorsque vous commencerez l'identification vous serez placé en tête de la file d'attente.";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Thank you, we added you to our waiting list. We will notify you as soon as an identification expert becomes available. When you start the identification you will be placed at the top of the queue.";
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Merci, nous vous avons ajouté à notre liste d'attente. Nous vous notifierons dès qu'un expert en identification devient disponible. Lorsque vous commencerez l'identification vous serez placé en tête de la file d'attente.";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Terminé";
@@ -692,10 +692,10 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Données transmises";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Waiting List";
+"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Liste d'attente";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Waiting List";
+"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Liste d'attente";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Identification terminée";
@@ -728,22 +728,22 @@
 "SIGNATURE_TITLE" = "Signer ici";
 
 /* No comment provided by engineer. */
-"SMS_REQUESTPUSHBUTTON_TITLE" = "Notify me via SMS notification";
+"SMS_REQUESTPUSHBUTTON_TITLE" = "Notification par SMS";
 
 /* No comment provided by engineer. */
-"SMS_RETRYPUSHBUTTON_TILE" = "Notify me via SMS";
+"SMS_RETRYPUSHBUTTON_TILE" = "Notification par SMS";
 
 /* No comment provided by engineer. */
-"SMS_STAGE1_DETAILS" = "Do you wish to be notified when an identification expert is ready for you?";
+"SMS_STAGE1_DETAILS" = "Souhaitez-vous être notifié lorsqu'un expert en identification devient disponible ?";
 
 /* No comment provided by engineer. */
-"SMS_STAGE1_TITLE" = "Waiting List";
+"SMS_STAGE1_TITLE" = "Liste d'attente";
 
 /* No comment provided by engineer. */
-"SMS_STAGE2_DETAILS" = "Our service is currently being used by an exceptional high number of customers. We can notify you by SMS notification when an identification expert is available for you.";
+"SMS_STAGE2_DETAILS" = "Notre service est actuellement utilisé par un nombre particulièrement élevé de clients. Nous pouvons vous notifier par notification SMS lorsqu'un expert en identification devient disponible.";
 
 /* No comment provided by engineer. */
-"SMS_STAGE2_TITLE" = "Waiting List";
+"SMS_STAGE2_TITLE" = "Liste d'attente";
 
 /* No comment provided by engineer. */
 "START_OVER" = "Relancer";
