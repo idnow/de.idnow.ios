@@ -659,7 +659,7 @@
 "PUSH_STAGE3_DETAILS" = "Um Push Nachrichten zu empfangen müssen Sie dies in den Einstellungen Ihres Telefons erlauben.";
 
 /* No comment provided by engineer. */
-"PUSH_STAGE3_TITLE" = "Push Nachrichten (nicht zugelassen)";
+"PUSH_STAGE3_TITLE" = "Push Nachrichten (deaktiviert)";
 
 /* No comment provided by engineer. */
 "RESULT_FAILURE_DONE_BUTTON_TITLE" = "Beenden";
@@ -674,10 +674,10 @@
 "RESULT_RETRY_BUTTON_TITLE" = "Erneut versuchen";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Vielen Dank, wir haben Sie in die Warteliste eingetragen. Wir werden Sie sofort benachrichtigen sobald ein Ident Spezialist zur Verfügung steht. Wenn Sie Ihren Identifizierungs Prozess fortsetzen werden Sie an den Anfang der Warteliste gesetzt.";
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Vielen Dank, wir haben Sie in die Warteliste eingetragen. Wir werden Sie sofort benachrichtigen sobald ein Ident Spezialist zur Verfügung steht. Wenn Sie Ihren Identifizierungsprozess fortsetzen werden Sie an den Anfang der Warteschlange gesetzt.";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Vielen Dank, wir haben Sie in die Warteliste eingetragen. Wir werden Sie sofort benachrichtigen sobald ein Ident Spezialist zur Verfügung steht. Wenn Sie Ihren Identifizierungs Prozess fortsetzen werden Sie an den Anfang der Warteliste gesetzt.";
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Vielen Dank, wir haben Sie in die Warteliste eingetragen. Wir werden Sie sofort benachrichtigen sobald ein Ident Spezialist zur Verfügung steht. Wenn Sie Ihren Identifizierungsprozess fortsetzen werden Sie an den Anfang der Warteschlange gesetzt.";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Fertig";

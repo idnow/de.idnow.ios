@@ -73,13 +73,6 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
     IDnowConnectionTypeLongPolling
 };
 
-// -----------------------------------------------------------------------------------
-//									Notification names
-// -----------------------------------------------------------------------------------
-static NSString* const IDNDeviceTokenNotification    = @"IDNDeviceTokenReceived";
-static NSString* const IDNPushNotification           = @"IDNPushNotificationReceived";
-static NSString* const IDNPushNotificationNotAllowed = @"IDNPushNotificationNotAllowed";
-
 /**
  * forward declaration of the certificate provider interface
  */
@@ -166,9 +159,8 @@ static NSString* const IDNPushNotificationNotAllowed = @"IDNPushNotificationNotA
 
 /**
  * Sets a certificate provider for custom DTLS certificates used by the WebRTC connection.
- * Please subclass IDnowCertificateProvider and implement:
- * - providePrivateKeyBytestream
- * - provideCertificateBytestream
+ * The certificate provider can be used to provide a custom DTLS certificate (featureCertificate == YES) and/or to check the
+ * SHA fingerprint of the server certificate (featureFingerprint == YES)
  */
 @property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
 

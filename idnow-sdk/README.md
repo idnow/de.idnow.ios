@@ -2,15 +2,26 @@
 
 ## Changelog
 
-### 3.1.0
+### 3.1.1
 Improvements:
-- waiting list (only available by customer config setting) 
+- Portugese language support
 
 Bugfixes:
-- correct translations of backend texts
+- Fixed a minor bug regarding the push notifications mechanism
 
 Migration Guide:
-- please call pod install and change the SDK reference to 3.1.0
+- please change the SDK reference to 3.1.1 and call pod install
+
+### 3.1.0
+Improvements:
+- Optional support for waiting list feature
+
+Bugfixes:
+- Fixed success messages sometimes being shown in the wrong language
+
+Migration Guide:
+- please change the SDK reference to 3.1.0 and call pod install
+- if you want to use the push notification waiting list feature please follow >Adding Push Notifications< below
 
 ### 3.0.1
 Improvements:
@@ -184,7 +195,6 @@ pod install
 pod 'Masonry', '~> 1.0.0'
 pod 'SocketRocket', '~> 0.5.0'
 pod 'AFNetworking', ['>= 2.6.0', '< 3.2.0']
-pod 'OpenTok', '~> 2.9.0'
 ```
 - Download the current release from and copy the idnow-sdk folder to your project directory
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
@@ -306,6 +316,63 @@ Default: System Font: Helvetica Neue Medium (< iOS 9), San Francisco Medium (>= 
 An optional font name that can be used to replace the light font used by the SDK.
 Default: System Font: Helvetica Neue Light (< iOS 9), San Francisco Light (>= iOS 9)
 
+## Adding Push Notifications
+
+In order to use push notifications via the IDnow SDK it is neccessary that your own AppDelegate inherits from 
+the provided IDnowAppDelegate. This is neccessary since the callbacks form Apple concerning registration and 
+reception of push notifications is soley handled through the AppDelegate which is not part of our SDK. In case your
+own AppDelegate implements interfaces present in the IDnow SDK please make sure to make a 
+call the super classes (IDnowAppDelegate) implementation as well.
+
+Additionally we will need the production certifcate/key pair to send notifications via push to your app via
+our backend.
+
+```objective-c
+
+// header
+@interface YourAppDelegate : IDnowAppDelegate
+
+@end
+
+// implementation
+@implementation YourAppDelegate
+
+- (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
+{
+    [super application:application didFailToRegisterForRemoteNotificationsWithError:error];
+}
+
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
+{
+	[super application:application didRegisterUserNotificationSettings:notificationSettings];
+}
+
+- (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(nonnull NSData*)deviceToken
+{
+	[super application:application didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+}
+
+- (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions
+{
+	[super application:application didFinishLaunchingWithOptions:launchOptions];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+	[super application:application didReceiveRemoteNotification:userInfo];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+                                                       fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler
+{
+	[super application:application didReceiveRemoteNotification:userInfo
+										 fetchCompletionHandler:completionHandler];
+}
+
+@end
+
+
+```
 
 ## Usage example:
 
