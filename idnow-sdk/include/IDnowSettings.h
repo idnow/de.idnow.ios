@@ -126,8 +126,6 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  */
 @property (nullable, strong, nonatomic) NSString *companyID;
 
-
-
 // -----------------------------------------------------------------------------------
 //									Extended Properties (optional)
 // -----------------------------------------------------------------------------------
@@ -168,6 +166,13 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  * The device token is needed to uniquely identify the device. Its used to send push notifications.
  */
 @property (strong, nullable, nonatomic)NSString* pushDeviceToken;
+
+/**
+ * This sets the user interface language. Allowed values are: en (english), de (german), fr (frensh), 
+ * es (spanish), it (italian), pt (portugese)
+ */
+@property (nullable, strong, nonatomic) NSString* userInterfaceLanguage;
+
 
 // -----------------------------------------------------------------------------------
 //									Server Properties (optional)

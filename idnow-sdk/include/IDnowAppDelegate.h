@@ -9,8 +9,11 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface IDnowAppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) NSString* tokenFromPushNotification;
 @property (strong, nonatomic) UIWindow* window;
 
 - (void)application:(UIApplication*)application  didFailToRegisterForRemoteNotificationsWithError:(NSError*)error;

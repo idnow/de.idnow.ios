@@ -2,6 +2,24 @@
 
 ## Changelog
 
+### 3.2.0
+Improvements:
+- improved connection speed
+- added capabilities to change to localization
+- new API to receive the server certicificate
+- build against the new iOS 11 base SDK
+
+Migration Guide:
+- please change the SDK reference to 3.2.0 and call pod install
+
+### 3.1.2
+Improvements:
+- enhancements to the waiting list feature (can be enforced backend side)
+
+Migration Guide:
+- please change the SDK reference to 3.1.2 and call pod install
+
+
 ### 3.1.1
 Improvements:
 - Portugese language support

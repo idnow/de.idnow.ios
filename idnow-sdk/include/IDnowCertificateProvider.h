@@ -47,10 +47,19 @@
  */
 - (NSData*)provideServerFingerPrintByteStream;
 
+
+/**
+ *  this will get called once the server certificate has been received
+ *  the >>serverCertificate<< will contain the DER encoded bytes of the received server certificate
+ *  @return TRUE if the validation has been successful
+ */
+- (BOOL)verfiyServerCertificate:(NSData*)serverCertificate;
+
 /**
  *  these bool flags configure which features the underlying WebRTC conference uses
  */
 - (BOOL)featureCertificate;  // DEFAULT: true
 - (BOOL)featureFingerPrint;  // DEFAULT: true
+- (BOOL)featureServerCert;   // DEFAULT: true
 
 @end
