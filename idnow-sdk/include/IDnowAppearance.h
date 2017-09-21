@@ -11,6 +11,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+
+enum CHECKBOX_POSITION
+{
+    LEFT,
+    RIGHT
+};
+
 /**
  *  This class is used to control the appearance of the SDK
  *  You can define colors, fonts and appearance settings here
@@ -118,6 +125,26 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (strong, nonatomic) UIColor *successColor;
 
+// -----------------------------------------------------------------------------------
+//									Table View
+// -----------------------------------------------------------------------------------
+/**
+ * Default: LEFT - the checkboxes are positioned on the left side
+ * set this to RIGHT to reverse the order
+ */
+@property (assign, nonatomic) enum CHECKBOX_POSITION checkBoxPosition;
+
+/**
+ *  Default: NO - the seperator line is only visible below the content and not the checkbox
+ *  settings this to YES draws the line across the entire cell width
+ */
+@property (assign, nonatomic) BOOL seperatorLineComplete;
+
+/**
+ *  Default: NO - since all checkboxes are mandory this is not really neccessary
+ *  set this to YES in order to show a littel asterix behind the cells title
+ */
+@property (assign, nonatomic) BOOL markMandatoryCells;
 
 // -----------------------------------------------------------------------------------
 //									Status Bar
