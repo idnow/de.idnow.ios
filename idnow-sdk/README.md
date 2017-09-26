@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### 3.2.1
+Bugfixes:
+- removed an issued regarding IDnow SDK localizations
+
 ### 3.2.0
 Improvements:
 - improved connection speed
