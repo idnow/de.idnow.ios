@@ -2,6 +2,20 @@
 
 ## Changelog
 
+### 3.3.1
+Improvements:
+- New native esigning user interface
+- Added support for qualified signature in Switzerland
+- Much faster connection setup
+- Increased AFNetworking to 3.1.0
+
+Bugfixes:
+- Certificate handling bug fixes
+
+Migration Guide:
+- please change the SDK reference to 3.3.1 and call pod update
+- be advised that this version of the SDK has increased the dependent version of AFNetworking from 2.6.3 to 3.1.0
+
 ### 3.2.2
 Bugfixes:
 - fix for an issue on iOS11 devices only
