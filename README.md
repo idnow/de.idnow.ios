@@ -8,15 +8,7 @@ Improvements:
 
 Migration Guide:
 - please change the SDK reference to 3.3.2 and call pod update
-- using XCode 9 with CocoaPods might introduce a problem with your AppIcon. More details can be found below at `CocoaPods & XCode 9
-
-Bugfixes:
-- Certificate handling bug fixes
-
-Migration Guide:
-- please change the SDK reference to 3.3.1 and call pod update
-- be advised that this version of the SDK has increased the dependent version of AFNetworking from 2.6.3 to 3.1.0
-
+- using XCode 9 with CocoaPods might introduce a problem with your AppIcon. More details can be found below at `CocoaPods & XCode 9`
 
 ### 3.3.2
 Bugfixes:
