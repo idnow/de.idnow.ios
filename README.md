@@ -7,7 +7,7 @@ Improvements:
 - added a new setting to show the ident token on the checkscreen as well
 
 Migration Guide:
-- please change the SDK reference to 3.3.2 and call pod update
+- please change the SDK reference to 3.3.3 and call pod update
 - using XCode 9 with CocoaPods might introduce a problem with your AppIcon. More details can be found below at `CocoaPods & XCode 9`
 
 ### 3.3.2
