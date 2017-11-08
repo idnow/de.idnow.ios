@@ -2,6 +2,14 @@
 
 ## Changelog
 
+### 3.4.0
+Improvements:
+- added positioning overlay for the front and backside id card steps
+
+Migration Guide:
+- please change the SDK reference to 3.4.0 and call pod update
+
+
 ### 3.3.3
 Improvements:
 - added a new setting to show the ident token on the checkscreen as well

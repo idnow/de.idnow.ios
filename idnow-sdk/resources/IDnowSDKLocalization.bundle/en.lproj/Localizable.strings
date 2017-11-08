@@ -65,6 +65,9 @@
 "CHECK_MOBILE_NUMBER_TITLE" = "Your mobile phone number";
 
 /* No comment provided by engineer. */
+"CHECK_SCREEN_TOKEN_TEXT" = "Your Identification-ID:";
+
+/* No comment provided by engineer. */
 "CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Start identification";
 
 /* No comment provided by engineer. */
