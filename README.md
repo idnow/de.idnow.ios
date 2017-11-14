@@ -5,6 +5,12 @@
 ### 3.4.0
 Improvements:
 - added positioning overlay for the front and backside id card steps
+- communicate foreground/background state to the backend
+- new version of IceLink WebRTC library
+
+Bugfixes:
+- fixes a bug with the agent video stream
+- minor bugfixes
 
 Migration Guide:
 - please change the SDK reference to 3.4.0 and call pod update
