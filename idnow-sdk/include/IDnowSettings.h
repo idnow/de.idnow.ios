@@ -131,6 +131,12 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 // -----------------------------------------------------------------------------------
 
 /**
+ *  If this is set to YES the ident token will be visible on the check screen page
+ *  as well. The default value of this property is `NO`.
+ */
+@property (assign, nonatomic) BOOL showIdentTokenOnCheckScreen;
+
+/**
  *  If set to `false`, the Error-Success-Screen provided by the SDK will not be shown.
  *  The default value of this property is `true`.
  */

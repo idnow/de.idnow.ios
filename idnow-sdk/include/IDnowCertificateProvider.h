@@ -51,8 +51,6 @@
 /**
  *  this will get called once the server certificate has been received
  *  the >>serverCertificate<< will contain the DER encoded bytes of the received server certificate
- *
- *  @param serverCertificate The data of the certificate
  *  @return TRUE if the validation has been successful
  */
 - (BOOL)verfiyServerCertificate:(NSData*)serverCertificate;

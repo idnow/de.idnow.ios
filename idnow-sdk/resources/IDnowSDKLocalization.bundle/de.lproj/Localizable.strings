@@ -65,6 +65,9 @@
 "CHECK_MOBILE_NUMBER_TITLE" = "Mobilfunknummer";
 
 /* No comment provided by engineer. */
+"CHECK_SCREEN_TOKEN_TEXT" = "Ihre Vorgangs-ID: ";
+
+/* No comment provided by engineer. */
 "CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Identifizierung starten";
 
 /* No comment provided by engineer. */
@@ -137,7 +140,7 @@
 "IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "z.B. 01761234 ...";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Ident code by SMS to";
+"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Ident code per SMS an";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_PLACEHOLDER" = "Ident-Code";

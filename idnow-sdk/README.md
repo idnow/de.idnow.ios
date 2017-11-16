@@ -2,6 +2,32 @@
 
 ## Changelog
 
+### 3.4.0
+Improvements:
+- added positioning overlay for the front and backside id card steps
+- communicate foreground/background state to the backend
+- new version of IceLink WebRTC library
+
+Bugfixes:
+- fixes a bug with the agent video stream
+- minor bugfixes
+
+Migration Guide:
+- please change the SDK reference to 3.4.0 and call pod update
+
+
+### 3.3.3
+Improvements:
+- added a new setting to show the ident token on the checkscreen as well
+
+Migration Guide:
+- please change the SDK reference to 3.3.3 and call pod update
+- using XCode 9 with CocoaPods might introduce a problem with your AppIcon. More details can be found below at `CocoaPods & XCode 9`
+
+### 3.3.2
+Bugfixes:
+- minor bugixes 
+
 ### 3.3.1
 Improvements:
 - New native esigning user interface
@@ -228,6 +254,24 @@ pod install
 ```
 
 - Import SDK by using "@import IDnowSDK"
+
+### CocoaPods & XCode 9
+As of XCode 9 there might be a chance that you experience a problem with your host apps AppIcon in case you use CocoaPods.
+One of the symptoms is that the AppIcon will not be visible if you run your app either on the simulator or a real device. 
+There are many reasons why assets/resources are not present (wrong format, transparency, wrong size, ...) but one might be that the auto generated shell script which builds the pods resources misses a flag telling actool the name of the app-icon. 
+
+If you encounter this try to add the following to your projects Podfile exchanging <YOUR_PRODUCT> with the name of your project:
+
+```
+post_install do |installer|
+    copy_pods_resources_path = "Pods/Target Support Files/Pods-<YOUR_PRODUCT>/Pods-<YOUR_PRODUCT>-resources.sh"
+    string_to_replace = '--compile "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"'
+    assets_compile_with_app_icon_arguments = '--compile "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}" --app-icon "${ASSETCATALOG_COMPILER_APPICON_NAME}" --output-partial-info-plist "${BUILD_DIR}/assetcatalog_generated_info.plist"'
+    text = File.read(copy_pods_resources_path)
+    new_contents = text.gsub(string_to_replace, assets_compile_with_app_icon_arguments)
+    File.open(copy_pods_resources_path, "w") {|file| file.puts new_contents }
+end
+```
 
 ### Manually 
 - Add the following pod dependencies to your podfile:
@@ -487,6 +531,7 @@ You can also change some of the optional settings:
 settings.showErrorSuccessScreen = NO;
 settings.showVideoOverviewCheck = NO;
 settings.forceModalPresentation = YES;
+settings.showIdentTokenOnCheckScreen = YES;
 
 // Optionally enable custom server with long polling
 settings.environment = IDnowEnvironmentCustom;
@@ -497,6 +542,11 @@ settings.connectionType = IDnowConnectionTypeLongPolling;
 
 ## Localization
 Warning: Adapting localizations is only allowed if you have the permissions from IDnow.
+
+In case you would like to change the localization used by the IDnow SDK at runtime you can do:
+```
+settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de,en,it,es,pt)
+```
 
 English and German Localizations are provided by the SDK (IDnowSDKLocalization.bundle)
 You can overwrite localisation in your own Localizable.strings files.
