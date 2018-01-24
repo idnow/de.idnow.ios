@@ -25,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02FF0B141FD54C02005878F6 /* IDnowSettingsPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSettingsPrivate.h; sourceTree = "<group>"; };
 		48B030431E4DEF050066CE25 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		48B030441E4DEF050066CE25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		48B030451E4DEF050066CE25 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -124,6 +125,7 @@
 		6FC64E721AC1EFC800BA9B5B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				02FF0B141FD54C02005878F6 /* IDnowSettingsPrivate.h */,
 				6FC64E731AC1EFC800BA9B5B /* Info.plist */,
 				6FC64E741AC1EFC800BA9B5B /* main.m */,
 			);

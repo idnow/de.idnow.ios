@@ -2,6 +2,18 @@
 
 ## Changelog
 
+### 3.4.2
+Improvements:
+- mobile phone number validation
+
+Migration Guide:
+- please change the SDK reference to 3.4.2 and call pod update
+- please note that with this release the IDnow SDK depends on libPhoneNumber-iOS Version 0.9
+
+Bugfixes:
+- minor bugfixes
+
+
 ### 3.4.1
 Improvements:
 - dynamic links for the terms of use and privacy policy 
@@ -12,9 +24,6 @@ Migration Guide:
 Bugfixes:
 - fixes a bug with the agent video stream
 - minor bugfixes
-
-Migration Guide:
-- please change the SDK reference to 3.4.0 and call pod update
 
 
 ### 3.4.0

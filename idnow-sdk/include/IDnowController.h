@@ -44,7 +44,7 @@ typedef void (^IDnowCompletionBlock)(BOOL success, NSError *__nullable error, BO
  *  When the initialization failed, you will receive an error object, that contains additional information about the error.
  *  E.g. you can show an UIAlertView / UIAlertController taking the localizedDescription into account.
  *
- *  When the initialization was successfull, you can start the identification process by
+ *  When the initialization was successful, you can start the identification process by
  *  calling startIdentificationFromViewController:presentModal:withCompletionBlock:.
  *  The completion block will contain additional information of success or failure of the identification process.
  *  For more information take a look at IDnowCompletionBlock.
