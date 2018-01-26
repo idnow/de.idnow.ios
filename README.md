@@ -2,6 +2,35 @@
 
 ## Changelog
 
+### 3.5.0
+Improvements:
+- mobile phone number validation
+
+**IMPORTANT NOTE:**
+This release of the IDnow SDK makes use of a library to validate phone numbers originally developed by Google.
+The library name is `libPhoneNumber-iOS` (Version 0.9). In order to build apps using the IDnow SDK please update
+your Podfile with the following entry:
+`pod 'libPhoneNumber-iOS', '~> 0.9'`
+
+Migration Guide:
+- please change the SDK reference to 3.5.0 and call pod update
+
+Bugfixes:
+- minor bugfixes
+
+
+### 3.4.1
+Improvements:
+- dynamic links for the terms of use and privacy policy 
+
+Migration Guide:
+- please change the SDK reference to 3.4.1 and call pod update
+
+Bugfixes:
+- fixes a bug with the agent video stream
+- minor bugfixes
+
+
 ### 3.4.0
 Improvements:
 - added positioning overlay for the front and backside id card steps

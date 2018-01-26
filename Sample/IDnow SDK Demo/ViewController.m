@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "IDnowSettingsPrivate.h"
 
 @import IDnowSDK;
 
@@ -45,7 +46,8 @@ static NSString *const COMPANY_ID_PHOTO_IDENT = @"idnow";
 	self.settings = [IDnowSettings new];
 	self.settings.showErrorSuccessScreen = true;
 	self.settings.showVideoOverviewCheck = true;
-
+  self.settings.ignoreCompanyID        = true;
+  
 	// Set up IDnowController
 	self.idnowController = [[IDnowController alloc] initWithSettings: self.settings];
 }
