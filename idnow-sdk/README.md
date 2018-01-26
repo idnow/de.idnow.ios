@@ -2,13 +2,18 @@
 
 ## Changelog
 
-### 3.4.2
+### 3.5.0
 Improvements:
 - mobile phone number validation
 
+**IMPORTANT NOTE:**
+This release of the IDnow SDK makes use of a library to validate phone numbers originally developed by Google.
+The library name is `libPhoneNumber-iOS` (Version 0.9). In order to build apps using the IDnow SDK please update
+your Podfile with the following entry:
+`pod 'libPhoneNumber-iOS', '~> 0.9'`
+
 Migration Guide:
-- please change the SDK reference to 3.4.2 and call pod update
-- please note that with this release the IDnow SDK depends on libPhoneNumber-iOS Version 0.9
+- please change the SDK reference to 3.5.0 and call pod update
 
 Bugfixes:
 - minor bugfixes
