@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>IDnowCertificateProvider Class Reference</title>
+	<title></title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+	
 </head>
 <body class="appledoc">
 	<header>
@@ -43,35 +43,9 @@
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
-	<option value="overview">Overview</option>
-	
-
-	
-	
-	<option value="tasks">Tasks</option>
-	
-	
-
-	
-	
 
 	
 
-	
-	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/featureCertificate">- featureCertificate</option>
-		
-		<option value="//api/name/provideCertificateBytestream">- provideCertificateBytestream</option>
-		
-		<option value="//api/name/providePrivateKeyBytestream">- providePrivateKeyBytestream</option>
-		
-		<option value="//api/name/provideServerFingerPrintByteStream">- provideServerFingerPrintByteStream</option>
-		
-		<option value="//api/name/verfiyServerCertificate:">- verfiyServerCertificate:</option>
-		
-	</optgroup>
-	
 	
 </select>
 						</label>
@@ -85,327 +59,22 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">IDnowCertificateProvider Class Reference</h1>
+					<h1 class="title"></h1>
 
-					
-					<div class="section section-specification"><table cellspacing="0"><tbody>
-						<tr>
-	<th>Inherits from</th>
-	<td>NSObject</td>
-</tr><tr>
-	<th>Declared in</th>
-	<td>IDnowCertificateProvider.h</td>
-</tr>
-						</tbody></table></div>
 					
 
                     
-					
-					<div class="section section-overview">
-						<a title="Overview" name="overview"></a>
-						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>classes that implement this interface are used to provide custom DTLS certificates
-used by the WebRTC connection.</p>
 
-<p>In order to use custom certificates please subclass IDnowCertificateProvider and add
-an instance of your new class to the <a href="../Classes/IDnowSettings.html">IDnowSettings</a>:</p>
-
-<p><a href="../Classes/IDnowSettings.html">IDnowSettings</a>.certificateProvider = >>YOUR_SUBCLASS&lt;&lt;</p>
-					</div>
-					
-					
-
-					
-					
-					<div class="section section-tasks">
-						<a title="Tasks" name="tasks"></a>
-						
-
-						
-						
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/providePrivateKeyBytestream" title="providePrivateKeyBytestream"></a>
-	<h3 class="method-title"><code><a href="#//api/name/providePrivateKeyBytestream">&ndash;&nbsp;providePrivateKeyBytestream</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>subclasses need to implement this function in a way that it returns a DER encoded byte stream
-representing the private key.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (NSMutableData *)providePrivateKeyBytestream</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>DER encoded private key</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>subclasses need to implement this function in a way that it returns a DER encoded byte stream
-representing the private key.</p>
-
-<p>openssl command to convert from PEM to DER: openssl rsa -outform der -in yourkey.pem -out yourkey.der</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowCertificateProvider.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/provideCertificateBytestream" title="provideCertificateBytestream"></a>
-	<h3 class="method-title"><code><a href="#//api/name/provideCertificateBytestream">&ndash;&nbsp;provideCertificateBytestream</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>subclasses need to implement this function in a way that it returns a DER encoded byte stream
-representing the x509/ASN.1 certificate.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (NSMutableData *)provideCertificateBytestream</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>DER encoded x509/ASN.1 certificate</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>subclasses need to implement this function in a way that it returns a DER encoded byte stream
-representing the x509/ASN.1 certificate.</p>
-
-<p>openssl command to convert form PEM to DER: openssl x509 -outform der -in yourcertificate.pem -out yourcertificate.der</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowCertificateProvider.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/provideServerFingerPrintByteStream" title="provideServerFingerPrintByteStream"></a>
-	<h3 class="method-title"><code><a href="#//api/name/provideServerFingerPrintByteStream">&ndash;&nbsp;provideServerFingerPrintByteStream</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>subclasses need to implement this function in a way that it returns the raw bytes containing the SHA256 fingerprint
-of the used server certificate</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (NSData *)provideServerFingerPrintByteStream</code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>raw bytes of the SHA256 fingerprint</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>subclasses need to implement this function in a way that it returns the raw bytes containing the SHA256 fingerprint
-of the used server certificate</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowCertificateProvider.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/verfiyServerCertificate:" title="verfiyServerCertificate:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/verfiyServerCertificate:">&ndash;&nbsp;verfiyServerCertificate:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>this will get called once the server certificate has been received
-the >>serverCertificate&lt;&lt; will contain the DER encoded bytes of the received server certificate</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (BOOL)verfiyServerCertificate:(NSData *)<em>serverCertificate</em></code></div>
-
-		    
-			
-
-			
-			<div class="method-subsection return">
-				<h4 class="method-subtitle parameter-title">Return Value</h4>
-				<p>TRUE if the validation has been successful</p>
-			</div>
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>this will get called once the server certificate has been received
-the >>serverCertificate&lt;&lt; will contain the DER encoded bytes of the received server certificate</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowCertificateProvider.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/featureCertificate" title="featureCertificate"></a>
-	<h3 class="method-title"><code><a href="#//api/name/featureCertificate">&ndash;&nbsp;featureCertificate</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>these bool flags configure which features the underlying WebRTC conference uses</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (BOOL)featureCertificate</code></div>
-
-		    
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>these bool flags configure which features the underlying WebRTC conference uses</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowCertificateProvider.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-					</div>
-					
 					
 
                     
-                    
-          
 				</main>
 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 IDnow GmbH. All rights reserved. Updated: 2018-01-26</p>
+						<p class="copyright">Copyright &copy; 2018 IDnow GmbH. All rights reserved. Updated: 2018-05-02</p>
 						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
 						
 					</div>
 				</footer>

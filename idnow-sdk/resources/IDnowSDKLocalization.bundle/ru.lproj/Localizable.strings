@@ -1,0 +1,855 @@
+/* No comment provided by engineer. */
+"CAMERA_ACCESS_DENIED_ALERT_TITLE" = "Доступ к камере запрещен";
+
+/* No comment provided by engineer. */
+"CANCEL" = "Отменить";
+
+/* No comment provided by engineer. */
+"CANCEL_IDENTIFICATION" = "Прекратить идентификацию";
+
+/* No comment provided by engineer. */
+"CHAT_INPUT_SEND_BUTTON_TITLE" = "Отправить";
+
+/* No comment provided by engineer. */
+"CHAT_INPUT_TEXTFIELD_PLACEHOLDER" = "Введите сюда ваше сообщение...";
+
+/* No comment provided by engineer. */
+"CHAT_SENDER_TEXT_AGENT" = "IDnow %@";
+
+/* No comment provided by engineer. */
+"CHAT_SENDER_TEXT_USER" = "Вы %@";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Я согласен(на) с Условиями использования IDnow и ознакомлен(а) с Политикой конфиденциальности.";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_PRIVACY_POLICY_BUTTON_TITLE" = "Политика конфиденциальности";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_PRIVACY_POLICY_LINK" = "http://www.idnow.eu/privacy";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_TERMS_OF_USE_BUTTON_TITLE" = "Условия использования";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_TERMS_OF_USE_LINK" = "http://www.idnow.eu/terms";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_TBD_DESCRIPTION" = "Начиная идентификацию, вы соглашаетесь на использование: ваших изображений, документа, удостоверяющего вашу личность, и записи вашего разговора.";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_TITLE" = "Ваше согласие";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_DESCRIPTION" = "Опционально мы можем выслать вам идентификационный код на этот эл. адрес во время идентификации.";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_PLACEHOLDER" = "напр., abc@idnow.de…";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_TITLE" = "Ваш электронный адрес";
+
+/* No comment provided by engineer. */
+"CHECK_LICENSE_DESCRIPTION" = "Документ, удостоверяющий вашу личность, будет проверен во время идентификации, так что подготовьте его и держите поблизости.";
+
+/* No comment provided by engineer. */
+"CHECK_LICENSE_TITLE" = "Подготовленный документ, удостоверяющий вашу личность";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Мы вышлем вам смс-сообщение с идентификационным кодом на этот мобильный телефон во время идентификации.";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_PLACEHOLDER" = "напр., 01761234…";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_TITLE" = "Ваш номер мобильного телефона";
+
+/* No comment provided by engineer. */
+"CHECK_SCREEN_TOKEN_TEXT" = "Ваш идентификационный ID:";
+
+/* No comment provided by engineer. */
+"CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Начать идентификацию";
+
+/* No comment provided by engineer. */
+"CHECK_TITLE" = "Для начала идентификации требуется следующее:";
+
+/* No comment provided by engineer. */
+"CONTINUE" = "Продолжить";
+
+/* No comment provided by engineer. */
+"CONTRACTS_BACK_BUTTON_TITLE" = "Назад";
+
+/* No comment provided by engineer. */
+"CONTRACTS_LOADING_ERROR_DESCRIPTION" = "Не удалось загрузить запрошенный вами документ. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"CONTRACTS_LOADING_ERROR_RELOAD_BUTTON_TITLE" = "Загрузить повторно";
+
+/* No comment provided by engineer. */
+"CONTRACT_ID_LABEL" = "ID контракта";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_COMMENT" = "Выбрать страну";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_HELP_TEXT" = "Выбрать страну, которая выдала вам документ, удостоверяющий личность.";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_NEXT_BUTTON_TITLE" = "Продолжить";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_TITLE" = "Выбрать страну";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_COMMENT" = "Выберите тип документа, удостоверяющего личность.";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_LOADING_MESSAGE" = "Идентификация началась. Пожалуйста, подождите.";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_TITLE" = "Документ";
+
+/* No comment provided by engineer. */
+"ERROR" = "Ошибка";
+
+/* No comment provided by engineer. */
+"ESIGNATURE_CHECK_CONTRACT_BUTTON_TITLE" = "Проверить контракт";
+
+/* No comment provided by engineer. */
+"GERMANY" = "Германия";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Продолжить";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_EMAIL_PLACEHOLDER" = "напр., abc@idnow.de…";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_EMAIL_TITLE" = "Идентификационный код по эл. почте в адрес";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Ваш идентификационный код был выслан по смс на следующий телефонный номер: %@ . Пожалуйста, введите ваш идентификационный код, чтобы продолжить.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Ваш идентификационный код был выслан на следующий эл. адрес: %@. Пожалуйста, введите ваш идентификационный код, чтобы продолжить.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_TITLE" = "Ввести идентификационный код";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "напр., 01761234…";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Идентификационный код по СМС в адрес";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_PLACEHOLDER" = "Идентификационный код";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Снова запросить идентификационный код";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Вы не получили идентификационный код или ввели неправильное число?";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE_EMAIL" = "Вы не получили идентификационный код или ввели неверный эл. адрес?";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Проверьте, пожалуйста, информацию и запросите идентификационный код.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_TITLE" = "Запросить идентификационный код";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Запросить идентификационный код";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1000" = "Для идентификации требуется ID-идентификатор.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1001" = "Для идентификации требуется идентификатор компании.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1002" = "Идентификации не могут проводиться на iPhone 4. Пожалуйста, используйте iPhone 4s или более новую модель. Спасибо.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1003" = "Вы звоните в службу онлайн-идентификации в нерабочее время. Вы можете начать процесс идентификации в течение следующих часов. Назначать встречу необязательно.\n\nНаши часы работы:\n%@\n\nПожалуйста, начните идентификацию заново в рабочее время.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1004" = "Вам потребуется устройство с фронтальной и тыловой камерой.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1005" = "Приложению требуется доступ к камере.\n\nПожалуйста, разрешите доступ к камере в настройках приложения.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1006" = "Приложению требуется доступ к микрофону.\n\nПожалуйста, разрешите доступ к микрофону в настройках приложения.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1007" = "Для идентификации вам потребуется микрофон.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1008" = "Для идентификации необходимо соединение с интернетом. Пожалуйста, установите соединение с интернетом и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009" = "Произошла непредвиденная ошибка. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_404" = "Ваш ID-идентификатор неверен. Пожалуйста, проверьте и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_500" = "К сожалению, произошла внутренняя ошибка. Пожалуйста, свяжитесь с поддержкой %@ и сообщите следующий номер ошибки: %@";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_503" = "IDnow в настоящий момент находится на техобслуживании и скоро станет снова доступен. Пожалуйста, потерпите и вернитесь через несколько минут.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1011" = "Идентификация не удалась";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1012" = "Произошла внутренняя ошибка. Пожалуйста, повторите попытку позднее.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_TITLE" = "Идентификация не удалась";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_TITLE_412" = "Идентификация завершена";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "Идентификация не удалась. Не удалось установить видеосвязь. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2001" = "Идентификация не удалась. Не удалось установить видеосвязь. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2002" = "Идентификация не удалась. Не удалось установить видеосвязь. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2006" = "Идентификация не удалась. Произошла проблема с видеосвязью. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2007" = "Идентификация не удалась. Произошла проблема с видеосвязью. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008" = "Пожалуйста, проверьте соединение с интернетом и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008_404" = "Ваш ID-идентификатор неверен. Пожалуйста, проверьте и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008_410" = "Ваша версия данного приложения устарела. Пожалуйста, обновите приложение до последней версии в App store и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009" = "Пожалуйста, проверьте соединение с интернетом и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009_404" = "Ваш ID-идентификатор неверен. Пожалуйста, проверьте и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009_410" = "Ваша версия данного приложения устарела. Пожалуйста, обновите приложение до последней версии в App store и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2010" = "Идентификация не удалась. Пожалуйста, проверьте соединение с интернетом и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2010_412" = "Идентификация для данного ID-идентификатора уже завершена и не может быть начата заново.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2011" = "Идентификация не удалась. Пожалуйста, проверьте соединение с интернетом и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2011_412" = "Идентификация для данного ID-идентификатора уже завершена и не может быть начата заново.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2012" = "Идентификация не удалась. Пожалуйста, проверьте соединение с интернетом и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2012_412" = "Идентификация для данного ID-идентификатора уже завершена и не может быть начата заново.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2013" = "Не удалось выслать идентификационный код на ваш мобильный телефон или эл. адрес. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2014" = "Не удалось выслать идентификационный код. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2014_400" = "Идентификационный код неверен. Пожалуйста, введите идентификационный код заново.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2016" = "Не удалось загрузить вашу подпись. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2017" = "Для идентификации рекомендовано соединение по Wi-Fi.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2020" = "Идентификация не удалась. Пожалуйста, проверьте свое соединение с интернетом и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "Видеочат был прерван. Пожалуйста, проверьте свое соединение с интернетом. Мы попытаемся восстановить соединение автоматически.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Произошла непредвиденная ошибка. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION" = "Пожалуйста, подождите, пока вас свяжут с одним из наших экспертов по идентификации.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_LINES_BUSY" = "Все наши эксперты по идентификации заняты по причине большого количества запросов. Вследствие этого ожидание продлится дольше обычного. Служба идентификации открыта с понедельника по воскресенье с 8:00 до 24:00.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_0" = "Вы – следующий человек в очереди.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_1" = "Перед вами в очереди только один человек.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_X" = "На данный момент в очереди перед вами находится %ld человек(а).";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_LONGER" = "Вследствие большого количества запросов ожидание продлится дольше обычного.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_MINUTES" = "Среднее время ожидания составляет %ld минут(ы).";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_ONE_MINUTE" = "Среднее время ожидания составляет %ld минуту.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_SECONDS" = "Среднее время ожидания составляет %ld секунд(ы).";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_TITLE" = "Идет соединение";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_TITLE_LINES_BUSY" = "Ожидание свободного эксперта по идентификации";
+
+/* No comment provided by engineer. */
+"INFO_FACE_PHOTO_DESCRIPTION" = "Пожалуйста, посмотрите в камеру и назовите свое полное имя и фамилию.";
+
+/* No comment provided by engineer. */
+"INFO_FACE_PHOTO_TITLE" = "Имя и фотография";
+
+/* No comment provided by engineer. */
+"INFO_GOODBYE_DESCRIPTION" = "Спасибо, что пользуетесь нашей службой онлайн-идентификации!";
+
+/* No comment provided by engineer. */
+"INFO_GOODBYE_TITLE" = "Идентификация завершена";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Пожалуйста, поверните ваш документ, удостоверяющий личность, обратной стороной к камере, чтобы мы могли прочитать все данные.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_BACKSIDE_TITLE" = "Обратная сторона документа, удостоверяющего личность";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Пожалуйста, поверните ваш документ, удостоверяющий личность, лицевой стороной к камере, чтобы мы могли прочитать все данные.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_FRONTSIDE_TITLE" = "Лицевая сторона документа, удостоверяющего личность";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Пожалуйста, громко зачитайте номер вашего документа, удостоверяющего личность. Вы найдете его на лицевой стороне, в верхнем правом углу.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_WIGGLE_DESCRIPTION" = "Пожалуйста, наклоните ваш документ вверх и вниз, чтобы мы могли увидеть его защитные элементы.";
+
+/* No comment provided by engineer. */
+"JAILBREAK_ERROR_ALERT_MESSAGE" = "Невозможно провести идентификацию на взломанном устройстве.";
+
+/* No comment provided by engineer. */
+"JAILBREAK_ERROR_ALERT_TITLE" = "Взломанное устройство";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Назад";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO";
+
+/* Overwritings, No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_RESULT" = "NAVIGATION_ITEM_TITLE_RESULT";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO";
+
+/* No comment provided by engineer. */
+"NO" = "Нет";
+
+/* No comment provided by engineer. */
+"NO_WIFI_CONNECTION" = "Отсутствует соединение Wi-Fi";
+
+/* No comment provided by engineer. */
+"OK" = "ОК";
+
+/* No comment provided by engineer. */
+"OPENTRUST_LOADING_ERROR_DESCRIPTION" = "Не удалось загрузить требуемый контент.\nПожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"OPENTRUST_LOADING_ERROR_RELOAD_BUTTON_TITLE" = "Перезагрузить";
+
+/* No comment provided by engineer. */
+"PHOTO_CHECK_RETRY_BUTTON_TITLE" = "Повторить попытку";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_DRIVERS_LICENSE_TITLE" = "Водительское удостоверение";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_IDCARD_TITLE" = "Удостоверение личности";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_PASSPORT_TITLE" = "Паспорт";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_RESIDENCE_PERMIT_TITLE" = "Вид на жительство";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_CAPTION" = "Пример:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_DESCRIPTION" = "Положите свое водительское удостоверение на поверхность нейтрального цвета. Разместите обратную сторону документа в пределах зеленой рамки. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_LIST" = "•\tОбратная сторона полностью видна\n•\tНичто не закрыто пальцами или предметами\n•\tЧеткая фотография и резкие буквы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_TITLE" = "Обратная сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_DESCRIPTION" = "Положите свое водительское удостоверение на поверхность нейтрального цвета. Расположите лицевую сторону документа в пределах зеленой рамки. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_LIST" = "•\tЛицевая сторона полностью видна\n•\tНичто не закрыто пальцами или предметами\n•\tЧеткая фотография и резкие буквы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Лицевая сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Удерживайте вашу идентификационную карточку на нейтральном фоне перед камерой. Во время записи медленно наклоняйте вашу карточку от себя и к себе.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_LIST" = "•\tКарточка должна быть полностью видна\n•\tОна не должна быть прикрыта пальцами или предметами";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_DESCRIPTION" = "Держите водительское удостоверение в руке и наклоняйте его, чтобы голограммы стали четко видны. При необходимости используйте вспышку. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_LIST" = "•\tВодительское удостоверение полностью видно\n•\tГолограммы четко видны";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_DESCRIPTION" = "Поместите ваше лицо в зеленую рамку и сфотографируйте (сделайте селфи).";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_LIST" = "•\tЛицо четко видно\n•\tНичто не закрыто пальцами или предметами";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_TITLE" = "Фотография вашего лица";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_DESCRIPTION" = "Положите ваше удостоверение личности на поверхность нейтрального цвета. Разместите обратную сторону удостоверения в пределах зеленой рамки. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_LIST" = "•\tОбратная сторона полностью видна\n•\tНичто не закрыто пальцами или предметами\n•\tЧеткая фотография и резкие буквы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_TITLE" = "Назад";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_DESCRIPTION" = "Положите ваше удостоверение личности на поверхность нейтрального цвета. Разместите лицевую сторону удостоверения в пределах зеленой рамки. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_LIST" = "•\tЛицевая сторона полностью видна\n•\tНичто не закрыто пальцами или предметами\n•\tЧеткая фотография и резкие буквы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_TITLE" = "Лицевая сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Удерживайте вашу идентификационную карточку на нейтральном фоне перед камерой. Во время записи медленно наклоняйте вашу карточку от себя и к себе.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_LIST" = "•\tКарточка должна быть полностью видна\n•\tОна не должна быть прикрыта пальцами или предметами";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_DESCRIPTION" = "Держите удостоверение личности в руке и наклоняйте его, чтобы голограммы стали четко видны. При необходимости используйте вспышку. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_LIST" = "•\tУдостоверение полностью видно\n•\tГолограммы четко видны";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_TITLE" = "Требования к фотографии:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_VIDEO_TITLE" = "Требования:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_DESCRIPTION" = "Положите ваш паспорт на поверхность нейтрального цвета. Разместите вторую страницу паспорта в пределах зеленой рамки. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_LIST" = "•\Вторая страница полностью видна\n•\tНичто не закрыто пальцами или предметами\n•\tЧеткая фотография и резкие буквы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_TITLE" = "Вторая страница";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_DESCRIPTION" = "Положите ваш паспорт на поверхность нейтрального цвета. Разместите страницу паспорта с фотографией в пределах зеленой рамки. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_LIST" = "•\tСтраница с фотографией полностью видна\n•\tНичто не закрыто пальцами или предметами\n•\tЧеткая фотография и резкие буквы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_TITLE" = "Страница с фотографией";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Удерживайте вашу идентификационную карточку на нейтральном фоне перед камерой. Во время записи медленно наклоняйте вашу карточку от себя и к себе.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_LIST" = "•\tКарточка должна быть полностью видна\n•\tОна не должна быть прикрыта пальцами или предметами";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_DESCRIPTION" = "Держите паспорт в руке и наклоняйте страницу с фотографией, чтобы голограммы стали четко видны. При необходимости используйте вспышку. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_LIST" = "•\tСтраница с фотографией полностью видна\n•\tГолограммы четко видны";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_DESCRIPTION" = "Положите ваш вид на жительство на поверхность нейтрального цвета. Разместите обратную сторону документа в пределах зеленой рамки. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_LIST" = "•\tОбратная сторона полностью видна\n•\tНичто не закрыто пальцами или предметами\n•\tЧеткая фотография и резкие буквы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_TITLE" = "Обратная сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_DESCRIPTION" = "Положите ваш вид на жительство на поверхность нейтрального цвета. Разместите лицевую сторону документа в пределах зеленой рамки. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_LIST" = "•\tЛицевая сторона полностью видна\n•\tНичто не закрыто пальцами или предметами\n•\tЧеткая фотография и резкие буквы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Лицевая сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Удерживайте вашу идентификационную карточку на нейтральном фоне перед камерой. Во время записи медленно наклоняйте вашу карточку от себя и к себе.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_LIST" = "•\tКарточка должна быть полностью видна\n•\tОна не должна быть прикрыта пальцами или предметами";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_DESCRIPTION" = "Держите вид на жительство в руке и наклоняйте его, чтобы голограммы стали четко видны. При необходимости используйте вспышку. Сфотографируйте.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_LIST" = "•\tДокумент полностью виден\n•\tГолограммы четко видны";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_COUNTDOWN_TITLE" = "%d секунд(ы) осталось";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_TITLE" = "Начать запись";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_HINT" = "Когда начнется запись, у вас будет %d секунд для съемки.";
+
+/* No comment provided by engineer. */
+"PHOTO_TAKE_PICTURE_BUTTON_TITLE" = "Сфотографируйте";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDBACKSIDE_SUBTITLE" = "Нажмите, чтобы сфотографировать обратную сторону документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDBACKSIDE_TITLE" = "Обратная сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_SUBTITLE" = "Нажмите, чтобы сфотографировать лицевую сторону документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Лицевая сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_SUBTITLE" = "Нажмите, чтобы сделать видеозапись защитных элементов вашего документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_SUBTITLE" = "Нажмите, чтобы сфотографировать защитные элементы документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_FACESCREENSHOT_SUBTITLE" = "Нажмите, чтобы сфотографировать свое лицо.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_FACESCREENSHOT_TITLE" = "Фотография вашего лица";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDBACKSIDE_SUBTITLE" = "Нажмите, чтобы сфотографировать обратную сторону документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDBACKSIDE_TITLE" = "Обратная сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDFRONTSIDE_SUBTITLE" = "Нажмите, чтобы сфотографировать лицевую сторону документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDFRONTSIDE_TITLE" = "Лицевая сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_SUBTITLE" = "Нажмите, чтобы сделать видеозапись защитных элементов вашего документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMS_SUBTITLE" = "Нажмите, чтобы сфотографировать защитные элементы документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMS_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_MESSAGE" = "Пожалуйста, сделайте все нижеуказанные фотографии перед тем, как отправлять данные.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDBACKSIDE_SUBTITLE" = "Нажмите, чтобы сфотографировать обратную сторону документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDBACKSIDE_TITLE" = "Обратная сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDFRONTSIDE_SUBTITLE" = "Нажмите, чтобы сфотографировать лицевую сторону документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDFRONTSIDE_TITLE" = "Лицевая сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Нажмите, чтобы сделать видеозапись защитных элементов вашего документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMS_SUBTITLE" = "Нажмите, чтобы сфотографировать защитные элементы документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMS_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDBACKSIDE_SUBTITLE" = "Нажмите, чтобы сфотографировать обратную сторону документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDBACKSIDE_TITLE" = "Обратная сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_SUBTITLE" = "Нажмите, чтобы сфотографировать лицевую сторону документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Лицевая сторона";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Нажмите, чтобы сделать видеозапись защитных элементов вашего документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_SUBTITLE" = "Нажмите, чтобы сфотографировать защитные элементы документа.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Голограммы";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESTART_ALERT_MESSAGE" = "Вы действительно хотите начать заново?";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_TRANSFER_BUTTON_TITLE" = "Отправить данные";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_TRANSFER_MESSAGE" = "Нажимая на кнопку, вы соглашаетесь, что ваши изображения будут переданы и сохранены.";
+
+/* No comment provided by engineer. */
+"PHOTO_UPLOAD_FAILED_ALERT_MESSAGE" = "При отправке данных произошла ошибка. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
+"PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Ваши данные зашифрованы и передаются на наши защищенные сервера.";
+
+/* No comment provided by engineer. */
+"PUSH_REQUESTPUSHBUTTON_TITLE" = "Уведомить меня с помощью push-уведомления";
+
+/* No comment provided by engineer. */
+"PUSH_RETRYPUSHBUTTON_TILE" = "Уведомить меня с помощью push-уведомления";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_DETAILS" = "Вы желаете получить уведомление, когда эксперт по идентификации будет готов вас принять?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_TITLE" = "Лист ожидания";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_DETAILS" = "В настоящий момент в нашу службу поступило чрезвычайно большое количество клиентских запросов. Мы можем уведомить вам с помощью push-уведомления, когда эксперт по идентификации будет готов вас принять.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_TITLE" = "Лист ожидания";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_DETAILS" = "Чтобы получить push-уведомление, пожалуйста, разрешите данному приложению отправлять push-уведомления в настройках телефона.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_TITLE" = "Push-уведомление (отключено)";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_DONE_BUTTON_TITLE" = "Закрыть приложение";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_MESSAGE" = "Не удалось завершить вашу идентификацию.\n\nПожалуйста, используйте альтернативный метод идентификации или повторите попытку.";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_TITLE" = "Идентификация не удалась";
+
+/* No comment provided by engineer. */
+"RESULT_RETRY_BUTTON_TITLE" = "Повторить попытку";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Спасибо, мы добавили вас в список ожидания. Мы уведомим вас, как только эксперт по идентификации освободится. Когда вы начнете идентификацию, вы попадете в начало очереди.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Спасибо, мы добавили вас в список ожидания. Мы уведомим вас, как только эксперт по идентификации освободится. Когда вы начнете идентификацию, вы попадете в начало очереди.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Готово";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_MESSAGE_PHOTO_IDENT" = "Спасибо, что используете нашу службу онлайн-идентификации! Теперь вы можете закрыть приложение, вам сообщат, что делать дальше.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_MESSAGE_VIDEO_IDENT" = "Спасибо, что используете нашу службу онлайн-идентификации! Теперь вы можете закрыть приложение, вам сообщат, что делать дальше.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Данные получены";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Лист ожидания";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Лист ожидания";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Идентификация прошла успешно";
+
+/* No comment provided by engineer. */
+"RESULT_TRANSACTION_ID" = "ID-идентификатор";
+
+/* No comment provided by engineer. */
+"RETRY" = "Повторить попытку";
+
+/* No comment provided by engineer. */
+"SAVE" = "Сохранить";
+
+/* No comment provided by engineer. */
+"SETTINGS" = "Настройки";
+
+/* No comment provided by engineer. */
+"SIGNATURE_DECLINE_BUTTON_TITLE" = "Нет, отклонить контракт";
+
+/* No comment provided by engineer. */
+"SIGNATURE_DRAWING_DESCRIPTION" = "Изобразите, пожалуйста, свою подпись в окне выше и нажмите кнопку, чтобы продолжить.";
+
+/* No comment provided by engineer. */
+"SIGNATURE_REDRAW_BUTTON_TITLE" = "Изобразить заново";
+
+/* No comment provided by engineer. */
+"SIGNATURE_SEND_BUTTON_TITLE" = "Подписать контракт";
+
+/* No comment provided by engineer. */
+"SIGNATURE_TITLE" = "Пожалуйста, поставьте подпись здесь";
+
+/* No comment provided by engineer. */
+"SMS_REQUESTPUSHBUTTON_TITLE" = "Уведомить меня с помощью СМС-уведомления";
+
+/* No comment provided by engineer. */
+"SMS_RETRYPUSHBUTTON_TILE" = "Уведомить меня по СМС";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_DETAILS" = "Вы желаете получить уведомление, когда эксперт по идентификации будет готов вас принять?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_TITLE" = "Лист ожидания";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_DETAILS" = "В настоящий момент в нашу службу поступило чрезвычайно большое количество клиентских запросов. Мы можем уведомить вас с помощью СМС-уведомления, когда эксперт по идентификации будет готов вас принять.";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_TITLE" = "Лист ожидания";
+
+/* No comment provided by engineer. */
+"START_OVER" = "Начать заново";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_CANCEL_ALERT_MESSAGE" = "Вы действительно хотите отменить идентификацию?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_CANCEL_ALERT_TITLE" = "Отменить идентификацию";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_DOCUMENTS_EXPLANATION" = "Для онлайн-идентификации IDnow вам понадобится действительное удостоверение личности или паспорт.\nМы поддерживаем широкий ряд современных документов, удостоверяющих личность и снабженных защитными голограммами. В частности, удостоверения личности и паспорта ЕС, Турции, Норвегии, Швейцарии, Исландии и США.";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_DOCUMENTS_TITLE" = "Какие документы, удостоверяющие личность, поддерживаются?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_FAILED_ALERT_MESSAGE" = "Идентификация не удалась";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_MESSAGE" = "Пожалуйста, подождите, пока эксперт по идентификации проверяет ваши данные.";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_TITLE" = "Идентификация в процессе завершения...";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Минуточку, пожалуйста...";
+
+/* No comment provided by engineer. */
+"YES" = "Да";
+

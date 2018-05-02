@@ -2,6 +2,42 @@
 
 ## Changelog
 
+### 3.9.0
+Improvements:
+- Now supporting Russian and Chinese
+
+Migration Guide:
+- please change the SDK reference to 3.9.0 and call pod update
+
+Bugfixes:
+- minor bugfixes
+
+### 3.7.0
+Improvements:
+- Enhancements to the PhotoIdent process
+- adds deep link support for ident code urls (https://go.idnow.de/code/XXXXXX). Requires host app's 
+ application delegate to subclass the `IDNAppDelegate`.
+
+Migration Guide:
+- please change the SDK reference to 3.7.0 and call pod update
+
+Bugfixes:
+- minor bugfixes
+
+### 3.6.0
+Improvements:
+- checks the users internet connection before starting a video chat.
+
+**IMPORTANT NOTE:**
+With previous release 3.5.0 of the IDnow SDK a new dependency has been added.
+The library name is `libPhoneNumber-iOS` (Version 0.9).
+
+Migration Guide:
+- please change the SDK reference to 3.6.0 and call pod update
+
+Bugfixes:
+- minor bugfixes
+
 ### 3.5.0
 Improvements:
 - mobile phone number validation

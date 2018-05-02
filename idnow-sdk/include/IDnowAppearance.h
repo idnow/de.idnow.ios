@@ -106,6 +106,17 @@ enum CHECKBOX_POSITION
  */
 @property (strong, nonatomic) UIColor *photoIdentRetakeButtonTextColor;
 
+/**
+ *  Optional color that replaces the "Back" button color in the WebConsentProtocol-Signing contract review screen.
+ *  Default value: proceedButtonBackgroundColor
+ */
+@property (strong, nonatomic) UIColor *checkContractFooterButtonBackgroundColor;
+
+/**
+ *  Optional color that replaces the "Back" button text color in the WebConsentProtocol-Signing contract review screen.
+ *  Default value: proceedButtonBackgroundColor
+ */
+@property (strong, nonatomic) UIColor *checkContractFooterButtonTextColor;
 
 /**
  *  Optional color, that replaces the default color of textfield backgrounds and borders

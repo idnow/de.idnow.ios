@@ -379,6 +379,9 @@
 /* No comment provided by engineer. */
 "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO";
 
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO";
+
 /* Overwritings, No comment provided by engineer. */
 "NAVIGATION_ITEM_TITLE_RESULT" = "NAVIGATION_ITEM_TITLE_RESULT";
 
@@ -440,6 +443,15 @@
 "PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Front Side";
 
 /* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Hold your ID card in front of your camera over a neutral surface. While recording, tilt the top of your card slowly away from you and then back towards you.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_LIST" = "•\tCard should be fully visible\n•\tNot covered by fingers or objects";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Holograms";
+
+/* No comment provided by engineer. */
 "PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_DESCRIPTION" = "Hold the driving license in your hand and tilt it, so that the holograms become clearly visible. Use the flash if needed. Take a picture.";
 
 /* No comment provided by engineer. */
@@ -476,6 +488,15 @@
 "PHOTO_HELP_IDCARD_IDFRONTSIDE_TITLE" = "Front Side";
 
 /* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Hold your ID card in front of your camera over a neutral surface. While recording, tilt the top of your card slowly away from you and then back towards you.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_LIST" = "•\tCard should be fully visible\n•\tNot covered by fingers or objects";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Holograms";
+
+/* No comment provided by engineer. */
 "PHOTO_HELP_IDCARD_IDHOLOGRAMS_DESCRIPTION" = "Hold the ID card in your hand and tilt it, so that the holograms become clearly visible. Use flash if needed. Take a picture.";
 
 /* No comment provided by engineer. */
@@ -486,6 +507,9 @@
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_INSTRUCTIONS_TITLE" = "Photo requirements:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_VIDEO_TITLE" = "Requirements:";
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_PASSPORT_IDBACKSIDE_DESCRIPTION" = "Place your passport on a neutral surface. Align the passport's second page within the green frame. Take a picture.";
@@ -504,6 +528,15 @@
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_PASSPORT_IDFRONTSIDE_TITLE" = "Photo Page";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Hold your ID card in front of your camera over a neutral surface. While recording, tilt the top of your card slowly away from you and then back towards you.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_LIST" = "•\tCard should be fully visible\n•\tNot covered by fingers or objects";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Holograms";
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_PASSPORT_IDHOLOGRAMS_DESCRIPTION" = "Hold the passport's photo page in your hand and tilt it, so that the holograms become clearly visible. Use flash if needed. Take a picture.";
@@ -533,6 +566,15 @@
 "PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Front Side";
 
 /* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Hold your ID card in front of your camera over a neutral surface. While recording, tilt the top of your card slowly away from you and then back towards you.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_LIST" = "•\tCard should be fully visible\n•\tNot covered by fingers or objects";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Holograms";
+
+/* No comment provided by engineer. */
 "PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_DESCRIPTION" = "Hold the residence permit in your hand and tilt it, so that the holograms become clearly visible. Use flash if needed. Take a picture.";
 
 /* No comment provided by engineer. */
@@ -540,6 +582,15 @@
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Holograms";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_COUNTDOWN_TITLE" = "%d seconds left";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_TITLE" = "Start recording";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_HINT" = "Once you start recording, you will have %d seconds to make your recording.";
 
 /* No comment provided by engineer. */
 "PHOTO_TAKE_PICTURE_BUTTON_TITLE" = "Take picture";
@@ -555,6 +606,12 @@
 
 /* No comment provided by engineer. */
 "PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Front Side";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_SUBTITLE" = "Tap to make a video recording of your document's security features.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Holograms";
 
 /* No comment provided by engineer. */
 "PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_SUBTITLE" = "Tap to take a photo of the document's security features.";
@@ -581,6 +638,12 @@
 "PHOTO_TODO_IDCARD_IDFRONTSIDE_TITLE" = "Front Side";
 
 /* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_SUBTITLE" = "Tap to make a video recording of your document's security features.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Holograms";
+
+/* No comment provided by engineer. */
 "PHOTO_TODO_IDCARD_IDHOLOGRAMS_SUBTITLE" = "Tap to take a photo of the document's security features.";
 
 /* No comment provided by engineer. */
@@ -602,6 +665,12 @@
 "PHOTO_TODO_PASSPORT_IDFRONTSIDE_TITLE" = "Front Side";
 
 /* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Tap to make a video recording of your document's security features.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Holograms";
+
+/* No comment provided by engineer. */
 "PHOTO_TODO_PASSPORT_IDHOLOGRAMS_SUBTITLE" = "Tap to take a photo of the document's security features.";
 
 /* No comment provided by engineer. */
@@ -618,6 +687,12 @@
 
 /* No comment provided by engineer. */
 "PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Front Side";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Tap to make a video recording of your document's security features.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Holograms";
 
 /* No comment provided by engineer. */
 "PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_SUBTITLE" = "Tap to take a photo of the document's security features.";

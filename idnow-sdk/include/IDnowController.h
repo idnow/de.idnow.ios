@@ -125,6 +125,20 @@ typedef void (^IDnowCompletionBlock)(BOOL success, NSError *__nullable error, BO
 - (void) startIdentificationFromViewController: (UIViewController *) presentingViewController
                            withCompletionBlock: (nullable IDnowCompletionBlock) completion;
 
+/**
+ * Loads a backend-supplied string in the current locale's language with a specified key.
+ * Only available after the SDK did finish initialization.
+ * @param key identifying the string to load
+ * @return the requested string if the sdk was successfully initialized first and if there's a message for the key.
+ */
++ (NSString*)getMessageFor:(NSString*)key;
+
+/**
+ * Returns the current IDnowController if there is one. Can be nil.
+ * @return The current IDnowController or nil if there is none (yet).
+ */
++ (instancetype) currentIDnowController;
+
 @end
 
 

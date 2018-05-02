@@ -65,7 +65,7 @@
 "CHECK_MOBILE_NUMBER_TITLE" = "Numero di cellulare";
 
 /* No comment provided by engineer. */
-"CHECK_SCREEN_TOKEN_TEXT" = "";
+"CHECK_SCREEN_TOKEN_TEXT" = "Il tuo ID di identificazione:";
 
 /* No comment provided by engineer. */
 "CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Avviare l'identificazione";
@@ -379,6 +379,9 @@
 /* No comment provided by engineer. */
 "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO";
 
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "NAVIGAZIONE_ELEMENTO_TITOLO_FOTO_IDENT_VIDEO";
+
 /* Overwritings, No comment provided by engineer. */
 "NAVIGATION_ITEM_TITLE_RESULT" = "NAVIGATION_ITEM_TITLE_RESULT";
 
@@ -440,6 +443,15 @@
 "PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Foto parte anteriore";
 
 /* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Tieni la carta d'identità davanti alla videocamera su una superficie neutra. Durante la registrazione, inclina lentamente la parte superiore della carta lontano da te e poi di nuovo verso di te.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_LIST" = "•\tLa carta deve essere completamente visibile\n•\tNon coperta da dita o oggetti";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
 "PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_DESCRIPTION" = "Prenda in mano la sua licenza di condurre. La inclini verso la luce in modo che gli ologrammi siano visibili. A tale scopo può attivare il flash. Realizzi una foto degli ologrammi.";
 
 /* No comment provided by engineer. */
@@ -476,6 +488,15 @@
 "PHOTO_HELP_IDCARD_IDFRONTSIDE_TITLE" = "Foto parte anteriore";
 
 /* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Tieni la carta d'identità davanti alla videocamera su una superficie neutra. Durante la registrazione, inclina lentamente la parte superiore della carta lontano da te e poi di nuovo verso di te.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_LIST" = "•\tLa carta deve essere completamente visibile\n•\tNon coperta da dita o oggetti";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
 "PHOTO_HELP_IDCARD_IDHOLOGRAMS_DESCRIPTION" = "Prenda in mano il suo documento d'identità. Lo inclini verso la luce in modo che gli ologrammi siano visibili. A tale scopo può attivare il flash. Realizzi una foto degli ologrammi.";
 
 /* No comment provided by engineer. */
@@ -486,6 +507,9 @@
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_INSTRUCTIONS_TITLE" = "Sulla foto deve essere presente:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_VIDEO_TITLE" = "Requisiti:";
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_PASSPORT_IDBACKSIDE_DESCRIPTION" = "Deponga il suo passaporto su una base neutra. Lo posizioni nel riquadro verde. Realizzi una foto della seconda pagina dei dati.";
@@ -504,6 +528,15 @@
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_PASSPORT_IDFRONTSIDE_TITLE" = "Foto pagina dei dati";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Tieni la carta d'identità davanti alla videocamera su una superficie neutra. Durante la registrazione, inclina lentamente la parte superiore della carta lontano da te e poi di nuovo verso di te.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_LIST" = "•\tLa carta deve essere completamente visibile\n•\tNon coperta da dita o oggetti";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Ologrammi";
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_PASSPORT_IDHOLOGRAMS_DESCRIPTION" = "Prenda in mano il suo passaporto. Inclini la pagina dei dati verso la luce in modo che gli ologrammi siano visibili. A tale scopo può attivare il flash. Realizzi una foto degli ologrammi.";
@@ -533,6 +566,15 @@
 "PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Foto parte anteriore";
 
 /* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Tieni la carta d'identità davanti alla videocamera su una superficie neutra. Durante la registrazione, inclina lentamente la parte superiore della carta lontano da te e poi di nuovo verso di te.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_LIST" = "•\tLa carta deve essere completamente visibile\n•\tNon coperta da dita o oggetti";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
 "PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_DESCRIPTION" = "Prenda in mano il suo permesso di soggiorno. Lo inclini verso la luce in modo che gli ologrammi siano visibili. A tale scopo può attivare il flash. Realizzi una foto degli ologrammi.";
 
 /* No comment provided by engineer. */
@@ -540,6 +582,15 @@
 
 /* No comment provided by engineer. */
 "PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Foto ologrammi";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_COUNTDOWN_TITLE" = "%d secondi rimanenti";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_TITLE" = "Avvia registrazione";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_HINT" = "Una volta iniziata la registrazione, avrai %d secondi per effettuare la registrazione.";
 
 /* No comment provided by engineer. */
 "PHOTO_TAKE_PICTURE_BUTTON_TITLE" = "Scattare la foto";
@@ -555,6 +606,12 @@
 
 /* No comment provided by engineer. */
 "PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Parte anteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_SUBTITLE" = "Tocca per effettuare una registrazione video delle caratteristiche di sicurezza del documento.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Ologrammi";
 
 /* No comment provided by engineer. */
 "PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_SUBTITLE" = "Realizzare una foto delle caratteristiche di sicurezza.";
@@ -581,6 +638,12 @@
 "PHOTO_TODO_IDCARD_IDFRONTSIDE_TITLE" = "Parte anteriore";
 
 /* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_SUBTITLE" = "Tocca per effettuare una registrazione video delle caratteristiche di sicurezza del documento.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
 "PHOTO_TODO_IDCARD_IDHOLOGRAMS_SUBTITLE" = "Realizzare una foto delle caratteristiche di sicurezza.";
 
 /* No comment provided by engineer. */
@@ -602,6 +665,12 @@
 "PHOTO_TODO_PASSPORT_IDFRONTSIDE_TITLE" = "Pagina dei dati";
 
 /* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Tocca per effettuare una registrazione video delle caratteristiche di sicurezza del documento.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Ologrammi";
+
+/* No comment provided by engineer. */
 "PHOTO_TODO_PASSPORT_IDHOLOGRAMS_SUBTITLE" = "Realizzare una foto delle caratteristiche di sicurezza.";
 
 /* No comment provided by engineer. */
@@ -618,6 +687,12 @@
 
 /* No comment provided by engineer. */
 "PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Parte anteriore";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Tocca per effettuare una registrazione video delle caratteristiche di sicurezza del documento.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Ologrammi";
 
 /* No comment provided by engineer. */
 "PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_SUBTITLE" = "Realizzare una foto delle caratteristiche di sicurezza.";

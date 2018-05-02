@@ -22,5 +22,6 @@
 - (BOOL)application:(UIApplication*)application  didFinishLaunchingWithOptions:(NSDictionary*)launchOptions;
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary*)userInfo;
 - (void)applicationDidBecomeActive:(UIApplication*)application;
+- (BOOL)application:(UIApplication*)application openURL:(NSURL *)url;
 
 @end
