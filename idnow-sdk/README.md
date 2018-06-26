@@ -2,6 +2,21 @@
 
 ## Changelog
 
+### 3.10.0
+Migration Guide:
+- please change the SDK reference to 3.10.0 and call pod update
+
+Bugfixes:
+- Newly customer-customizable texts within SDK
+- Minor bugfixes
+
+### 3.9.1
+Migration Guide:
+- please change the SDK reference to 3.9.1 and call pod update
+
+Bugfixes:
+- Minor bugfixes and new translations
+
 ### 3.9.0
 Improvements:
 - Now supporting Russian and Chinese

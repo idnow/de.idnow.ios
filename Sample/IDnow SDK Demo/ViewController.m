@@ -13,7 +13,7 @@
 
 
 // The transaction token that should be used for a video identification
-static NSString *const TRANSACTION_TOKEN_VIDEO_IDENT = @"TST-ASLXY";
+static NSString *const TRANSACTION_TOKEN_VIDEO_IDENT = @"DEV-XSXQK";
 
 // Your company id provided by IDnow
 static NSString *const COMPANY_ID_VIDEO_IDENT = @"ihrebank";
