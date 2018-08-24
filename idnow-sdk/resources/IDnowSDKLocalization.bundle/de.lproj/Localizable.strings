@@ -353,7 +353,7 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Kippen Sie nun den Ausweis von oben nach unten, damit wir die Sicherheitsmerkmale sehen können.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Identifizierung kann auf einem Gerät mit Jailbreak nicht asugeführt werden.";
+"JAILBREAK_ERROR_ALERT_MESSAGE" = "Identifizierung kann auf einem Gerät mit Jailbreak nicht ausgeführt werden.";
 
 /* No comment provided by engineer. */
 "JAILBREAK_ERROR_ALERT_TITLE" = "Gerät mit Jailbreak";
