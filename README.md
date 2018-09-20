@@ -2,6 +2,37 @@
 
 ## Changelog
 
+### 3.11.0
+Improvements:
+- Document validation
+
+Bugfixes:
+- Minor bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.11.0 and call pod update
+
+### 3.10.3
+Improvements:
+- Minor bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.10.3 and call pod update
+
+### 3.10.2
+Improvements:
+- Korean language support
+
+Migration Guide:
+- Change the SDK reference to 3.10.2 and call pod update
+
+### 3.10.1
+Migration Guide:
+- Change the SDK reference to 3.10.1 and call pod update
+
+Bugfixes:
+- Minor bugfixes
+
 ### 3.10.0
 Migration Guide:
 - please change the SDK reference to 3.10.0 and call pod update

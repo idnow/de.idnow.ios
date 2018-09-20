@@ -100,6 +100,18 @@
 /* No comment provided by engineer. */
 "COUNTRY_SELECTION_TITLE" = "选择国家";
 
+"DOCUMENT_EXPIRY_DATE_CHECK" = "文档到期日期";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "请输入您的文档的到期日期";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "你输入的日期就在过去";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "DD/MM/YYYY";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "您输入的日期是今天";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "我的文档没有到期日期";
+
 /* No comment provided by engineer. */
 "DOCUMENT_SELECTION_COMMENT" = "选择您认证证件的类型。";
 
@@ -195,6 +207,12 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "您的认证码错误。请再试一次。";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "您的身份证不再有效。 请联系我们的支持support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "您的身份证不再有效。 请联系我们的支持support@mail.idnow.de";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "很抱歉，出错了！请您跟我们的客服支持联系%@ 并且告知他错误代码：%@";

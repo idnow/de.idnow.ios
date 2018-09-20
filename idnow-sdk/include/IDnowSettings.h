@@ -156,6 +156,11 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 @property (assign, nonatomic) BOOL forceModalPresentation;
 
 /**
+ * If set to `YES`, a failed / canceled / finished identification will be forced to display the result screen.
+ */
+@property (assign, nonatomic) BOOL forceErrorSuccessScreen;
+
+/**
  * Specifies the presentation style for the modal ident viewcontroller.
  * E.g. Can be set to `UIModalPresentationCurrentContext` to allow presenting ident view controller within a popover on an iPad.
  */

@@ -100,6 +100,18 @@
 /* No comment provided by engineer. */
 "COUNTRY_SELECTION_TITLE" = "Choose country";
 
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Document Expiry Date";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Please enter your document's expiry date";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "The date you entered lies in the past";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "DD/MM/YYYY";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "The date you entered is today";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "My document has no expiry date";
+
 /* No comment provided by engineer. */
 "DOCUMENT_SELECTION_COMMENT" = "Choose your type of identity document.";
 
@@ -195,6 +207,12 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Your Ident-ID is not correct. Please check and try again.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Your Ident ID is no longer valid. Please contact our support support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Your Ident ID is no longer valid. Please contact our support support@mail.idnow.de";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Unfortunately an internal error has occurred. Please contact our support %@ and state the following error number: %@";

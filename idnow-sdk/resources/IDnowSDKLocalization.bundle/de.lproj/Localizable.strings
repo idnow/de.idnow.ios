@@ -100,6 +100,18 @@
 /* No comment provided by engineer. */
 "COUNTRY_SELECTION_TITLE" = "Länderauswahl";
 
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Gültigkeitsdatum Ihres Dokuments";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Bitte geben Sie hier das Gültigkeitsdatum Ihres Dokuments ein";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "Das von Ihnen eingegebene Datum liegt in der Vergangenheit";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "TT/MM/JJJJ";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "Das von Ihnen eingegebene Datum ist heute";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "Mein Dokument hat kein Gültigkeitsdatum";
+
 /* No comment provided by engineer. */
 "DOCUMENT_SELECTION_COMMENT" = "Wählen Sie die Art Ihres Dokuments.";
 
@@ -195,6 +207,12 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Ihre Ident-ID ist nicht korrekt. Bitte überprüfen Sie diese und versuchen Sie es dann erneut.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Ihre Ident-ID ist nicht mehr gültig. Bitte wenden Sie sich an unseren Support support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Ihre Ident-ID ist nicht mehr gültig. Bitte wenden Sie sich an unseren Support support@mail.idnow.de";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Leider ist ein interner Fehler aufgetreten. Bitte wenden Sie sich an unseren Support %@ und geben Sie nachfolgende Fehlernummer an: %@";
@@ -353,7 +371,7 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Kippen Sie nun den Ausweis von oben nach unten, damit wir die Sicherheitsmerkmale sehen können.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Identifizierung kann auf einem Gerät mit Jailbreak nicht asugeführt werden.";
+"JAILBREAK_ERROR_ALERT_MESSAGE" = "Identifizierung kann auf einem Gerät mit Jailbreak nicht ausgeführt werden.";
 
 /* No comment provided by engineer. */
 "JAILBREAK_ERROR_ALERT_TITLE" = "Gerät mit Jailbreak";

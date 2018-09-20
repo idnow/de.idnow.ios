@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 
-	<title>IDnowControllerDelegate Protocol Reference</title>
+	<title></title>
 
 	<link rel="stylesheet" href="../css/style.css">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
-	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+	
 </head>
 <body class="appledoc">
 	<header>
@@ -43,35 +43,9 @@
 							<select id="jump-to">
 	<option value="top">Jump To&#133;</option>
 	
-	<option value="overview">Overview</option>
-	
-
-	
-	
-	<option value="tasks">Tasks</option>
-	
-	
-
-	
-	
 
 	
 
-	
-	<optgroup label="Instance Methods">
-		
-		<option value="//api/name/idnowController:identificationDidFailWithError:">- idnowController:identificationDidFailWithError:</option>
-		
-		<option value="//api/name/idnowController:initializationDidFailWithError:">- idnowController:initializationDidFailWithError:</option>
-		
-		<option value="//api/name/idnowControllerCanceledByUser:">- idnowControllerCanceledByUser:</option>
-		
-		<option value="//api/name/idnowControllerDidFinishIdentification:">- idnowControllerDidFinishIdentification:</option>
-		
-		<option value="//api/name/idnowControllerDidFinishInitializing:">- idnowControllerDidFinishInitializing:</option>
-		
-	</optgroup>
-	
 	
 </select>
 						</label>
@@ -85,359 +59,22 @@
 		<div id="overview_contents" class="container">
 			<div id="content">
 				<main role="main">
-					<h1 class="title">IDnowControllerDelegate Protocol Reference</h1>
+					<h1 class="title"></h1>
 
-					
-					<div class="section section-specification"><table cellspacing="0"><tbody>
-						<tr>
-	<th>Declared in</th>
-	<td>IDnowController.h</td>
-</tr>
-						</tbody></table></div>
 					
 
                     
-					
-					<div class="section section-overview">
-						<a title="Overview" name="overview"></a>
-						<h2 class="subtitle subtitle-overview">Overview</h2>
-						<p>Notifies the delegate
-about the success or failure of an initialization or identification.</p>
-					</div>
-					
-					
 
-					
-					
-					<div class="section section-tasks">
-						<a title="Tasks" name="tasks"></a>
-						
-
-						
-						
-
-						<div class="task-list">
-							<div class="section-method">
-	<a name="//api/name/idnowControllerDidFinishInitializing:" title="idnowControllerDidFinishInitializing:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/idnowControllerDidFinishInitializing:">&ndash;&nbsp;idnowControllerDidFinishInitializing:</a></code>
-<span class="task-item-suffix">required method</span></h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Sent to the delegate when an initialization (e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/initialize">[IDnowController initialize]</a>) was successfull.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)idnowControllerDidFinishInitializing:(IDnowController *)<em>idnowController</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>idnowController</code></th>
-						<td><p>The responsible caller.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Sent to the delegate when an initialization (e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/initialize">[IDnowController initialize]</a>) was successfull.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowController.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/idnowController:initializationDidFailWithError:" title="idnowController:initializationDidFailWithError:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/idnowController:initializationDidFailWithError:">&ndash;&nbsp;idnowController:initializationDidFailWithError:</a></code>
-<span class="task-item-suffix">required method</span></h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Sent to the delegate when an initialization (e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/initialize">[IDnowController initialize]</a>) failed.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)idnowController:(IDnowController *)<em>idnowController</em> initializationDidFailWithError:(NSError *)<em>error</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>idnowController</code></th>
-						<td><p>The responsible caller.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>error</code></th>
-						<td><p>The error that occurred</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Sent to the delegate when an initialization (e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/initialize">[IDnowController initialize]</a>) failed.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowController.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/idnowControllerDidFinishIdentification:" title="idnowControllerDidFinishIdentification:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/idnowControllerDidFinishIdentification:">&ndash;&nbsp;idnowControllerDidFinishIdentification:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Sent to the delegate when an identification (e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/startIdentificationFromViewController:">[IDnowController startIdentificationFromViewController:]</a>) was successfull.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)idnowControllerDidFinishIdentification:(IDnowController *)<em>idnowController</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>idnowController</code></th>
-						<td><p>The responsible caller.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Sent to the delegate when an identification (e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/startIdentificationFromViewController:">[IDnowController startIdentificationFromViewController:]</a>) was successfull.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowController.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/idnowControllerCanceledByUser:" title="idnowControllerCanceledByUser:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/idnowControllerCanceledByUser:">&ndash;&nbsp;idnowControllerCanceledByUser:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Sent to the delegate when an identification (e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/startIdentificationFromViewController:">[IDnowController startIdentificationFromViewController:]</a>) was canceled by the user.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)idnowControllerCanceledByUser:(IDnowController *)<em>idnowController</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>idnowController</code></th>
-						<td><p>The responsible caller.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Sent to the delegate when an identification (e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/startIdentificationFromViewController:">[IDnowController startIdentificationFromViewController:]</a>) was canceled by the user.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowController.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div><div class="section-method">
-	<a name="//api/name/idnowController:identificationDidFailWithError:" title="idnowController:identificationDidFailWithError:"></a>
-	<h3 class="method-title"><code><a href="#//api/name/idnowController:identificationDidFailWithError:">&ndash;&nbsp;idnowController:identificationDidFailWithError:</a></code>
-</h3>
-
-	<div class="method-info">
-		<div class="pointy-thing"></div>
-
-		<div class="method-info-container">
-			
-			
-			<div class="method-subsection brief-description">
-				<p>Sent to the delegate when an identification
-(e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/startIdentificationFromViewController:">[IDnowController startIdentificationFromViewController:]</a>) failed.</p>
-			</div>
-			
-		    
-
-			<div class="method-subsection method-declaration"><code>- (void)idnowController:(IDnowController *)<em>idnowController</em> identificationDidFailWithError:(NSError *)<em>error</em></code></div>
-
-		    
-			
-			<div class="method-subsection arguments-section parameters">
-				<h4 class="method-subtitle parameter-title">Parameters</h4>
-				<table class="argument-def parameter-def">
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>idnowController</code></th>
-						<td><p>The responsible caller.</p></td>
-					</tr>
-				
-					<tr>
-						<th scope="row" class="argument-name"><code>error</code></th>
-						<td><p>The error that occurred.</p></td>
-					</tr>
-				
-				</table>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection discussion-section">
-				<h4 class="method-subtitle">Discussion</h4>
-				<p>Sent to the delegate when an identification
-(e.g. triggered by <a href="../Classes/IDnowController.html#//api/name/startIdentificationFromViewController:">[IDnowController startIdentificationFromViewController:]</a>) failed.</p>
-			</div>
-			
-
-			
-
-			
-
-			
-			<div class="method-subsection declared-in-section">
-				<h4 class="method-subtitle">Declared In</h4>
-				<p><code class="declared-in-ref">IDnowController.h</code></p>
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-						</div>
-						
-					</div>
-					
 					
 
                     
-                    
-          
 				</main>
 
 				<footer>
 					<div class="footer-copyright">
 						
-						<p class="copyright">Copyright &copy; 2018 IDnow GmbH. All rights reserved. Updated: 2018-06-22</p>
+						<p class="copyright">Copyright &copy; 2018 IDnow GmbH. All rights reserved. Updated: 2018-09-11</p>
 						
-						
-						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
 						
 					</div>
 				</footer>

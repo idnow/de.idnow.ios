@@ -100,6 +100,18 @@
 /* No comment provided by engineer. */
 "COUNTRY_SELECTION_TITLE" = "Selezione paesi";
 
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Data di scadenza del documento";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Si prega di inserire la data di scadenza del documento";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "La data che hai inserito è in passato";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "DD/MM/YYYY";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "La data immessa è oggi";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "Il mio documento non ha data di scadenza";
+
 /* No comment provided by engineer. */
 "DOCUMENT_SELECTION_COMMENT" = "Selezionare il tipo di documento.";
 
@@ -195,6 +207,12 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "L'Ident-ID non è corretto. Verifichi l'ID e riprovi.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "L'ID ident non è più valido. Si prega di contattare il nostro supporto support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "L'ID ident non è più valido. Si prega di contattare il nostro supporto support@mail.idnow.de";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Purtroppo si è verificato un errore interno. Contatti il nostro supporto %@ e indichi il seguente codice di errore: %@";

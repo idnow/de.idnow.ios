@@ -100,6 +100,18 @@
 /* No comment provided by engineer. */
 "COUNTRY_SELECTION_TITLE" = "Sélection des pays";
 
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Date d'expiration du document";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Veuillez saisir la date d'expiration de votre document";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "La date de votre entrée réside dans le passé";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "DD/MM/YYYY";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "La date de votre entrée est aujourd'hui";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "Mon document n'a pas de date d'expiration";
+
 /* No comment provided by engineer. */
 "DOCUMENT_SELECTION_COMMENT" = "Sélectionnez le type de document.";
 
@@ -195,6 +207,12 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Votre numéro d'identification est incorrect. Veuillez le vérifier puis réessayez.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Votre identifiant Ident n'est plus valide. Veuillez contacter notre support support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Votre identifiant Ident n'est plus valide. Veuillez contacter notre support support@mail.idnow.de";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Une erreur inattendue s'est produite. Veuillez vous adresser à notre support %@ et indiquer le numéro d'erreur suivant : %@";

@@ -100,6 +100,18 @@
 /* No comment provided by engineer. */
 "COUNTRY_SELECTION_TITLE" = "Выбрать страну";
 
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Дата истечения срока действия документа";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Пожалуйста, введите дату окончания срока действия документа";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "Дата, которую вы ввели, лежит в прошлом";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "DD/MM/YYYY";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "Дата, которую вы ввели сегодня";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "Срок действия документа не истек";
+
 /* No comment provided by engineer. */
 "DOCUMENT_SELECTION_COMMENT" = "Выберите тип документа, удостоверяющего личность.";
 
@@ -195,6 +207,12 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Ваш ID-идентификатор неверен. Пожалуйста, проверьте и повторите попытку.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Ваш идентификационный номер больше не действителен. Пожалуйста, свяжитесь с нашей службой поддержки support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Ваш идентификационный номер больше не действителен. Пожалуйста, свяжитесь с нашей службой поддержки support@mail.idnow.de";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "К сожалению, произошла внутренняя ошибка. Пожалуйста, свяжитесь с поддержкой %@ и сообщите следующий номер ошибки: %@";

@@ -100,6 +100,18 @@
 /* No comment provided by engineer. */
 "COUNTRY_SELECTION_TITLE" = "Seleccionar país";
 
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Fecha de caducidad del documento";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Por favor ingrese la fecha de caducidad de su documento";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "La fecha en que entró se encuentra en el pasado";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "DD/MM/YYYY";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "La fecha de entrada es hoy";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "Mi documento no tiene fecha de caducidad";
+
 /* No comment provided by engineer. */
 "DOCUMENT_SELECTION_COMMENT" = "Seleccione el tipo de identidad del documento.";
 
@@ -195,6 +207,12 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "El Ident-ID no es correcto. Compruébelo e inténtelo de nuevo.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Su identificador de identidad ya no es válido. Póngase en contacto con nuestro soporte support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Su identificador de identidad ya no es válido. Póngase en contacto con nuestro soporte support@mail.idnow.de";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Se ha producido un error interno. Contacte con nuestro %@ de soporte indicando el siguiente número de error: %@";

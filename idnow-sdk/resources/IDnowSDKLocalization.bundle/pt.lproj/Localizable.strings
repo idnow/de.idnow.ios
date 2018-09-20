@@ -100,6 +100,18 @@
 /* No comment provided by engineer. */
 "COUNTRY_SELECTION_TITLE" = "Escolha um país\n";
 
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Data de expiração do documento";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Por favor, insira a data de validade do documento";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "A data que você digitou está no passado.";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "DD/MM/YYYY";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "A data que você digitou é hoje";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "Meu documento não tem data de expiração";
+
 /* No comment provided by engineer. */
 "DOCUMENT_SELECTION_COMMENT" = "Escolha o tipo de documento de identificação";
 
@@ -195,6 +207,12 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "O ID de identificação inserido está incorreto. Por favor tente novamente. ";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Sua identidade não é mais válida. Contate por favor nosso apoio support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Sua identidade não é mais válida. Contate por favor nosso apoio support@mail.idnow.de";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Oops. Ocorreu um erro inesperado. Por favor contacte o serviço de apoio %@ e reporte o seguinte código de erro: %@";
