@@ -844,6 +844,11 @@
 /* No comment provided by engineer. */
 "START_OVER" = "Recomeçar";
 
+"TRUST_PILOT_MESSAGE_PRIVACY" = "Para isso, enviaremos seu nome e e-mail para a Trustpilot.";
+
+/* The confirmation popup showing for rating on TrustPilot */
+"TRUST_PILOT_MESSAGE_QUESTION" = "Gostaria de nos avaliar na Trustpilot?";
+
 /* No comment provided by engineer. */
 "VIDEO_IDENT_CANCEL_ALERT_MESSAGE" = "Tem a certeza que deseja cancelar a identificação?";
 

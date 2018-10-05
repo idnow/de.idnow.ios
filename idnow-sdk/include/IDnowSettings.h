@@ -29,6 +29,10 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
      */
     IDnowEnvironmentDev,
     /**
+     *  Dev2 server environment
+     */
+    IDnowEnvironmentDev2,
+    /**
      *  Test server environment
      */
     IDnowEnvironmentTest,

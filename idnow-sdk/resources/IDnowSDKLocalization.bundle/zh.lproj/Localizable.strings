@@ -844,6 +844,11 @@
 /* No comment provided by engineer. */
 "START_OVER" = "重新开始";
 
+"TRUST_PILOT_MESSAGE_PRIVACY" = "为此，我们会将您的姓名和电子邮件发送给Trustpilot.";
+
+/* The confirmation popup showing for rating on TrustPilot */
+"TRUST_PILOT_MESSAGE_QUESTION" = "您想給我們評價Trustpilot嗎？";
+
 /* No comment provided by engineer. */
 "VIDEO_IDENT_CANCEL_ALERT_MESSAGE" = "您确认中断认证吗？";
 
