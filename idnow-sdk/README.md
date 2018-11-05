@@ -2,6 +2,16 @@
 
 ## Changelog
 
+### 3.13.0
+Improvements:
+- Minor improvements
+
+Bugfixes:
+- Minor bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.13.0 and call pod update
+
 ### 3.12.0
 Improvements:
 - Minor improvements
