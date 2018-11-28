@@ -2,6 +2,17 @@
 
 ## Changelog
 
+### 3.15.0
+Improvements:
+- Minor improvements
+
+Bugfixes:
+- iPhone X layout fix
+- Minor bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.15.0 and call pod update
+
 ### 3.14.0
 Improvements:
 - Minor improvements
