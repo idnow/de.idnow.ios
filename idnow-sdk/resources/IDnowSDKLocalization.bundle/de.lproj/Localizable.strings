@@ -128,6 +128,9 @@
 "ESIGNATURE_CHECK_CONTRACT_BUTTON_TITLE" = "Vertrag überprüfen";
 
 /* No comment provided by engineer. */
+"ESIGNATURE_SIGNED_SUCCESSFULLY" = "Das Dokument wurde erfolgreich unterzeichnet. Bitte warten Sie noch einen Augenblick.";
+
+/* No comment provided by engineer. */
 "GERMANY" = "Deutschland";
 
 /* No comment provided by engineer. */
@@ -225,6 +228,9 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1012" = "Ein interner Fehler ist aufgetreten. Bitte versuchen Sie es zu einem späteren Zeitpunkt.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1013" = "Es sieht so aus, als würden Sie versuchen, einen Auto-Ident auszuführen. Möchten Sie diese Anwendung im AppStore herunterladen?";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_TITLE" = "Identifizierung fehlgeschlagen";
@@ -843,6 +849,9 @@
 
 /* No comment provided by engineer. */
 "START_OVER" = "Neu starten";
+
+/* No comment provided by engineer. */
+"TRANSACTION_ID_NOT_SUPPORT_ALERT_TITLE" = "Ident-Token wird nicht unterstützt";
 
 "TRUST_PILOT_MESSAGE_PRIVACY" = "Dazu senden wir Ihren Namen und Ihre E-Mail-Adresse an Trustpilot.";
 

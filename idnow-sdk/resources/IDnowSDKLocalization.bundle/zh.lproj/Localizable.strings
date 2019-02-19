@@ -128,6 +128,9 @@
 "ESIGNATURE_CHECK_CONTRACT_BUTTON_TITLE" = "检查您的合同";
 
 /* No comment provided by engineer. */
+"ESIGNATURE_SIGNED_SUCCESSFULLY" = "您的文件已经签署。请耐心等待。";
+
+/* No comment provided by engineer. */
 "GERMANY" = "德国";
 
 /* No comment provided by engineer. */
@@ -225,6 +228,9 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1012" = "很抱歉，出错了！请再试一次。";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1013" = "看起来你正在尝试执行 AutoIdent。 您想在AppStore上下载此应用程序吗？";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_TITLE" = "您的认证失败\n";
@@ -843,6 +849,9 @@
 
 /* No comment provided by engineer. */
 "START_OVER" = "重新开始";
+
+/* No comment provided by engineer. */
+"TRANSACTION_ID_NOT_SUPPORT_ALERT_TITLE" = "Ident-token不支持";
 
 "TRUST_PILOT_MESSAGE_PRIVACY" = "为此，我们会将您的姓名和电子邮件发送给Trustpilot.";
 

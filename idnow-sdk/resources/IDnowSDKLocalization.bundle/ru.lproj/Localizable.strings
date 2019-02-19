@@ -128,6 +128,9 @@
 "ESIGNATURE_CHECK_CONTRACT_BUTTON_TITLE" = "Проверить контракт";
 
 /* No comment provided by engineer. */
+"ESIGNATURE_SIGNED_SUCCESSFULLY" = "Документ успешно подписан. Подождите, пока мы продолжим.";
+
+/* No comment provided by engineer. */
 "GERMANY" = "Германия";
 
 /* No comment provided by engineer. */
@@ -225,6 +228,9 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1012" = "Произошла внутренняя ошибка. Пожалуйста, повторите попытку позднее.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1013" = "Похоже, вы пытаетесь выполнить AutoIdent. Хотите загрузить это приложение в AppStore?";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_TITLE" = "Идентификация не удалась";
@@ -843,6 +849,9 @@
 
 /* No comment provided by engineer. */
 "START_OVER" = "Начать заново";
+
+/* No comment provided by engineer. */
+"TRANSACTION_ID_NOT_SUPPORT_ALERT_TITLE" = "Идентификатор-токен не поддерживается";
 
 "TRUST_PILOT_MESSAGE_PRIVACY" = "Для этого мы отправим ваше имя и отправим электронное письмо в Trustpilot.";
 

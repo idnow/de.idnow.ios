@@ -83,6 +83,15 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *  With version 3.0.0 we stopped to support TokBox
      */
     IDnowErrorTokBoxNotSupported              = 1012,
+    /**
+     *  The token for Auto Ident
+     */
+    IDnowErrorTokenNotSupported               = 1013,
+    /**
+     *  Unable to perform an identification on a jailbroken device.
+     *
+     */
+    IDnowErrorJailbreakPhoneNotSupported      = 1014,
 };
 
 @interface NSError (IDnowError)

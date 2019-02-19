@@ -33,6 +33,14 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
      */
     IDnowEnvironmentDev2,
     /**
+     *  Dev3 server environment
+     */
+    IDnowEnvironmentDev3,
+    /**
+     *  Dev4 server environment
+     */
+    IDnowEnvironmentDev4,
+    /**
      *  Test server environment
      */
     IDnowEnvironmentTest,
@@ -56,6 +64,10 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
      *  Intrum server environment
      */
     IDnowEnvironmentIntrum,
+    /**
+     *  Intrum test server environment
+     */
+    IDnowEnvironmentIntrumTest,
     /**
      *  Custom server environment
      */
@@ -181,6 +193,11 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  * The device token is needed to uniquely identify the device. Its used to send push notifications.
  */
 @property (strong, nullable, nonatomic)NSString* pushDeviceToken;
+
+/**
+ * The name the resulting app should use in the UINavigation bar
+ */
+@property (strong, nullable, nonatomic)NSString* productName;
 
 // -----------------------------------------------------------------------------------
 //                                    Localization
