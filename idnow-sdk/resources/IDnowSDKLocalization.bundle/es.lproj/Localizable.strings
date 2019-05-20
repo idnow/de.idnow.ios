@@ -882,6 +882,58 @@
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Un momento...";
 
+"WALLET_ACCOUNT_CANCEL" = "Cancelar";
+
+"WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "¿No recuerdas la contraseña?";
+
+"WALLET_ACCOUNT_CONFIRM" = "Confirmar";
+
+"WALLET_ACCOUNT_CONFIRM_PASSWORD" = "Confirmar la contraseña";
+
+"WALLET_ACCOUNT_DONT_REGISTER" = "¿No quieres registrar una cuenta?";
+
+"WALLET_ACCOUNT_EMAIL" = "Email";
+
+"WALLET_ACCOUNT_LOGIN" = "Iniciar sesión";
+
+"WALLET_ACCOUNT_LOGIN_CLOSE" = "Cerrar";
+
+"WALLET_ACCOUNT_LOGIN_CONTENT" = "Ingrese la dirección de correo electrónico y la contraseña que eligió durante su identificación de video inicial.";
+
+"WALLET_ACCOUNT_LOGIN_HINT" = "IDNow dirección de correo electrónico y contraseña asociada a su cuenta";
+
+/* Wallet feature., Login */
+"WALLET_ACCOUNT_LOGIN_TITLE" = "Cuenta de Ingreso";
+
+"WALLET_ACCOUNT_PASSWORD_CONTENT" = "Al menos 8 caracteres de longitud \n Al menos 1 número \n Al menos 1 carácter en mayúsculas \n Al menos 1 carácter en minúscula.";
+
+/* Register */
+"WALLET_ACCOUNT_PASSWORD_TITLE" = "Seleccionar Contraseña";
+
+"WALLET_ACCOUNT_PHONE_NUMBER" = "Número de teléfono";
+
+"WALLET_ACCOUNT_REGISTER_CONTENT" = "Asegúrese de que su dirección de correo electrónico y número de teléfono móvil sean correctos.";
+
+/* Register */
+"WALLET_ACCOUNT_REGISTER_TITLE" = "Registro de IDnow";
+
+"WALLET_ACCOUNT_YOUR_PASSWORD" = "Tu contraseña";
+
+/* "WALLET_WARNING"="Warning"; */
+"WALLET_CHANGE_EMAIL_PHONE_ALERT_CONTENT" = "Por razones de seguridad, cambiar su número de teléfono, dirección de correo electrónico o contraseña requiere una nueva identificación de video.";
+
+"WALLET_CHANGE_PHONE_NUMBER_MESSAGE" = "Incluso sin la cuenta de IDNow, necesitamos su número de teléfono móvil para enviarle el código de identificación a.";
+
+"WALLET_CONFIRMATION_CANCEL_CONTENT" = "¿Seguro que no quieres firmar los documentos y abortar?";
+
+"WALLET_CONFIRMATION_CANCEL_TITLE" = "¿Estás seguro?";
+
+"WALLET_CONTINUE_VIDEO_IDENT" = "Continuar con la identificación del video";
+
+"WALLET_LOGIN_PASSWORD_HINT" = "Por razones de seguridad, su contraseña debe ajustarse a las siguientes reglas";
+
+"WALLET_LOGIN_REGISTER_HINT" = "Con una cuenta IDNow puede firmar otros documentos simplemente iniciando sesión";
+
 /* No comment provided by engineer. */
 "YES" = "Sí";
 

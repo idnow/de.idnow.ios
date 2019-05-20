@@ -882,6 +882,58 @@
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Минуточку, пожалуйста...";
 
+"WALLET_ACCOUNT_CANCEL" = "отменить";
+
+"WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "Не можете вспомнить пароль?";
+
+"WALLET_ACCOUNT_CONFIRM" = "подтвердить";
+
+"WALLET_ACCOUNT_CONFIRM_PASSWORD" = "Подтвердите свой пароль";
+
+"WALLET_ACCOUNT_DONT_REGISTER" = "Не хотите зарегистрировать аккаунт?";
+
+"WALLET_ACCOUNT_EMAIL" = "Эл. адрес";
+
+"WALLET_ACCOUNT_LOGIN" = "Авторизоваться";
+
+"WALLET_ACCOUNT_LOGIN_CLOSE" = "близко";
+
+"WALLET_ACCOUNT_LOGIN_CONTENT" = "Пожалуйста, введите адрес электронной почты и пароль, которые вы выбрали при первоначальной идентификации видео.";
+
+"WALLET_ACCOUNT_LOGIN_HINT" = "IDNow адрес электронной почты и пароль, связанные с вашей учетной записью";
+
+/* Wallet feature., Login */
+"WALLET_ACCOUNT_LOGIN_TITLE" = "Логин аккаунта";
+
+"WALLET_ACCOUNT_PASSWORD_CONTENT" = "Не менее 8 символов \nНа 1 цифре \nСтолько 1 заглавном знаке \nНа 1 заглавном знаке.";
+
+/* Register */
+"WALLET_ACCOUNT_PASSWORD_TITLE" = "Выберите пароль";
+
+"WALLET_ACCOUNT_PHONE_NUMBER" = "Номер телефона";
+
+"WALLET_ACCOUNT_REGISTER_CONTENT" = "Пожалуйста, убедитесь, что ваш адрес электронной почты и номер мобильного телефона указаны правильно.";
+
+/* Register */
+"WALLET_ACCOUNT_REGISTER_TITLE" = "IDnow Регистрация";
+
+"WALLET_ACCOUNT_YOUR_PASSWORD" = "Ваш пароль";
+
+/* "WALLET_WARNING"="Warning"; */
+"WALLET_CHANGE_EMAIL_PHONE_ALERT_CONTENT" = "В целях безопасности для изменения номера телефона, адреса электронной почты или пароля требуется новая идентификация видео.";
+
+"WALLET_CHANGE_PHONE_NUMBER_MESSAGE" = "Даже без учетной записи IDNow нам нужен номер вашего мобильного телефона, чтобы отправить вам код идентификации на.";
+
+"WALLET_CONFIRMATION_CANCEL_CONTENT" = "Вы уверены, что не хотите подписывать документы и отменить?";
+
+"WALLET_CONFIRMATION_CANCEL_TITLE" = "Уверены ли вы?";
+
+"WALLET_CONTINUE_VIDEO_IDENT" = "Продолжить с идентификацией видео";
+
+"WALLET_LOGIN_PASSWORD_HINT" = "Из соображений безопасности ваш пароль должен соответствовать следующим правилам";
+
+"WALLET_LOGIN_REGISTER_HINT" = "С учетной записью IDNow вы можете подписать другие документы, просто войдя в систему";
+
 /* No comment provided by engineer. */
 "YES" = "Да";
 

@@ -882,6 +882,58 @@
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Veuillez patienter un instant...";
 
+"WALLET_ACCOUNT_CANCEL" = "Annuler";
+
+"WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "Vous ne vous souvenez plus du mot de passe?";
+
+"WALLET_ACCOUNT_CONFIRM" = "Confirmer";
+
+"WALLET_ACCOUNT_CONFIRM_PASSWORD" = "Confirmer votre mot de passe";
+
+"WALLET_ACCOUNT_DONT_REGISTER" = "Vous ne voulez pas créer un compte?";
+
+"WALLET_ACCOUNT_EMAIL" = "Email";
+
+"WALLET_ACCOUNT_LOGIN" = "S'identifier";
+
+"WALLET_ACCOUNT_LOGIN_CLOSE" = "Fermer";
+
+"WALLET_ACCOUNT_LOGIN_CONTENT" = "Veuillez saisir l'adresse e-mail et le mot de passe que vous avez choisis lors de votre identification vidéo initiale.";
+
+"WALLET_ACCOUNT_LOGIN_HINT" = "Adresse électronique et mot de passe IDNow associés à votre compte";
+
+/* Wallet feature., Login */
+"WALLET_ACCOUNT_LOGIN_TITLE" = "Connexion au compte";
+
+"WALLET_ACCOUNT_PASSWORD_CONTENT" = "Au moins 8 caractères de longueur \ nAu moins un numéro \ nAu moins 1 caractère majuscule \ nAu moins 1 caractère minuscule.";
+
+/* Register */
+"WALLET_ACCOUNT_PASSWORD_TITLE" = "Choisir un mot de passe";
+
+"WALLET_ACCOUNT_PHONE_NUMBER" = "Numéro de téléphone";
+
+"WALLET_ACCOUNT_REGISTER_CONTENT" = "Assurez-vous que votre adresse e-mail et votre numéro de téléphone portable sont corrects.";
+
+/* Register */
+"WALLET_ACCOUNT_REGISTER_TITLE" = "Enregistrement IDnow";
+
+"WALLET_ACCOUNT_YOUR_PASSWORD" = "Votre mot de passe";
+
+/* "WALLET_WARNING"="Warning"; */
+"WALLET_CHANGE_EMAIL_PHONE_ALERT_CONTENT" = "Pour des raisons de sécurité, modifier votre numéro de téléphone, votre adresse électronique ou votre mot de passe nécessite une nouvelle identification vidéo.";
+
+"WALLET_CHANGE_PHONE_NUMBER_MESSAGE" = "Même sans compte IDNow, nous avons besoin de votre numéro de téléphone mobile pour vous envoyer le code d'identification..";
+
+"WALLET_CONFIRMATION_CANCEL_CONTENT" = "Êtes-vous sûr de ne pas vouloir signer les documents et abandonner?";
+
+"WALLET_CONFIRMATION_CANCEL_TITLE" = "Êtes-vous sûr?";
+
+"WALLET_CONTINUE_VIDEO_IDENT" = "Continuer avec l'identification vidéo";
+
+"WALLET_LOGIN_PASSWORD_HINT" = "Pour des raisons de sécurité, votre mot de passe doit respecter les règles suivantes.";
+
+"WALLET_LOGIN_REGISTER_HINT" = "Avec un compte IDNow, vous pouvez signer d'autres documents simplement en vous connectant.";
+
 /* No comment provided by engineer. */
 "YES" = "Oui";
 

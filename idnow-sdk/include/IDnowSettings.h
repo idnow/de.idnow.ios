@@ -199,6 +199,11 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  */
 @property (strong, nullable, nonatomic)NSString* productName;
 
+/**
+ *  If true the first api request will take the token instead of the companyid into account.
+ */
+@property (assign, nonatomic) BOOL ignoreCompanyID;
+
 // -----------------------------------------------------------------------------------
 //                                    Localization
 // -----------------------------------------------------------------------------------

@@ -882,6 +882,58 @@
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Attendere prego...";
 
+"WALLET_ACCOUNT_CANCEL" = "Annulla";
+
+"WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "Non ricordi la password?";
+
+"WALLET_ACCOUNT_CONFIRM" = "Confermare";
+
+"WALLET_ACCOUNT_CONFIRM_PASSWORD" = "Conferma la tua password";
+
+"WALLET_ACCOUNT_DONT_REGISTER" = "Non vuoi registrare un account?";
+
+"WALLET_ACCOUNT_EMAIL" = "Email";
+
+"WALLET_ACCOUNT_LOGIN" = "Accesso";
+
+"WALLET_ACCOUNT_LOGIN_CLOSE" = "Vicina";
+
+"WALLET_ACCOUNT_LOGIN_CONTENT" = "Inserisci l'indirizzo email e la password che hai scelto durante l'identificazione del video iniziale.";
+
+"WALLET_ACCOUNT_LOGIN_HINT" = "IDIndirizzo email e password associati al tuo account";
+
+/* Wallet feature., Login */
+"WALLET_ACCOUNT_LOGIN_TITLE" = "Account Login";
+
+"WALLET_ACCOUNT_PASSWORD_CONTENT" = "Almeno 8 caratteri \n Almeno 1 numero \n Almeno 1 carattere maiuscolo \n Almeno 1 carattere minuscolo.";
+
+/* Register */
+"WALLET_ACCOUNT_PASSWORD_TITLE" = "Seleziona password";
+
+"WALLET_ACCOUNT_PHONE_NUMBER" = "Numero di telefono";
+
+"WALLET_ACCOUNT_REGISTER_CONTENT" = "Assicurati che il tuo indirizzo e-mail e il numero di cellulare siano corretti.";
+
+/* Register */
+"WALLET_ACCOUNT_REGISTER_TITLE" = "Registrazione IDnow";
+
+"WALLET_ACCOUNT_YOUR_PASSWORD" = "La tua password";
+
+/* "WALLET_WARNING"="Warning"; */
+"WALLET_CHANGE_EMAIL_PHONE_ALERT_CONTENT" = "Per motivi di sicurezza, modificare il numero di telefono, l'indirizzo e-mail o la password richiede una nuova identificazione video.";
+
+"WALLET_CHANGE_PHONE_NUMBER_MESSAGE" = "Anche senza account IDNow abbiamo bisogno del tuo numero di cellulare per inviarti il codice ident.";
+
+"WALLET_CONFIRMATION_CANCEL_CONTENT" = "Sei sicuro di non voler firmare i documenti e abortire??";
+
+"WALLET_CONFIRMATION_CANCEL_TITLE" = "Sei sicuro?";
+
+"WALLET_CONTINUE_VIDEO_IDENT" = "Continua con Identificazione video";
+
+"WALLET_LOGIN_PASSWORD_HINT" = "Per motivi di sicurezza, la tua password deve rispettare le seguenti regole";
+
+"WALLET_LOGIN_REGISTER_HINT" = "Con un account IDNow puoi firmare ulteriori documenti semplicemente effettuando il login";
+
 /* No comment provided by engineer. */
 "YES" = "Sì";
 

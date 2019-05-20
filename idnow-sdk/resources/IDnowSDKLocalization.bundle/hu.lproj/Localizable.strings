@@ -1,0 +1,939 @@
+/* No comment provided by engineer. */
+"CAMERA_ACCESS_DENIED_ALERT_TITLE" = "A kamerához való hozzáférés megtagadva";
+
+/* No comment provided by engineer. */
+"CANCEL" = "Mégsem";
+
+/* No comment provided by engineer. */
+"CANCEL_IDENTIFICATION" = "Azonosítás megszakítása";
+
+/* No comment provided by engineer. */
+"CHAT_INPUT_SEND_BUTTON_TITLE" = "Küldés";
+
+/* No comment provided by engineer. */
+"CHAT_INPUT_TEXTFIELD_PLACEHOLDER" = "Ide írja be az üzenetét...";
+
+/* No comment provided by engineer. */
+"CHAT_SENDER_TEXT_AGENT" = "IDnow  %@";
+
+/* No comment provided by engineer. */
+"CHAT_SENDER_TEXT_USER" = "Ön %@";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Elfogadom az IDnow Felhasználási Feltételeit, és elolvastam az Adatvédelmi Nyilatkozatot.";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_PRIVACY_POLICY_BUTTON_TITLE" = "Adatvédelmi Nyilatkozat";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_PRIVACY_POLICY_LINK" = "http://www.idnow.eu/privacy";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_TERMS_OF_USE_BUTTON_TITLE" = "Felhasználási Feltételek";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_TERMS_OF_USE_LINK" = "http://www.idnow.eu/terms";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_TBD_DESCRIPTION" = "Az azonosítás megkezdésével ön elfogadja a következők elkészítését:  önt ábrázoló kép, a személyazonosító okmányáról készült kép, hangfelvétel a beszélgetésről.";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_TITLE" = "Az ön beleegyezése";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_DESCRIPTION" = "Lehetőség van arra, hogy az Ident-kódöt emailben elküldjük az azonosítás során.";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_PLACEHOLDER" = "pl. abc@idnow.de …";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_TITLE" = "Az ön emailcíme";
+
+/* No comment provided by engineer. */
+"CHECK_LICENSE_DESCRIPTION" = "A személyi azonosító okmányát ellenőrizni fogjuk az azonosítás során, így kérjük, készítse elő.";
+
+/* No comment provided by engineer. */
+"CHECK_LICENSE_TITLE" = "Az ön előkészített személyazonosító okmánya";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Az azonosítás során elküldjük az Ident-kódját erre a telefonszámra SMS-ben.";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_PLACEHOLDER" = "pl. 01761234 …";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_TITLE" = "Az ön telefonszáma";
+
+/* No comment provided by engineer. */
+"CHECK_SCREEN_TOKEN_TEXT" = "Az ön Ident-ID-ja:";
+
+/* No comment provided by engineer. */
+"CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Azonosítás megkezdése";
+
+/* No comment provided by engineer. */
+"CHECK_TITLE" = "A következő szükséges az azonosítás megkezdéséhez:";
+
+/* No comment provided by engineer. */
+"CONTINUE" = "Folytatás";
+
+/* No comment provided by engineer. */
+"CONTRACTS_BACK_BUTTON_TITLE" = "Vissza";
+
+/* No comment provided by engineer. */
+"CONTRACTS_LOADING_ERROR_DESCRIPTION" = "Az ön által kért dokumentumot nem sikerült betölteni. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"CONTRACTS_LOADING_ERROR_RELOAD_BUTTON_TITLE" = "Újbóli betöltés";
+
+/* No comment provided by engineer. */
+"CONTRACT_ID_LABEL" = "Szerződésazonosító";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_COMMENT" = "Válasszon országot";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_HELP_TEXT" = "Válassza ki az országot, ahol a személyazonosító okmányát kiállították.";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_NEXT_BUTTON_TITLE" = "Folytatás";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_TITLE" = "Válasszon országot";
+
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Az okmány lejárati dátuma";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Kérjük, adja meg az okmánya lejárati dátumát";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "Az ön által megadott dátum múltbéli";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "NN/HH/ÉÉÉÉ";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "Ön a mai napot adta meg";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "Az okmányomnak nincs lejárati dátuma";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_COMMENT" = "Válassza ki a személyazonosító okmány típusát.";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_LOADING_MESSAGE" = "Az azonosítás megkezdődött. Kérem, várjon.";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_TITLE" = "Okmány";
+
+/* No comment provided by engineer. */
+"ERROR" = "Hiba";
+
+/* No comment provided by engineer. */
+"ESIGNATURE_CHECK_CONTRACT_BUTTON_TITLE" = "Ellenőrizze a szerződést";
+
+/* No comment provided by engineer. */
+"ESIGNATURE_SIGNED_SUCCESSFULLY" = "A dokumentum sikeresen aláírva. Kérjük, várjon, amíg folytatjuk.";
+
+/* No comment provided by engineer. */
+"GERMANY" = "Németország";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Folytatás";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_EMAIL_PLACEHOLDER" = "pl. abc@idnow.de …";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_EMAIL_TITLE" = "Ident-kód elküldése emailben ide:";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Az ön Ident-kódját elküldtük SMS-ben a következő telefonszámra: %@ . Kérjük, adja meg az Ident-kódját a folytatáshoz.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Az ön Ident-kódját elküldtük a következő emailcímre: %@. Kérjük, adja meg az Ident-kódját a folytatáshoz.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_TITLE" = "Adja meg az Ident-kódot";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "pl. 01761234 …";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Ident-kód SMS-ben ide:";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_PLACEHOLDER" = "Ident-kód";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Ident-kód újbóli kérelmezése";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Nem kapta meg az Ident-kódot vagy helytelen a telefonszám?";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE_EMAIL" = "Nem kapta meg az Ident-kódot, vagy helytelen emailcímet adott meg?";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Kérjük, ellenőrizze az adatokat, majd kérjen új Ident-kódot.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_TITLE" = "Ident-kód kérése";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Ident-kód kérése";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1000" = "Ident-kód szükséges az azonosításhoz.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1001" = "Cégazonosító szükséges az azonosításhoz.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1002" = "Azonosítás nem hajtható végre iPhone 4 készüléken. Kérjük, használjon iPhone 4S vagy újabb típust. Köszönjük.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1003" = "Ön munkaidőn kívüli időszakban hívta az Online-Ident szolgáltatást. Ön a következő időszakokban kezdheti meg az azonosítást. Időpontfoglalás nem szükséges.\n\nNyitvatartás:\n%@\n\nKérjük, próbálja meg újból az azonosítást a nyitvatartási időszakban.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1004" = "Beépített elő- és hátlapi kamerával rendelkező eszközre lesz szükség.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1005" = "Ennek az appnak hozzá kell férnie a kamerához.\n\nKérjük, engedélyezze a kamerához való hozzáférést az app beállításainál.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1006" = "Ennek az appnak hozzá kell férnie a mikrofonjához.\n\nKérjük, engedélyezze a mikrofonhoz való hozzáférést az app beállításainál.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1007" = "Az azonosításhoz mikrofonra lesz szükség.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1008" = "Az azonosításhoz internetkapcsolat szükséges. Csatlakozzon az internetre, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009" = "Váratlan hiba lépett fel. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_404" = "Az ön Ident-ID-ja helytelen. Kérjük, ellenőrizze, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Az ön Ident-ID-ja már nem érvényes. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal a support@mail.idnow.de emailcímen.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Az ön Ident-ID-ja már nem érvényes. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal a support@mail.idnow.de emailcímen.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_500" = "Sajnálatos módon belső hiba lépett fel. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal (%@), és adja meg a következő hibakódot: %@";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_503" = "Az IDnow jelenleg karbantartás alatt áll, de hamarosan újból elérhető lesz. Kérjük, legyen türelemmel, és látogasson vissza pár perc múlva.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1011" = "Azonosítás sikertelen";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1012" = "Belső hiba lépett fel. Kérjük, később próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1013" = "Úgy tűnik ön AutoIdentet kíván használni. Szeretné letölteni ezt az appot az App Store-ból?";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_TITLE" = "Azonosítás sikertelen";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_TITLE_412" = "Azonosítás befejezve";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "Azonosítás sikertelen. Nem lehetett videókapcsolatot létrehozni. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2001" = "Azonosítás sikertelen. Nem lehetett videókapcsolatot létrehozni. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2002" = "Azonosítás sikertelen. Nem lehetett videókapcsolatot létrehozni. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2006" = "Azonosítás sikertelen. Hiba lépett fel a videókapcsolatban. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2007" = "Azonosítás sikertelen. Hiba lépett fel a videókapcsolatban. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008" = "Kérjük, ellenőrizze az internetkapcsolatot, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008_404" = "Az ön Ident-ID-ja helytelen. Kérjük, ellenőrizze, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008_410" = "Az ön app-verziója túl régi. Kérjük, frissítse az appot a legújabb verzióra az App Store-ban, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009" = "Kérjük, ellenőrizze az internetkapcsolatot, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009_404" = "Az ön Ident-ID-ja helytelen. Kérjük, ellenőrizze, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009_410" = "Az ön app-verziója túl régi. Kérjük, frissítse az appot a legújabb verzióra az App Store-ban, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2010" = "Azonosítás sikertelen. Kérjük, ellenőrizze az internetkapcsolatot, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2010_412" = "Ehhez az Ident-ID-hoz már végrehajtottak egy azonosítást, és nem lehetséges újból megtenni.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2011" = "Azonosítás sikertelen. Kérjük, ellenőrizze az internetkapcsolatot, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2011_412" = "Ehhez az Ident-ID-hoz már végrehajtottak egy azonosítást, és nem lehetséges újból megtenni.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2012" = "Azonosítás sikertelen. Kérjük, ellenőrizze az internetkapcsolatot, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2012_412" = "Ehhez az Ident-ID-hoz már végrehajtottak egy azonosítást, és nem lehetséges újból megtenni.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2013" = "Nem lehetett kiküldeni az ön Ident-kódját a mobiltelefonjára vagy emailcímére. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2014" = "Ident-kód kiküldése sikertelen. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2014_400" = "Az Ident-kód helytelen. Kérjük, adja meg újból az Ident-kódját.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2016" = "Az aláírását nem lehetett feltölteni. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2017" = "Az azonosításhoz WiFi kapcsolat ajánlott.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2020" = "Azonosítás sikertelen. Kérjük, ellenőrizze az internetkapcsolatot, majd próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "A videóbeszélgetés megszakadt. Kérjük, ellenőrizze az internetkapcsolatát. Automatikusan megpróbálunk újból csatlakozni.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Váratlan hiba lépett fel. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION" = "Kérjük, várjon, amíg kapcsoljuk valamelyik azonosítási szakértőnket.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_LINES_BUSY" = "A nagy érdeklődés miatt minden azonosítási szakértőnk foglalt. Ez a megszokottnál hosszabb várakozási időt eredményezhet. Az azonosítási szolgáltatás hétfőtől vasárnapig, 8:00-tól 24:00-ig érhető el.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_0" = "Ön a következő a várakozók listáján.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_1" = "Csak egyetlen ügyfél van ön előtt a várakozók listáján.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_X" = "Jelenleg %ld ügyfél várakozik ön előtt a várólistán.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_LONGER" = "A fokozott érdeklődés miatt a várakozási idő a megszokottnál hosszabb lehet.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_MINUTES" = "Az átlagos várakozási idő %ld perc.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_ONE_MINUTE" = "Az átlagos várakozási idő %ld perc.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_SECONDS" = "Az átlagos várakozási idő %ld másodperc.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_TITLE" = "Az ön csatlakoztatása folyamatban";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_TITLE_LINES_BUSY" = "Várakozás azonosítási szakértőre";
+
+/* No comment provided by engineer. */
+"INFO_FACE_PHOTO_DESCRIPTION" = "Kérjük, nézzen a kamerába és mondja meg a teljes nevét.";
+
+/* No comment provided by engineer. */
+"INFO_FACE_PHOTO_TITLE" = "Név és fotó";
+
+/* No comment provided by engineer. */
+"INFO_GOODBYE_DESCRIPTION" = "Köszönjük, hogy az online azonosítási szolgáltatást használja!";
+
+/* No comment provided by engineer. */
+"INFO_GOODBYE_TITLE" = "Azonosítás befejeződött";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Kérjük, tartsa a személyazonosító okmánya hátoldalát a kamera felé úgy, hogy a részletek olvashatóak legyenek.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_BACKSIDE_TITLE" = "A személyazonosító okmány hátoldala";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Kérjük, tartsa a személyazonosító okmánya elülső oldalát a kamera felé úgy, hogy a részletek olvashatóak legyenek.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_FRONTSIDE_TITLE" = "A személyazonosító okmány elülső oldala";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Kérjük, hangosan olvassa fel a személyazonosító okmány számát. Az elülső oldal jobb felső sarkában található.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_WIGGLE_DESCRIPTION" = "Kérjük, döntse meg az okmányt felfelé és lefelé, hogy a biztonsági jelzések, vízjelek jól láthatóak legyenek.";
+
+/* No comment provided by engineer. */
+"JAILBREAK_ERROR_ALERT_MESSAGE" = "Feltört eszközön nem lehetséges az azonosítás végrehajtása.";
+
+/* No comment provided by engineer. */
+"JAILBREAK_ERROR_ALERT_TITLE" = "Feltört eszköz";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Vissza";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO";
+
+/* Overwritings, No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_RESULT" = "NAVIGATION_ITEM_TITLE_RESULT";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO";
+
+/* No comment provided by engineer. */
+"NO" = "Nem";
+
+/* No comment provided by engineer. */
+"NO_WIFI_CONNECTION" = "Nincs WiFi-kapcsolat";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"OPENTRUST_LOADING_ERROR_DESCRIPTION" = "A kért tartalom betöltése sikertelen.\nKérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"OPENTRUST_LOADING_ERROR_RELOAD_BUTTON_TITLE" = "Újbóli betöltés";
+
+/* No comment provided by engineer. */
+"PHOTO_CHECK_RETRY_BUTTON_TITLE" = "Próbálja újból";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_DRIVERS_LICENSE_TITLE" = "Jogosítvány";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_IDCARD_TITLE" = "Személyi igazolvány";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_PASSPORT_TITLE" = "Útlevél";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_RESIDENCE_PERMIT_TITLE" = "Lakcímkártya";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_CAPTION" = "Példa:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_DESCRIPTION" = "Helyezze a jogosítványát egy sima felületre. Igazítsa az okmány hátoldalát a zöld keretbe. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_LIST" = "•\tA hátoldal teljesen látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal\n•\tÉles kép és éles betűk";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_TITLE" = "Hátoldal";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_DESCRIPTION" = "Helyezze a jogosítványát egy sima felületre. Igazítsa az okmány elülső oldalát a zöld keretbe. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_LIST" = "•\tAz elülső oldal teljesen látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal\n•\tÉles kép és éles betűk";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Elülső oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Tartsa a személyi igazolványát egy sima felületen a kamera elé. Miközben rögzíti, döntse meg a kártya tetejét magától távolodó irányba, majd maga felé.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_LIST" = "•\tA kártyának teljes mértékben látszódnia kell\n•\tNem takarhatja el sem az ujja, sem tárgy";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_DESCRIPTION" = "Tartsa a kezében a jogosítványát, majd döntse meg úgy, hogy a hologram jól látható legyen. Használja a vakut, hoa szükséges. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_LIST" = "•\tA jogosítvány teljesen látható\n•\ta hologramok jól láthatók";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_DESCRIPTION" = "Illessze az arcát a zöld körvonalon belülre, majd készítsen képet (szelfi).";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_LIST" = "•\tAz arc teljesen látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_TITLE" = "Arckép";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_DESCRIPTION" = "Illessze a személyi igazolványát egy sima felületre. Igazítsa a személyi igazolvány hátoldalát a zöld keretbe. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_LIST" = "•\tA hátoldal teljesen látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal\n•\tÉles kép és éles betűk";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_TITLE" = "Vissza";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_DESCRIPTION" = "Illessze a személyi igazolványát egy sima felületre. Igazítsa a személyi igazolvány elülső oldalát a zöld keretbe. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_LIST" = "•\tAz elülső oldal teljesen látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal\n•\tÉles kép és éles betűk";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_TITLE" = "Elülső oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Tartsa a személyi igazolványát egy sima felületen a kamera elé. Miközben rögzíti, döntse meg a kártya tetejét magától távolodó irányba, majd maga felé.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_LIST" = "•\tA kártyának teljes mértékben látszódnia kell\n•\tNem takarhatja el sem az ujja, sem tárgy";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_DESCRIPTION" = "Tartsa a kezében a személyi igazolványát, majd döntse meg úgy, hogy a hologram jól látható legyen. Használjon vakit, ha szükséges. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_LIST" = "•\tA személyi igazolvány jól látható\n•\ta hologramok jól láthatók";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_TITLE" = "Fotókövetelmények:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_VIDEO_TITLE" = "Követelmények:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_DESCRIPTION" = "Helyezze az útlevelét egy sima felületre. Igazítsa az útlevél második lapját a zöld keretbe. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_LIST" = "•\Második oldal jól látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal\n•\tÉles kép és éles betűk";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_TITLE" = "Második oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_DESCRIPTION" = "Helyezze az útlevelét egy sima felületre. Igazítsa az útlevél fényképét a zöld keretbe. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_LIST" = "•\tA fénykép jól látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal\n•\tÉles kép és éles betűk";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_TITLE" = "Fénykép oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Tartsa a személyi igazolványát egy sima felületen a kamera elé. Miközben rögzíti, döntse meg a kártya tetejét magától távolodó irányba, majd maga felé.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_LIST" = "•\tA kártyának teljes mértékben látszódnia kell\n•\tNem takarhatja el sem az ujja, sem tárgy";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_DESCRIPTION" = "Tartsa a kezében az útlevelét, majd döntse meg úgy, hogy a hologram jól látható legyen. Használjon vakit, ha szükséges. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_LIST" = "•\tA fénykép jól látható\n•\ta hologramok jól láthatók";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_DESCRIPTION" = "Helyezze a lakcímkártyáját egy sima felületre. Igazítsa az okmány hátoldalát a zöld keretbe. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_LIST" = "•\tA hátoldal teljesen látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal\n•\tÉles kép és éles betűk";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_TITLE" = "Hátoldal";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_DESCRIPTION" = "Helyezze a lakcímkártyáját egy sima felületre. Igazítsa az okmány elülső oldalát a zöld keretbe. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_LIST" = "•\tAz elülső oldal teljesen látható\n•\tNincs eltakarva ujjakkal vagy tárgyakkal\n•\tÉles kép és éles betűk";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Elülső oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Tartsa a személyi igazolványát egy sima felületen a kamera elé. Miközben rögzíti, döntse meg a kártya tetejét magától távolodó irányba, majd maga felé.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_LIST" = "•\tA kártyának teljes mértékben látszódnia kell\n•\tNem takarhatja el sem az ujja, sem tárgy";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_DESCRIPTION" = "Kérjük, tartsa a lakcímkártyáját a kamera felé úgy, hogy a részletek olvashatóak legyenek. Használjon vakit, ha szükséges. Készítsen róla fényképet.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_LIST" = "•\tA dokumentum jól látható\n•\ta hologramok jól láthatók";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_COUNTDOWN_TITLE" = "%d másodperc maradt";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_TITLE" = "Felvétel indítása";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_HINT" = "Miután elindította a felvételt, %d másodperc áll rendelkezésére a felvétel elkészítéséhez.";
+
+/* No comment provided by engineer. */
+"PHOTO_TAKE_PICTURE_BUTTON_TITLE" = "Készítsen fényképet";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDBACKSIDE_SUBTITLE" = "Bökjön a dokumentum hátoldalának lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDBACKSIDE_TITLE" = "Hátoldal";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_SUBTITLE" = "Bökjön a dokumentum elülső oldalának lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Elülső oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_SUBTITLE" = "Bökjön az okmánya biztonsági jelzéseinek, vízjeleinek felvételéhez.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_SUBTITLE" = "Bökjön a dokumentum biztonsági jelzéseinek, vízjeleinek lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_FACESCREENSHOT_SUBTITLE" = "Bökjön, az arcának lefényképezéséhez.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_FACESCREENSHOT_TITLE" = "Arckép";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDBACKSIDE_SUBTITLE" = "Bökjön a dokumentum hátoldalának lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDBACKSIDE_TITLE" = "Hátoldal";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDFRONTSIDE_SUBTITLE" = "Bökjön a dokumentum elülső oldalának lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDFRONTSIDE_TITLE" = "Elülső oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_SUBTITLE" = "Bökjön az okmánya biztonsági jelzéseinek, vízjeleinek felvételéhez.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMS_SUBTITLE" = "Bökjön a dokumentum biztonsági jelzéseinek, vízjeleinek lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMS_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_MESSAGE" = "Kérjük, készítse el az összes, lentebb felsorolt fényképet, mielőtt elküldené az adatait.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDBACKSIDE_SUBTITLE" = "Bökjön a dokumentum hátoldalának lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDBACKSIDE_TITLE" = "Hátoldal";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDFRONTSIDE_SUBTITLE" = "Bökjön a dokumentum elülső oldalának lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDFRONTSIDE_TITLE" = "Elülső oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Bökjön az okmánya biztonsági jelzéseinek, vízjeleinek felvételéhez.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMS_SUBTITLE" = "Bökjön a dokumentum biztonsági jelzéseinek, vízjeleinek lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMS_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDBACKSIDE_SUBTITLE" = "Bökjön a dokumentum hátoldalának lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDBACKSIDE_TITLE" = "Hátoldal";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_SUBTITLE" = "Bökjön a dokumentum elülső oldalának lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Elülső oldal";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Bökjön az okmánya biztonsági jelzéseinek, vízjeleinek felvételéhez.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_SUBTITLE" = "Bökjön a dokumentum biztonsági jelzéseinek, vízjeleinek lefényképezéséhez";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Hologramok";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESTART_ALERT_MESSAGE" = "Tényleg újból szeretné kezdeni?";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_TRANSFER_BUTTON_TITLE" = "Adatok elküldése";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_TRANSFER_MESSAGE" = "A gomb megnyomásával elfogadja, hogy a képeket elküldi, hogy azokat eltároljuk.";
+
+/* No comment provided by engineer. */
+"PHOTO_UPLOAD_FAILED_ALERT_MESSAGE" = "Hiba lépett fel az adatainak elküldése közben. Kérjük, próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Az ön adatait titkosítottuk és továbbítjuk a biztonságos szervereink felé.";
+
+/* No comment provided by engineer. */
+"PUSH_REQUESTPUSHBUTTON_TITLE" = "Értesítést kérek push mobilértesítés által";
+
+/* No comment provided by engineer. */
+"PUSH_RETRYPUSHBUTTON_TILE" = "Értesítést kérek push mobilértesítés által";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_DETAILS" = "Szeretne értesítést kapni, amikor egy azonosítási szakértőnk elérhetővé válik?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_TITLE" = "Várakozók listája";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_DETAILS" = "Jelenleg rendkívül sokan használják szolgáltatásunkat. Értesíthetjük önt push mobilértesítés által, amikor egy azonosítási szakértőnk elérhetővé válik.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_TITLE" = "Várakozók listája";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_DETAILS" = "Push mobilértesítések fogadásához kérjük, a telefon beállításainál engedélyezze a push értesítések küldését az app számára.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_TITLE" = "Push mobilértesítés (letiltva)";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_DONE_BUTTON_TITLE" = "App bezárása";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_MESSAGE" = "Az ön azonosítását nem lehetett elvégezni.\n\nKérjük, használjon más módszer az azonosítására, vagy próbálja meg újból.";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_TITLE" = "Azonosítás sikertelen";
+
+/* No comment provided by engineer. */
+"RESULT_RETRY_BUTTON_TITLE" = "Próbálja meg újból";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Köszönjük, ön hozzáadtuk a várakozók listájához. Értesíteni fogjuk, amint egy azonosítási szakértőnk elérhetővé válik. Amikor ön elkezdi az azonosítást, a várólista elejére kerül.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Köszönjük, ön hozzáadtuk a várakozók listájához. Értesíteni fogjuk, amint egy azonosítási szakértőnk elérhetővé válik. Amikor ön elkezdi az azonosítást, a várólista elejére kerül.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Kész";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_MESSAGE_PHOTO_IDENT" = "Köszönjük, hogy az online azonosítási szolgáltatásunkat használta! Most már bezárhatja az appot, és értesíteni fogjuk a további lépésekről.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_MESSAGE_VIDEO_IDENT" = "Köszönjük, hogy az online azonosítási szolgáltatásunkat használta! Most már bezárhatja az appot, és értesíteni fogjuk a további lépésekről.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Adatok fogadva";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Várakozók listája";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Várakozók listája";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Azonosítás sikeres";
+
+/* No comment provided by engineer. */
+"RESULT_TRANSACTION_ID" = "Ident-ID";
+
+/* No comment provided by engineer. */
+"RETRY" = "Próbálja meg újból";
+
+/* No comment provided by engineer. */
+"SAVE" = "Mentés";
+
+/* No comment provided by engineer. */
+"SETTINGS" = "Beállítások";
+
+/* No comment provided by engineer. */
+"SIGNATURE_DECLINE_BUTTON_TITLE" = "Nem, elutasítom a szerződést";
+
+/* No comment provided by engineer. */
+"SIGNATURE_DRAWING_DESCRIPTION" = "Kérjük, rajzolja be az aláírását a fenti mezőbe, majd bökjön a gombra a folytatáshoz.";
+
+/* No comment provided by engineer. */
+"SIGNATURE_REDRAW_BUTTON_TITLE" = "Újrarajzolás";
+
+/* No comment provided by engineer. */
+"SIGNATURE_SEND_BUTTON_TITLE" = "Szerződés aláírása";
+
+/* No comment provided by engineer. */
+"SIGNATURE_TITLE" = "Kérjük, itt írja alá";
+
+/* No comment provided by engineer. */
+"SMS_REQUESTPUSHBUTTON_TITLE" = "Értesítést kérek SMS-ben";
+
+/* No comment provided by engineer. */
+"SMS_RETRYPUSHBUTTON_TILE" = "Értesítést kérek SMS-ben";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_DETAILS" = "Szeretne értesítést kapni, amikor egy azonosítási szakértőnk elérhetővé válik?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_TITLE" = "Várakozók listája";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_DETAILS" = "Jelenleg rendkívül sokan használják szolgáltatásunkat. Értesíthetjük önt SMS-ben, amikor egy azonosítási szakértőnk elérhetővé válik.";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_TITLE" = "Várakozók listája";
+
+/* No comment provided by engineer. */
+"START_OVER" = "Újrakezdés";
+
+/* No comment provided by engineer. */
+"TRANSACTION_ID_NOT_SUPPORT_ALERT_TITLE" = "Ident token nem támogatott";
+
+"TRUST_PILOT_MESSAGE_PRIVACY" = "Ennek megtételéhez elküldjük az ön nevét és emailcímét a Trustpilot részére.";
+
+/* The confirmation popup showing for rating on TrustPilot */
+"TRUST_PILOT_MESSAGE_QUESTION" = "Szeretne értékelni minket a Trustpilot oldalán?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_CANCEL_ALERT_MESSAGE" = "Tényleg újra szeretné kezdeni az azonosítást?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_CANCEL_ALERT_TITLE" = "Azonosítás megszakítása";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_DOCUMENTS_EXPLANATION" = "Érvényes személyi igazolványra vagy útlevélre lesz szükség az IDnow Online-Ident használatához.\nA biztonsági hologrammal rendelkező, modern személyazonosító okmányok széles választékát támogatjuk. Különösképpen az Európai Unió, Törökország, Norvégia, Svájc, Izland és USA területén kibocsátott személyi igazolványokat és útleveleket.";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_DOCUMENTS_TITLE" = "Milyen személyazonosító okmányok támogatottak?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_FAILED_ALERT_MESSAGE" = "Azonosítás sikertelen";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_MESSAGE" = "Kérjük, várjon, amíg az azonosítási szakértőnk ellenőrzi az adatait.";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_TITLE" = "Azonosítás befejezése folyamatban...";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Egy pillanat...";
+
+"WALLET_ACCOUNT_CANCEL" = "Mégsem";
+
+"WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "Nem emlékszik a jelszavára?";
+
+"WALLET_ACCOUNT_CONFIRM" = "Megerősítés";
+
+"WALLET_ACCOUNT_CONFIRM_PASSWORD" = "Erősítse meg a jelszavát";
+
+"WALLET_ACCOUNT_DONT_REGISTER" = "Nem szeretne fiókot regisztrálni?";
+
+"WALLET_ACCOUNT_EMAIL" = "Email";
+
+"WALLET_ACCOUNT_LOGIN" = "Bejelentkezés";
+
+"WALLET_ACCOUNT_LOGIN_CLOSE" = "Bezárás";
+
+"WALLET_ACCOUNT_LOGIN_CONTENT" = "Kérjük, adja meg az emailcímét és jelszavát, amelyet a kezdeti videóazonosításkor választott.";
+
+"WALLET_ACCOUNT_LOGIN_HINT" = "A fiókjához tartozó IDNow emailcím és jelszó";
+
+/* Wallet feature., Login */
+"WALLET_ACCOUNT_LOGIN_TITLE" = "Fiókbejelentkezés";
+
+"WALLET_ACCOUNT_PASSWORD_CONTENT" = "Legalább 8 karakter hosszú\nLegalább 1 szám\nLegalább 1 nagybetű\nLegalább 1 kisbetű";
+
+/* Register */
+"WALLET_ACCOUNT_PASSWORD_TITLE" = "Válasszon jelszót";
+
+"WALLET_ACCOUNT_PHONE_NUMBER" = "Telefonszám";
+
+"WALLET_ACCOUNT_REGISTER_CONTENT" = "Kérjük, győződjön meg arról, hogy az emailcíme és telefonszáma helyes-e.";
+
+/* Register */
+"WALLET_ACCOUNT_REGISTER_TITLE" = "IDnow Regisztráció";
+
+"WALLET_ACCOUNT_YOUR_PASSWORD" = "Az ön jelszava";
+
+/* "WALLET_WARNING"="Warning"; */
+"WALLET_CHANGE_EMAIL_PHONE_ALERT_CONTENT" = "Biztonsági okokból eredően a telefonszám, emailcím vagy jelszó megváltoztatása új videóazonosítást igényel.";
+
+"WALLET_CHANGE_PHONE_NUMBER_MESSAGE" = "Még ha nem is rendelkezik IDNow-fiókkal, szükség van az ön mobiltelefonszámára, amelyre elküldjük az Ident-kódját.";
+
+"WALLET_CONFIRMATION_CANCEL_CONTENT" = "Biztos benne, hogy nem kívánja aláírni a dokumentumokat és megszakítja a folyamatot?";
+
+"WALLET_CONFIRMATION_CANCEL_TITLE" = "Biztos benne?";
+
+"WALLET_CONTINUE_VIDEO_IDENT" = "Folytatás a videóazonosítással";
+
+"WALLET_LOGIN_PASSWORD_HINT" = "Biztonsági okok miatt az a jelszavának meg kell felelnie az alábbi szabályoknak";
+
+"WALLET_LOGIN_REGISTER_HINT" = "Az IDNow-fiók segítségével további dokumentumokat írhat alá egy egyszerű bejelentkezés által";
+
+/* No comment provided by engineer. */
+"YES" = "Igen";
+

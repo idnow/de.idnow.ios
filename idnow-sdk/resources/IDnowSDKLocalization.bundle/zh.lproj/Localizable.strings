@@ -882,6 +882,58 @@
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "稍等片刻。。。";
 
+"WALLET_ACCOUNT_CANCEL" = "取消";
+
+"WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "忘不了密码？";
+
+"WALLET_ACCOUNT_CONFIRM" = "确认";
+
+"WALLET_ACCOUNT_CONFIRM_PASSWORD" = "确认你的密码";
+
+"WALLET_ACCOUNT_DONT_REGISTER" = "不想注册账户？";
+
+"WALLET_ACCOUNT_EMAIL" = "电子邮件";
+
+"WALLET_ACCOUNT_LOGIN" = "登录";
+
+"WALLET_ACCOUNT_LOGIN_CLOSE" = "关";
+
+"WALLET_ACCOUNT_LOGIN_CONTENT" = "请输入您在初始视频识别期间选择的电子邮件地址和密码.";
+
+"WALLET_ACCOUNT_LOGIN_HINT" = "IDNow与您的帐户关联的电子邮件地址和密码";
+
+/* Wallet feature., Login */
+"WALLET_ACCOUNT_LOGIN_TITLE" = "帐号登录";
+
+"WALLET_ACCOUNT_PASSWORD_CONTENT" = "至少8个字符\n至少1个号码\n至少1个大写字符\n至少1个小写字符.";
+
+/* Register */
+"WALLET_ACCOUNT_PASSWORD_TITLE" = "选择密码";
+
+"WALLET_ACCOUNT_PHONE_NUMBER" = "电话号码";
+
+"WALLET_ACCOUNT_REGISTER_CONTENT" = "请确保您的电子邮件地址和手机号码正确无误.";
+
+/* Register */
+"WALLET_ACCOUNT_REGISTER_TITLE" = "身份登记";
+
+"WALLET_ACCOUNT_YOUR_PASSWORD" = "你的密码";
+
+/* "WALLET_WARNING"="Warning"; */
+"WALLET_CHANGE_EMAIL_PHONE_ALERT_CONTENT" = "出于安全原因，更改电话号码，电子邮件地址或密码需要新的视频标识.";
+
+"WALLET_CHANGE_PHONE_NUMBER_MESSAGE" = "即使没有IDNow帐户，我们也需要您的手机号码才能向您发送身份证明码.";
+
+"WALLET_CONFIRMATION_CANCEL_CONTENT" = "您确定不想签署文件并中止吗？";
+
+"WALLET_CONFIRMATION_CANCEL_TITLE" = "你确定吗？";
+
+"WALLET_CONTINUE_VIDEO_IDENT" = "继续视频识别";
+
+"WALLET_LOGIN_PASSWORD_HINT" = "出于安全原因，您的密码必须符合以下规则";
+
+"WALLET_LOGIN_REGISTER_HINT" = "使用IDNow帐户，您只需登录即可签署更多文档";
+
 /* No comment provided by engineer. */
 "YES" = "是";
 

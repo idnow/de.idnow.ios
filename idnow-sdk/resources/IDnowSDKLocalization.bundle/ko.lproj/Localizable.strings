@@ -882,6 +882,58 @@
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "잠시만 기다리세요...";
 
+"WALLET_ACCOUNT_CANCEL" = "취소";
+
+"WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "암호가 기억 나지 않습니까?";
+
+"WALLET_ACCOUNT_CONFIRM" = "확인";
+
+"WALLET_ACCOUNT_CONFIRM_PASSWORD" = "암호를 확인";
+
+"WALLET_ACCOUNT_DONT_REGISTER" = "계정을 등록하고 싶지 않으십니까?";
+
+"WALLET_ACCOUNT_EMAIL" = "이메일";
+
+"WALLET_ACCOUNT_LOGIN" = "로그인";
+
+"WALLET_ACCOUNT_LOGIN_CLOSE" = "닫기";
+
+"WALLET_ACCOUNT_LOGIN_CONTENT" = "처음 비디오를 확인하는 동안 선택한 이메일 주소와 비밀번호를 입력하십시오.";
+
+"WALLET_ACCOUNT_LOGIN_HINT" = "계정과 연결된 IDNow 이메일 주소 및 비밀번호";
+
+/* Wallet feature., Login */
+"WALLET_ACCOUNT_LOGIN_TITLE" = "계정 로그인";
+
+"WALLET_ACCOUNT_PASSWORD_CONTENT" = "최소 8 자 이상 \n 최소 1 자리 \n 최소 1 자의 대문자 \n 최소 1 자의 소문자.";
+
+/* Register */
+"WALLET_ACCOUNT_PASSWORD_TITLE" = "비밀번호 선택";
+
+"WALLET_ACCOUNT_PHONE_NUMBER" = "전화 번호";
+
+"WALLET_ACCOUNT_REGISTER_CONTENT" = "이메일 주소와 휴대 전화 번호가 정확한지 확인하십시오.";
+
+/* Register */
+"WALLET_ACCOUNT_REGISTER_TITLE" = "IDnow 등록";
+
+"WALLET_ACCOUNT_YOUR_PASSWORD" = "너의 비밀번호";
+
+/* "WALLET_WARNING"="Warning"; */
+"WALLET_CHANGE_EMAIL_PHONE_ALERT_CONTENT" = "보안상의 이유로 전화 번호, 전자 메일 주소 또는 암호를 변경하려면 새로운 비디오 ID가 필요합니다.";
+
+"WALLET_CHANGE_PHONE_NUMBER_MESSAGE" = "IDNow 계정이 없어도 사용자의 ID 코드를 보내려면 휴대 전화 번호가 필요합니다.";
+
+"WALLET_CONFIRMATION_CANCEL_CONTENT" = "문서에 서명하고 중단하고 싶지 않으십니까?";
+
+"WALLET_CONFIRMATION_CANCEL_TITLE" = "확실해?";
+
+"WALLET_CONTINUE_VIDEO_IDENT" = "비디오 식별을 계속하십시오";
+
+"WALLET_LOGIN_PASSWORD_HINT" = "보안상의 이유로 비밀번호가 다음 규칙에 부합해야합니다";
+
+"WALLET_LOGIN_REGISTER_HINT" = "IDNow 계정으로 로그인 만하면 더 많은 문서에 서명 할 수 있습니다";
+
 /* No comment provided by engineer. */
 "YES" = "예";
 

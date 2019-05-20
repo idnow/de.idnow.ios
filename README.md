@@ -2,6 +2,16 @@
 
 ## Changelog
 
+### 3.18.0
+Changes:
+- Wallet
+- New languages
+- Updated AFNetworking to 3.2.1
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.18.0 and call pod update
+
 ### 3.17.0
 Changes:
 - Minor improvements & bugfixes
