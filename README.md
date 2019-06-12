@@ -2,6 +2,13 @@
 
 ## Changelog
 
+### 3.19.0
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.19.0 and call pod update
+
 ### 3.18.0
 Changes:
 - Wallet

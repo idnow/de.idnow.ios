@@ -10,9 +10,4 @@
 
 @interface IDnowSettings ()
 
-/**
- *  set this to YES in case you wish to perform idents with different short names.
- */
-@property (assign, nonatomic) BOOL ignoreCompanyID;
-
 @end
