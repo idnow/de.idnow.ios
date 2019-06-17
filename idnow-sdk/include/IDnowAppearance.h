@@ -356,6 +356,21 @@ enum REQUEST_CODE_AGAIN_LAYOUT_TYPE
 
 @property (assign, nonatomic) BOOL lightBlurForIdentCodeContainer;
 
+// -----------------------------------------------------------------------------------
+//                                    Call Quality Check
+// -----------------------------------------------------------------------------------
+
+@property (assign, nonatomic) BOOL shouldShowNavigationBarOnCQCScreen; // Put CQC screen in navigation stack instead of present it
+@property (assign, nonatomic) BOOL shouldUseBrandColoForPreCheckTitle; // Default grey, apply branch color for title
+@property (assign, nonatomic) BOOL progressBarsSquared; // Squared bars instead of
+
+@property (assign, nonatomic) BOOL shouldShowResultTitleForCQCResult; // on the call quality check screen, should be show result
+@property (assign, nonatomic) BOOL shouldShowNetworkIndicatorForCQCResult;// three dots indicate network condition
+@property (assign, nonatomic) BOOL recheckButtonsBordered; // default is underline
+@property (assign, nonatomic) BOOL shouldSeparateFooter; // on CQC result screen, show footer separator
+@property (assign, nonatomic) BOOL suggestionListBulleted;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

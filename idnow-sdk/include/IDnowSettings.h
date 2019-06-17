@@ -195,7 +195,10 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 @property (strong, nullable, nonatomic)NSString* pushDeviceToken;
 
 /**
- * The name the resulting app should use in the UINavigation bar
+ * If you use Sentry with your app, set sentryDSN to https://login:secret@<sentry-fqdn>/<project>
+ */
+@property (strong, nullable, nonatomic)NSString* sentryDSN;
+ /* The name the resulting app should use in the UINavigation bar
  */
 @property (strong, nullable, nonatomic)NSString* productName;
 
