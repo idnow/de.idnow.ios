@@ -1,3 +1,20 @@
+# Table of Contents
+- [Changelog](#changelog)
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [CocoaPods](#cocoapods)
+  - [CocoaPods & XCode 9](#cocoapods-xcode-9)
+  - [Manually](#manually)
+- [Settings (IDnowSettings)](#settings-idnowsettings)
+- [Branding (IDnowAppearance)](#branding-idnowappearance)
+  - [Colors](#colors)
+  - [Status Bar](#status-bar)
+  - [Fonts](#fonts)
+- [Adding Push Notifications](#adding-push-notifications)
+- [Usage example:](#usage-example)
+- [Localization](#localization)
+- [Example:](#example)
+
 # SDK
 
 ## Changelog
