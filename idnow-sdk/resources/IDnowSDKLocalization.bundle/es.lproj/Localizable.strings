@@ -386,6 +386,9 @@
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Atrás";
 
 /* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_CALL_QUALITY_CHECK" = "NAVIGATION_ITEM_TITLE_CALL_QUALITY_CHECK";
+
+/* No comment provided by engineer. */
 "NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
 
 /* No comment provided by engineer. */

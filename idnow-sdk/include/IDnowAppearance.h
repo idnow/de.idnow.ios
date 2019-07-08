@@ -361,7 +361,7 @@ enum REQUEST_CODE_AGAIN_LAYOUT_TYPE
 // -----------------------------------------------------------------------------------
 
 @property (assign, nonatomic) BOOL shouldShowNavigationBarOnCQCScreen; // Put CQC screen in navigation stack instead of present it
-@property (assign, nonatomic) BOOL shouldUseBrandColoForPreCheckTitle; // Default grey, apply branch color for title
+@property (assign, nonatomic) BOOL shouldUseHeadlineColorForPreCheckTitle; // Default grey, apply headline color for title
 @property (assign, nonatomic) BOOL progressBarsSquared; // Squared bars instead of
 
 @property (assign, nonatomic) BOOL shouldShowResultTitleForCQCResult; // on the call quality check screen, should be show result

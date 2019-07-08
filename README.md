@@ -19,6 +19,14 @@
 
 ## Changelog
 
+### 3.21.0
+Changes:
+- Updated to newest Sentry version
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.21.0, update Sentry dependency version and call pod update
+
 ### 3.20.0
 Changes:
 - Added possibility to use Sentry logging
