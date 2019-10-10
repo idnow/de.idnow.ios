@@ -239,6 +239,9 @@
 "IDNOW_ERROR_TITLE_412" = "Identification Completed";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "Icelink license key is invalid.";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "Identification failed. No video connection could be established. Please try again.";
 
 /* No comment provided by engineer. */
@@ -742,6 +745,9 @@
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Your data has been encrypted and is being transferred to our secure servers.";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "Ok, I will wait";
+
 /* No comment provided by engineer. */
 "PUSH_REQUESTPUSHBUTTON_TITLE" = "Notify me via push notification";
 
@@ -750,6 +756,12 @@
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_DETAILS" = "Do you wish to be notified when an identification expert is ready for you?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "You are placed on the waiting list";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "No, thanks. I will wait";
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_TITLE" = "Waiting List";
@@ -797,7 +809,13 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Data Received";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "Waiting List Confirmation";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Waiting List";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "Waiting List Confirmation";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Waiting List";
@@ -832,6 +850,9 @@
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "Please Sign Here";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "Ok, I will wait";
+
 /* No comment provided by engineer. */
 "SMS_REQUESTPUSHBUTTON_TITLE" = "Notify me via SMS notification";
 
@@ -840,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_DETAILS" = "Do you wish to be notified when an identification expert is ready for you?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "You are placed on the waiting list";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "No, thanks. I will wait";
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_TITLE" = "Waiting List";
@@ -884,6 +911,19 @@
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "One moment please…";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "You are being connected to our identification experts";
+
+"WAITING_SCREEN_ICON_CHECK" = "Our agent will verify your information with you during the Video Identification.";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "Please have your ID document available.";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "All of our agents are currently assisting other callers.";
+
+"WAITING_SCREEN_ICON_SELFIE" = "Be ready for a Selfie.";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "Place me on the wating list";
 
 "WALLET_ACCOUNT_CANCEL" = "Cancel";
 

@@ -239,6 +239,9 @@
 "IDNOW_ERROR_TITLE_412" = "Identificatie Voltooid";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "Identificatie mislukt. Er kon geen videoverbinding tot stand worden gebracht. Probeer het opnieuw.";
 
 /* No comment provided by engineer. */
@@ -742,6 +745,9 @@
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Je gegevens zijn gecodeerd en worden overgebracht naar onze beveiligde servers.";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "OK ik zal wachten";
+
 /* No comment provided by engineer. */
 "PUSH_REQUESTPUSHBUTTON_TITLE" = "Breng mij op de hoogte via push notification";
 
@@ -750,6 +756,12 @@
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_DETAILS" = "Wil je op de hoogte gebracht worden wanneer er een identificatiedeskundige voor je klaarstaat?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "U wordt op de wachtlijst geplaatst";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "Nee bedankt. ik zal wachten";
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_TITLE" = "Wachtlijst";
@@ -797,7 +809,13 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Gegevens ontvangen";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "Wachtlijst Bevestiging";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Wachtlijst";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "Wachtlijst Bevestiging";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Wachtlijst";
@@ -832,6 +850,9 @@
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "Gelieve hier ondertekenen";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "OK ik zal wachten";
+
 /* No comment provided by engineer. */
 "SMS_REQUESTPUSHBUTTON_TITLE" = "Breng mij op de hoogte via SMS-melding";
 
@@ -840,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_DETAILS" = "Wil je op de hoogte gebracht worden wanneer er een identificatiedeskundige voor je klaarstaat?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "U wordt op de wachtlijst geplaatst";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "Nee bedankt. ik zal wachten";
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_TITLE" = "Wachtlijst";
@@ -884,6 +911,19 @@
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Een moment alsjeblieft.....";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "U wordt verbonden met onze identificatie-experts";
+
+"WAITING_SCREEN_ICON_CHECK" = "Onze agent zal uw informatie bij u verifiëren tijdens de video-identificatie.";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "Houd uw ID-document bij de hand.";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "Al onze agenten helpen momenteel andere bellers.";
+
+"WAITING_SCREEN_ICON_SELFIE" = "Wees klaar voor een Selfie.";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "Plaats me op de wachtlijst";
 
 "WALLET_ACCOUNT_CANCEL" = "Annuleren";
 

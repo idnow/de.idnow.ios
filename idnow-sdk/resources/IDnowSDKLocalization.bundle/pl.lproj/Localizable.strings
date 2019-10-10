@@ -239,6 +239,9 @@
 "IDNOW_ERROR_TITLE_412" = "Identyfikacja zakończona.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "Identyfikacja się nie powiodła. Nie można ustanowić połączenia wideo. Spróbuj ponownie.";
 
 /* No comment provided by engineer. */
@@ -742,6 +745,9 @@
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Twoje dane zostały zaszyfrowane i są obecnie przesyłane na nasze bezpieczne serwery.";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "Ok poczekam";
+
 /* No comment provided by engineer. */
 "PUSH_REQUESTPUSHBUTTON_TITLE" = "Powiadom mnie za pomocą powiadomienia push";
 
@@ -750,6 +756,12 @@
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_DETAILS" = "Chcesz być powiadamiany, kiedy ekspert ds. weryfikacji jest do Twojej dyspozycji?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "Zostaniesz umieszczony na liście oczekujących";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "Nie, dziękuję. poczekam";
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_TITLE" = "Lista osób oczekujących";
@@ -797,7 +809,13 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Dane otrzymane";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "Potwierdzenie listy oczekujących";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Lista osób oczekujących";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "Potwierdzenie listy oczekujących";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Lista osób oczekujących";
@@ -832,6 +850,9 @@
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "Podpisz tutaj";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "Ok poczekam";
+
 /* No comment provided by engineer. */
 "SMS_REQUESTPUSHBUTTON_TITLE" = "Powiadom mnie przez SMS";
 
@@ -840,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_DETAILS" = "Chcesz być powiadamiany, kiedy ekspert ds. weryfikacji jest do Twojej dyspozycji?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "Zostaniesz umieszczony na liście oczekujących";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "Nie, dziękuję. poczekam";
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_TITLE" = "Lista osób oczekujących";
@@ -884,6 +911,19 @@
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Poczekaj chwilę...";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "Jesteś połączony z naszymi ekspertami ds. Identyfikacji";
+
+"WAITING_SCREEN_ICON_CHECK" = "Nasz agent zweryfikuje Twoje dane podczas identyfikacji wideo.";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "Przygotuj dokument tożsamości.";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "Wszyscy nasi agenci pomagają obecnie innym dzwoniącym.";
+
+"WAITING_SCREEN_ICON_SELFIE" = "Przygotuj się na selfie.";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "Umieść mnie na liście oczekujących";
 
 "WALLET_ACCOUNT_CANCEL" = "";
 

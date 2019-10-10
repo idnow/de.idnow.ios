@@ -2,6 +2,14 @@
 
 ## Changelog
 
+### 3.22.0
+Changes:
+- Added waiting screens with animation.
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.22.0,  and call pod update
+
 ### 3.21.0
 Changes:
 - Updated to newest Sentry version
@@ -568,6 +576,27 @@ Default: A red color
 Optional color, that replaces the text color in the result screen, when an identification was successful.
 Default: A green color
 
+#### Call quality check screen
+
+#### cqcOuterRingColor
+Optional color that replaces default dark gray for the outer ring indicator on the quality check screen.
+Default: dark gray
+
+#### cqcDefaultInnerRingColor
+Optional color that replaces default light gray for the inner ring indicator on the quality check screen.
+Default: light gray
+
+#### cqcPoorQualityInnerColor
+Optional color that replaces default bright red for the inner ring indicator in case bad network quality on the quality check screen.
+Default: bright red
+
+#### cqcModerateQualityInnerColor
+Optional color that replaces default bright orange for the inner ring indicator in case moderate network quality on the quality check screen.
+Default: bright orange
+
+#### cqcExcellentQualityInnerColor
+Optional color that replaces default strong yellow for the inner ring indicator in case excellent network quality on the quality check screen.
+Default: strong yellow (almost green).
 
 ### Status Bar
 

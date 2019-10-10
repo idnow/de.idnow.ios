@@ -239,6 +239,9 @@
 "IDNOW_ERROR_TITLE_412" = "认证结束";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "Icelink许可证密钥无效.";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "认证失败。无法连接网络。请稍后再试一次。";
 
 /* No comment provided by engineer. */
@@ -742,6 +745,9 @@
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "您的数据已经被加密，现在上传到我们的服务器。";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "好的，我会等";
+
 /* No comment provided by engineer. */
 "PUSH_REQUESTPUSHBUTTON_TITLE" = "向我推送消息";
 
@@ -750,6 +756,12 @@
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_DETAILS" = "如果认证客服空闲，我们可以给您发送消息提示吗？";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "你被列入候补名单";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "不用了，谢谢。 我将等待";
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_TITLE" = "排队";
@@ -797,7 +809,13 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "收到数据";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "等候名单确认";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "排队";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "等候名单确认";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "排队";
@@ -832,6 +850,9 @@
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "在这里签字";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "好的，我会等";
+
 /* No comment provided by engineer. */
 "SMS_REQUESTPUSHBUTTON_TITLE" = "通过短信提醒";
 
@@ -840,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_DETAILS" = "如果有认证客服空闲，您想收到消息吗？";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "你被列入候补名单";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "不用了，谢谢。 我将等待";
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_TITLE" = "排队";
@@ -884,6 +911,19 @@
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "稍等片刻。。。";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "您正在与我们的身份识别专家联系";
+
+"WAITING_SCREEN_ICON_CHECK" = "我们的代理将在视频识别期间与您核实您的信息。";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "请提供您的身份证明文件。";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "我们所有的代理商目前都在协助其他来电者。";
+
+"WAITING_SCREEN_ICON_SELFIE" = "准备好自拍。";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "把我放在等候名单上";
 
 "WALLET_ACCOUNT_CANCEL" = "取消";
 

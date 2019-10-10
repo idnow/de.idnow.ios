@@ -177,6 +177,40 @@ enum REQUEST_CODE_AGAIN_LAYOUT_TYPE
  */
 @property (strong, nonatomic) UIColor *resultScreenHeaderLabelColor;
 
+// -----------------------------------------------------------------------------------
+//                                    Call Quality Check
+// -----------------------------------------------------------------------------------
+
+/**
+ *  Optional color that replaces default dark gray for the outer ring indicator on the quality check screen.
+ *  Default: dark gray
+ */
+@property (strong, nonatomic) UIColor *cqcOuterRingColor;
+
+/**
+ *  Optional color that replaces default light gray for the inner ring indicator on the quality check screen.
+ *  Default: light gray
+ */
+@property (strong, nonatomic) UIColor *cqcDefaultInnerRingColor;
+
+/**
+ *  Optional color that replaces default bright red for the inner ring indicator in case bad network quality on the quality check screen.
+ *  Default: bright red
+ */
+@property (strong, nonatomic) UIColor *cqcPoorQualityInnerColor;
+
+/**
+ *  Optional color that replaces default bright orange for the inner ring indicator in case moderate network quality on the quality check screen.
+ *  Default: bright orange
+ */
+@property (strong, nonatomic) UIColor *cqcModerateQualityInnerColor;
+
+/**
+ *  Optional color that replaces default strong yellow for the inner ring indicator in case excellent network quality on the quality check screen.
+ *  Default: strong yellow (almost green).
+ */
+@property (strong, nonatomic) UIColor *cqcExcellentQualityInnerColor;
+
 /**
  *  Optional separator dividing title and view body. Default height is 2 points.
  *  Separator color: primaryBrandColor

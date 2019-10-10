@@ -239,6 +239,9 @@
 "IDNOW_ERROR_TITLE_412" = "Identificazione terminata";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "Il codice di licenza di Icelink non è valido.";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "L'identificazione non è riuscita. Non è stato possibile stabilire un collegamento video. Riprovi.";
 
 /* No comment provided by engineer. */
@@ -742,6 +745,9 @@
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "I suoi dati sono stati criptati e saranno trasferiti sul nostro server.";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "Ok io aspetterò";
+
 /* No comment provided by engineer. */
 "PUSH_REQUESTPUSHBUTTON_TITLE" = "Avvisatemi tramite notifica push";
 
@@ -750,6 +756,12 @@
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_DETAILS" = "Desideri ricevere una notifica non appena un esperto di identificazione si renderà disponibile per te?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "Sei inserito nella lista d'attesa";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "No grazie. aspetterò";
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_TITLE" = "Lista d'Attesa";
@@ -797,7 +809,13 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Trasferimento dati riuscito";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "Conferma della lista d'attesa";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Lista d'Attesa";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "Conferma della lista d'attesa";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Lista d'Attesa";
@@ -832,6 +850,9 @@
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "Firmare qui";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "Ok io aspetterò";
+
 /* No comment provided by engineer. */
 "SMS_REQUESTPUSHBUTTON_TITLE" = "Avvisatemi tramite messaggio SMS";
 
@@ -840,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_DETAILS" = "Desideri ricevere una notifica non appena un esperto di identificazione si renderà disponibile per te?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "Sei inserito nella lista d'attesa";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "No grazie. aspetterò";
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_TITLE" = "Lista d'Attesa";
@@ -884,6 +911,19 @@
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Attendere prego...";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "Sei collegato ai nostri esperti di identificazione";
+
+"WAITING_SCREEN_ICON_CHECK" = "Il nostro agente verificherà le tue informazioni con te durante l'identificazione video.";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "Si prega di avere il documento di identità disponibile.";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "Tutti i nostri agenti stanno attualmente assistendo altri chiamanti.";
+
+"WAITING_SCREEN_ICON_SELFIE" = "Preparati per un selfie.";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "Mettimi in lista d'attesa";
 
 "WALLET_ACCOUNT_CANCEL" = "Annulla";
 

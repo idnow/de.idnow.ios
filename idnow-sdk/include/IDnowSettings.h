@@ -207,6 +207,13 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  */
 @property (assign, nonatomic) BOOL ignoreCompanyID;
 
+/**
+ * Waiting screen
+ * Paging time interval
+ * 10s by default, equal with animated video duration
+ */
+@property (assign, nonatomic) double automaticPagingTimeInterval;
+
 // -----------------------------------------------------------------------------------
 //                                    Localization
 // -----------------------------------------------------------------------------------

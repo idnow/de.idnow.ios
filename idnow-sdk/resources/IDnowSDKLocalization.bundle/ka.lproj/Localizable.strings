@@ -239,6 +239,9 @@
 "IDNOW_ERROR_TITLE_412" = "იდენტიფიკაცია დასრულდა";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "იდენტიფიკაცია ვერ მოხერხდა. ვიდეოკავშირის დამყარება ვერ მოხერხდა. სცადეთ ხელახლა.";
 
 /* No comment provided by engineer. */
@@ -742,6 +745,9 @@
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "თქვენი მონაცემები დაიშიფრა და გადაიცემა ჩვენს უსაფრთხო სერვერებზე.";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "Კარგი დავიცდი";
+
 /* No comment provided by engineer. */
 "PUSH_REQUESTPUSHBUTTON_TITLE" = "შემატყობინეთ push შეტყობინებით";
 
@@ -750,6 +756,12 @@
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_DETAILS" = "გსურთ, რომ გეცნობოთ, როცა იდენტიფიკაციის ექსპერტი მზად იქნება?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "თქვენ მოთავსებული ხართ ლოდინის სიაში";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "Არა გმადლობთ. მე დავიცდი";
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_TITLE" = "მოლოდინის სია";
@@ -797,7 +809,13 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "მონაცემები მიღებულია";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "ლოდინის სიის დადასტურება";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "მოლოდინის სია";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "ლოდინის სიის დადასტურება";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "მოლოდინის სია";
@@ -832,6 +850,9 @@
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "მოაწერეთ აქ";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "Კარგი დავიცდი";
+
 /* No comment provided by engineer. */
 "SMS_REQUESTPUSHBUTTON_TITLE" = "შემატყობინეთ SMS შეტყობინებით";
 
@@ -840,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_DETAILS" = "გსურთ, რომ გეცნობოთ, როცა იდენტიფიკაციის ექსპერტი მზად იქნება?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "თქვენ მოთავსებული ხართ ლოდინის სიაში";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "Არა გმადლობთ. მე დავიცდი";
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_TITLE" = "მოლოდინის სია";
@@ -884,6 +911,19 @@
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "ერთ წუთით, გთხოვთ...";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "თქვენ უკავშირდებით ჩვენს საიდენტიფიკაციო ექსპერტებს";
+
+"WAITING_SCREEN_ICON_CHECK" = "ჩვენი აგენტი გადაამოწმებს თქვენს ინფორმაციას თქვენთან ვიდეოს იდენტიფიკაციის დროს.";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "გთხოვთ, ხელმისაწვდომი იყოს თქვენი პირადობის მოწმობა.";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "ამჟამად ჩვენი ყველა აგენტი სხვა ზარის დამხმარეებს ეხმარება.";
+
+"WAITING_SCREEN_ICON_SELFIE" = "მზად იყავით სელფისთვის.";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "მოათავსეთ ლოდინის სიაში";
 
 "WALLET_ACCOUNT_CANCEL" = "გაუქმება";
 

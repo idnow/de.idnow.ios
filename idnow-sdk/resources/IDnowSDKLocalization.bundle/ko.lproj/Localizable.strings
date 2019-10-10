@@ -239,6 +239,9 @@
 "IDNOW_ERROR_TITLE_412" = "신원 확인 완료";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "Icelink 라이센스 키가 잘못되었습니다.";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "신원 확인 실패. 동영상 연결이 불가능합니다. 다시 시도하세요.";
 
 /* No comment provided by engineer. */
@@ -742,6 +745,9 @@
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "데이터가 암호화되어 보안 서버로 전송됩니다.";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "좋아, 기다릴게";
+
 /* No comment provided by engineer. */
 "PUSH_REQUESTPUSHBUTTON_TITLE" = "푸시 알림으로 알려주세요";
 
@@ -750,6 +756,12 @@
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_DETAILS" = "신원 확인 전문가가 준비되면 알려 드릴까요?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "대기자 명단에 있습니다";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "괜찮습니다. 기다릴게";
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_TITLE" = "대기명단";
@@ -797,7 +809,13 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "수신된 데이터";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "대기자 명단 확인";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "대기명단";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "대기자 명단 확인";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "대기명단";
@@ -832,6 +850,9 @@
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "여기에 서명하세요";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "좋아, 기다릴게";
+
 /* No comment provided by engineer. */
 "SMS_REQUESTPUSHBUTTON_TITLE" = "SMS 알림으로 알려주세요";
 
@@ -840,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_DETAILS" = "신원 확인 전문가가 준비되면 알려 드릴까요?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "대기자 명단에 있습니다";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "괜찮습니다. 기다릴게";
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_TITLE" = "대기명단";
@@ -884,6 +911,19 @@
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "잠시만 기다리세요...";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "당신은 우리의 식별 전문가와 연결되어 있습니다";
+
+"WAITING_SCREEN_ICON_CHECK" = "상담원이 비디오 식별 중에 귀하와 귀하의 정보를 확인합니다.";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "신분 증명서를 준비하십시오.";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "모든 상담원이 현재 다른 발신자를 지원하고 있습니다.";
+
+"WAITING_SCREEN_ICON_SELFIE" = "셀카를 준비하십시오.";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "대기자 명단에 올려주세요";
 
 "WALLET_ACCOUNT_CANCEL" = "취소";
 

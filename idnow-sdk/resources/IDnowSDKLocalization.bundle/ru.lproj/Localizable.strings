@@ -239,6 +239,9 @@
 "IDNOW_ERROR_TITLE_412" = "Идентификация завершена";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "Лицензионный ключ Icelink недействителен.";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "Идентификация не удалась. Не удалось установить видеосвязь. Пожалуйста, повторите попытку.";
 
 /* No comment provided by engineer. */
@@ -742,6 +745,9 @@
 /* No comment provided by engineer. */
 "PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Ваши данные зашифрованы и передаются на наши защищенные сервера.";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "Хорошо я подожду";
+
 /* No comment provided by engineer. */
 "PUSH_REQUESTPUSHBUTTON_TITLE" = "Уведомить меня с помощью push-уведомления";
 
@@ -750,6 +756,12 @@
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_DETAILS" = "Вы желаете получить уведомление, когда эксперт по идентификации будет готов вас принять?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "Вы попали в список ожидания";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "Нет, спасибо. Я подожду";
 
 /* No comment provided by engineer. */
 "PUSH_STAGE1_TITLE" = "Лист ожидания";
@@ -797,7 +809,13 @@
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Данные получены";
 
 /* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "Подтверждение списка ожидания";
+
+/* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Лист ожидания";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "Подтверждение списка ожидания";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Лист ожидания";
@@ -832,6 +850,9 @@
 /* No comment provided by engineer. */
 "SIGNATURE_TITLE" = "Пожалуйста, поставьте подпись здесь";
 
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "Хорошо я подожду";
+
 /* No comment provided by engineer. */
 "SMS_REQUESTPUSHBUTTON_TITLE" = "Уведомить меня с помощью СМС-уведомления";
 
@@ -840,6 +861,12 @@
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_DETAILS" = "Вы желаете получить уведомление, когда эксперт по идентификации будет готов вас принять?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "Вы попали в список ожидания";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "Нет, спасибо. Я подожду";
 
 /* No comment provided by engineer. */
 "SMS_STAGE1_TITLE" = "Лист ожидания";
@@ -884,6 +911,19 @@
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Минуточку, пожалуйста...";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "Вы подключены к нашим экспертам по идентификации";
+
+"WAITING_SCREEN_ICON_CHECK" = "Наш агент проверит вашу информацию с вами во время идентификации видео.";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "Пожалуйста, имейте при себе документ, удостоверяющий личность.";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "Все наши агенты в настоящее время помогают другим абонентам.";
+
+"WAITING_SCREEN_ICON_SELFIE" = "Будьте готовы к селфи.";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "Поместите меня в лист ожидания";
 
 "WALLET_ACCOUNT_CANCEL" = "отменить";
 
