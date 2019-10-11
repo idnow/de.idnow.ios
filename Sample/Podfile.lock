@@ -30,7 +30,7 @@ PODS:
   - SocketRocket (0.5.1)
 
 DEPENDENCIES:
-  - IDnowSDK (= 3.21.0)
+  - IDnowSDK (= 3.22.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
