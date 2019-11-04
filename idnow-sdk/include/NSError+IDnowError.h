@@ -92,6 +92,12 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *
      */
     IDnowErrorJailbreakPhoneNotSupported      = 1014,
+    
+    /**
+     *  Using Icelink3 with invalid key
+     *
+     */
+    IDnowErrorInvalidIcelinkToken             = 1015,
 };
 
 @interface NSError (IDnowError)

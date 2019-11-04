@@ -1,23 +1,13 @@
-# Table of Contents
-- [Changelog](#changelog)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [CocoaPods](#cocoapods)
-- [CocoaPods & XCode 9](#cocoapods-xcode-9)
-- [Manually](#manually)
-- [Settings (IDnowSettings)](#settings-idnowsettings)
-- [Branding (IDnowAppearance)](#branding-idnowappearance)
-- [Colors](#colors)
-- [Status Bar](#status-bar)
-- [Fonts](#fonts)
-- [Adding Push Notifications](#adding-push-notifications)
-- [Usage example:](#usage-example)
-- [Localization](#localization)
-- [Example:](#example)
-
 # SDK
 
 ## Changelog
+
+### 3.23.0
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 3.23.0,  and call pod update
 
 ### 3.22.0
 Changes:
