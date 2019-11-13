@@ -2,12 +2,12 @@
 
 ## Changelog
 
-### 3.23.0
+### 3.22.1
 Changes:
 - Minor improvements & bugfixes
 
 Migration Guide:
-- Change the SDK reference to 3.23.0,  and call pod update
+- Change the SDK reference to 3.22.1,  and call pod update
 
 ### 3.22.0
 Changes:
