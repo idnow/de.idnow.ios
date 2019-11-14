@@ -4,7 +4,7 @@
 
 ### 3.22.1
 Changes:
-- Minor improvements & bugfixes
+- Minor improvements & bugfixes.
 
 Migration Guide:
 - Change the SDK reference to 3.22.1,  and call pod update
