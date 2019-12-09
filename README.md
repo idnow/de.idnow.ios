@@ -4,6 +4,7 @@
 
 ### 4.0.0
 Changes:
+- Migrate to Icelink 3
 - Minor improvements & bugfixes
 
 Migration Guide:
