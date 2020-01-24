@@ -1,5 +1,3 @@
-# SDK
-
 # Table of Contents
 
  - [Requirements](#requirements)
