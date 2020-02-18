@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "IDNLogClient.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -206,6 +207,12 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  *  If true the first api request will take the token instead of the companyid into account.
  */
 @property (assign, nonatomic) BOOL ignoreCompanyID;
+
+/**
+ * The current logger instance that implement IDNLogClient interface.
+ * Responsible for log events to a External logger
+ */
+@property (strong, nonatomic) id<IDNLogClient> externalLogger;
 
 /**
  * Waiting screen

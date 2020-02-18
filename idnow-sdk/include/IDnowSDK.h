@@ -12,3 +12,4 @@
 #import "IDnowAppearance.h"
 #import "IDnowCertificateProvider.h"
 #import "IDnowAppDelegate.h"
+#import "IDNLogClient.h"

@@ -1,0 +1,982 @@
+/* No comment provided by engineer. */
+"CAMERA_ACCESS_DENIED_ALERT_TITLE" = "Ligipääs kaamerale keelatud";
+
+/* No comment provided by engineer. */
+"CANCEL" = "Tühista";
+
+/* No comment provided by engineer. */
+"CANCEL_IDENTIFICATION" = "Katkesta tuvastamine";
+
+/* No comment provided by engineer. */
+"CHAT_INPUT_SEND_BUTTON_TITLE" = "Saada";
+
+/* No comment provided by engineer. */
+"CHAT_INPUT_TEXTFIELD_PLACEHOLDER" = "Sisestage teade siia...";
+
+/* No comment provided by engineer. */
+"CHAT_SENDER_TEXT_AGENT" = "IDnow: %@";
+
+/* No comment provided by engineer. */
+"CHAT_SENDER_TEXT_USER" = "Teie: %@";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Nõustun IDnow teenuse osutamise tingimustega ja olen lugenud privaatsuspoliitikat.";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_PRIVACY_POLICY_BUTTON_TITLE" = "Privaatsuspoliitika";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_PRIVACY_POLICY_LINK" = "http://www.idnow.eu/privacy";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_TERMS_OF_USE_BUTTON_TITLE" = "Teenustingimused";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_GTC_TERMS_OF_USE_LINK" = "http://www.idnow.eu/terms";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_TBD_DESCRIPTION" = "Tuvastamisprotsessi alustamisega nõustute järgnevaga: enda ja oma isikutunnistuse pildistamine, vestluse salvestamine.";
+
+/* No comment provided by engineer. */
+"CHECK_AGREEMENT_TITLE" = "Teie nõusolek";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_DESCRIPTION" = "Alternatiivina võime teie tuvastuskoodi saata teile tuvastusprotsessi käigus käesolevale e-posti aadressile.";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_PLACEHOLDER" = "nt abc@idnow.de …";
+
+/* No comment provided by engineer. */
+"CHECK_EMAIL_TITLE" = "Teie e-posti aadress";
+
+/* No comment provided by engineer. */
+"CHECK_LICENSE_DESCRIPTION" = "Tuvastamise ajal kontrollitakse teie isikutunnistust. Palun hoidke see käeulatuses.";
+
+/* No comment provided by engineer. */
+"CHECK_LICENSE_TITLE" = "Teie käeulatuses olev isikutunnistus";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Tuvastusprotsessi käigus saadame sellele telefoninumbrile teie tuvastuskoodiga SMS-sõnumi.";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_PLACEHOLDER" = "nt 01761234 …";
+
+/* No comment provided by engineer. */
+"CHECK_MOBILE_NUMBER_TITLE" = "Teie telefoninumber";
+
+/* No comment provided by engineer. */
+"CHECK_SCREEN_TOKEN_TEXT" = "Teie Ident-ID:";
+
+/* No comment provided by engineer. */
+"CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Alusta tuvastust";
+
+/* No comment provided by engineer. */
+"CHECK_TITLE" = "Tuvastusprotsessi käivitamiseks on vaja järgnevat:";
+
+/* No comment provided by engineer. */
+"CONTINUE" = "Jätka";
+
+/* No comment provided by engineer. */
+"CONTRACTS_BACK_BUTTON_TITLE" = "Tagasi";
+
+/* No comment provided by engineer. */
+"CONTRACTS_LOADING_ERROR_DESCRIPTION" = "Nõutud dokumendi laadimine ebaõnnestus. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"CONTRACTS_LOADING_ERROR_RELOAD_BUTTON_TITLE" = "Laadi uuesti";
+
+/* No comment provided by engineer. */
+"CONTRACT_ID_LABEL" = "Lepingu tunnus";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_COMMENT" = "Vali riik";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_HELP_TEXT" = "Palun valige isikutunnistuse väljastanud riik.";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_NEXT_BUTTON_TITLE" = "Jätka";
+
+/* No comment provided by engineer. */
+"COUNTRY_SELECTION_TITLE" = "Vali riik";
+
+"DOCUMENT_EXPIRY_DATE_CHECK" = "Dokumendi aegumiskuupäev";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_CONTENT" = "Palun sisestage enda dokumendi aegumiskuupäev";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_EXPIRED_ERROR_TEXT" = "Sisestatud kuupäev on minevikus";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_PLACEHOLDER" = "PP/KK/AAAA";
+
+"DOCUMENT_EXPIRY_DATE_CHECK_TODAY" = "Sisestatud kuupäev on täna";
+
+"DOCUMENT_EXPIRY_DATE_NOT_PRESENT" = "Mu dokumendil ei ole aegumiskuupäeva";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_COMMENT" = "Valige isikutunnistuse tüüp.";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_LOADING_MESSAGE" = "Tuvastamist käivitatakse. Palun oodake.";
+
+/* No comment provided by engineer. */
+"DOCUMENT_SELECTION_TITLE" = "Dokument";
+
+/* No comment provided by engineer. */
+"ERROR" = "Viga";
+
+/* No comment provided by engineer. */
+"ESIGNATURE_CHECK_CONTRACT_BUTTON_TITLE" = "Kontrollige lepingut";
+
+/* No comment provided by engineer. */
+"ESIGNATURE_SIGNED_SUCCESSFULLY" = "See dokument on edukalt allkirjastatud. Palun oodake kuni jätkame.";
+
+/* No comment provided by engineer. */
+"GERMANY" = "Saksamaa";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Jätka";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_EMAIL_PLACEHOLDER" = "nt abc@idnow.de …";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_EMAIL_TITLE" = "Tuvastuskoodi e-posti aadressile";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Teie tuvastuskood saadeti SMS-iga järgnevale telefoninumbrile: %@ . Jätkamiseks sisestage palun oma tuvastuskood.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Teie tuvastuskood saadeti järgnevale e-posti aadressile %@. Jätkamiseks sisestage palun enda tuvastuskood.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_ENTER_CODE_TITLE" = "Sisestage tuvastuskood";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "nt 01761234 …";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Tuvastuskood SMS-iga";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_PLACEHOLDER" = "Tuvastuskood";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Nõudke uut tuvastuskoodi";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Te ei saanud tuvastuskoodi või sisestasite vale numbri?";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE_EMAIL" = "Ei saanud tuvastuskoodi või sisestasite vale e-posti aadressi?";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Palun kontrollige andmeid ja nõudke uut tuvastuskoodi.";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_CODE_TITLE" = "Saatke tuvastuskood";
+
+/* No comment provided by engineer. */
+"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Saatke tuvastuskood";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1000" = "Tuvastusprotsess eeldab tuvastuskoodi olemasolu.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1001" = "Tuvastamiseks on vaja ettevõtte tunnust.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1002" = "Tuvastamist ei ole võimalik läbi viia iPhone 4-ga. Palun kasutage iPhone 4S-i või uuemat mudelit. Täname!";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1003" = "Te helistate Online-Identi klienditeenindusse väljaspool tööaega. Te saate tuvastamist alustada järgnevatel kellaaegadel. Aja kokku leppimine ei ole vajalik.\n\nMeie tööaeg:\n%@\n\nPalun alustage tuvastusprotsessi uuesti meie tööajal.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1004" = "Te vajate seadet, millel on kaamera nii esi- kui tagaküljel.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1005" = "See rakendus vajab ligipääsu teie kaamerale.\n\nPalun lubage rakenduse seadistustes ligipääs kaamerale.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1006" = "See rakendus vajab ligipääsu teie mikrofonile.\n\nPalun lubage rakenduse seadistustes ligipääs mikrofonile.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1007" = "Tuvastamine eeldab mikrofoni olemasolu.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1008" = "Tuvastamine eeldab internetiühenduse olemasolu. Palun looge internetiühendus ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009" = "Tekkis ootamatu viga. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_404" = "Teie Ident-ID ei ole õige. Palun kontrollige seda ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Teie tuvastuskood ei kehti enam. Palun võtke ühendust meie klienditeenindusega aadressil support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Teie tuvastuskood ei kehti enam. Palun võtke ühendust meie klienditeenindusega aadressil support@mail.idnow.de";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_500" = "Kahjuks tekkis sisemine tõrge. Palun võtke ühendust meie klienditoega aadressil %@ ja mainige järgnevat veakoodi: %@";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1009_503" = "IDnow läbib hooldustöid ja on taas saadaval mõne aja pärast. Palun olge kannatlik ja pöörduge tagasi mõne minuti möödudes.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1011" = "Tuvastamine ebaõnnestus";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1012" = "Tekkis sisemine tõrge. Palun proovige hiljem uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_DESCRIPTION_1013" = "Tundub, et soovite käivitada automaattuvastust. Kas soovite selle rakenduse AppStore'ist alla laadida?";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_TITLE" = "Tuvastamine ebaõnnestus";
+
+/* No comment provided by engineer. */
+"IDNOW_ERROR_TITLE_412" = "Tuvastamine lõpetatud";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1015" = "Icelinki litsentsivõti ei ole kehtiv.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2000" = "Tuvastamine ebaõnnestus. Videoühendust ei õnnestunud luua. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2001" = "Tuvastamine ebaõnnestus. Videoühendust ei õnnestunud luua. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2002" = "Tuvastamine ebaõnnestus. Videoühendust ei õnnestunud luua. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2006" = "Tuvastamine ebaõnnestus. VIdeoühenduse loomisel tekkis tõrge. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2007" = "Tuvastamine ebaõnnestus. VIdeoühenduse loomisel tekkis tõrge. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008" = "Palun kontrollige enda internetiühendust ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008_404" = "Teie Ident-ID ei ole õige. Palun kontrollige seda ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2008_410" = "Teie rakenduse versioon on aegunud. Palun uuendake enda rakendust App Store'is ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009" = "Palun kontrollige enda internetiühendust ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009_404" = "Teie Ident-ID ei ole õige. Palun kontrollige seda ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2009_410" = "Teie rakenduse versioon on aegunud. Palun uuendake enda rakendust App Store'is ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2010" = "Tuvastamine ebaõnnestus. Palun kontrollige enda internetiühendust ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2010_412" = "Selle Ident-ID-ga seotud tuvastusprotsess on juba läbi viidud ja seda ei saa uuesti alustada.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2011" = "Tuvastamine ebaõnnestus. Palun kontrollige enda internetiühendust ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2011_412" = "Selle Ident-ID-ga seotud tuvastusprotsess on juba läbi viidud ja seda ei saa uuesti alustada.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2012" = "Tuvastamine ebaõnnestus. Palun kontrollige enda internetiühendust ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2012_412" = "Selle Ident-ID-ga seotud tuvastusprotsess on juba läbi viidud ja seda ei saa uuesti alustada.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2013" = "Teie telefoninumbrile või e-posti aadressile ei õnnestunud tuvastuskoodi saata. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2014" = "Tuvastuskoodi saatmine ebaõnnestus. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2014_400" = "Tuvastuskood on vale. Palun sisestage tuvastuskood uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2016" = "Teie allkirja ei õnnestunud üles laadida. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2017" = "Tuvastuse ajal soovitatakse kasutada WiFi-ühendust.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2020" = "Tuvastamine ebaõnnestus. Palun kontrollige enda internetiühendust ja proovige uuesti.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "Videovestlus katkestati. Palun kontrollige enda internetiühendust. Me püüame teid automaatselt uuesti ühendada.";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Tekkis ootamatu viga. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION" = "Palun oodake kuni teid ühendatakse mõnega meie tuvastusekspertidest.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_LINES_BUSY" = "Meie tuvastuseksperdid on hetkel suure koormuse tõttu hõivatud. See tähendab tavapärasest pikemat ooteaega. Tuvastusteenus on saadaval esmaspäevast pühapäevani vahemikus 8:00 kuni 00:00.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_0" = "Te olete ootejärjekorras järgmine.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_1" = "Teie ees ootab järjekorras üks inimene.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_POSITION_X" = "Hetkel ootab teie ees järjekorras %ld inimest.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_LONGER" = "Suure päringute arvu tõttu on ooteaeg tavapärasest pikem.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_MINUTES" = "Keskmine ooteaeg on %ld minutit.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_ONE_MINUTE" = "Keskmine ooteaeg on %ld minut.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_DESCRIPTION_WAITING_TIME_SECONDS" = "Keskmine ooteaeg on %ld sekundit.";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_TITLE" = "Teid ühendatakse...";
+
+/* No comment provided by engineer. */
+"INFO_CONNECTING_TITLE_LINES_BUSY" = "Ootan tuvastuseksperdi vabanemist";
+
+/* No comment provided by engineer. */
+"INFO_FACE_PHOTO_DESCRIPTION" = "Palun vaadake kaamerasse ning öelge enda täisnimi.";
+
+/* No comment provided by engineer. */
+"INFO_FACE_PHOTO_TITLE" = "Nimi ja foto";
+
+/* No comment provided by engineer. */
+"INFO_GOODBYE_DESCRIPTION" = "Täname, et kasutasite meie veebipõhist tuvastusteenust!";
+
+/* No comment provided by engineer. */
+"INFO_GOODBYE_TITLE" = "Isiku tuvastamine teostatud";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Palun hoidke oma isikutunnistuse tagakülge kaamera suunas, et saaksime lugeda sellele märgitud andmeid.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_BACKSIDE_TITLE" = "Isikutunnistuse tagakülg";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Palun hoidke oma isikutunnistuse tagakülge kaamera suunas, et saaksime lugeda sellele märgitud andmeid.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_FRONTSIDE_TITLE" = "Isikutunnistuse esikülg";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Palun lugege enda isikutunnistuse number kõva häälega ette. Te leiate selle dokumendi esikülje paremast ülaservast.";
+
+/* No comment provided by engineer. */
+"INFO_LICENSE_WIGGLE_DESCRIPTION" = "Palun kallutage oma dokumenti üles ja alla, et näeksime selle turvaelemente.";
+
+/* No comment provided by engineer. */
+"JAILBREAK_ERROR_ALERT_MESSAGE" = "Tuvastamist ei ole võimalik läbi viia häkitud seadmel.";
+
+/* No comment provided by engineer. */
+"JAILBREAK_ERROR_ALERT_TITLE" = "Häkitud seade";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Tagasi";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_CALL_QUALITY_CHECK" = "NAVIGATION_ITEM_TITLE_CALL_QUALITY_CHECK";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO";
+
+/* Overwritings, No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_RESULT" = "NAVIGATION_ITEM_TITLE_RESULT";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK";
+
+/* No comment provided by engineer. */
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO";
+
+/* No comment provided by engineer. */
+"NO" = "Ei";
+
+/* No comment provided by engineer. */
+"NO_WIFI_CONNECTION" = "WiFi-ühendus puudub";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"OPENTRUST_LOADING_ERROR_DESCRIPTION" = "Soovitud sisu laadimine ebaõnnestus.\nPalun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"OPENTRUST_LOADING_ERROR_RELOAD_BUTTON_TITLE" = "Lae uuesti";
+
+/* No comment provided by engineer. */
+"PHOTO_CHECK_RETRY_BUTTON_TITLE" = "Proovi uuesti";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_DRIVERS_LICENSE_TITLE" = "Juhiluba";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_IDCARD_TITLE" = "ID-kaart";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_PASSPORT_TITLE" = "Pass";
+
+/* No comment provided by engineer. */
+"PHOTO_DOCUMENT_RESIDENCE_PERMIT_TITLE" = "Elamisluba";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_CAPTION" = "Näide:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_DESCRIPTION" = "Asetage juhiluba neutraalsele taustale. Paigutage dokumendi tagakülg rohelisse raami. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_LIST" = "•\tTagakülg täielikult nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega\n•\tSelge foto ja loetavad tähed";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDBACKSIDE_TITLE" = "Tagakülg";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_DESCRIPTION" = "Asetage juhiluba neutraalsele taustale. Paigutage dokumendi esikülge rohelisse raami. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_LIST" = "•\tEsikülg täielikult nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega\n•\tSelge foto ja loetavad tähed";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Esikülg";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Hoidke enda ID-kaarti kaamera ees neutraalsel taustal. Kallutage salvestamise ajal kaardi ülaosa endast eemale ja taas enda poole.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_LIST" = "•\tKaart peab olema täielikult nähtav\n•\tVarjamata sõrmede või kõrvaliste esemetega";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_DESCRIPTION" = "Hoidke juhiluba käes ja kallutage seda nii, et hologrammid on selgelt nähtavad. Vajadusel kasutage välku. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_LIST" = "•\tJuhiluba täielikult nähtav\n•\tHologrammid selgelt nähtavad";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_DRIVERS_LICENSE_IDHOLOGRAMS_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_DESCRIPTION" = "Paigutage enda nägu roheliste piirjoonte vahele ja tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_LIST" = "•\tNägu selgelt nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_FACESCREENSHOT_TITLE" = "Foto teie näost";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_DESCRIPTION" = "Asetage enda ID-kaart neutraalsele taustale. Paigutage ID-kaardi tagakülg rohelisse raami. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_LIST" = "•\tTagakülg täielikult nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega\n•\tSelge foto ja loetavad tähed";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDBACKSIDE_TITLE" = "Tagasi";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_DESCRIPTION" = "Asetage enda ID-kaart neutraalsele taustale. Paigutage ID-kaardi esikülg rohelisse raami. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_LIST" = "•\tEsikülg täielikult nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega\n•\tSelge foto ja loetavad tähed";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDFRONTSIDE_TITLE" = "Esikülg";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Hoidke enda ID-kaarti kaamera ees neutraalsel taustal. Kallutage salvestamise ajal kaardi ülaosa endast eemale ja taas enda poole.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_LIST" = "•\tKaart peab olema täielikult nähtav\n•\tVarjamata sõrmede või kõrvaliste esemetega";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_DESCRIPTION" = "Hoidke ID-kaarti käes ja kallutage seda nii, et hologrammid on selgelt nähtavad. Vajadusel kasutage välku. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_LIST" = "•\tID-kaart täielikult nähtav\n•\tHologrammid selgelt nähtavad";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_IDCARD_IDHOLOGRAMS_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_TITLE" = "Nõuded fotole:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_INSTRUCTIONS_VIDEO_TITLE" = "Nõuded:";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_DESCRIPTION" = "Asetage oma pass neutraalsele taustale. Paigutage passi teine leht rohelisse raami. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_LIST" = "•\Teine leht täielikult nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega\n•\tSelge foto ja loetavad tähed";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDBACKSIDE_TITLE" = "Teine leht";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_DESCRIPTION" = "Asetage oma pass neutraalsele taustale. Paigutage passi fotoga leht rohelisse raami Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_LIST" = "•\tFotoga leht selgelt nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega\n•\tSelge foto ja loetavad tähed";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDFRONTSIDE_TITLE" = "Fotoga leht";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Hoidke enda ID-kaarti kaamera ees neutraalsel taustal. Kallutage salvestamise ajal kaardi ülaosa endast eemale ja taas enda poole.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_LIST" = "•\tKaart peab olema täielikult nähtav\n•\tVarjamata sõrmede või kõrvaliste esemetega";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_DESCRIPTION" = "Hoidke passi fotoga lehekülge käes ja kallutage seda nii, et hologrammid on selgelt nähtavad. Vajadusel kasutage välku. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_LIST" = "•\tFotoga leht selgelt nähtav\n•\tHologrammid selgelt nähtavad";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_PASSPORT_IDHOLOGRAMS_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_DESCRIPTION" = "Asetage enda elamisluba neutraalsele taustale. Paigutage dokumendi tagakülg rohelisse raami. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_LIST" = "•\tTagakülg täielikult nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega\n•\tSelge foto ja loetavad tähed";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDBACKSIDE_TITLE" = "Tagakülg";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_DESCRIPTION" = "Asetage enda elamisluba neutraalsele taustale. Paigutage dokumendi esikülge rohelisse raami. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_LIST" = "•\tEsikülg täielikult nähtav\n•\tKatmata sõrmede või kõrvaliste esemetega\n•\tSelge foto ja loetavad tähed";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Esikülg";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_DESCRIPTION" = "Hoidke enda ID-kaarti kaamera ees neutraalsel taustal. Kallutage salvestamise ajal kaardi ülaosa endast eemale ja taas enda poole.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_LIST" = "•\tKaart peab olema täielikult nähtav\n•\tVarjamata sõrmede või kõrvaliste esemetega";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_DESCRIPTION" = "Hoidke elamisluba käes ja kallutage seda nii, et hologrammid on selgelt nähtavad. Vajadusel kasutage välku. Tehke foto.";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_LIST" = "•\tDokument täielikult nähtav\n•\tHologrammid selgelt nähtavad";
+
+/* No comment provided by engineer. */
+"PHOTO_HELP_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_COUNTDOWN_TITLE" = "%d sekundit jäänud";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_BUTTON_TITLE" = "Alusta salvestust";
+
+/* No comment provided by engineer. */
+"PHOTO_RECORD_VIDEO_HINT" = "Kui olete salvestamist alustanud, siis on teil %d sekundit salvestuse tegemiseks.";
+
+/* No comment provided by engineer. */
+"PHOTO_TAKE_PICTURE_BUTTON_TITLE" = "Tehke foto";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDBACKSIDE_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi tagaküljest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDBACKSIDE_TITLE" = "Tagakülg";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi esiküljest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDFRONTSIDE_TITLE" = "Esikülg";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_SUBTITLE" = "Puutuge ekraani, et teha video dokumendi turvaelementidest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMSVIDEO_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi turvaelementidest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_DRIVERS_LICENSE_IDHOLOGRAMS_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_FACESCREENSHOT_SUBTITLE" = "Vajutage nupule, et teha foto oma näost.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_FACESCREENSHOT_TITLE" = "Foto teie näost";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDBACKSIDE_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi tagaküljest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDBACKSIDE_TITLE" = "Tagakülg";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDFRONTSIDE_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi esiküljest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDFRONTSIDE_TITLE" = "Esikülg";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_SUBTITLE" = "Puutuge ekraani, et teha video dokumendi turvaelementidest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMSVIDEO_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMS_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi turvaelementidest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_IDCARD_IDHOLOGRAMS_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_MESSAGE" = "Palun tehke enne andmete esitamist kõik allpool loetletud fotod.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDBACKSIDE_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi tagaküljest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDBACKSIDE_TITLE" = "Tagakülg";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDFRONTSIDE_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi esiküljest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDFRONTSIDE_TITLE" = "Esikülg";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Puutuge ekraani, et teha video dokumendi turvaelementidest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMSVIDEO_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMS_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi turvaelementidest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_PASSPORT_IDHOLOGRAMS_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDBACKSIDE_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi tagaküljest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDBACKSIDE_TITLE" = "Tagakülg";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi esiküljest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDFRONTSIDE_TITLE" = "Esikülg";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_SUBTITLE" = "Puutuge ekraani, et teha video dokumendi turvaelementidest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMSVIDEO_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_SUBTITLE" = "Vajutage nupule, et teha foto dokumendi turvaelementidest.";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESIDENCE_PERMIT_IDHOLOGRAMS_TITLE" = "Hologrammid";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_RESTART_ALERT_MESSAGE" = "Kas soovite otsast peale alustada?";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_TRANSFER_BUTTON_TITLE" = "Esita andmed";
+
+/* No comment provided by engineer. */
+"PHOTO_TODO_TRANSFER_MESSAGE" = "Nupule vajutades nõustute fotode edastamise ja salvestamisega.";
+
+/* No comment provided by engineer. */
+"PHOTO_UPLOAD_FAILED_ALERT_MESSAGE" = "Andmete saatmisel tekkis tõrge. Palun proovige uuesti.";
+
+/* No comment provided by engineer. */
+"PHOTO_UPLOAD_PROGRESS_MESSAGE" = "Teie andmed on krüpteeritud ja edastatakse meie turvaliste serverite kaudu.";
+
+/* After enrolled waiting list, user want to continue waiting. */
+"PUSH_CONFIRMATION_KEEP_WAITING" = "Olgu, ma ootan";
+
+/* No comment provided by engineer. */
+"PUSH_REQUESTPUSHBUTTON_TITLE" = "Teavitage mind surusõnumiga";
+
+/* No comment provided by engineer. */
+"PUSH_RETRYPUSHBUTTON_TILE" = "Teavitage mind surusõnumiga";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_DETAILS" = "Kas soovite teavitust, kui mõni meie tuvastusekspertidest vabaneb?";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_ENROLL_TITLE" = "Teid paigutati ootejärjekorda";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"PUSH_STAGE1_KEEP_WAITING" = "Ei, aitäh. Ma ootan";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE1_TITLE" = "Ootejärjekord";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_DETAILS" = "Meie teenust kasutab hetkel erakordselt suur arv kliente. Me võime teid teavitada, kui mõni meie tuvastusekspertidest on vabanenud.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE2_TITLE" = "Ootejärjekord";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_DETAILS" = "Push-teavituse saamiseks peate sel rakendusel telefoni seadetes lubama push-sõnumite vastuvõtu.";
+
+/* No comment provided by engineer. */
+"PUSH_STAGE3_TITLE" = "Push-teavitused (keelatud)";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_DONE_BUTTON_TITLE" = "Sulge rakendus";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_MESSAGE" = "Teie tuvastamist ei õnnestunud läbi viia.\n\nPalun kasutage enda tuvastamiseks alternatiivset meetodit või proovige uuesti.";
+
+/* No comment provided by engineer. */
+"RESULT_FAILURE_TITLE" = "Tuvastamine ebaõnnestus";
+
+/* No comment provided by engineer. */
+"RESULT_RETRY_BUTTON_TITLE" = "Proovige uuesti";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_PUSHNOTIFICATION" = "Täname! Olete lisatud ootejärjekorda. Teavitame teid kohe, kui mõni meie tuvastusekspertidest vabaneb. Kui te alustate tuvastamist, siis teid paigutatakse ootejärjekorra esiotsa.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DETAIL_SMSNOTIFICATION" = "Täname! Olete lisatud ootejärjekorda. Teavitame teid kohe, kui mõni meie tuvastusekspertidest vabaneb. Kui te alustate tuvastamist, siis teid paigutatakse ootejärjekorra esiotsa.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_DONE_BUTTON_TITLE" = "Valmis";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_MESSAGE_PHOTO_IDENT" = "Täname, et kasutasite meie veebipõhist tuvastusteenust! Nüüd võite rakenduse sulgeda ja teid teavitatakse edasistest sammudest.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_MESSAGE_VIDEO_IDENT" = "Täname, et kasutasite meie veebipõhist tuvastusteenust! Nüüd võite rakenduse sulgeda ja teid teavitatakse edasistest sammudest.";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Andmed vastu võetud";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHCONFIRMATION" = "Ootejärjekorra kinnitus";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_PUSHNOTIFICATION" = "Ootejärjekord";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSCONFIRMATION" = "Ootejärjekorra kinnitus";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Ootejärjekord";
+
+/* No comment provided by engineer. */
+"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Tuvastamine edukas";
+
+/* No comment provided by engineer. */
+"RESULT_TRANSACTION_ID" = "Ident-ID";
+
+/* No comment provided by engineer. */
+"RETRY" = "Proovige uuesti";
+
+/* No comment provided by engineer. */
+"SAVE" = "Salvesta";
+
+/* No comment provided by engineer. */
+"SETTINGS" = "Seaded";
+
+/* No comment provided by engineer. */
+"SIGNATURE_DECLINE_BUTTON_TITLE" = "Ei, loobu lepingust";
+
+/* No comment provided by engineer. */
+"SIGNATURE_DRAWING_DESCRIPTION" = "Palun allkirjastage ülaltoodud väli ja vajutage jätkamiseks nupule.";
+
+/* No comment provided by engineer. */
+"SIGNATURE_REDRAW_BUTTON_TITLE" = "Allkirjasta uuesti";
+
+/* No comment provided by engineer. */
+"SIGNATURE_SEND_BUTTON_TITLE" = "Allkirjasta leping";
+
+/* No comment provided by engineer. */
+"SIGNATURE_TITLE" = "Palun lisage allkiri siia";
+
+/* After enrolled waiting list, user want to continue waiting. */
+"SMS_CONFIRMATION_KEEP_WAITING" = "Olgu, ma ootan";
+
+/* No comment provided by engineer. */
+"SMS_REQUESTPUSHBUTTON_TITLE" = "Teavitage mind SMS-sõnumiga";
+
+/* No comment provided by engineer. */
+"SMS_RETRYPUSHBUTTON_TILE" = "Teavitage mind SMS-iga";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_DETAILS" = "Kas soovite teavitust, kui mõni meie tuvastusekspertidest vabaneb?";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_ENROLL_TITLE" = "Teid paigutati ootejärjekorda";
+
+/* User can remove waiting list screen and keep waiting the agent. */
+"SMS_STAGE1_KEEP_WAITING" = "Ei, aitäh. Ma ootan";
+
+/* No comment provided by engineer. */
+"SMS_STAGE1_TITLE" = "Ootejärjekord";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_DETAILS" = "Meie teenust kasutab hetkel erakordselt suur arv kliente. Me võime teid SMS-i teel teavitada, kui mõni meie tuvastusekspertidest on vabanenud.";
+
+/* No comment provided by engineer. */
+"SMS_STAGE2_TITLE" = "Ootejärjekord";
+
+/* No comment provided by engineer. */
+"START_OVER" = "Alusta uuesti";
+
+/* No comment provided by engineer. */
+"TRANSACTION_ID_NOT_SUPPORT_ALERT_TITLE" = "Tuvastusvõti ei ühildu";
+
+"TRUST_PILOT_MESSAGE_PRIVACY" = "Selleks edastame teie nime ja meiliaadressi Trustpilotile.";
+
+/* The confirmation popup showing for rating on TrustPilot */
+"TRUST_PILOT_MESSAGE_QUESTION" = "Kas soovite anda meile hinnangu Trustpilotis?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_CANCEL_ALERT_MESSAGE" = "Olete kindel, et soovite tuvastamise tühistada?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_CANCEL_ALERT_TITLE" = "Tühista tuvastamine";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_DOCUMENTS_EXPLANATION" = "IDnow Online-Ident eeldab kehtiva ID-kaardi või passi olemasolu.\nToetame erinevaid tänapäevaseid isikutunnistusi, mis on varustatud turvahologrammidega. Ennekõike tähendab see Euroopa Liidu liikmesriikide, Türgi, Norra, Šveitsi, Islandi ja USA dokumente.";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_DOCUMENTS_TITLE" = "Milliseid dokumente me aktsepteerime?";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_FAILED_ALERT_MESSAGE" = "Tuvastamine ebaõnnestus";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_MESSAGE" = "Palun oodake kuni meie tuvastuseksperdid kontrollivad teie andmeid.";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_TITLE" = "Tuvastamist teostatakse...";
+
+/* No comment provided by engineer. */
+"VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Üks hetk...";
+
+/* WAITING_SCREEN. */
+"WAITING_SCREEN_CONNECTING" = "Teid ühendatakse meie tuvastusekspertidega";
+
+"WAITING_SCREEN_ICON_CHECK" = "Meie esindaja kontrollib teie andmeid videotuvastuse käigus.";
+
+"WAITING_SCREEN_ICON_DOCUMENT" = "Palun hoidke enda isikutunnistus käeulatuses.";
+
+"WAITING_SCREEN_ICON_PEOPLE" = "Kõik meie esindajad on hetkel hõivatud teiste helistajatega.";
+
+"WAITING_SCREEN_ICON_SELFIE" = "Olge valmis endast foto tegemiseks.";
+
+"WAITING_SCREEN_WAITING_PLACE_WAITING_LIST_TITLE" = "Lisage mind ootejärjekorda";
+
+"WALLET_ACCOUNT_CANCEL" = "Tühista";
+
+"WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "Salasõna ei tule meelde?";
+
+"WALLET_ACCOUNT_CONFIRM" = "Kinnita";
+
+"WALLET_ACCOUNT_CONFIRM_PASSWORD" = "Kinnitage salasõna";
+
+"WALLET_ACCOUNT_DONT_REGISTER" = "Te ei soovi kontot registreerida?";
+
+"WALLET_ACCOUNT_EMAIL" = "E-post";
+
+"WALLET_ACCOUNT_LOGIN" = "Logi sisse";
+
+"WALLET_ACCOUNT_LOGIN_CLOSE" = "Sulge";
+
+"WALLET_ACCOUNT_LOGIN_CONTENT" = "Palun sisestage e-posti aadress ja salasõna, mille valisite algse videotuvastuse käigus.";
+
+"WALLET_ACCOUNT_LOGIN_HINT" = "Teie kontodega seotud IDNow e-posti aadress ja salasõna";
+
+/* Wallet feature., Login */
+"WALLET_ACCOUNT_LOGIN_TITLE" = "Kontole sisselogimine";
+
+"WALLET_ACCOUNT_PASSWORD_CONTENT" = "Vähemalt 8 tähemärki\nVähemalt 1 number\nVähemalt 1 suurtäht\nVähemalt 1 väiketäht.";
+
+/* Register */
+"WALLET_ACCOUNT_PASSWORD_TITLE" = "Vali salasõna";
+
+"WALLET_ACCOUNT_PHONE_NUMBER" = "Telefoninumber";
+
+"WALLET_ACCOUNT_REGISTER_CONTENT" = "Palun veenduge, et teie e-posti aadress ja telefoninumber on õiged.";
+
+/* Register */
+"WALLET_ACCOUNT_REGISTER_TITLE" = "IDnow's registreerimine";
+
+"WALLET_ACCOUNT_YOUR_PASSWORD" = "Teie salasõna";
+
+/* "WALLET_WARNING"="Warning"; */
+"WALLET_CHANGE_EMAIL_PHONE_ALERT_CONTENT" = "Turvakaalutlustel eeldab telefoninumbri, e-posti aadress ja salasõna muutmine uut videotuvastust.";
+
+"WALLET_CHANGE_PHONE_NUMBER_MESSAGE" = "Ka juhul, kui teil ei ole IDNow kontot, vajame teie telefoninumbrit, et saata teile tuvastuskood.";
+
+"WALLET_CONFIRMATION_CANCEL_CONTENT" = "Olete kindel, et te ei soovi dokumente allkirjastada ja tühistate toimingu?";
+
+"WALLET_CONFIRMATION_CANCEL_TITLE" = "Olete kindel?";
+
+"WALLET_CONTINUE_VIDEO_IDENT" = "Jätka videotuvastusega";
+
+"WALLET_LOGIN_PASSWORD_HINT" = "Turvakaalutlustel peab teie salasõna vastama järgnevatele reeglitele";
+
+"WALLET_LOGIN_REGISTER_HINT" = "IDNow kontoga saate edaspidi dokumente allkirjastada kontole sisse logides";
+
+/* No comment provided by engineer. */
+"YES" = "Jah";
+
