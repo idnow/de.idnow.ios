@@ -552,7 +552,9 @@ The target server url for websocket calls if custom server is used.
 #### connectionType
 The connection type to use to talk the backend. (Websocket (default) or long polling)
 
-externalLogger: a logger that implements IDNLogClient interface. externalLogger can be used to send some logs inside IDnowSDK for error/debug tracking.
+#### externalLogger: 
+
+A logger that implements IDNLogClient interface. externalLogger can be used to send some logs inside IDnowSDK for error/debug tracking.
 
 For Sentry implementation example:
 
