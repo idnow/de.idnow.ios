@@ -1,6 +1,6 @@
 PODS:
   - FLAnimatedImage (1.0.12)
-  - IDnowSDK (4.1.0):
+  - IDnowSDK (4.1.1):
     - FLAnimatedImage (~> 1.0)
     - libPhoneNumber-iOS (~> 0.9)
     - Masonry (~> 1.1.0)
@@ -10,7 +10,7 @@ PODS:
   - SocketRocket (0.5.1)
 
 DEPENDENCIES:
-  - IDnowSDK (= 4.1.0)
+  - IDnowSDK (= 4.1.1)
 
 SPEC REPOS:
   trunk:
@@ -22,11 +22,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  IDnowSDK: 8f1d877c83a9972eb365dd46c5b1a083b9e4dfd9
+  IDnowSDK: ff083c6dbdc4503d955cd66f317261ab7439b377
   libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 229c1b49a8a16f912cf6c324f64c0c62901f23e1
+PODFILE CHECKSUM: 08748b621907737722b8055b76243a67f5dafba9
 
 COCOAPODS: 1.8.4
