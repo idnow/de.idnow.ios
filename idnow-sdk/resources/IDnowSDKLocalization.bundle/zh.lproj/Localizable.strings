@@ -410,7 +410,7 @@
 "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "导航-项目-标题-照片-认证-未完成的";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO";
 
 /* Overwritings, No comment provided by engineer. */
 "NAVIGATION_ITEM_TITLE_RESULT" = "导航-项目-标题-照片-认证-结果";

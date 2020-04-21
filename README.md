@@ -2,6 +2,20 @@
 
 ## Changelog
 
+### 4.1.4
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.1.4,  and call pod update
+
+### 4.1.3
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.1.3,  and call pod update
+
 ### 4.1.2
 Changes:
 - Minor improvements & bugfixes
@@ -558,30 +572,6 @@ The target server url for websocket calls if custom server is used.
 
 #### connectionType
 The connection type to use to talk the backend. (Websocket (default) or long polling)
-
-#### externalLogger: 
-
-A logger that implements IDNLogClient interface. externalLogger can be used to send some logs inside IDnowSDK for error/debug tracking.
-
-For Sentry implementation example:
-
-```
-IDnowSettings *settings = [IDnowSettings new];
-IDNowSentryLogClient *client = [[IDNowSentryLogClient alloc] initWithDsn: "YOUR_SENTRY_DSN"];
-settings.externalLogger = client;
-idnController = [IDnowController alloc] initWithSettings: settings];
-...
-```
-
-Swift code:
-
-```
-let settings = IDnowSettings()
-let client = IDNowSentryLogClient(initWithDsn: "YOUR_SENTRY_DSN")
-settings.externalLogger = client
-idnController = IDnowController(settings: settings)
-...
-```
 
 ## Branding (IDnowAppearance)
 Warning: Branding is only allowed if you have the permissions from IDnow.
