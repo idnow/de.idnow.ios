@@ -520,6 +520,14 @@ post_install do |installer|
 end
 ```
 
+### Carthage
+
+```
+github "idnow/de.idnow.ios"
+```
+
+Add following frameworks to your project: `IDnowSDK, FLAnimatedImage, Masonry, libPhoneNumberiOS, SocketRocket`
+
 ### Manually 
 - Add the following pod dependencies to your podfile:
 ```
