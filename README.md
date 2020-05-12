@@ -7,6 +7,7 @@ Changes:
 - Minor improvements & bugfixes
 
 Migration Guide:
+- Update Platform ios to 9.0
 - Change the SDK reference to 4.1.6,  and call pod update
 
 ### 4.1.5
