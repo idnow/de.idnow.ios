@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0195DED124634BEF003E607C /* libidnow-sdk-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D500CF789C1C5D1548AB1C77 /* libidnow-sdk-universal.a */; };
-		125EBB70AD790F3D6C4669F2 /* libPhoneNumberiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2678188A38E26FE83C688513 /* libPhoneNumberiOS.framework */; };
+		01F9CBC72475C2FE00E41B28 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0AEF331388FA5211FFE698 /* FLAnimatedImage.framework */; };
+		01F9CBC92475C2FF00E41B28 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE55F0446FE17F916DC7CA9 /* SocketRocket.framework */; };
+		01F9CBCC2475C31000E41B28 /* libPhoneNumberiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2678188A38E26FE83C688513 /* libPhoneNumberiOS.framework */; };
 		12ADB4C91FCBB9E0A57D5F78 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A65F7AE517BE0CAA8CB9C3 /* VideoToolbox.framework */; };
 		13B7F2F07E35664D5212D2D8 /* IDnowSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 169E7F9EFCE8FC2D8856CA3A /* IDnowSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1904F1175A0FCEE62FE5943A /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F464E705EF5647499696124E /* idn-helper-DRIVERS_LICENSE-IDBACKSIDE@2x.jpg */; };
@@ -16,7 +18,6 @@
 		1E0481AB6188DF0D44361E8F /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 384C414DEEDEC81F6480E227 /* idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@2x.jpg */; };
 		1E23E7F0D8F3107C01A15AED /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C64C4FD3C6A2A20163D908BB /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@2x.jpg */; };
 		1F1F4293E316CDE6D830E95A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A8698ECC31B294CB8FF04F /* GLKit.framework */; };
-		22DD9B75AEA4207FA167097E /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A21C012BBC20BEBC22D25E /* Masonry.framework */; };
 		257F02C7313AA11C59B92B0B /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B69457E3FB0A4F93B96774A1 /* idn-helper-PASSPORT-IDHOLOGRAMS@3x.jpg */; };
 		38A6541FAB1380DC701BF4D5 /* icon_document.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A6CD8C29B9A632EE215DFBEF /* icon_document.mp4 */; };
 		4304DC5364265E2B78FDAA0A /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03F9706806000D554DA1E110 /* idn-helper-PASSPORT-IDBACKSIDE@3x.jpg */; };
@@ -54,11 +55,9 @@
 		AB2F47BFA14AF25B7F2D52E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4058EEA24230FDB6D3AF691 /* QuartzCore.framework */; };
 		AB47476723E7D9A6B0EB9C8C /* icon_check.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6930AB0FBF910FFB56B1D996 /* icon_check.mp4 */; };
 		AD61BBA940B6964133BF6216 /* IDnowSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAF7311AB506D7989E44D88 /* IDnowSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF93084941FE26E8A1C74CD1 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AE55F0446FE17F916DC7CA9 /* SocketRocket.framework */; };
 		AFB64F952FAD9285228582FE /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6D50B6293247094A53F23DF /* idn-helper-DRIVERS_LICENSE-IDHOLOGRAMS@2x.jpg */; };
 		B3C764713FAF5D665129C3B9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E3ECE1E0EEBBDBC1C7CBBF /* CoreMedia.framework */; };
 		B4B29D8E7F540AB877D476CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9130ED7643038E54494D7664 /* SystemConfiguration.framework */; };
-		B8AA9F7B7E95C6DBEEE8D424 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0AEF331388FA5211FFE698 /* FLAnimatedImage.framework */; };
 		BE2A63ED3185B9A71AEE063D /* IDNLogClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D86C9EC1D1E985DD8581A66 /* IDNLogClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF7A3CAC014F9504CFC53867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058BF55F9E8A6D9EF289E04D /* CoreGraphics.framework */; };
 		C18F34F1726161E0FE70A975 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAEBFC66DCC3945625DCB761 /* idn-helper-RESIDENCE_PERMIT-IDBACKSIDE@3x.jpg */; };
@@ -152,13 +151,16 @@
 				5689510E67CC0151D5E6CBA1 /* Accelerate.framework in Frameworks */,
 				7CF3B829D8A28ED83959F9D6 /* AudioToolbox.framework in Frameworks */,
 				952017FB7A3D8E3413FECE0D /* AVFoundation.framework in Frameworks */,
+				01F9CBCC2475C31000E41B28 /* libPhoneNumberiOS.framework in Frameworks */,
 				C3AE71682AC2D9D2BAA6E00C /* CFNetwork.framework in Frameworks */,
+				01F9CBC72475C2FE00E41B28 /* FLAnimatedImage.framework in Frameworks */,
 				BF7A3CAC014F9504CFC53867 /* CoreGraphics.framework in Frameworks */,
 				B3C764713FAF5D665129C3B9 /* CoreMedia.framework in Frameworks */,
 				70A6713B94DB6FD9B3D18057 /* CoreServices.framework in Frameworks */,
 				87F5B0152835274157C3C485 /* CoreVideo.framework in Frameworks */,
 				46C8BECF05B561E7BA3B2DE9 /* Foundation.framework in Frameworks */,
 				1F1F4293E316CDE6D830E95A /* GLKit.framework in Frameworks */,
+				01F9CBC92475C2FF00E41B28 /* SocketRocket.framework in Frameworks */,
 				4945943C8984A65F124784DA /* OpenGLES.framework in Frameworks */,
 				AB2F47BFA14AF25B7F2D52E2 /* QuartzCore.framework in Frameworks */,
 				589BEB2945C62A7710F60D1A /* Security.framework in Frameworks */,
@@ -168,10 +170,6 @@
 				94753BC439F567B78FA53273 /* UserNotifications.framework in Frameworks */,
 				12ADB4C91FCBB9E0A57D5F78 /* VideoToolbox.framework in Frameworks */,
 				8126D0B8F7CAC5C8A60DC93D /* WebKit.framework in Frameworks */,
-				B8AA9F7B7E95C6DBEEE8D424 /* FLAnimatedImage.framework in Frameworks */,
-				22DD9B75AEA4207FA167097E /* Masonry.framework in Frameworks */,
-				125EBB70AD790F3D6C4669F2 /* libPhoneNumberiOS.framework in Frameworks */,
-				AF93084941FE26E8A1C74CD1 /* SocketRocket.framework in Frameworks */,
 				0195DED124634BEF003E607C /* libidnow-sdk-universal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,12 +516,39 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/IDnowSDK/Library",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"idnow-sdk-universal\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -604,12 +629,39 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/IDnowSDK/Library",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				MACH_O_TYPE = mh_dylib;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"idnow-sdk-universal\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
