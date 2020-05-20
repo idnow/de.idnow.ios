@@ -518,7 +518,7 @@
 				);
 				MACH_O_TYPE = mh_dylib;
 				OTHER_LDFLAGS = (
-					"$(inherited)",
+					"-ObjC",
 					"-l\"idnow-sdk-universal\"",
 					"-l\"z\"",
 					"-framework",
@@ -631,7 +631,7 @@
 				);
 				MACH_O_TYPE = mh_dylib;
 				OTHER_LDFLAGS = (
-					"$(inherited)",
+					"-ObjC",
 					"-l\"idnow-sdk-universal\"",
 					"-l\"z\"",
 					"-framework",
