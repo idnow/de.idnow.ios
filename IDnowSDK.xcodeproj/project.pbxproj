@@ -524,7 +524,7 @@
 					"$(PROJECT_DIR)/IDnowSDK/Library",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_FILE = "$(PROJECT_DIR)/IDnowSDK/Headers/module.modulemap";
+				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"idnow-sdk-universal\"",
@@ -617,7 +617,7 @@
 					"$(PROJECT_DIR)/IDnowSDK/Library",
 				);
 				MACH_O_TYPE = mh_dylib;
-				MODULEMAP_FILE = "$(PROJECT_DIR)/IDnowSDK/Headers/module.modulemap";
+				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-l\"idnow-sdk-universal\"",
