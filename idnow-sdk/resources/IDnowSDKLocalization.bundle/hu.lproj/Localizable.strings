@@ -146,7 +146,7 @@
 "IDENT_CODE_ENTER_CODE_MESSAGE" = "Az ön Ident-kódját elküldtük SMS-ben a következő telefonszámra: %@ . Kérjük, adja meg az Ident-kódját a folytatáshoz.";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Az ön Ident-kódját elküldtük a következő emailcímre: %@. Kérjük, adja meg az Ident-kódját a folytatáshoz.";
+"IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Az Ön Ident-kódját a következő e-mail címre küldtük ki: %@. Kérjük, adja meg az Ident-kódját a folytatáshoz.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_ENTER_CODE_TITLE" = "Adja meg az Ident-kódot";
@@ -311,7 +311,7 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2020" = "Azonosítás sikertelen. Kérjük, ellenőrizze az internetkapcsolatot, majd próbálja meg újból.";
 
 /* No comment provided by engineer. */
-"IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "A videóbeszélgetés megszakadt. Kérjük, ellenőrizze az internetkapcsolatát. Automatikusan megpróbálunk újból csatlakozni.";
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "A videóbeszélgetés megszakadt. Kérjük, ellenőrizze az internetcsatlakozást. Automatikusan megpróbáljuk újból csatlakoztatni.";
 
 /* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Váratlan hiba lépett fel. Kérjük, próbálja meg újból.";
@@ -368,7 +368,7 @@
 "INFO_LICENSE_BACKSIDE_TITLE" = "A személyazonosító okmány hátoldala";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Kérjük, tartsa a személyazonosító okmánya elülső oldalát a kamera felé úgy, hogy a részletek olvashatóak legyenek.";
+"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Kérem, tartsa a személyazonosító okmánya fényképes oldalát a kamera felé úgy, hogy minden részlete olvasható legyen.";
 
 /* No comment provided by engineer. */
 "INFO_LICENSE_FRONTSIDE_TITLE" = "A személyazonosító okmány elülső oldala";

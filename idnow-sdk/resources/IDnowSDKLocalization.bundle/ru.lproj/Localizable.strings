@@ -20,7 +20,7 @@
 "CHAT_SENDER_TEXT_USER" = "Вы %@";
 
 /* No comment provided by engineer. */
-"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Я согласен(на) с Условиями использования IDnow и ознакомлен(а) с Политикой конфиденциальности.";
+"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Я принимаю Условия пользования IDnow и ознакомился(-лась) с Политикой конфиденциальности.";
 
 /* No comment provided by engineer. */
 "CHECK_AGREEMENT_GTC_PRIVACY_POLICY_BUTTON_TITLE" = "Политика конфиденциальности";
@@ -38,7 +38,7 @@
 "CHECK_AGREEMENT_TBD_DESCRIPTION" = "Начиная идентификацию, вы соглашаетесь на использование: ваших изображений, документа, удостоверяющего вашу личность, и записи вашего разговора.";
 
 /* No comment provided by engineer. */
-"CHECK_AGREEMENT_TITLE" = "Ваше согласие";
+"CHECK_AGREEMENT_TITLE" = "Согласие";
 
 /* No comment provided by engineer. */
 "CHECK_EMAIL_DESCRIPTION" = "Опционально мы можем выслать вам идентификационный код на этот эл. адрес во время идентификации.";
@@ -50,13 +50,13 @@
 "CHECK_EMAIL_TITLE" = "Ваш электронный адрес";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_DESCRIPTION" = "Документ, удостоверяющий вашу личность, будет проверен во время идентификации, так что подготовьте его и держите поблизости.";
+"CHECK_LICENSE_DESCRIPTION" = "Удостоверяющий Вашу личность документ будет проверен во время идентификации, так что подготовьте его и держите поблизости.";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_TITLE" = "Подготовленный документ, удостоверяющий вашу личность";
+"CHECK_LICENSE_TITLE" = "Документ, удостоверяющий Вашу личность";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Мы вышлем вам смс-сообщение с идентификационным кодом на этот мобильный телефон во время идентификации.";
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Во время идентификации мы отправим на этот номер SMS-сообщение с идентификационным кодом.";
 
 /* No comment provided by engineer. */
 "CHECK_MOBILE_NUMBER_PLACEHOLDER" = "напр., 01761234…";
@@ -143,13 +143,13 @@
 "IDENT_CODE_EMAIL_TITLE" = "Идентификационный код по эл. почте в адрес";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_MESSAGE" = "Ваш идентификационный код был выслан по смс на следующий телефонный номер: %@ . Пожалуйста, введите ваш идентификационный код, чтобы продолжить.";
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Ваш идентификационный код был отправлен Вам SMS-сообщением по номеру: %@ . Чтобы продолжить, введите, пожалуйста, Ваш идентификационный код.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Ваш идентификационный код был выслан на следующий эл. адрес: %@. Пожалуйста, введите ваш идентификационный код, чтобы продолжить.";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_TITLE" = "Ввести идентификационный код";
+"IDENT_CODE_ENTER_CODE_TITLE" = "Ввод идентификационного кода";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "напр., 01761234…";
@@ -161,10 +161,10 @@
 "IDENT_CODE_PLACEHOLDER" = "Идентификационный код";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Снова запросить идентификационный код";
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Запросить идентификационный код снова";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Вы не получили идентификационный код или ввели неправильное число?";
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Вы не получили идентификационный код или ввели его неверно?";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_REQUEST_CODE_AGAIN_TITLE_EMAIL" = "Вы не получили идентификационный код или ввели неверный эл. адрес?";
@@ -173,10 +173,10 @@
 "IDENT_CODE_REQUEST_CODE_MESSAGE" = "Проверьте, пожалуйста, информацию и запросите идентификационный код.";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_TITLE" = "Запросить идентификационный код";
+"IDENT_CODE_REQUEST_CODE_TITLE" = "Запрос идентификационного кода";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Запросить идентификационный код";
+"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Запрос идентификационного кода";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1000" = "Для идентификации требуется ID-идентификатор.";
@@ -317,7 +317,7 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Произошла непредвиденная ошибка. Пожалуйста, повторите попытку.";
 
 /* No comment provided by engineer. */
-"INFO_CONNECTING_DESCRIPTION" = "Пожалуйста, подождите, пока вас свяжут с одним из наших экспертов по идентификации.";
+"INFO_CONNECTING_DESCRIPTION" = "Подождите, пока Вас соединят с нашим специалистом по идентификации.";
 
 /* No comment provided by engineer. */
 "INFO_CONNECTING_DESCRIPTION_LINES_BUSY" = "Все наши эксперты по идентификации заняты по причине большого количества запросов. Вследствие этого ожидание продлится дольше обычного. Служба идентификации открыта с понедельника по воскресенье с 8:00 до 24:00.";
@@ -347,7 +347,7 @@
 "INFO_CONNECTING_TITLE" = "Идет соединение";
 
 /* No comment provided by engineer. */
-"INFO_CONNECTING_TITLE_LINES_BUSY" = "Ожидание свободного эксперта по идентификации";
+"INFO_CONNECTING_TITLE_LINES_BUSY" = "Ожидание свободного специалиста по идентификации";
 
 /* No comment provided by engineer. */
 "INFO_FACE_PHOTO_DESCRIPTION" = "Пожалуйста, посмотрите в камеру и назовите свое полное имя и фамилию.";
@@ -356,25 +356,25 @@
 "INFO_FACE_PHOTO_TITLE" = "Имя и фотография";
 
 /* No comment provided by engineer. */
-"INFO_GOODBYE_DESCRIPTION" = "Спасибо, что пользуетесь нашей службой онлайн-идентификации!";
+"INFO_GOODBYE_DESCRIPTION" = "Благодарим Вас за то, что воспользовались нашей службой онлайн-идентификации!";
 
 /* No comment provided by engineer. */
 "INFO_GOODBYE_TITLE" = "Идентификация завершена";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Пожалуйста, поверните ваш документ, удостоверяющий личность, обратной стороной к камере, чтобы мы могли прочитать все данные.";
+"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Поверните, пожалуйста, свой удостоверяющий личность документ оборотной стороной к камере, чтобы мы могли прочитать все данные.";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_BACKSIDE_TITLE" = "Обратная сторона документа, удостоверяющего личность";
+"INFO_LICENSE_BACKSIDE_TITLE" = "Оборотная сторона удостоверяющего личность документа";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Пожалуйста, поверните ваш документ, удостоверяющий личность, лицевой стороной к камере, чтобы мы могли прочитать все данные.";
+"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Поверните, пожалуйста, свой удостоверяющий личность документ лицевой стороной к камере, чтобы мы могли прочитать все данные.";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_FRONTSIDE_TITLE" = "Лицевая сторона документа, удостоверяющего личность";
+"INFO_LICENSE_FRONTSIDE_TITLE" = "Лицевая сторона удостоверяющего личность документа";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Пожалуйста, громко зачитайте номер вашего документа, удостоверяющего личность. Вы найдете его на лицевой стороне, в верхнем правом углу.";
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Пожалуйста, прочтите вслух номер Вашего удостоверяющего личность документа. Он находится на лицевой стороне документа, в верхнем правом углу.";
 
 /* No comment provided by engineer. */
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Пожалуйста, наклоните ваш документ вверх и вниз, чтобы мы могли увидеть его защитные элементы.";
@@ -803,7 +803,7 @@
 "RESULT_SUCCESS_MESSAGE_PHOTO_IDENT" = "Спасибо, что используете нашу службу онлайн-идентификации! Теперь вы можете закрыть приложение, вам сообщат, что делать дальше.";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_MESSAGE_VIDEO_IDENT" = "Спасибо, что используете нашу службу онлайн-идентификации! Теперь вы можете закрыть приложение, вам сообщат, что делать дальше.";
+"RESULT_SUCCESS_MESSAGE_VIDEO_IDENT" = "Благодарим Вас за то, что воспользовались нашей службой онлайн-идентификации! Вы можете закрыть приложение. Ожидайте дальнейших инструкций.";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Данные получены";
@@ -821,10 +821,10 @@
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Лист ожидания";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Идентификация прошла успешно";
+"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Идентификация удалась!";
 
 /* No comment provided by engineer. */
-"RESULT_TRANSACTION_ID" = "ID-идентификатор";
+"RESULT_TRANSACTION_ID" = "Ваш Ident-ID:";
 
 /* No comment provided by engineer. */
 "RETRY" = "Повторить попытку";
@@ -904,7 +904,7 @@
 "VIDEO_IDENT_FAILED_ALERT_MESSAGE" = "Идентификация не удалась";
 
 /* No comment provided by engineer. */
-"VIDEO_IDENT_PROGRESS_MESSAGE" = "Пожалуйста, подождите, пока эксперт по идентификации проверяет ваши данные.";
+"VIDEO_IDENT_PROGRESS_MESSAGE" = "Подождите, пожалуйста, пока специалист по идентификации проверит Ваши данные.";
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE" = "Идентификация в процессе завершения...";
