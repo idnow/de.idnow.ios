@@ -1,6 +1,22 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - FLAnimatedImage (1.0.12)
-  - IDnowSDK (4.1.5):
+  - IDnowSDK (4.1.6):
+    - AFNetworking (~> 4.0)
     - FLAnimatedImage (~> 1.0)
     - libPhoneNumber-iOS (~> 0.9)
     - Masonry (~> 1.1.0)
@@ -10,10 +26,11 @@ PODS:
   - SocketRocket (0.5.1)
 
 DEPENDENCIES:
-  - IDnowSDK (= 4.1.5)
+  - IDnowSDK (= 4.1.6)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - FLAnimatedImage
     - IDnowSDK
     - libPhoneNumber-iOS
@@ -21,12 +38,13 @@ SPEC REPOS:
     - SocketRocket
 
 SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  IDnowSDK: 694bbfcb940abcaff950043d1e95f0b4cd4e66b6
+  IDnowSDK: 0e4f43d53ed1eab9f91da6381b896b1f64824883
   libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 70d2d0f7722976484cfe75c3efc99a3cb1faff3e
+PODFILE CHECKSUM: 437458ec3a63662e93e55ab5c2621fe750f5dd5f
 
 COCOAPODS: 1.9.1

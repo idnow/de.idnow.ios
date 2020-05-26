@@ -50,25 +50,25 @@
 "CHECK_EMAIL_TITLE" = "Teie e-posti aadress";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_DESCRIPTION" = "Tuvastamise ajal kontrollitakse teie isikutunnistust. Palun hoidke see käeulatuses.";
+"CHECK_LICENSE_DESCRIPTION" = "Identimise käigus kontrollime Sinu isikutunnistust. Palun hoia see käepärast.";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_TITLE" = "Teie käeulatuses olev isikutunnistus";
+"CHECK_LICENSE_TITLE" = "Teie käeulatuses olev Isikutunnistus";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Tuvastusprotsessi käigus saadame sellele telefoninumbrile teie tuvastuskoodiga SMS-sõnumi.";
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Tuvastusprotsessi käigus saadame sellele numbrile SMSi identimiskoodiga.";
 
 /* No comment provided by engineer. */
 "CHECK_MOBILE_NUMBER_PLACEHOLDER" = "nt 01761234 …";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_TITLE" = "Teie telefoninumber";
+"CHECK_MOBILE_NUMBER_TITLE" = "Sinu telefoninumber";
 
 /* No comment provided by engineer. */
 "CHECK_SCREEN_TOKEN_TEXT" = "Teie Ident-ID:";
 
 /* No comment provided by engineer. */
-"CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Alusta tuvastust";
+"CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Alustan identimist";
 
 /* No comment provided by engineer. */
 "CHECK_TITLE" = "Tuvastusprotsessi käivitamiseks on vaja järgnevat:";
@@ -143,40 +143,40 @@
 "IDENT_CODE_EMAIL_TITLE" = "Tuvastuskoodi e-posti aadressile";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_MESSAGE" = "Teie tuvastuskood saadeti SMS-iga järgnevale telefoninumbrile: %@ . Jätkamiseks sisestage palun oma tuvastuskood.";
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Identimiskood saadeti SMSi teel mobiilile: %@ . Jätkamiseks palun sisesta ja kinnita identimiskood.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Teie tuvastuskood saadeti järgnevale e-posti aadressile %@. Jätkamiseks sisestage palun enda tuvastuskood.";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_TITLE" = "Sisestage tuvastuskood";
+"IDENT_CODE_ENTER_CODE_TITLE" = "Sisesta identimiskood";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "nt 01761234 …";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Tuvastuskood SMS-iga";
+"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Identimiskood SMSi teel numbrile";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_PLACEHOLDER" = "Tuvastuskood";
+"IDENT_CODE_PLACEHOLDER" = "Sisesta identimiskood";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Nõudke uut tuvastuskoodi";
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Palun uut identimiskoodi";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Te ei saanud tuvastuskoodi või sisestasite vale numbri?";
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Sa ei saanud identimiskoodi või sisestasid vale mobiilinumbri?";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_REQUEST_CODE_AGAIN_TITLE_EMAIL" = "Ei saanud tuvastuskoodi või sisestasite vale e-posti aadressi?";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Palun kontrollige andmeid ja nõudke uut tuvastuskoodi.";
+"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Palun kontrolli andmed üle ja telli identimiskood.";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_TITLE" = "Saatke tuvastuskood";
+"IDENT_CODE_REQUEST_CODE_TITLE" = "Tellin identimiskoodi";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Saatke tuvastuskood";
+"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Tellin identimiskoodi";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1000" = "Tuvastusprotsess eeldab tuvastuskoodi olemasolu.";
@@ -344,37 +344,37 @@
 "INFO_CONNECTING_DESCRIPTION_WAITING_TIME_SECONDS" = "Keskmine ooteaeg on %ld sekundit.";
 
 /* No comment provided by engineer. */
-"INFO_CONNECTING_TITLE" = "Teid ühendatakse...";
+"INFO_CONNECTING_TITLE" = "Sind ühendatakse...";
 
 /* No comment provided by engineer. */
 "INFO_CONNECTING_TITLE_LINES_BUSY" = "Ootan tuvastuseksperdi vabanemist";
 
 /* No comment provided by engineer. */
-"INFO_FACE_PHOTO_DESCRIPTION" = "Palun vaadake kaamerasse ning öelge enda täisnimi.";
+"INFO_FACE_PHOTO_DESCRIPTION" = "Palun vaata kaamerasse ja ütle oma täisnimi.";
 
 /* No comment provided by engineer. */
 "INFO_FACE_PHOTO_TITLE" = "Nimi ja foto";
 
 /* No comment provided by engineer. */
-"INFO_GOODBYE_DESCRIPTION" = "Täname, et kasutasite meie veebipõhist tuvastusteenust!";
+"INFO_GOODBYE_DESCRIPTION" = "Täname! Sinu identimine õnnestus.";
 
 /* No comment provided by engineer. */
-"INFO_GOODBYE_TITLE" = "Isiku tuvastamine teostatud";
+"INFO_GOODBYE_TITLE" = "Identimine on lõpetatud";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Palun hoidke oma isikutunnistuse tagakülge kaamera suunas, et saaksime lugeda sellele märgitud andmeid.";
+"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Palun hoia oma isikutunnistuse tagakülge kaamera ees, et saaksime sellelt lugeda andmeid.";
 
 /* No comment provided by engineer. */
 "INFO_LICENSE_BACKSIDE_TITLE" = "Isikutunnistuse tagakülg";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Palun hoidke oma isikutunnistuse tagakülge kaamera suunas, et saaksime lugeda sellele märgitud andmeid.";
+"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Palun hoia oma isikutunnistuse esikülge kaamera ees, et saaksime sellelt lugeda andmeid.";
 
 /* No comment provided by engineer. */
 "INFO_LICENSE_FRONTSIDE_TITLE" = "Isikutunnistuse esikülg";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Palun lugege enda isikutunnistuse number kõva häälega ette. Te leiate selle dokumendi esikülje paremast ülaservast.";
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Palun loe ette oma isikutunnistuse number. See on kirjas esiküljel üleval paremas nurgas.";
 
 /* No comment provided by engineer. */
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Palun kallutage oma dokumenti üles ja alla, et näeksime selle turvaelemente.";
@@ -803,7 +803,7 @@
 "RESULT_SUCCESS_MESSAGE_PHOTO_IDENT" = "Täname, et kasutasite meie veebipõhist tuvastusteenust! Nüüd võite rakenduse sulgeda ja teid teavitatakse edasistest sammudest.";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_MESSAGE_VIDEO_IDENT" = "Täname, et kasutasite meie veebipõhist tuvastusteenust! Nüüd võite rakenduse sulgeda ja teid teavitatakse edasistest sammudest.";
+"RESULT_SUCCESS_MESSAGE_VIDEO_IDENT" = "Kõik läks kenasti, võid nüüd brauseriakna sulgeda. Teavitame Sind edasistest sammudest.";
 
 /* No comment provided by engineer. */
 "RESULT_SUCCESS_TITLE_PHOTO_IDENT" = "Andmed vastu võetud";
@@ -821,7 +821,7 @@
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Ootejärjekord";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Tuvastamine edukas";
+"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Identimine õnnestus";
 
 /* No comment provided by engineer. */
 "RESULT_TRANSACTION_ID" = "Ident-ID";
@@ -904,10 +904,10 @@
 "VIDEO_IDENT_FAILED_ALERT_MESSAGE" = "Tuvastamine ebaõnnestus";
 
 /* No comment provided by engineer. */
-"VIDEO_IDENT_PROGRESS_MESSAGE" = "Palun oodake kuni meie tuvastuseksperdid kontrollivad teie andmeid.";
+"VIDEO_IDENT_PROGRESS_MESSAGE" = "Palun oota, kuni viime Sinu identimise lõpuni.";
 
 /* No comment provided by engineer. */
-"VIDEO_IDENT_PROGRESS_TITLE" = "Tuvastamist teostatakse...";
+"VIDEO_IDENT_PROGRESS_TITLE" = "Identimine on pooleli...";
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Üks hetk...";
@@ -929,7 +929,7 @@
 
 "WALLET_ACCOUNT_CANT_REMEMBER_PASSWORD" = "Salasõna ei tule meelde?";
 
-"WALLET_ACCOUNT_CONFIRM" = "Kinnita";
+"WALLET_ACCOUNT_CONFIRM" = "Kinnitan";
 
 "WALLET_ACCOUNT_CONFIRM_PASSWORD" = "Kinnitage salasõna";
 

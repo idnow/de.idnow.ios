@@ -2,6 +2,13 @@
 
 ## Changelog
 
+### 4.1.7
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.1.7,  and call pod update
+
 ### 4.1.6
 Changes:
 - Minor improvements & bugfixes
@@ -534,7 +541,7 @@ end
 github "idnow/de.idnow.ios"
 ```
 
-Add following frameworks to your project: `IDnowSDK, FLAnimatedImage, Masonry, libPhoneNumberiOS, SocketRocket`
+Add following frameworks to your project: `IDnowSDK, AFNetworking, FLAnimatedImage, Masonry, libPhoneNumberiOS, SocketRocket`
 
 ### Manually 
 - Add the following pod dependencies to your podfile:
