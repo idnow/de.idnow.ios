@@ -2,6 +2,13 @@
 
 ## Changelog
 
+### 4.2.0
+Changes:
+- EID new feature.
+
+Migration Guide:
+- Change the SDK reference to 4.2.0,  and call pod update
+
 ### 4.1.7
 Changes:
 - Minor improvements & bugfixes
