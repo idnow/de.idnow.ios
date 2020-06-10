@@ -538,20 +538,30 @@ end
 ### Manually 
 - Add the following pod dependencies to your podfile:
 ```
-pod 'Masonry', '~> 1.0.0'
+pod 'AFNetworking', '~> 4.0.1'
+pod 'FLAnimatedImage', '~> 1.0'
 pod 'SocketRocket', '~> 0.5.1'
-pod 'AFNetworking', '~> 3.1.0'
+pod 'Masonry', '~> 1.1.0'
+pod 'libPhoneNumber-iOS', '~> 0.9'
 ```
 - Download the current release from and copy the idnow-sdk folder to your project directory
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
 - Drag idnow-sdk folder into your Xcode project
 - Add to your "Link binary with libraries" section
 ```
+AudioToolbox.framework
+VideoToolbox.framework
+AVFoundation.framework
+CoreMedia.framework
+GLKit.framework
+OpenGLES.framework
+SystemConfiguration.framework
 Webkit.framework
+StoreKit.framework
 Accelerate.framework
-libz.dylib
 ```   
-- Import 'IDnowSDK.h'
+- import 'IDnowSDK.h' // --> Objective-C Project
+- or import IDnowSDK // --> Swift Project
 
 __Note__: To get the sample projects work, you have to call "pod install" to install dependencies.
 
