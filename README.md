@@ -4,7 +4,7 @@
 - [Requirements](#requirements)
 - [Installation](#installation)
   - [CocoaPods](#cocoapods)
-  - [CocoaPods & XCode 9](#cocoapods&xcode9)
+  - [xCode9](#xcode9)
   - [Manually](#manually)
 - [Settings](#settings)
   - [transactionToken](#transactiontoken)
@@ -19,7 +19,6 @@
   - [connectionType](#connectiontype)
 - [Branding](#branding)
   - [Colors](#colors)
-  - [App icon and logo](#appiconandlogo)
     - [defaultTextColor](#defaulttextcolor)
     - [primaryBrandColor](#primarybrandcolor)
     - [proceedButtonBackgroundColor](#proceedbuttonbackgroundcolor)
@@ -35,7 +34,7 @@
     - [cqcDefaultInnerRingColor](#cqcdefaultinnerringcolor)
     - [cqcPoorQualityInnerColor](#cqcpoorqualityinnercolor)
     - [cqcModerateQualityInnerColor](#cqcmoderatequalityinnercolor)
-    - [cqcExcellentQualityInnerColor](#cqcexcellentqualityinnerColor)
+    - [cqcExcellentQualityInnerColor](#cqcexcellentqualityinnercolor)
   - [StatusBar](#statusbar) 
     - [enableStatusBarStyleLightContent](#enablestatusbarstylelightcontent)
   - [Fonts](#fonts) 
@@ -70,7 +69,7 @@ pod install
 
 - Import SDK by using "@import IDnowSDK"
 
-### CocoaPods & XCode 9
+### xCode9
 As of XCode 9 there might be a chance that you experience a problem with your host apps AppIcon in case you use CocoaPods.
 One of the symptoms is that the AppIcon will not be visible if you run your app either on the simulator or a real device. 
 There are many reasons why assets/resources are not present (wrong format, transparency, wrong size, ...) but one might be that the auto generated shell script which builds the pods resources misses a flag telling actool the name of the app-icon. 
@@ -118,7 +117,7 @@ Accelerate.framework
 
 __Note__: To get the sample projects work, you have to call "pod install" to install dependencies.
 
-## Settings (IDnowSettings)
+## Settings
 The settings that should be used for the identification process provided by IDnow.
 
 #### transactionToken
@@ -158,9 +157,8 @@ The target server url for websocket calls if custom server is used.
 #### connectionType
 The connection type to use to talk the backend. (Websocket (default) or long polling)
 
-## Branding (IDnowAppearance)
+## Branding
 Warning: Branding is only allowed if you have the permissions from IDnow.
-
 
 ### Colors
 
@@ -203,7 +201,7 @@ Default: A red color
 Optional color, that replaces the text color in the result screen, when an identification was successful.
 Default: A green color
 
-#### Call quality check screen
+#### CallQualityCheckScreen
 
 #### cqcOuterRingColor
 Optional color that replaces default dark gray for the outer ring indicator on the quality check screen.
@@ -225,7 +223,7 @@ Default: bright orange
 Optional color that replaces default strong yellow for the inner ring indicator in case excellent network quality on the quality check screen.
 Default: strong yellow (almost green).
 
-### Status Bar
+### StatusBar
 
 #### enableStatusBarStyleLightContent
 Optional: Forces the light status bar style to match dark navigation bars.
@@ -246,7 +244,7 @@ Default: System Font: Helvetica Neue Medium (< iOS 9), San Francisco Medium (>= 
 An optional font name that can be used to replace the light font used by the SDK.
 Default: System Font: Helvetica Neue Light (< iOS 9), San Francisco Light (>= iOS 9)
 
-## Adding Push Notifications
+## PushNotifications
 
 In order to use push notifications via the IDnow SDK it is neccessary that your own AppDelegate inherits from 
 the provided IDnowAppDelegate. This is neccessary since the callbacks form Apple concerning registration and 
@@ -304,7 +302,7 @@ our backend.
 
 ```
 
-## Usage example:
+## Usage
 
 ```objective-c
 
