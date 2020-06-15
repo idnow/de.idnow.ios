@@ -58,7 +58,7 @@
 
 ### CocoaPods
 
-[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/new-readme-structure/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=kLCUDDoHwlQ)
+[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/master/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=kLCUDDoHwlQ)
 
 - Add the following pod dependencies to your podfile:
 ```
@@ -92,7 +92,7 @@ end
 
 ### Manually 
 
-[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/new-readme-structure/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
+[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/master/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
 
 - Add the following pod dependencies to your podfile:
 ```
