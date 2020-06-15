@@ -1,500 +1,52 @@
 # SDK
-
-## Changelog
-
-### 4.1.7
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 4.1.7,  and call pod update
-
-### 4.1.6
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Update Platform ios to 9.0
-- Change the SDK reference to 4.1.6,  and call pod update
-
-### 4.1.5
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 4.1.5,  and call pod update
-
-### 4.1.4
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 4.1.4,  and call pod update
-
-### 4.1.3
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 4.1.3,  and call pod update
-
-### 4.1.2
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 4.1.2,  and call pod update
-
-### 4.1.1
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 4.1.1,  and call pod update
-
-### 4.1.0
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 4.1.0,  and call pod update
-
-### 4.0.0
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 4.0.0,  and call pod update
-
-### 3.22.0
-Changes:
-- Added waiting screens with animation.
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.22.0,  and call pod update
-
-### 3.21.0
-Changes:
-- Updated to newest Sentry version
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.21.0, update Sentry dependency version and call pod update
-
-### 3.20.0
-Changes:
-- Added possibility to use Sentry logging
-- Minor improvements & bugfixes
-
-Migration Guide:
-- New dependency added: 'Sentry' in version 4.0.1
-- Change the SDK reference to 3.20.0, add new dependency and call pod update
-
-### 3.19.0
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.19.0 and call pod update
-
-### 3.18.0
-Changes:
-- Wallet
-- New languages
-- Updated AFNetworking to 3.2.1
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.18.0 and call pod update
-
-### 3.17.0
-Changes:
-- Minor improvements & bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.17.0 and call pod update
-
-### 3.15.0
-Improvements:
-- Minor improvements
-
-Bugfixes:
-- iPhone X layout fix
-- Minor bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.15.0 and call pod update
-
-### 3.14.0
-Improvements:
-- Minor improvements
-
-Migration Guide:
-- Change the SDK reference to 3.14.0 and call pod update
-
-### 3.13.0
-Improvements:
-- Minor improvements
-
-Bugfixes:
-- Minor bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.13.0 and call pod update
-
-### 3.12.0
-Improvements:
-- Minor improvements
-
-Bugfixes:
-- Minor bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.12.0 and call pod update
-
-### 3.11.0
-Improvements:
-- Document validation
-
-Bugfixes:
-- Minor bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.11.0 and call pod update
-
-### 3.10.3
-Improvements:
-- Minor bugfixes
-
-Migration Guide:
-- Change the SDK reference to 3.10.3 and call pod update
-
-### 3.10.2
-Improvements:
-- Korean language support
-
-Migration Guide:
-- Change the SDK reference to 3.10.2 and call pod update
-
-### 3.10.1
-Migration Guide:
-- Change the SDK reference to 3.10.1 and call pod update
-
-Bugfixes:
-- Minor bugfixes
-
-### 3.10.0
-Migration Guide:
-- please change the SDK reference to 3.10.0 and call pod update
-
-Bugfixes:
-- Newly customer-customizable texts within SDK
-- Minor bugfixes
-
-### 3.9.1
-Migration Guide:
-- please change the SDK reference to 3.9.1 and call pod update
-
-Bugfixes:
-- Minor bugfixes and new translations
-
-### 3.9.0
-Improvements:
-- Now supporting Russian and Chinese
-
-Migration Guide:
-- please change the SDK reference to 3.9.0 and call pod update
-
-Bugfixes:
-- minor bugfixes
-
-### 3.7.0
-Improvements:
-- Enhancements to the PhotoIdent process
-- adds deep link support for ident code urls (https://go.idnow.de/code/XXXXXX). Requires host app's 
- application delegate to subclass the `IDNAppDelegate`.
-
-Migration Guide:
-- please change the SDK reference to 3.7.0 and call pod update
-
-Bugfixes:
-- minor bugfixes
-
-### 3.6.0
-Improvements:
-- checks the users internet connection before starting a video chat.
-
-**IMPORTANT NOTE:**
-With previous release 3.5.0 of the IDnow SDK a new dependency has been added.
-The library name is `libPhoneNumber-iOS` (Version 0.9).
-
-Migration Guide:
-- please change the SDK reference to 3.6.0 and call pod update
-
-Bugfixes:
-- minor bugfixes
-
-### 3.5.0
-Improvements:
-- mobile phone number validation
-
-**IMPORTANT NOTE:**
-This release of the IDnow SDK makes use of a library to validate phone numbers originally developed by Google.
-The library name is `libPhoneNumber-iOS` (Version 0.9). In order to build apps using the IDnow SDK please update
-your Podfile with the following entry:
-`pod 'libPhoneNumber-iOS', '~> 0.9'`
-
-Migration Guide:
-- please change the SDK reference to 3.5.0 and call pod update
-
-Bugfixes:
-- minor bugfixes
-
-
-### 3.4.1
-Improvements:
-- dynamic links for the terms of use and privacy policy 
-
-Migration Guide:
-- please change the SDK reference to 3.4.1 and call pod update
-
-Bugfixes:
-- fixes a bug with the agent video stream
-- minor bugfixes
-
-
-### 3.4.0
-Improvements:
-- added positioning overlay for the front and backside id card steps
-- communicate foreground/background state to the backend
-- new version of IceLink WebRTC library
-
-Bugfixes:
-- fixes a bug with the agent video stream
-- minor bugfixes
-
-Migration Guide:
-- please change the SDK reference to 3.4.0 and call pod update
-
-
-### 3.3.3
-Improvements:
-- added a new setting to show the ident token on the checkscreen as well
-
-Migration Guide:
-- please change the SDK reference to 3.3.3 and call pod update
-- using XCode 9 with CocoaPods might introduce a problem with your AppIcon. More details can be found below at `CocoaPods & XCode 9`
-
-### 3.3.2
-Bugfixes:
-- minor bugixes 
-
-### 3.3.1
-Improvements:
-- New native esigning user interface
-- Added support for qualified signature in Switzerland
-- Much faster connection setup
-- Increased AFNetworking to 3.1.0
-
-Bugfixes:
-- Certificate handling bug fixes
-
-Migration Guide:
-- please change the SDK reference to 3.3.1 and call pod update
-- be advised that this version of the SDK has increased the dependent version of AFNetworking from 2.6.3 to 3.1.0
-
-### 3.2.2
-Bugfixes:
-- fix for an issue on iOS11 devices only
-
-### 3.2.1
-Bugfixes:
-- removed an issued regarding IDnow SDK localizations
-
-### 3.2.0
-Improvements:
-- improved connection speed
-- added capabilities to change to localization
-- new API to receive the server certicificate
-- build against the new iOS 11 base SDK
-
-Migration Guide:
-- please change the SDK reference to 3.2.0 and call pod install
-
-### 3.1.2
-Improvements:
-- enhancements to the waiting list feature (can be enforced backend side)
-
-Migration Guide:
-- please change the SDK reference to 3.1.2 and call pod install
-
-
-### 3.1.1
-Improvements:
-- Portugese language support
-
-Bugfixes:
-- Fixed a minor bug regarding the push notifications mechanism
-
-Migration Guide:
-- please change the SDK reference to 3.1.1 and call pod install
-
-### 3.1.0
-Improvements:
-- Optional support for waiting list feature
-
-Bugfixes:
-- Fixed success messages sometimes being shown in the wrong language
-
-Migration Guide:
-- please change the SDK reference to 3.1.0 and call pod install
-- if you want to use the push notification waiting list feature please follow >Adding Push Notifications< below
-
-### 3.0.1
-Improvements:
-- updated audio/video client
-- custom DTLS client certificate  
-- certificate pinning for known server certificates
-
-### 3.0.0
-Improvements:
-- Improved dependencies by removing not needed OpenTok
-- Improved overall size of the SDK
-
-
-Migration Guide:
-- Please execute >pod install< to get rid of the now not needed OpenTok dependency
-- Make sure to reference the following frameworks in your host application:
-  Accelerate, AudioToolBox, AVFoundation, CoreMedia, GLKit, OpenGLES and WebKit
-
-### 2.11.0
-
-Improvements:
-- Added interface to use custom DTLS certificates for the WebRTC connection
-- Improved reconnect behavior in case the server is unavailable for any reason
-- Long polling connection type supports messages with or without size information
-
-### 2.10.1
-
-Improvements:
-- custom error success/failure messages
-
-Bugs:
-- Fixed connection issues with low quality connections
-
-### 2.10.0
-
-Improvements:
-- Added the ability to receive the Ident code via email
-- Better support for XCode 8
-- Deployment target is now iOS 8
-
-Migration Guide:
-- Note that as of this version the pod UIAlertView+Blocks is no longer needed. Please remove the line from the dependencies and execute 'pod install'.
-- This version supports deployement targets iOS 8 and higher
-
-### 2.9.0
-- Added information about the current waiting queue position and estimated waiting time
-
-### 2.8.2
-
-Improvements:
-- Improved images sizes for high resolution cameras
-
-### 2.8.0
-
-Improvements:
-- Added support for text chat between user and agent
-- Improved behaviour of the reconnect screen if connection is lost
-- Updated OpenTok from 2.8.2 to 2.9.2
-- Updated Masonry from 1.0.1 to 1.0.2
-
-Bugs:
-- Fixed crash during reconnect after ident has been aborted
-
-### 2.7.0
-
-No changes
-
-### 2.6.0
-
-Improvements:
-- Support for back navigation
-- Updated libraries to new versions
-- Bitcode support now integrated in main version, no separate bitcode version necessary anymore
-
-### 2.5.0
-
-Improvements:
-- Added support for spatial and temporal resampling of the video stream
-- Better handling slow STUN requests
-- Prevent parallel uploading of images for faster uploads
-- Return success if user aborts on the goodbye screen instead of failure
-
-Bugs:
-- Fixed bug where audio was not reconnected if user temporarily lost connection
-
-### 2.4.0
-
-Improvements:
-- Added jailbreak / rooting detection
-- Better wording for Ident-ID
-- Dependencies have been updated
-- Support for AFNetworking from 2.6 to 3.2
-
-Bugs:
-- Fixed crash when launching with launch options
-
-### 2.3.2
-
-Improvements:
-- Better candidate gathering over slow connections
-
-### 2.3.1
-
-Improvements:
-- Additional handling of more connection loss cases
-
-Bugs:
-- Translated some missing keys to french and spanish
-
-### 2.3.0
-
-Improvements:
-- Better handling of connection loss during video chat
-- Prevent screenshots from containing sensitive data
-
-Bugfixes:
-- Fixed bug when starting several identification directly after each other
-
-### 2.2.0
-
-Improvements:
-- iPad now supported natively
-- Third party keyboards are disable due to security considerations
-- Support for swiss environment
-- Cocoapods support
-- Custom fields in redirect URLs are now supported
-- Check data screen now does not cover half the screen anymore
-- Additional customization options: Example mobile number, cornerRadius, modalPresentationStyle, proceedButtonTextColor
-
-Bugfixes:
-- Fixed LTO: loop not vectorized warning
-- Fixed bug how redirects where handled in error cases
-
-### 2.1.0
-
-Improvements
-- Added support for echo cancellation
-
-### 2.0.0
-
-Improvements
-- Bitcode support (see Bitcode Sample for details)
-- New video technology für custom video stream routing and better quality
-- Supported languages: de, en, fr, it
-
+# Table of Contents
+
+- [Requirements](#requirements)
+- [Installation](#installation)
+  - [CocoaPods](#cocoapods)
+  - [xCode9](#xcode9)
+  - [Manually](#manually)
+- [Settings](#settings)
+  - [transactionToken](#transactiontoken)
+  - [companyID](#companyid)
+  - [environment](#environment)
+  - [showErrorSuccessScreen](#showerrorsuccessscreen)
+  - [showVideoOverviewCheck](#showvideooverviewcheck)
+  - [forceModalPresentation](#forcemodalpresentation)
+  - [modalPresentationStyle](#modalpresentationstyle)
+  - [apiHost](#apihost)
+  - [websocketHost](#websockethost)
+  - [connectionType](#connectiontype)
+- [Branding](#branding)
+  - [Colors](#colors)
+    - [defaultTextColor](#defaulttextcolor)
+    - [primaryBrandColor](#primarybrandcolor)
+    - [proceedButtonBackgroundColor](#proceedbuttonbackgroundcolor)
+    - [proceedButtonTextColor](#proceedbuttontextcolor)
+    - [photoIdentRetakeButtonBackgroundColor](#photoidentretakebuttonbackgroundcolor)
+    - [photoIdentRetakeButtonTextColor](#photoidentretakebuttontextcolor)
+    - [textFieldColor](#textfieldcolor)
+    - [failureColor](#failurecolor)
+    - [successColor](#successcolor)
+    - [CallQualityCheckScreen](#callqualitycheckscreen)
+    - [cqcOuterRingColor](#cqcouterringcolor)
+    - [proceedButtonTextColor](#proceedbuttontextcolor)
+    - [cqcDefaultInnerRingColor](#cqcdefaultinnerringcolor)
+    - [cqcPoorQualityInnerColor](#cqcpoorqualityinnercolor)
+    - [cqcModerateQualityInnerColor](#cqcmoderatequalityinnercolor)
+    - [cqcExcellentQualityInnerColor](#cqcexcellentqualityinnercolor)
+  - [StatusBar](#statusbar) 
+    - [enableStatusBarStyleLightContent](#enablestatusbarstylelightcontent)
+  - [Fonts](#fonts) 
+    - [fontNameRegular](#fontnameregular)
+    - [fontNameMedium](#fontnamemedium)
+    - [fontNameLight](#fontnamelight)
+    - [fontNameRegular](#fontnameregular)
+- [PushNotifications](#pushnotifications)
+- [Usage](#usage)
+- [Localization](#localization)
+  - [Example](#example) 
+  
 ## Requirements
 - Xcode 8.0 or later
 - Deployment Target: iOS 8.0 or later
@@ -505,6 +57,9 @@ Improvements
 ## Installation
 
 ### CocoaPods
+
+[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/new-readme-structure/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=kLCUDDoHwlQ)
+
 - Add the following pod dependencies to your podfile:
 ```
 pod 'IDnowSDK'
@@ -517,7 +72,7 @@ pod install
 
 - Import SDK by using "@import IDnowSDK"
 
-### CocoaPods & XCode 9
+### xCode9
 As of XCode 9 there might be a chance that you experience a problem with your host apps AppIcon in case you use CocoaPods.
 One of the symptoms is that the AppIcon will not be visible if you run your app either on the simulator or a real device. 
 There are many reasons why assets/resources are not present (wrong format, transparency, wrong size, ...) but one might be that the auto generated shell script which builds the pods resources misses a flag telling actool the name of the app-icon. 
@@ -536,6 +91,9 @@ end
 ```
 
 ### Manually 
+
+[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/new-readme-structure/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
+
 - Add the following pod dependencies to your podfile:
 ```
 pod 'AFNetworking', '~> 4.0.1'
@@ -565,7 +123,7 @@ Accelerate.framework
 
 __Note__: To get the sample projects work, you have to call "pod install" to install dependencies.
 
-## Settings (IDnowSettings)
+## Settings
 The settings that should be used for the identification process provided by IDnow.
 
 #### transactionToken
@@ -605,9 +163,8 @@ The target server url for websocket calls if custom server is used.
 #### connectionType
 The connection type to use to talk the backend. (Websocket (default) or long polling)
 
-## Branding (IDnowAppearance)
+## Branding
 Warning: Branding is only allowed if you have the permissions from IDnow.
-
 
 ### Colors
 
@@ -650,7 +207,7 @@ Default: A red color
 Optional color, that replaces the text color in the result screen, when an identification was successful.
 Default: A green color
 
-#### Call quality check screen
+#### CallQualityCheckScreen
 
 #### cqcOuterRingColor
 Optional color that replaces default dark gray for the outer ring indicator on the quality check screen.
@@ -672,7 +229,7 @@ Default: bright orange
 Optional color that replaces default strong yellow for the inner ring indicator in case excellent network quality on the quality check screen.
 Default: strong yellow (almost green).
 
-### Status Bar
+### StatusBar
 
 #### enableStatusBarStyleLightContent
 Optional: Forces the light status bar style to match dark navigation bars.
@@ -693,7 +250,7 @@ Default: System Font: Helvetica Neue Medium (< iOS 9), San Francisco Medium (>= 
 An optional font name that can be used to replace the light font used by the SDK.
 Default: System Font: Helvetica Neue Light (< iOS 9), San Francisco Light (>= iOS 9)
 
-## Adding Push Notifications
+## PushNotifications
 
 In order to use push notifications via the IDnow SDK it is neccessary that your own AppDelegate inherits from 
 the provided IDnowAppDelegate. This is neccessary since the callbacks form Apple concerning registration and 
@@ -751,7 +308,7 @@ our backend.
 
 ```
 
-## Usage example:
+## Usage
 
 ```objective-c
 
@@ -845,7 +402,7 @@ English and German Localizations are provided by the SDK (IDnowSDKLocalization.b
 You can overwrite localisation in your own Localizable.strings files.
 
 
-### Example:
+### Example
 ```
 //Defined in the IDnowSDKLocalization.bundle
 "NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
