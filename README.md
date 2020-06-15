@@ -57,6 +57,9 @@
 ## Installation
 
 ### CocoaPods
+
+[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/new-readme-structure/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=kLCUDDoHwlQ)
+
 - Add the following pod dependencies to your podfile:
 ```
 pod 'IDnowSDK'
@@ -88,6 +91,9 @@ end
 ```
 
 ### Manually 
+
+[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/new-readme-structure/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
+
 - Add the following pod dependencies to your podfile:
 ```
 pod 'AFNetworking', '~> 4.0.1'
