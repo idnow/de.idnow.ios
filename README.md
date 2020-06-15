@@ -6,7 +6,7 @@
   - [CocoaPods](#cocoapods)
   - [CocoaPods & XCode 9](#cocoapods&xcode9)
   - [Manually](#manually)
-- [Settings (IDnowSettings)](#settings(idnowsettings))
+- [Settings](#settings)
   - [transactionToken](#transactiontoken)
   - [companyID](#companyid)
   - [environment](#environment)
@@ -17,9 +17,9 @@
   - [apiHost](#apihost)
   - [websocketHost](#websockethost)
   - [connectionType](#connectiontype)
-- [Branding (IDnowAppearance)](#branding(IDnowAppearance))
+- [Branding](#branding)
   - [Colors](#colors)
-  - [App icon and logo](#app-icon-and-logo)
+  - [App icon and logo](#appiconandlogo)
     - [defaultTextColor](#defaulttextcolor)
     - [primaryBrandColor](#primarybrandcolor)
     - [proceedButtonBackgroundColor](#proceedbuttonbackgroundcolor)
@@ -29,22 +29,22 @@
     - [textFieldColor](#textfieldcolor)
     - [failureColor](#failurecolor)
     - [successColor](#successcolor)
-    - [Call quality check screen](#callqualitycheckscreen)
+    - [CallQualityCheckScreen](#callqualitycheckscreen)
     - [cqcOuterRingColor](#cqcouterringcolor)
     - [proceedButtonTextColor](#proceedbuttontextcolor)
     - [cqcDefaultInnerRingColor](#cqcdefaultinnerringcolor)
     - [cqcPoorQualityInnerColor](#cqcpoorqualityinnercolor)
     - [cqcModerateQualityInnerColor](#cqcmoderatequalityinnercolor)
     - [cqcExcellentQualityInnerColor](#cqcexcellentqualityinnerColor)
-  - [Status Bar](#statusbar) 
+  - [StatusBar](#statusbar) 
     - [enableStatusBarStyleLightContent](#enablestatusbarstylelightcontent)
   - [Fonts](#fonts) 
     - [fontNameRegular](#fontnameregular)
     - [fontNameMedium](#fontnamemedium)
     - [fontNameLight](#fontnamelight)
     - [fontNameRegular](#fontnameregular)
-- [Adding Push Notifications](#addingpushnotifications)
-- [Usage example](#usageexample)
+- [PushNotifications](#pushnotifications)
+- [Usage](#usage)
 - [Localization](#localization)
   - [Example](#example) 
   
@@ -398,7 +398,7 @@ English and German Localizations are provided by the SDK (IDnowSDKLocalization.b
 You can overwrite localisation in your own Localizable.strings files.
 
 
-### Example:
+### Example
 ```
 //Defined in the IDnowSDKLocalization.bundle
 "NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
