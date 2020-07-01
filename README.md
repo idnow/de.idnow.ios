@@ -612,6 +612,6 @@ self.eidRouter = [[IDN_eIDRouter alloc]
   IDN_eIDErrorUnknown
  ```
 
-![Alt text](https://github.com/idnow/de.idnow.ios/blob/master/Sample/eid_screenshot_1.png)]
-![Alt text](https://github.com/idnow/de.idnow.ios/blob/master/Sample/eid_screenshot_2.png)]
-![Alt text](https://github.com/idnow/de.idnow.ios/blob/master/Sample/eid_screenshot_3.png)]
+![Alt text](https://github.com/idnow/de.idnow.ios/blob/master/Sample/eid_screenshot_1.png)
+![Alt text](https://github.com/idnow/de.idnow.ios/blob/master/Sample/eid_screenshot_2.png)
+![Alt text](https://github.com/idnow/de.idnow.ios/blob/master/Sample/eid_screenshot_3.png)
