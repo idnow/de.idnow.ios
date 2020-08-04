@@ -41,28 +41,28 @@
 "CHECK_AGREEMENT_TITLE" = "Az ön beleegyezése";
 
 /* No comment provided by engineer. */
-"CHECK_EMAIL_DESCRIPTION" = "Lehetőség van arra, hogy az Ident-kódöt emailben elküldjük az azonosítás során.";
+"CHECK_EMAIL_DESCRIPTION" = "Az azonosítás során erre az e-mail címre küldjük el az Ident-kódot.";
 
 /* No comment provided by engineer. */
 "CHECK_EMAIL_PLACEHOLDER" = "pl. abc@idnow.de …";
 
 /* No comment provided by engineer. */
-"CHECK_EMAIL_TITLE" = "Az ön emailcíme";
+"CHECK_EMAIL_TITLE" = "Az Ön e-mail címe";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_DESCRIPTION" = "A személyi azonosító okmányát ellenőrizni fogjuk az azonosítás során, így kérjük, készítse elő.";
+"CHECK_LICENSE_DESCRIPTION" = "Kérjük, készítse elő személyazonosító okmányát és lakcímkártyáját, amelyeket az azonosítás során ellenőrzünk.";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_TITLE" = "Az ön előkészített személyazonosító okmánya";
+"CHECK_LICENSE_TITLE" = "Az Ön személyazonosító okmánya és lakcímkártyája";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Az azonosítás során elküldjük az Ident-kódját erre a telefonszámra SMS-ben.";
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Az azonosítás során erre a mobiltelefonszámra küldjük el az Ident-kódot SMS-ben.";
 
 /* No comment provided by engineer. */
 "CHECK_MOBILE_NUMBER_PLACEHOLDER" = "pl. 01761234 …";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_TITLE" = "Az ön telefonszáma";
+"CHECK_MOBILE_NUMBER_TITLE" = "Az Ön telefonszáma";
 
 /* No comment provided by engineer. */
 "CHECK_SCREEN_TOKEN_TEXT" = "Az ön Ident-ID-ja:";
@@ -71,7 +71,7 @@
 "CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Azonosítás megkezdése";
 
 /* No comment provided by engineer. */
-"CHECK_TITLE" = "A következő szükséges az azonosítás megkezdéséhez:";
+"CHECK_TITLE" = "Az azonosítás megkezdéséhez a következőkre lesz szükség:";
 
 /* No comment provided by engineer. */
 "CONTINUE" = "Folytatás";
@@ -140,10 +140,10 @@
 "IDENT_CODE_EMAIL_PLACEHOLDER" = "pl. abc@idnow.de …";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_EMAIL_TITLE" = "Ident-kód elküldése emailben ide:";
+"IDENT_CODE_EMAIL_TITLE" = "Ident-kód e-mailben erre a címre:";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_MESSAGE" = "Az ön Ident-kódját elküldtük SMS-ben a következő telefonszámra: %@ . Kérjük, adja meg az Ident-kódját a folytatáshoz.";
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Az Ön Ident-kódját a következő telefonszámra küldtük ki SMS-ben: %@ . Kérjük, adja meg az Ident-kódját a folytatáshoz.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Az Ön Ident-kódját a következő e-mail címre küldtük ki: %@. Kérjük, adja meg az Ident-kódját a folytatáshoz.";
@@ -155,7 +155,7 @@
 "IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "pl. 01761234 …";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Ident-kód SMS-ben ide:";
+"IDENT_CODE_MOBILE_NUMBER_TITLE" = "Ident-kód SMS-ben erre a mobil telefonszámra:";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_PLACEHOLDER" = "Ident-kód";
@@ -170,7 +170,7 @@
 "IDENT_CODE_REQUEST_CODE_AGAIN_TITLE_EMAIL" = "Nem kapta meg az Ident-kódot, vagy helytelen emailcímet adott meg?";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Kérjük, ellenőrizze az adatokat, majd kérjen új Ident-kódot.";
+"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Kérjük, ellenőrizze az adatokat és kérjen Ident-kódot.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_REQUEST_CODE_TITLE" = "Ident-kód kérése";
@@ -344,19 +344,19 @@
 "INFO_CONNECTING_DESCRIPTION_WAITING_TIME_SECONDS" = "Az átlagos várakozási idő %ld másodperc.";
 
 /* No comment provided by engineer. */
-"INFO_CONNECTING_TITLE" = "Az ön csatlakoztatása folyamatban";
+"INFO_CONNECTING_TITLE" = "Csatlakozás folyamatban";
 
 /* No comment provided by engineer. */
 "INFO_CONNECTING_TITLE_LINES_BUSY" = "Várakozás azonosítási szakértőre";
 
 /* No comment provided by engineer. */
-"INFO_FACE_PHOTO_DESCRIPTION" = "Kérjük, nézzen a kamerába és mondja meg a teljes nevét.";
+"INFO_FACE_PHOTO_DESCRIPTION" = "Az azonosításhoz kérem, nézzen a kamerába és mondja meg a nevét.";
 
 /* No comment provided by engineer. */
 "INFO_FACE_PHOTO_TITLE" = "Név és fotó";
 
 /* No comment provided by engineer. */
-"INFO_GOODBYE_DESCRIPTION" = "Köszönjük, hogy az online azonosítási szolgáltatást használja!";
+"INFO_GOODBYE_DESCRIPTION" = "Köszönjük, hogy online azonosítási szolgáltatásunkat használta!";
 
 /* No comment provided by engineer. */
 "INFO_GOODBYE_TITLE" = "Azonosítás befejeződött";
@@ -371,10 +371,10 @@
 "INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Kérem, tartsa a személyazonosító okmánya fényképes oldalát a kamera felé úgy, hogy minden részlete olvasható legyen.";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_FRONTSIDE_TITLE" = "A személyazonosító okmány elülső oldala";
+"INFO_LICENSE_FRONTSIDE_TITLE" = "Személyazonosító okmány fényképes oldala";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Kérjük, hangosan olvassa fel a személyazonosító okmány számát. Az elülső oldal jobb felső sarkában található.";
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Kérem, olvassa fel a személyazonosító okmánya számát.";
 
 /* No comment provided by engineer. */
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Kérjük, döntse meg az okmányt felfelé és lefelé, hogy a biztonsági jelzések, vízjelek jól láthatóak legyenek.";
