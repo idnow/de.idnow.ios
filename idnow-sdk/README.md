@@ -563,7 +563,6 @@ end
 ```
 
 ### Carthage
-
 ```
 github "idnow/de.idnow.ios"
 ```

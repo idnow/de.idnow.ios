@@ -1,5 +1,64 @@
 ## Changelog
 
+### 4.2.3
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.2.3,  and call pod update
+
+### 4.2.2
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.2.2,  and call pod update
+
+### 4.2.1
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.2.1,  and call pod update
+
+### 4.2.0
+Changes:
+-IDnow eID : new method enabling users to identify themselves online.
+
+Migration Guide:
+- Change the SDK reference to 4.2.0,  and call pod update
+- Add eID framework 
+- Add Authada framework
+
+### 4.1.7
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.1.7,  and call pod update
+
+### 4.1.6
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Update Platform ios to 9.0
+- Change the SDK reference to 4.1.6,  and call pod update
+
+### 4.1.5
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.1.5,  and call pod update
+
+### 4.1.4
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.1.4,  and call pod update
+
 ### 4.1.3
 Changes:
 - Minor improvements & bugfixes
