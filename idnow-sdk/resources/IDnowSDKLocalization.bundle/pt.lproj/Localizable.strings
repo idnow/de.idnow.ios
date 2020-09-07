@@ -314,6 +314,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "A vídeo chamada foi interrompida. Por favor verifique a sua ligação de internet. Vamos tentar restabelecer ligação automaticamente.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Oops. Ocorreu um erro inesperado. Por favor tente novamente.";
 
 /* No comment provided by engineer. */

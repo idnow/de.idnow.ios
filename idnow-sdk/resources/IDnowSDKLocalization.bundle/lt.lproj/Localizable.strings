@@ -314,6 +314,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "Video pokalbis buvo pertrauktas. Patikrinkite savo interneto ryšį. Pamėginsime atkurti ryšį automatiškai.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Netikėta klaida. Mėginkite dar kartą.";
 
 /* No comment provided by engineer. */

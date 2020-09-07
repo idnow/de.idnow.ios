@@ -226,8 +226,8 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 // -----------------------------------------------------------------------------------
 
 /**
- * This sets the user interface language. Allowed values are: en (english), de (german), fr (frensh), 
- * es (spanish), it (italian), pt (portugese)
+ * This sets the user interface language. Allowed values are: en (English), de (German), fr (French),
+ * es (Spanish), it (Italian), pt (Portugese), et (Estonian), hr (Croatian), hu (Hungarian), ka (Georgian), ko(Korean), lt(Lithuanian), lv (Latvian), nl (Dutch), pl (Polish),  ru (Russian), zh (Chinese).
  */
 @property (nullable, strong, nonatomic) NSString* userInterfaceLanguage;
 
