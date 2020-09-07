@@ -425,9 +425,15 @@ settings.connectionType = IDnowConnectionTypeLongPolling;
 Warning: Adapting localizations is only allowed if you have the permissions from IDnow.
 
 In case you would like to change the localization used by the IDnow SDK at runtime you can do:
+
+Allowed values are: en (English), de (German), fr (French), es (Spanish), it (Italian), pt (Portugese), et (Estonian), hr (Croatian), hu (Hungarian), ka (Georgian), ko(Korean), lt(Lithuanian), lv (Latvian), nl (Dutch), pl (Polish),  ru (Russian), zh (Chinese).
 ```
 settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de,en,it,es,pt)
+
 ```
+
+
+
 
 English and German Localizations are provided by the SDK (IDnowSDKLocalization.bundle)
 You can overwrite localisation in your own Localizable.strings files.
