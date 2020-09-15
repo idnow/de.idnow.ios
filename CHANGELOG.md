@@ -1,5 +1,12 @@
 ## Changelog
 
+### 4.3.0
+Changes:
+- Implemented Video Ident Plus feature
+
+Migration Guide:
+- Change the SDK reference to 4.3.0,  and call pod update
+
 ### 4.2.4
 Changes:
 - Minor improvements & bugfixes
