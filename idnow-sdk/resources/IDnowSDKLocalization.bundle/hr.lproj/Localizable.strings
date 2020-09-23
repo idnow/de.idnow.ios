@@ -20,7 +20,7 @@
 "CHAT_SENDER_TEXT_USER" = "Vi u %@";
 
 /* No comment provided by engineer. */
-"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Ja se slažem s Uvjetima pružanja usluga IDnow i pročitao sam Politiku privatnosti.";
+"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Slažem se s Uvjetima pružanja usluge i pročitao/la sam Politiku privatnosti.";
 
 /* No comment provided by engineer. */
 "CHECK_AGREEMENT_GTC_PRIVACY_POLICY_BUTTON_TITLE" = "Politika privatnosti";
@@ -50,19 +50,19 @@
 "CHECK_EMAIL_TITLE" = "Vaša adresa e-pošte";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_DESCRIPTION" = "Pripremite svoj identfikacijski dokument i imajte ga pri jer će biti provjeravan prilikom identifikacije";
+"CHECK_LICENSE_DESCRIPTION" = "Pripremite svoj identifikacijski dokument i imajte ga pri ruci jer će biti provjeravan prilikom identifikacije.";
 
 /* No comment provided by engineer. */
 "CHECK_LICENSE_TITLE" = "Vaš identifikacijski dokument";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Za vrijeme identifikacije na ovaj broj mobitela bit će vam poslan SMS sa identifkacijskim kodom. ";
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Za vrijeme identifikacije na ovaj broj mobitela biti će vam poslan SMS s identifikacijskim kodom. ";
 
 /* No comment provided by engineer. */
 "CHECK_MOBILE_NUMBER_PLACEHOLDER" = "primjerice, 01761234 …";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_TITLE" = "Vaš broj mobitela";
+"CHECK_MOBILE_NUMBER_TITLE" = "Broj vašeg mobitela";
 
 /* No comment provided by engineer. */
 "CHECK_SCREEN_TOKEN_TEXT" = "Vaš identifikacijski ID:";
@@ -149,7 +149,7 @@
 "IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Vaš Ident kod je poslan na sljedeću adresu e-pošte: %@. Unesite svoj Ident kod za nastavak.";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_TITLE" = "Identifikacijski kod";
+"IDENT_CODE_ENTER_CODE_TITLE" = "Unesite identifikacijski kod";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "primjerice,  01761234 …";
@@ -173,10 +173,10 @@
 "IDENT_CODE_REQUEST_CODE_MESSAGE" = "Provjerite ispravnost vašeg broja mobitela i zatražite identifikacijski kod.";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_TITLE" = "Zatrazite identifikacijski kod";
+"IDENT_CODE_REQUEST_CODE_TITLE" = "Identifikacijski kod";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Zatražite Ident kod.";
+"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Zatražite identifikacijski kod";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1000" = "Ident ID je obvezatan za identifikaciju.";
@@ -314,10 +314,13 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "Video čavrljanje je prekinuto. Provjerite svoju internetsku vezu. Mi ćemo pokušati automatski ponovno uspostaviti vezu.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Došlo je do neočekivane pogreške. Pokušajte ponovno.";
 
 /* No comment provided by engineer. */
-"INFO_CONNECTING_DESCRIPTION" = "Pricekajte povezivanje s jednim od nasim agenata";
+"INFO_CONNECTING_DESCRIPTION" = "Pričekajte povezivanje s jednim od naših agenata.";
 
 /* No comment provided by engineer. */
 "INFO_CONNECTING_DESCRIPTION_LINES_BUSY" = "Svi naši stručnjaci za identifikaciju su zauzeti zbog velike potražnje. To će dovesti do duljeg čekanja od uobičajenog. Ova služba za identifikaciju dostupna je od ponedjeljka do nedjelje od 8:00 do 24:00.";
@@ -347,10 +350,10 @@
 "INFO_CONNECTING_TITLE" = "Vi ste povezani";
 
 /* No comment provided by engineer. */
-"INFO_CONNECTING_TITLE_LINES_BUSY" = "Povezivanje s agentom";
+"INFO_CONNECTING_TITLE_LINES_BUSY" = "Povezujete se ";
 
 /* No comment provided by engineer. */
-"INFO_FACE_PHOTO_DESCRIPTION" = "Pogledajte u kameru u izgovorite svoje puno ime i prezime. ";
+"INFO_FACE_PHOTO_DESCRIPTION" = "Pogledajte  u kameru i izgovorite svoje puno ime  i prezime.";
 
 /* No comment provided by engineer. */
 "INFO_FACE_PHOTO_TITLE" = "Ime i prezime";
@@ -359,7 +362,7 @@
 "INFO_GOODBYE_DESCRIPTION" = "Zahvaljujemo na korištenju!";
 
 /* No comment provided by engineer. */
-"INFO_GOODBYE_TITLE" = "Identifikacija je zavrsena";
+"INFO_GOODBYE_TITLE" = "Identifikacija završena";
 
 /* No comment provided by engineer. */
 "INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Držite kameru na stražnjoj strani dokumenta kako bismo mogli pročitati podatke.";
@@ -374,10 +377,10 @@
 "INFO_LICENSE_FRONTSIDE_TITLE" = "Prednja strana dokumenta";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Pročitajte na glas broj svog identifikacijskog dokumenta. Broj se nalazi se prednjoj strani dokumenta u donjem lijevom kutu (osobna iskaznica) ili gornjem desnom kutu (putovnica).";
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Pročitajte na glas broj svog identifikacijskog dokumenta. Broj se nalazi na prednjoj strani dokumenta u donjem lijevom kutu (osobna iskaznica) ili gornjem desnom kutu (putovnica).";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_WIGGLE_DESCRIPTION" = "Nakosite dokument gore/dolje kako bi se mogle vidjeti sigurnose značajke na njemu.";
+"INFO_LICENSE_WIGGLE_DESCRIPTION" = "Nakosite dokument gore/dolje kako bi se mogle vidjeti sigurnosne značajke na njemu.";
 
 /* No comment provided by engineer. */
 "JAILBREAK_ERROR_ALERT_MESSAGE" = "Nije moguće obaviti identifikaciju na provaljenom uređaju.";
