@@ -1,4 +1,5 @@
 platform :ios, '9.0'
+use_frameworks! :linkage => :static
 
 target 'IDnow SDK Demo' do
     pod 'IDnowSDK', '4.3.2'
