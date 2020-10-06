@@ -91,8 +91,9 @@
 
 [![Watch the video](https://github.com/idnow/de.idnow.ios/blob/master/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=kLCUDDoHwlQ)
 
-- Add the following pod dependencies to your podfile:
+- Add the following config and pod dependencies to your podfile:
 ```
+use_frameworks! :linkage => :static
 pod 'IDnowSDK'
 ```
 
