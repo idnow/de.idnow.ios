@@ -1,5 +1,33 @@
 ## Changelog
 
+### 4.3.2
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.3.2,  and call pod update
+
+### 4.3.1
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.3.1,  and call pod update
+
+### 4.3.0
+Changes:
+- Implemented Video Ident Plus feature
+
+Migration Guide:
+- Change the SDK reference to 4.3.0,  and call pod update
+
+### 4.2.4
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.2.4,  and call pod update
+
 ### 4.2.3
 Changes:
 - Minor improvements & bugfixes

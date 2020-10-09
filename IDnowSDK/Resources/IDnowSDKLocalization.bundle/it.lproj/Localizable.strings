@@ -314,6 +314,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "La video chat è stata interrotta. Per favore, controlla la tua connessione Internet. Cercheremo di ripristinare la connessione automaticamente.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Si è verificato un errore inatteso. Riprovi.";
 
 /* No comment provided by engineer. */

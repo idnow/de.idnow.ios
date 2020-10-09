@@ -314,6 +314,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "ვიდეოჩატი შეწყდა. შეამოწმენთ ინტერნეტ კავშირი. ჩვენ შევეცდებით ხელახლა ავტომატურად დაგაკავშიროთ.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "მოულოდნელი შეცდომა მოხდა. სცადეთ ხელახლა.";
 
 /* No comment provided by engineer. */
@@ -395,31 +398,31 @@
 "NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY" = "ნავიგაცია_ელემენტი_სახელწოდება_ფოტო_იდენტიფიკაცია_ქვეყანა";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT" = "ნავიგაცია_ელემენტი_სახელწოდება_ფოტო_იდენტიფიკაცია_დიკუმენტი";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO" = "ნავიგაცია_ელემენტი_სახელწოდება_ფოტო_იდენტიფიკაცია_ფოტო";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS" = "ნავიგაცია_ელემენტი_სახელწოდება_ფოტო_იდენტიფიკაცია_პროგრესი";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "ნავიგაცია_ელემენტი_სახელწოდება_ფოტო_იდენტიფიკაცია_შესასრულებელი";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "ნავიგაცია_ელემენტი_სახელწოდება_ფოტო_იდენტიფიკაცია_ვიდეო";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO";
 
 /* Overwritings, No comment provided by engineer. */
 "NAVIGATION_ITEM_TITLE_RESULT" = "NAVIGATION_ITEM_TITLE_RESULT";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK" = "ნავიგაცია_ელემენტი_სახელწოდება_ფოტო_იდენტიფიკაცია_შემოწმება";
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO" = "ნავიგაცია_ელემენტი_სახელწოდება_ფოტო_იდენტიფიკაცია_ინფო";
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO";
 
 /* No comment provided by engineer. */
 "NO" = "არა";

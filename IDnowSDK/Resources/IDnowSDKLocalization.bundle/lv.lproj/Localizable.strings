@@ -314,6 +314,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "Video tērzēšana tika pārtraukta. Lūdzu, pārbaudiet interneta savienojumu. Mēģināsim automātiski izveidot savienojumu vēlreiz.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Radās neparedzēta kļūda. Lūdzu, mēģiniet vēlreiz.";
 
 /* No comment provided by engineer. */

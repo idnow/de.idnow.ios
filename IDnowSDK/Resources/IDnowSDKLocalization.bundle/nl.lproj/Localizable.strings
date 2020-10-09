@@ -314,6 +314,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "De videochat werd onderbroken. Controleer jouw internetverbinding. We zullen proberen om automatisch opnieuw verbinding te maken.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Er is een onverwachte fout opgetreden. Probeer het opnieuw.";
 
 /* No comment provided by engineer. */

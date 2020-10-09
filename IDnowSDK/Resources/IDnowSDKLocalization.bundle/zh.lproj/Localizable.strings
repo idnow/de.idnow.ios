@@ -314,6 +314,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2021" = "您的视频认证已中断。请检查您的网络。稍微我们会自动重新连接一次。";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "";
+
+/* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "出错了！请再试一次。";
 
 /* No comment provided by engineer. */
@@ -395,31 +398,31 @@
 "NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY" = "导航-项目-标题-照片-认证-国家";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_COUNTRY";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT" = "导航-项目-标题-照片-认证-文档";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_DOCUMENT";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO" = "导航-项目-标题-照片-认证-照片";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PHOTO";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS" = "导航-项目-标题-照片-认证-流程";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_PROGRESS";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "导航-项目-标题-照片-认证-未完成的";
+"NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_TODO";
 
 /* No comment provided by engineer. */
 "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO" = "NAVIGATION_ITEM_TITLE_PHOTO_IDENT_VIDEO";
 
 /* Overwritings, No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_RESULT" = "导航-项目-标题-照片-认证-结果";
+"NAVIGATION_ITEM_TITLE_RESULT" = "NAVIGATION_ITEM_TITLE_RESULT";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK" = "导航-项目-标题-照片-认证-检查";
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_CHECK";
 
 /* No comment provided by engineer. */
-"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO" = "导航-项目-标题-照片-认证-信息";
+"NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO" = "NAVIGATION_ITEM_TITLE_VIDEO_IDENT_DOCUMENTS_INFO";
 
 /* No comment provided by engineer. */
 "NO" = "否";
