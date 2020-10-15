@@ -1,6 +1,6 @@
-github "AFNetworking/AFNetworking" "4.0.1"
+github "AFNetworking/AFNetworking" ~> 4.0
 github "Beniamiiin/SocketRocket" "master"
-github "Flipboard/FLAnimatedImage" "1.0.14"
-github "SnapKit/Masonry" "v1.1.0"
-github "iziz/libPhoneNumber-iOS" "0.9.15"
-github "airbnb/lottie-ios" "lottie/objectiveC"
+github "Flipboard/FLAnimatedImage" ~> 1.0
+github "SnapKit/Masonry" ~> 1.1.0
+github "iziz/libPhoneNumber-iOS" ~> 0.9
+github "airbnb/lottie-ios" ~> 2.5
