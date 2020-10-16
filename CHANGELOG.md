@@ -1,5 +1,12 @@
 ## Changelog
 
+### 4.3.4
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.3.4,  and call pod update
+
 ### 4.3.3
 Changes:
 - Minor improvements & bugfixes
