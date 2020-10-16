@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		015E476B2538BBA60085D8C2 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015E476A2538BBA60085D8C2 /* File.swift */; };
 		015E6B5D253068E800EEB12A /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 015E6B3C253068E600EEB12A /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg */; };
 		015E6B5E253068E800EEB12A /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 015E6B3D253068E600EEB12A /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg */; };
 		015E6B5F253068E800EEB12A /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 015E6B3E253068E600EEB12A /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg */; };
@@ -77,6 +78,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		015E476A2538BBA60085D8C2 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		015E6B3C253068E600EEB12A /* idn-helper-IDCARD-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
 		015E6B3D253068E600EEB12A /* idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-DRIVERS_LICENSE-IDFRONTSIDE@3x.jpg"; sourceTree = "<group>"; };
 		015E6B3E253068E600EEB12A /* idn-helper-IDCARD-IDFRONTSIDE@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "idn-helper-IDCARD-IDFRONTSIDE@2x.jpg"; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 			isa = PBXGroup;
 			children = (
 				073FC8814FC980C4553577BC /* Info.plist */,
+				015E476A2538BBA60085D8C2 /* File.swift */,
 				88EA5F6FA77B603B7F5C0274 /* Headers */,
 				AE148D8AF4D9789959A3ACD5 /* Library */,
 				287113C6A1402A753E0245A6 /* Resources */,
@@ -445,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015E476B2538BBA60085D8C2 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,16 +541,35 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IDnowSDK/Library",
-					"$(SDKROOT)/usr/lib/swift",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
 				);
 				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = (
-					"-ObjC",
+					"$(inherited)",
 					"-l\"idnow-sdk-universal\"",
 					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"WebKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				SDKROOT = iphoneos;
@@ -637,16 +660,35 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/IDnowSDK/Library",
-					"$(SDKROOT)/usr/lib/swift",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
-					"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)",
 				);
 				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = (
-					"-ObjC",
+					"$(inherited)",
 					"-l\"idnow-sdk-universal\"",
 					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-framework",
+					"\"VideoToolbox\"",
+					"-framework",
+					"\"WebKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				SDKROOT = iphoneos;
