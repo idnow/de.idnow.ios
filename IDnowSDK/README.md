@@ -122,6 +122,21 @@ post_install do |installer|
 end
 ```
 
+### Carthage
+
+```
+github "idnow/de.idnow.ios"
+```
+
+Add following frameworks to your project:
+
+- IDnowSDK
+- AFNetworking
+- FLAnimatedImage
+- Masonry
+- libPhoneNumberiOS
+- SocketRocket
+
 ### Manually 
 
 [![Watch the video](https://github.com/idnow/de.idnow.ios/blob/master/Sample/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
