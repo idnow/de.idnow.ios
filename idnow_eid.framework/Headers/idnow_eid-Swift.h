@@ -326,6 +326,25 @@ SWIFT_CLASS("_TtC9idnow_eid17IDN_eIDAppearance")
 ///   </li>
 /// </ul>
 @property (nonatomic, copy) NSString * _Nullable fontNameRegular;
+/// <ul>
+///   <li>
+///     An optional font name that can be used to replace the medium font used by the SDK.
+///   </li>
+///   <li>
+///     Default: System medium Font
+///   </li>
+/// </ul>
+@property (nonatomic, copy) NSString * _Nullable fontNameMedium;
+/// <ul>
+///   <li>
+///     An optional font name that can be used to replace the light font used by the SDK.
+///   </li>
+///   <li>
+///     Default: System light Font
+///   </li>
+/// </ul>
+@property (nonatomic, copy) NSString * _Nullable fontNameLight;
+@property (nonatomic, copy) NSString * _Nullable userInterfaceLanguage;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) IDN_eIDAppearance * _Nonnull shared;)
 + (IDN_eIDAppearance * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

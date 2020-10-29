@@ -1,5 +1,14 @@
 ## Changelog
 
+### 4.4.0
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+
+- Change the SDK reference to 4.4.0,  and call pod update
+- IDnow rebranding
+
 ### 4.3.4
 Changes:
 - Minor improvements & bugfixes

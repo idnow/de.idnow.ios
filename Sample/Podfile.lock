@@ -15,18 +15,20 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - FLAnimatedImage (1.0.12)
-  - IDnowSDK (4.2.3):
+  - IDnowSDK (4.4.0):
     - AFNetworking (~> 4.0)
     - FLAnimatedImage (~> 1.0)
     - libPhoneNumber-iOS (~> 0.9)
+    - lottie-ios (~> 2.5)
     - Masonry (~> 1.1.0)
     - SocketRocket (~> 0.5.1)
   - libPhoneNumber-iOS (0.9.15)
+  - lottie-ios (2.5.3)
   - Masonry (1.1.0)
   - SocketRocket (0.5.1)
 
 DEPENDENCIES:
-  - IDnowSDK (= 4.2.3)
+  - IDnowSDK (= 4.4.0)
 
 SPEC REPOS:
   trunk:
@@ -34,17 +36,19 @@ SPEC REPOS:
     - FLAnimatedImage
     - IDnowSDK
     - libPhoneNumber-iOS
+    - lottie-ios
     - Masonry
     - SocketRocket
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
-  IDnowSDK: 1428315bd79b75a86367c6181ae0cdc0092d3b30
+  IDnowSDK: 7e1a958b8a189029da48eb5a7daafd4462bac1df
   libPhoneNumber-iOS: 0a32a9525cf8744fe02c5206eb30d571e38f7d75
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
 
-PODFILE CHECKSUM: 9f83228f98cf43e1b3a5108afab40d93df74acbb
+PODFILE CHECKSUM: 4c5e94ff2c9707880a984973e579d0f4041d1df1
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0.beta.2

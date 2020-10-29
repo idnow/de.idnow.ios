@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06CC18789BF4477F6C5AADC0 /* Pods_IDnow_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A189BF35B96A43E742B0382E /* Pods_IDnow_SDK_Demo.framework */; };
 		486477D21C6E1B8300C72893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E7F1AC1EFC800BA9B5B /* Main.storyboard */; };
 		486477D31C6E1B8300C72893 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E841AC1EFC800BA9B5B /* LaunchScreen.xib */; };
 		48B030411E4DEF050066CE25 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62DFA8E1C007D5700BD5788 /* Accelerate.framework */; };
@@ -21,7 +22,6 @@
 		6FC64E781AC1EFC800BA9B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E771AC1EFC800BA9B5B /* AppDelegate.m */; };
 		6FC64E7E1AC1EFC800BA9B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E7D1AC1EFC800BA9B5B /* ViewController.m */; };
 		6FC64E831AC1EFC800BA9B5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E821AC1EFC800BA9B5B /* Images.xcassets */; };
-		9AA03C1839237A10C3EA1EE8 /* libPods-IDnow SDK Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F660F1A7AD3BEEEEF1D9BBC0 /* libPods-IDnow SDK Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,10 +45,10 @@
 		6FC64E821AC1EFC800BA9B5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6FC64E851AC1EFC800BA9B5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		721111A36B20B84DE8E0BEAF /* Pods-IDnow SDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow SDK Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDnow SDK Demo/Pods-IDnow SDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		A189BF35B96A43E742B0382E /* Pods_IDnow_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDnow_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62DFA8E1C007D5700BD5788 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		D62DFA901C007D6400BD5788 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		DC973C73D3FC164A236179D0 /* Pods-IDnow SDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow SDK Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDnow SDK Demo/Pods-IDnow SDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		F660F1A7AD3BEEEEF1D9BBC0 /* libPods-IDnow SDK Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDnow SDK Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				48B0304E1E4DEF050066CE25 /* SystemConfiguration.framework in Frameworks */,
 				48B030411E4DEF050066CE25 /* Accelerate.framework in Frameworks */,
 				48B030421E4DEF050066CE25 /* WebKit.framework in Frameworks */,
-				9AA03C1839237A10C3EA1EE8 /* libPods-IDnow SDK Demo.a in Frameworks */,
+				06CC18789BF4477F6C5AADC0 /* Pods_IDnow_SDK_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 				48E1A2761C6E05C90062A9F5 /* libz.tbd */,
 				D62DFA901C007D6400BD5788 /* WebKit.framework */,
 				D62DFA8E1C007D5700BD5788 /* Accelerate.framework */,
-				F660F1A7AD3BEEEEF1D9BBC0 /* libPods-IDnow SDK Demo.a */,
+				A189BF35B96A43E742B0382E /* Pods_IDnow_SDK_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,6 +267,7 @@
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowImages.bundle",
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowSDKLocalization.bundle",
+				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowVideoIdentPlusImages.bundle",
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/icon_check.mp4",
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/icon_document.mp4",
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/icon_people.mp4",
@@ -302,6 +303,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/idn-helper-RESIDENCE_PERMIT-IDHOLOGRAMS@3x.jpg",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowImages.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowSDKLocalization.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowVideoIdentPlusImages.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_check.mp4",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_document.mp4",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_people.mp4",

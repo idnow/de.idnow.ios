@@ -310,29 +310,29 @@ our backend.
 
 - (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings
 {
-	[super application:application didRegisterUserNotificationSettings:notificationSettings];
+    [super application:application didRegisterUserNotificationSettings:notificationSettings];
 }
 
 - (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(nonnull NSData*)deviceToken
 {
-	[super application:application didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
+    [super application:application didRegisterForRemoteNotificationsWithDeviceToken:deviceToken];
 }
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(nullable NSDictionary *)launchOptions
 {
-	[super application:application didFinishLaunchingWithOptions:launchOptions];
+    [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
-	[super application:application didReceiveRemoteNotification:userInfo];
+    [super application:application didReceiveRemoteNotification:userInfo];
 }
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
                                                        fetchCompletionHandler:(void (^)(UIBackgroundFetchResult result))completionHandler
 {
-	[super application:application didReceiveRemoteNotification:userInfo
-										 fetchCompletionHandler:completionHandler];
+    [super application:application didReceiveRemoteNotification:userInfo
+                                         fetchCompletionHandler:completionHandler];
 }
 
 @end
@@ -375,35 +375,35 @@ IDnowController *idnowController = [[IDnowController alloc] initWithSettings: se
 // (alternatively you can set the delegate and implement the IDnowControllerDelegate protocol)
 [idnowController initializeWithCompletionBlock: ^(BOOL success, NSError *error, BOOL canceledByUser)
 {
-		if ( success )
-		{
-		      // Start identification using blocks
-			  [idnowController startIdentificationFromViewController: self 
-			  withCompletionBlock: ^(BOOL success, NSError *error, BOOL canceledByUser)
-			  {
-					  if ( success )
-					  {
-					      // identification was successfull
-					  }
-					  else
-					  {
-					      // identification failed / canceled
-					  }
-				}];
-		}
-		else if ( error )
-		{
-		      // Present an alert containing localized error description
-			  UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" 
-			  message: error.localizedDescription 
-			  preferredStyle: UIAlertControllerStyleAlert];
-			  UIAlertAction *action = [UIAlertAction actionWithTitle: @"Ok" 
-			  style: UIAlertActionStyleCancel 
-			  handler: nil];
-			  [alertController addAction: action];
-			  [self presentViewController: alertController animated: true completion: nil];
-		}
-	}];
+        if ( success )
+        {
+              // Start identification using blocks
+              [idnowController startIdentificationFromViewController: self 
+              withCompletionBlock: ^(BOOL success, NSError *error, BOOL canceledByUser)
+              {
+                      if ( success )
+                      {
+                          // identification was successfull
+                      }
+                      else
+                      {
+                          // identification failed / canceled
+                      }
+                }];
+        }
+        else if ( error )
+        {
+              // Present an alert containing localized error description
+              UIAlertController *alertController = [UIAlertController alertControllerWithTitle: @"Error" 
+              message: error.localizedDescription 
+              preferredStyle: UIAlertControllerStyleAlert];
+              UIAlertAction *action = [UIAlertAction actionWithTitle: @"Ok" 
+              style: UIAlertActionStyleCancel 
+              handler: nil];
+              [alertController addAction: action];
+              [self presentViewController: alertController animated: true completion: nil];
+        }
+    }];
 ```
 
 You can also change some of the optional settings:
