@@ -1,5 +1,13 @@
 ## Changelog
 
+### 4.5.0
+Changes:
+- Dark mode support
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.5.0,  and call pod update
+
 ### 4.4.1
 Changes:
 - Minor improvements & bugfixes
