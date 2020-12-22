@@ -32,6 +32,13 @@ enum REQUEST_CODE_AGAIN_LAYOUT_TYPE
     TOP,
 };
 
+enum APPEARANCE_MODE
+{
+    IDNOW_MODE_LIGHT,
+    IDNOW_MODE_DARK,
+    IDNOW_MODE_SYSTEM,
+};
+
 /**
  *  This class is used to control the appearance of the SDK
  *  You can define colors, fonts and appearance settings here
@@ -49,7 +56,7 @@ enum REQUEST_CODE_AGAIN_LAYOUT_TYPE
  */
 + (instancetype) sharedAppearance;
 
-
+@property (assign, nonatomic) enum APPEARANCE_MODE mode;
 // -----------------------------------------------------------------------------------
 //									Colors
 // -----------------------------------------------------------------------------------
@@ -176,6 +183,12 @@ enum REQUEST_CODE_AGAIN_LAYOUT_TYPE
  *  Default: green / red depending on success
  */
 @property (strong, nonatomic) UIColor *resultScreenHeaderLabelColor;
+
+/**
+ *  Optional color, that replaces the color that will be used for view background.
+ *  Default: white for light mode and nearly dark for the dark mode.
+ */
+@property (strong, nonatomic) UIColor *backgroundColor;
 
 // -----------------------------------------------------------------------------------
 //                                    Call Quality Check
@@ -305,6 +318,12 @@ enum REQUEST_CODE_AGAIN_LAYOUT_TYPE
  * Default NO - Ident code request for only covers half the screen
  */
 @property (assign, nonatomic) BOOL identCodeLayoutHalf;
+
+/**
+ * If set to `true`, the new IDNow branding will be used
+ * By default the value of this property is `true`
+ */
+@property (assign, nonatomic) BOOL usedNewBrand;
 
 /**
  * Default nil - Set this to a UIBarButtonItem of your preference in order to customize its appearance throughout the SDK
