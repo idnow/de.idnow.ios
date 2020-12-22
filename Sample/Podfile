@@ -1,5 +1,5 @@
 platform :ios, '9.0'
 
 target 'IDnow SDK Demo' do
-    pod 'IDnowSDK', '4.2.4'
+    pod 'IDnowSDK', '4.2.5'
 end
