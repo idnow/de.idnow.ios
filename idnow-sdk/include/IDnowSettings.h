@@ -30,14 +30,6 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
      */
     IDnowEnvironmentDev,
     /**
-     *  Dev0 server environment
-     */
-    IDnowEnvironmentDev0,
-    /**
-     *  Dev1 server environment
-     */
-    IDnowEnvironmentDev1,
-    /**
      *  Dev2 server environment
      */
     IDnowEnvironmentDev2,
@@ -49,10 +41,6 @@ typedef NS_ENUM (NSInteger, IDnowEnvironment)
      *  Dev4 server environment
      */
     IDnowEnvironmentDev4,
-    /**
-      *  Dev5 server environment
-      */
-     IDnowEnvironmentDev5,
     /**
      *  Test server environment
      */
