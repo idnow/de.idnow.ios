@@ -18,6 +18,7 @@
 		48B0304C1E4DEF050066CE25 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B030461E4DEF050066CE25 /* GLKit.framework */; };
 		48B0304D1E4DEF050066CE25 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B030471E4DEF050066CE25 /* OpenGLES.framework */; };
 		48B0304E1E4DEF050066CE25 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B030481E4DEF050066CE25 /* SystemConfiguration.framework */; };
+		5AFDB1BE25935BF00018E023 /* EmptySwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDB1BD25935BF00018E023 /* EmptySwiftFile.swift */; };
 		6FC64E751AC1EFC800BA9B5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E741AC1EFC800BA9B5B /* main.m */; };
 		6FC64E781AC1EFC800BA9B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E771AC1EFC800BA9B5B /* AppDelegate.m */; };
 		6FC64E7E1AC1EFC800BA9B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E7D1AC1EFC800BA9B5B /* ViewController.m */; };
@@ -34,6 +35,8 @@
 		48B030481E4DEF050066CE25 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		48E1A2761C6E05C90062A9F5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		48E1A2781C6E0F3E0062A9F5 /* libidnow-sdk-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libidnow-sdk-universal.a"; path = "../idnow-sdk/libidnow-sdk-universal.a"; sourceTree = "<group>"; };
+		5AFDB1BC25935BEF0018E023 /* IDnow SDK Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDnow SDK Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		5AFDB1BD25935BF00018E023 /* EmptySwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySwiftFile.swift; sourceTree = "<group>"; };
 		6FC64E6F1AC1EFC800BA9B5B /* IDnow SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDnow SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC64E731AC1EFC800BA9B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC64E741AC1EFC800BA9B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -118,6 +121,8 @@
 				6FC64E821AC1EFC800BA9B5B /* Images.xcassets */,
 				6FC64E841AC1EFC800BA9B5B /* LaunchScreen.xib */,
 				6FC64E721AC1EFC800BA9B5B /* Supporting Files */,
+				5AFDB1BD25935BF00018E023 /* EmptySwiftFile.swift */,
+				5AFDB1BC25935BEF0018E023 /* IDnow SDK Demo-Bridging-Header.h */,
 			);
 			path = "IDnow SDK Demo";
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				TargetAttributes = {
 					6FC64E6E1AC1EFC800BA9B5B = {
 						DevelopmentTeam = 4W3KTRTP73;
+						LastSwiftMigration = 1220;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -187,6 +193,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,6 +331,7 @@
 				6FC64E781AC1EFC800BA9B5B /* AppDelegate.m in Sources */,
 				6FC64E7E1AC1EFC800BA9B5B /* ViewController.m in Sources */,
 				6FC64E751AC1EFC800BA9B5B /* main.m in Sources */,
+				5AFDB1BE25935BF00018E023 /* EmptySwiftFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +457,7 @@
 			baseConfigurationReference = DC973C73D3FC164A236179D0 /* Pods-IDnow SDK Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = 4W3KTRTP73;
@@ -468,6 +477,9 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IDnow SDK Demo/IDnow SDK Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -477,6 +489,7 @@
 			baseConfigurationReference = 721111A36B20B84DE8E0BEAF /* Pods-IDnow SDK Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
 				DEVELOPMENT_TEAM = 4W3KTRTP73;
@@ -496,6 +509,8 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IDnow SDK Demo/IDnow SDK Demo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
