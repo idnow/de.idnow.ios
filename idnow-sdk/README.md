@@ -2,6 +2,13 @@
 
 ## Changelog
 
+### 4.5.2
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 4.5.2,  and call pod update
+
 ### 4.5.1
 Changes:
 - Minor improvements & bugfixes
