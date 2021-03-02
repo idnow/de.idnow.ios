@@ -98,6 +98,12 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *
      */
     IDnowErrorInvalidIcelinkToken             = 1015,
+    
+    /**
+     *  High call volume so user agree to try later
+     *
+     */
+    IDnowErrorHighCallVolumeTryLater            = 1016,
 };
 
 @interface NSError (IDnowError)

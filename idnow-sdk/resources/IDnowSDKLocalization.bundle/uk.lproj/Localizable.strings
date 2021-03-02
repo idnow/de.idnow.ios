@@ -20,7 +20,7 @@
 "CHAT_SENDER_TEXT_USER" = "Sie um %@";
 
 /* No comment provided by engineer. */
-"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Я приймаю Загальні умови та положення IDnow. Я ознайомився(-ася) із Політикою дотримання конфіденційності.";
+"CHECK_AGREEMENT_GTC_DESCRIPTION" = "Я ознайомлений та погоджуюсь Умовами використання сервісу IDnow та Політикою конфіденційності";
 
 /* No comment provided by engineer. */
 "CHECK_AGREEMENT_GTC_PRIVACY_POLICY_BUTTON_TITLE" = "Політика дотримання конфіденційності";
@@ -38,7 +38,7 @@
 "CHECK_AGREEMENT_TBD_DESCRIPTION" = "Розпочинаючи процедуру Ідентифікації, ви погоджуєтеся виконувати такі дії: зробити власне фото, фото вашого документу, що посвідчує особу, та записати розмову.";
 
 /* No comment provided by engineer. */
-"CHECK_AGREEMENT_TITLE" = "Ваша згода";
+"CHECK_AGREEMENT_TITLE" = "Згода";
 
 /* No comment provided by engineer. */
 "CHECK_EMAIL_DESCRIPTION" = "Додатково ми можемо надіслати Вам ідентифікаційний код на цю електронну адресу в ході ідентифікації.";
@@ -50,13 +50,13 @@
 "CHECK_EMAIL_TITLE" = "Ваша електронна адреса";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_DESCRIPTION" = "Ваш документ, що посвідчує особу, перевірятиметься під час процедури ідентифікації, тому підготуйте документ.";
+"CHECK_LICENSE_DESCRIPTION" = "Під час ідентифікації ми перевіримо Ваш ідентифікаційний документ та довідку про присвоєння ідентифікаційного номеру - будь ласка, приготуйте їх";
 
 /* No comment provided by engineer. */
-"CHECK_LICENSE_TITLE" = "Ваш готовий документ, що посвідчує особу";
+"CHECK_LICENSE_TITLE" = "Ідентифікаційний документ";
 
 /* No comment provided by engineer. */
-"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Під час процедури ідентифікації ми надішлемо Вам ідентифікаційний код на цей номер мобільного телефону за допомогою СМС.";
+"CHECK_MOBILE_NUMBER_DESCRIPTION" = "Під час відеозв'язку ми надішлемо на Ваш номер телефону SMS з кодом ідентифікації";
 
 /* No comment provided by engineer. */
 "CHECK_MOBILE_NUMBER_PLACEHOLDER" = "наприклад, 01761234 …";
@@ -68,10 +68,10 @@
 "CHECK_SCREEN_TOKEN_TEXT" = "Ваш ідентифікатор ідентифікації:";
 
 /* No comment provided by engineer. */
-"CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Розпочніть процедуру ідентифікації";
+"CHECK_START_IDENTIFICATION_BUTTON_TITLE" = "Почати ідентифікацію";
 
 /* No comment provided by engineer. */
-"CHECK_TITLE" = "Щоб розпочати процедуру ідентифікації вам знадобиться:";
+"CHECK_TITLE" = "Щоб почати ідентифікацію, потрібно наступне:";
 
 /* No comment provided by engineer. */
 "CONTINUE" = "Продовжити";
@@ -134,7 +134,7 @@
 "GERMANY" = "Німеччина";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Продовжити";
+"IDENT_CODE_CONFIRM_BUTTON_TITLE" = "Підтвердити";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_EMAIL_PLACEHOLDER" = "наприклад, abc@idnow.de …";
@@ -143,13 +143,13 @@
 "IDENT_CODE_EMAIL_TITLE" = "Надіслати ідентифікаційний код на електронну адресу";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_MESSAGE" = "Ваш ідентифікаційний код надіслано за допомогою СМС на такий номер телефону: %@. Щоб продовжити, введіть свій ідентифікаційний код.";
+"IDENT_CODE_ENTER_CODE_MESSAGE" = "Ми надіслали на Ваш номер телефону: %@ SMS з кодом ідентифікації. Щоб продовжити - введіть код із SMS-повідомлення.";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_ENTER_CODE_MESSAGE_EMAIL" = "Ваш ідентифікаційний код було надіслано на наступну електронну адресу: %@. Будь ласка, введіть свій ідентифікаційний код, щоб продовжити.";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_ENTER_CODE_TITLE" = "Введіть ідентифікаційний код";
+"IDENT_CODE_ENTER_CODE_TITLE" = "Введення коду ідентифікації";
 
 /* No comment provided by engineer. */
 "IDENT_CODE_MOBILE_NUMBER_PLACEHOLDER" = "напр. 01761234...";
@@ -158,25 +158,25 @@
 "IDENT_CODE_MOBILE_NUMBER_TITLE" = "Надіслати ідентифікаційний код через СМС";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_PLACEHOLDER" = "Ідентифікаційний код";
+"IDENT_CODE_PLACEHOLDER" = "Ввести код ідентифікації";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Запитати ідентифікаційний код ще раз";
+"IDENT_CODE_REQUEST_CODE_AGAIN_BUTTON_TITLE" = "Надішліть запит на код ще раз";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Не отримали ідентифікаційний код або ввели неправильний номер?";
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE" = "Не отримали код ідентифікації чи ввели неправильний номер?";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE_EMAIL" = "Не отримали ідентифікаційний код або ввели невірну електронну адресу?";
+"IDENT_CODE_REQUEST_CODE_AGAIN_TITLE_EMAIL" = "Не отримали код ідентифікації чи ввели невірну електронну адресу?";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Перевірте Інформацію та надішліть запит на отримання ідентифікаційного коду.";
+"IDENT_CODE_REQUEST_CODE_MESSAGE" = "Перевірте інформацію та надішліть запит на отримання коду ідентифікації";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_CODE_TITLE" = "Запит ідентифікаційного коду";
+"IDENT_CODE_REQUEST_CODE_TITLE" = "Зaпитати код ідентифкації";
 
 /* No comment provided by engineer. */
-"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Запит ідентифікаційного коду";
+"IDENT_CODE_REQUEST_SMS_BUTTON_TITLE" = "Зaпитати код ідентифкації";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1000" = "Для ідентифікації потрібен ідентифікаційний номер посвідчення особи.";
@@ -317,7 +317,10 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_2028" = "Код ідентифікації заблоковано через неправильні спроби, надішліть запит на новий код.";
 
 /* No comment provided by engineer. */
-"IDNOW_INTERNAL_ERROR_DESCRIPTION_2030_412" = "";
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2030" = "";
+
+/* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_2031" = "";
 
 /* No comment provided by engineer. */
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Виникла несподівана помилка. Спробуйте ще раз.";
@@ -350,13 +353,13 @@
 "INFO_CONNECTING_DESCRIPTION_WAITING_TIME_SECONDS" = "Середня тривалість очікування складає %ld секунд.";
 
 /* No comment provided by engineer. */
-"INFO_CONNECTING_TITLE" = "Вас підключають";
+"INFO_CONNECTING_TITLE" = "Вас з'єднують.";
 
 /* No comment provided by engineer. */
-"INFO_CONNECTING_TITLE_LINES_BUSY" = "Очікування доступного експерта з ідентифікації";
+"INFO_CONNECTING_TITLE_LINES_BUSY" = "Вас з'єднують.";
 
 /* No comment provided by engineer. */
-"INFO_FACE_PHOTO_DESCRIPTION" = "Будь ласка, подивіться в камеру та вкажіть своє ім'я та прізвище повністю.";
+"INFO_FACE_PHOTO_DESCRIPTION" = "Подивіться, будь ласка, в камеру та назвіть своє прізвище ім'я по батькові";
 
 /* No comment provided by engineer. */
 "INFO_FACE_PHOTO_TITLE" = "Ім'я та фото";
@@ -368,22 +371,22 @@
 "INFO_GOODBYE_TITLE" = "Ідентифікацію завершено";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Тримайте зворотну частину посвідчення особи перед камерою, щоб ми могли прочитати всі дані.";
+"INFO_LICENSE_BACKSIDE_DESCRIPTION" = "Будь ласка, продемонструйте зворотний бік документу для фотофіксації";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_BACKSIDE_TITLE" = "Зворотна сторона посвідчення особи";
+"INFO_LICENSE_BACKSIDE_TITLE" = "Зворотна сторона ідентифікаційного документу.";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Тримайте передню частину посвідчення особи перед камерою, щоб ми могли прочитати всі дані.";
+"INFO_LICENSE_FRONTSIDE_DESCRIPTION" = "Будь ласка, тримайте свій ідентифікаційний документ перед камерою для фотофіксації";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_FRONTSIDE_TITLE" = "Передня сторона посвідчення особи";
+"INFO_LICENSE_FRONTSIDE_TITLE" = "Фото лицьової сторони ідентифікаційного документу";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Прочитайте вголос номер свого посвідчення особи. Його зазначено спереду, у верхньому правому кутку";
+"INFO_LICENSE_IDNUMBER_DESCRIPTION" = "Прохання прочитати вголос серію та номер документа.";
 
 /* No comment provided by engineer. */
-"INFO_LICENSE_WIGGLE_DESCRIPTION" = "Нахиліть документ вгору і вниз, щоб нам було видно всі захисні елементи.";
+"INFO_LICENSE_WIGGLE_DESCRIPTION" = "Покажіть документ під різними кутами для демонстрації захисних елементів.";
 
 /* No comment provided by engineer. */
 "JAILBREAK_ERROR_ALERT_MESSAGE" = "Неможливо провести ідентифікацію на розблокованому пристрої.";
@@ -827,10 +830,10 @@
 "RESULT_SUCCESS_TITLE_SMSNOTIFICATION" = "Список очікування";
 
 /* No comment provided by engineer. */
-"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Ідентифікація успішна";
+"RESULT_SUCCESS_TITLE_VIDEO_IDENT" = "Ідентифікація завершено";
 
 /* No comment provided by engineer. */
-"RESULT_TRANSACTION_ID" = "Ідентифікаційний номер ідентифікації";
+"RESULT_TRANSACTION_ID" = "Ident-ID";
 
 /* No comment provided by engineer. */
 "RETRY" = "Спробувати пізніше";
@@ -910,10 +913,10 @@
 "VIDEO_IDENT_FAILED_ALERT_MESSAGE" = "Не вдалося провести ідентифікацію";
 
 /* No comment provided by engineer. */
-"VIDEO_IDENT_PROGRESS_MESSAGE" = "Будь ласка, зачекайте, доки наш спеціаліст з питань ідентифікації перевірить ваші дані.";
+"VIDEO_IDENT_PROGRESS_MESSAGE" = "Будь ласка, зачекайте, поки фахівець з ідентифікації перевірить Ваші дані";
 
 /* No comment provided by engineer. */
-"VIDEO_IDENT_PROGRESS_TITLE" = "Ідентифікація завершується…";
+"VIDEO_IDENT_PROGRESS_TITLE" = "Завершення ідентифікації.";
 
 /* No comment provided by engineer. */
 "VIDEO_IDENT_PROGRESS_TITLE_ESIGNATURE" = "Хвилинку, будь ласка…";
@@ -985,4 +988,5 @@
 
 /* No comment provided by engineer. */
 "YES" = "Так";
+
 
