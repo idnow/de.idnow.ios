@@ -2,6 +2,7 @@
 # Table of Contents
 
 - [Requirements](#requirements)
+- [Requirements](#Supported versions)
 - [Installation](#installation)
   - [CocoaPods](#cocoapods)
   - [xCode9](#xcode9)
@@ -84,6 +85,10 @@
 - Supported Devices: iPhone (4s + later), iPod Touch (5 + later), iPad (2 + later)
 - Cocoapods installed
 - Device with Wifi / 3G / LTE
+
+## Supported versions
+- Your current SDK will stop receiving further support by May 21 (VideoIdent SDKs of version 4.2.0 and lower; 4.2.1 and higher continue to be supported)
+- After this time, the old SDK will continue to be operational, but we won’t provide any more updates and maintenance only with additional reimbursement
 
 ## Installation
 
