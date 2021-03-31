@@ -2,7 +2,7 @@
 # Table of Contents
 
 - [Requirements](#requirements)
-- [Supported versions](#Supported versions)
+- [Supported versions](#supported-versions)
 - [Installation](#installation)
   - [CocoaPods](#cocoapods)
   - [xCode9](#xcode9)
