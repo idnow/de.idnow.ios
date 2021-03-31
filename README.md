@@ -134,7 +134,7 @@ pod 'SocketRocket', '~> 0.5.1'
 pod 'Masonry', '~> 1.1.0'
 pod 'libPhoneNumber-iOS', '~> 0.9'
 ```
-- Download the current release from and copy the idnow-sdk folder to your project directory
+- Download the current release from and copy the idnow-sdk folder to your project directory.
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
 - Drag idnow-sdk folder into your Xcode project
 - Add to your "Link binary with libraries" section
