@@ -104,6 +104,12 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *
      */
     IDnowErrorHighCallVolumeTryLater            = 1016,
+    
+    /**
+     *  User enrolled in Waiting List so current identification session aborted
+     *
+     */
+    IDnowErrorEnrolledInWaitingList            = 1017,
 };
 
 @interface NSError (IDnowError)
