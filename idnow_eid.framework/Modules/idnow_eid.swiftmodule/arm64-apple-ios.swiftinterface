@@ -1,0 +1,99 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name idnow_eid
+import AuthadaAuthenticationLibrary
+import Foundation
+import Swift
+import UIKit
+@_exported import idnow_eid
+public typealias eIDRouterInitializationHandler = (Swift.Bool, Swift.Error?) -> Swift.Void
+public typealias eIDRouterCompletionHandler = (Swift.Bool, Swift.Bool, Swift.Error?) -> Swift.Void
+@objc public class IDN_eIDRouter : ObjectiveC.NSObject {
+  public var currentNavController: UIKit.UINavigationController!
+  @objc public init(withControlller controller: UIKit.UIViewController, token: Swift.String, completion: idnow_eid.eIDRouterInitializationHandler?)
+  @objc public func present(_ completionHandler: idnow_eid.eIDRouterCompletionHandler?)
+  @objc public func startWithoutChooserPage(_ completionHandler: idnow_eid.eIDRouterCompletionHandler?)
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension IDN_eIDError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
+@objc public enum IDN_eIDAppearanceMode : Swift.Int {
+  case light
+  case dark
+  case system
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class IDN_eIDAppearance : ObjectiveC.NSObject {
+  @objc public var defaultTextColor: UIKit.UIColor
+  @objc public var secondaryTextColor: UIKit.UIColor
+  @objc public var primaryBrandColor: UIKit.UIColor
+  @objc public var linkColor: UIKit.UIColor
+  @objc public var proceedButtonBackgroundColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc public var proceedButtonTextColor: UIKit.UIColor
+  @objc public var textFieldColor: UIKit.UIColor
+  @objc public var backgroundColor: UIKit.UIColor
+  @objc public var underlineButtonTitles: Swift.Bool
+  @objc public var boldButtonTitles: Swift.Bool
+  @objc public var cornerRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc public var usedNewBrand: Swift.Bool
+  @objc public var fontNameBold: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var fontNameRegular: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var fontNameMedium: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var fontNameLight: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var userInterfaceLanguage: Swift.String?
+  @objc public var mode: idnow_eid.IDN_eIDAppearanceMode
+  @objc public static let shared: idnow_eid.IDN_eIDAppearance
+  @objc deinit
+}
+public typealias BoolClosure = (Swift.Bool, Swift.Error?) -> Swift.Void
+@objc public enum IDN_eIDError : Swift.Int, Swift.Error {
+  case unsupportedNFC
+  case userCancelled
+  case invalidToken
+  case preconditionFailed
+  case tokenUnsupportElectronicCard
+  case unknown
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+}
+extension idnow_eid.IDN_eIDError : Swift.Equatable {}
+extension idnow_eid.IDN_eIDError : Swift.Hashable {}
+extension idnow_eid.IDN_eIDError : Swift.RawRepresentable {}
+extension idnow_eid.IDN_eIDAppearanceMode : Swift.Equatable {}
+extension idnow_eid.IDN_eIDAppearanceMode : Swift.Hashable {}
+extension idnow_eid.IDN_eIDAppearanceMode : Swift.RawRepresentable {}
