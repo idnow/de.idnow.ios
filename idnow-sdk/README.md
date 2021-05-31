@@ -2,6 +2,20 @@
 
 ## Changelog
 
+### 5.0.7
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 5.0.7,  and call pod update
+
+### 5.0.6
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 5.0.6,  and call pod update
+
 ### 5.0.4
 Changes:
 - Minor improvements & bugfixes
