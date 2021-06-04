@@ -477,9 +477,7 @@ __Note__: NFC can work only with iPhone 7 and higher
     __NOTE__: 
     - AuthadaAuthenticationLibrary.xcframework will be provided seprately.
     - Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` framework are added in `Embeded Frameworks` section
-
-Authada framework : https://downloads.idnow.de/ios/AuthadaAuthenticationLibrary.xcframework-1.1.1.zip
-
+    
 ### eID Usage:
 #### Objective C
 ```
