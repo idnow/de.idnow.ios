@@ -18,6 +18,7 @@
   - [apiHost](#apihost)
   - [websocketHost](#websockethost)
   - [connectionType](#connectiontype)
+  - [certificateProvider](#certificateProvider)
 - [Branding](#branding)
   - [Colors](#colors)
     - [defaultTextColor](#defaulttextcolor)
@@ -199,6 +200,16 @@ The target server url for websocket calls if custom server is used.
 
 #### connectionType
 The connection type to use to talk the backend. (Websocket)
+
+#### certificateProvider (support by the SDK version 3.22.1 or before )
+
+For custom DTLS certificates use certificateProvider parameter of IDnowSettings
+/**
+ * Sets a certificate provider for custom DTLS certificates used by the WebRTC connection.
+ * The certificate provider can be used to provide a custom DTLS certificate (featureCertificate == YES) and/or to check the
+ * SHA fingerprint of the server certificate (featureFingerprint == YES)
+ */
+@property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
 
 ## Branding
 Warning: Branding is only allowed if you have the permissions from IDnow.
