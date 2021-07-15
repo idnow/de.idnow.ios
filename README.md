@@ -203,7 +203,7 @@ The connection type to use to talk the backend. (Websocket)
 
 #### certificateProvider
 
-(support by the SDK version 3.22.1 or before )
+(supported by the SDK version 3.22.1 or before )
 
 For custom DTLS certificates use certificateProvider parameter of IDnowSettings
 /**
