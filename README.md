@@ -206,11 +206,11 @@ The connection type to use to talk the backend. (Websocket)
 (supported by the SDK version 3.22.1 or before )
 
 For custom DTLS certificates use certificateProvider parameter of IDnowSettings
-/**
- * Sets a certificate provider for custom DTLS certificates used by the WebRTC connection.
- * The certificate provider can be used to provide a custom DTLS certificate (featureCertificate == YES) and/or to check the
- * SHA fingerprint of the server certificate (featureFingerprint == YES)
- */
+
+ Sets a certificate provider for custom DTLS certificates used by the WebRTC connection.
+ The certificate provider can be used to provide a custom DTLS certificate (featureCertificate == YES) and/or to check the
+ SHA fingerprint of the server certificate (featureFingerprint == YES)
+ 
 @property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
 
 ## Branding
