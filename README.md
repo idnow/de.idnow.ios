@@ -201,7 +201,9 @@ The target server url for websocket calls if custom server is used.
 #### connectionType
 The connection type to use to talk the backend. (Websocket)
 
-#### certificateProvider (support by the SDK version 3.22.1 or before )
+#### certificateProvider
+
+(support by the SDK version 3.22.1 or before )
 
 For custom DTLS certificates use certificateProvider parameter of IDnowSettings
 /**
