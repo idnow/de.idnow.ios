@@ -326,6 +326,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Se ha producido un error inesperado. Inténtelo de nuevo.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1011" = "Se ha producido un error inesperado. Inténtelo de nuevo.";
+
+/* No comment provided by engineer. */
 "INFO_CONNECTING_DESCRIPTION" = "Espere mientras le conectamos con uno de nuestros expertos en identificación.";
 
 /* No comment provided by engineer. */

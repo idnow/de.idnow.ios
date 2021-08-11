@@ -326,6 +326,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Une erreur inattendue s'est produite. Veuillez réessayer.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1011" = "Une erreur inattendue s'est produite. Veuillez réessayer.";
+
+/* No comment provided by engineer. */
 "INFO_CONNECTING_DESCRIPTION" = "Vous allez être mis en relation avec le prochain téléopérateur disponible. Le temps d'attente maximal est de deux minutes.";
 
 /* No comment provided by engineer. */

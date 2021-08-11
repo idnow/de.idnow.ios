@@ -326,6 +326,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "예기치 않은 오류가 발생했습니다. 다시 시도하세요.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1011" = "예기치 않은 오류가 발생했습니다. 다시 시도하세요.";
+
+/* No comment provided by engineer. */
 "INFO_CONNECTING_DESCRIPTION" = "당사의 신원 확인 전문가 중 한 명과 연결되는 동안 기다려주세요.";
 
 /* No comment provided by engineer. */

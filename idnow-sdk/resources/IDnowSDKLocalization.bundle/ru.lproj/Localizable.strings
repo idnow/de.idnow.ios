@@ -326,6 +326,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Произошла непредвиденная ошибка. Пожалуйста, повторите попытку.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1011" = "Произошла непредвиденная ошибка. Пожалуйста, повторите попытку.";
+
+/* No comment provided by engineer. */
 "INFO_CONNECTING_DESCRIPTION" = "Подождите, пока Вас соединят с нашим специалистом по идентификации.";
 
 /* No comment provided by engineer. */

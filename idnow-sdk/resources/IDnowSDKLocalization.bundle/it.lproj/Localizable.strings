@@ -326,6 +326,9 @@
 "IDNOW_INTERNAL_ERROR_DESCRIPTION_DEFAULT" = "Si è verificato un errore inatteso. Riprovi.";
 
 /* No comment provided by engineer. */
+"IDNOW_INTERNAL_ERROR_DESCRIPTION_1011" = "Si è verificato un errore inatteso. Riprovi.";
+
+/* No comment provided by engineer. */
 "INFO_CONNECTING_DESCRIPTION" = "Sarà collegato con il prossimo collaboratore libero. L'operazione potrebbe richiedere fino a due minuti.";
 
 /* No comment provided by engineer. */
