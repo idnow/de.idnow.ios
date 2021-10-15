@@ -275,10 +275,6 @@
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowImages.bundle",
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowSDKLocalization.bundle",
 				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/IDnowVideoIdentPlusImages.bundle",
-				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/icon_check.mp4",
-				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/icon_document.mp4",
-				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/icon_people.mp4",
-				"${PODS_ROOT}/IDnowSDK/idnow-sdk/resources/icon_selfie.mp4",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -311,10 +307,6 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowImages.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowSDKLocalization.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IDnowVideoIdentPlusImages.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_check.mp4",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_document.mp4",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_people.mp4",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/icon_selfie.mp4",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,5 +1,12 @@
 ## Changelog
 
+### 5.0.12
+Changes:
+- Minor improvements & bugfixes
+
+Migration Guide:
+- Change the SDK reference to 5.0.12,  and call pod update
+
 ### 5.0.11
 Changes:
 - Minor improvements & bugfixes
