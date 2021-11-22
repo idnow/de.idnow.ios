@@ -68,23 +68,21 @@
 					
 
                     
-                    <h3 class="subsubtitle method-title">IDnowConnectionType</h3>
+                    <h3 class="subsubtitle method-title">NBEPhoneNumberFormat</h3>
                     
-					
-					<div class="section section-overview">
-                        <p>The type of connection used to get events from the backend</p>
-					</div>
-					
-					
                     <div class="section">
                         <!-- display enum values -->
                         
                         <h4 class="method-subtitle">Definition</h4>
-                        <code>typedef NS_ENUM(NSInteger, IDnowConnectionType ) {<br>
+                        <code>typedef NS_ENUM(NSInteger, NBEPhoneNumberFormat ) {<br>
                             
-                            &nbsp;&nbsp; <a href="">IDnowConnectionTypeWebsocket</a>,<br>
+                            &nbsp;&nbsp; <a href="">NBEPhoneNumberFormatE164</a> = 0,<br>
                             
-                            &nbsp;&nbsp; <a href="">IDnowConnectionTypeLongPolling</a>,<br>
+                            &nbsp;&nbsp; <a href="">NBEPhoneNumberFormatINTERNATIONAL</a> = 1,<br>
+                            
+                            &nbsp;&nbsp; <a href="">NBEPhoneNumberFormatNATIONAL</a> = 2,<br>
+                            
+                            &nbsp;&nbsp; <a href="">NBEPhoneNumberFormatRFC3966</a> = 3,<br>
                             
                             };</code>
                     
@@ -94,36 +92,42 @@
                         <h4 class="method-subtitle">Constants</h4>
                         <dl class="termdef">
                             
-                            <dt><a name="" title="IDnowConnectionTypeWebsocket"></a><code>IDnowConnectionTypeWebsocket</code></dt>
+                            <dt><a name="" title="NBEPhoneNumberFormatE164"></a><code>NBEPhoneNumberFormatE164</code></dt>
 <dd>
-
-
-<p>Use websockets using SocketRocket (default)</p>
-
-
-
-
 
     
 	<p>
-		 <code class="declared-in-ref">IDnowSettings.h</code>.
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="IDnowConnectionTypeLongPolling"></a><code>IDnowConnectionTypeLongPolling</code></dt>
+                            <dt><a name="" title="NBEPhoneNumberFormatINTERNATIONAL"></a><code>NBEPhoneNumberFormatINTERNATIONAL</code></dt>
 <dd>
-
-
-<p>Use long polling</p>
-
-
-
-
 
     
 	<p>
-		 <code class="declared-in-ref">IDnowSettings.h</code>.
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="NBEPhoneNumberFormatNATIONAL"></a><code>NBEPhoneNumberFormatNATIONAL</code></dt>
+<dd>
+
+    
+	<p>
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="NBEPhoneNumberFormatRFC3966"></a><code>NBEPhoneNumberFormatRFC3966</code></dt>
+<dd>
+
+    
+	<p>
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
 	</p>
 	
 </dd>
@@ -132,17 +136,6 @@
                     </div>
                     
 
-                    
-                    
-
-                    
-
-                    
-                    <div class="method-subsection declared-in-section">
-                        <h4 class="method-subtitle"></h4>
-                        <p><code class="declared-in-ref">IDnowSettings.h</code></p>
-                    </div>
-                    
                     
                     
 				</main>

@@ -2,6 +2,16 @@
 
 ## Changelog
 
+
+### 5.1.0
+
+Changes:
+- Minor improvements & bugfixes
+- eID QES feature
+
+Migration Guide:
+- Change the SDK reference to 5.1.0,  and call pod update
+
 ### 5.0.11
 Changes:
 - Minor improvements & bugfixes

@@ -68,23 +68,23 @@
 					
 
                     
-                    <h3 class="subsubtitle method-title">IDnowConnectionType</h3>
+                    <h3 class="subsubtitle method-title">NBEMatchType</h3>
                     
-					
-					<div class="section section-overview">
-                        <p>The type of connection used to get events from the backend</p>
-					</div>
-					
-					
                     <div class="section">
                         <!-- display enum values -->
                         
                         <h4 class="method-subtitle">Definition</h4>
-                        <code>typedef NS_ENUM(NSInteger, IDnowConnectionType ) {<br>
+                        <code>typedef NS_ENUM(NSInteger, NBEMatchType ) {<br>
                             
-                            &nbsp;&nbsp; <a href="">IDnowConnectionTypeWebsocket</a>,<br>
+                            &nbsp;&nbsp; <a href="">NBEMatchTypeNOT_A_NUMBER</a> = 0,<br>
                             
-                            &nbsp;&nbsp; <a href="">IDnowConnectionTypeLongPolling</a>,<br>
+                            &nbsp;&nbsp; <a href="">NBEMatchTypeNO_MATCH</a> = 1,<br>
+                            
+                            &nbsp;&nbsp; <a href="">NBEMatchTypeSHORT_NSN_MATCH</a> = 2,<br>
+                            
+                            &nbsp;&nbsp; <a href="">NBEMatchTypeNSN_MATCH</a> = 3,<br>
+                            
+                            &nbsp;&nbsp; <a href="">NBEMatchTypeEXACT_MATCH</a> = 4,<br>
                             
                             };</code>
                     
@@ -94,36 +94,52 @@
                         <h4 class="method-subtitle">Constants</h4>
                         <dl class="termdef">
                             
-                            <dt><a name="" title="IDnowConnectionTypeWebsocket"></a><code>IDnowConnectionTypeWebsocket</code></dt>
+                            <dt><a name="" title="NBEMatchTypeNOT_A_NUMBER"></a><code>NBEMatchTypeNOT_A_NUMBER</code></dt>
 <dd>
-
-
-<p>Use websockets using SocketRocket (default)</p>
-
-
-
-
 
     
 	<p>
-		 <code class="declared-in-ref">IDnowSettings.h</code>.
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="IDnowConnectionTypeLongPolling"></a><code>IDnowConnectionTypeLongPolling</code></dt>
+                            <dt><a name="" title="NBEMatchTypeNO_MATCH"></a><code>NBEMatchTypeNO_MATCH</code></dt>
 <dd>
-
-
-<p>Use long polling</p>
-
-
-
-
 
     
 	<p>
-		 <code class="declared-in-ref">IDnowSettings.h</code>.
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="NBEMatchTypeSHORT_NSN_MATCH"></a><code>NBEMatchTypeSHORT_NSN_MATCH</code></dt>
+<dd>
+
+    
+	<p>
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="NBEMatchTypeNSN_MATCH"></a><code>NBEMatchTypeNSN_MATCH</code></dt>
+<dd>
+
+    
+	<p>
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="NBEMatchTypeEXACT_MATCH"></a><code>NBEMatchTypeEXACT_MATCH</code></dt>
+<dd>
+
+    
+	<p>
+		 <code class="declared-in-ref">NBPhoneNumberDefines.h</code>.
 	</p>
 	
 </dd>
@@ -132,17 +148,6 @@
                     </div>
                     
 
-                    
-                    
-
-                    
-
-                    
-                    <div class="method-subsection declared-in-section">
-                        <h4 class="method-subtitle"></h4>
-                        <p><code class="declared-in-ref">IDnowSettings.h</code></p>
-                    </div>
-                    
                     
                     
 				</main>
