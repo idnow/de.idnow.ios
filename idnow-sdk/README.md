@@ -2,6 +2,13 @@
 
 ## Changelog
 
+
+### 5.1.0
+
+- Updated SDK to new build system
+- eID QES feature
+- Other minor improvements & bugfixes
+
 ### 5.0.11
 Changes:
 - Minor improvements & bugfixes

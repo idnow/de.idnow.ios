@@ -68,23 +68,19 @@
 					
 
                     
-                    <h3 class="subsubtitle method-title">IDnowConnectionType</h3>
+                    <h3 class="subsubtitle method-title">AFSSLPinningMode</h3>
                     
-					
-					<div class="section section-overview">
-                        <p>The type of connection used to get events from the backend</p>
-					</div>
-					
-					
                     <div class="section">
                         <!-- display enum values -->
                         
                         <h4 class="method-subtitle">Definition</h4>
-                        <code>typedef NS_ENUM(NSInteger, IDnowConnectionType ) {<br>
+                        <code>typedef NS_ENUM(NSUInteger, AFSSLPinningMode ) {<br>
                             
-                            &nbsp;&nbsp; <a href="">IDnowConnectionTypeWebsocket</a>,<br>
+                            &nbsp;&nbsp; <a href="">AFSSLPinningModeNone</a>,<br>
                             
-                            &nbsp;&nbsp; <a href="">IDnowConnectionTypeLongPolling</a>,<br>
+                            &nbsp;&nbsp; <a href="">AFSSLPinningModePublicKey</a>,<br>
+                            
+                            &nbsp;&nbsp; <a href="">AFSSLPinningModeCertificate</a>,<br>
                             
                             };</code>
                     
@@ -94,36 +90,32 @@
                         <h4 class="method-subtitle">Constants</h4>
                         <dl class="termdef">
                             
-                            <dt><a name="" title="IDnowConnectionTypeWebsocket"></a><code>IDnowConnectionTypeWebsocket</code></dt>
+                            <dt><a name="" title="AFSSLPinningModeNone"></a><code>AFSSLPinningModeNone</code></dt>
 <dd>
-
-
-<p>Use websockets using SocketRocket (default)</p>
-
-
-
-
 
     
 	<p>
-		 <code class="declared-in-ref">IDnowSettings.h</code>.
+		 <code class="declared-in-ref">AFSecurityPolicy.h</code>.
 	</p>
 	
 </dd>
                             
-                            <dt><a name="" title="IDnowConnectionTypeLongPolling"></a><code>IDnowConnectionTypeLongPolling</code></dt>
+                            <dt><a name="" title="AFSSLPinningModePublicKey"></a><code>AFSSLPinningModePublicKey</code></dt>
 <dd>
-
-
-<p>Use long polling</p>
-
-
-
-
 
     
 	<p>
-		 <code class="declared-in-ref">IDnowSettings.h</code>.
+		 <code class="declared-in-ref">AFSecurityPolicy.h</code>.
+	</p>
+	
+</dd>
+                            
+                            <dt><a name="" title="AFSSLPinningModeCertificate"></a><code>AFSSLPinningModeCertificate</code></dt>
+<dd>
+
+    
+	<p>
+		 <code class="declared-in-ref">AFSecurityPolicy.h</code>.
 	</p>
 	
 </dd>
@@ -132,17 +124,6 @@
                     </div>
                     
 
-                    
-                    
-
-                    
-
-                    
-                    <div class="method-subsection declared-in-section">
-                        <h4 class="method-subtitle"></h4>
-                        <p><code class="declared-in-ref">IDnowSettings.h</code></p>
-                    </div>
-                    
                     
                     
 				</main>
