@@ -5,12 +5,9 @@
 
 ### 5.1.0
 
-Changes:
-- Minor improvements & bugfixes
+- Updated SDK to new build system
 - eID QES feature
-
-Migration Guide:
-- Change the SDK reference to 5.1.0,  and call pod update
+- Other minor improvements & bugfixes
 
 ### 5.0.11
 Changes:
