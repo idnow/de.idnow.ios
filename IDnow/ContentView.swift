@@ -10,44 +10,48 @@ import IDnowSDK
 
 struct ContentView: View {
 
-    
-    @State private var username: String = ""
-
+    @State private var email: String = ""
 
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 0, content: {
+            HStack {
+                Spacer()
+                Image("logo-main")
+                Spacer()
+            }.padding()
             Text("Please enter and confirm your Ident-ID to start the idenfitcation process")
                 .padding()
                 .multilineTextAlignment(.center)
-            TextField("User name (email address)", text: $username)
+            TextField("User name (email address)", text: $email)
+                .padding()
                 .padding()
                 .multilineTextAlignment(.center)
                 .onSubmit {
                     print("submit")
                 }
-            Button("CONFIRM") {
-                print("confirm")
-                
-                let settings = IDnowSettings(companyID: "svenvideo")
-//                settings.showErrorSuccessScreen = true
-//                settings.showVideoOverviewCheck = true
-//                settings.ignoreCompanyID = true
-                settings.transactionToken = "TST-EVBZS"
-//                settings.companyID = "svenvideo"
-                settings.environment = .test
-                
-                let windows = UIApplication.shared.windows[0].rootViewController!
-                
-                let controller = IDnowController.init(settings: settings)
-                
-                controller.initialize(completionBlock: {(success, error, canceledByUser) -> Void in
-                    controller.startIdentification(from: windows, withCompletionBlock: {(success, error, canceledByUser) -> Void in
-                        
+            HStack {
+                Spacer()
+                Button("CONFIRM") {
+                    print("confirm")
+                    
+                    let settings = IDnowSettings(companyID: "svenvideo")
+                    settings.transactionToken = "TST-EVBZS"
+                    settings.environment = .test
+                    
+                    let windows = UIApplication.shared.windows[0].rootViewController!
+                    
+                    let controller = IDnowController.init(settings: settings)
+                    
+                    controller.initialize(completionBlock: {(success, error, canceledByUser) -> Void in
+                        controller.startIdentification(from: windows, withCompletionBlock: {(success, error, canceledByUser) -> Void in
+                            
+                        })
                     })
-                })
+                }
+                Spacer()
             }
             
-        }
+        })
     }
 }
 
