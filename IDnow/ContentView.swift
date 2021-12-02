@@ -27,26 +27,14 @@ struct ContentView: View {
                 .padding()
                 .multilineTextAlignment(.center)
                 .onSubmit {
-                    print("submit")
+                    IDnowService.instance.initialize()
+                    IDnowService.instance.start()
                 }
             HStack {
                 Spacer()
                 Button("CONFIRM") {
-                    print("confirm")
-                    
-                    let settings = IDnowSettings(companyID: "svenvideo")
-                    settings.transactionToken = "TST-EVBZS"
-                    settings.environment = .test
-                    
-                    let windows = UIApplication.shared.windows[0].rootViewController!
-                    
-                    let controller = IDnowController.init(settings: settings)
-                    
-                    controller.initialize(completionBlock: {(success, error, canceledByUser) -> Void in
-                        controller.startIdentification(from: windows, withCompletionBlock: {(success, error, canceledByUser) -> Void in
-                            
-                        })
-                    })
+                    IDnowService.instance.initialize()
+                    IDnowService.instance.start()
                 }
                 Spacer()
             }

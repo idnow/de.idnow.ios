@@ -11,6 +11,8 @@
 		AD26A47A2758D9780015C576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26A4792758D9780015C576 /* ContentView.swift */; };
 		AD26A47C2758D97B0015C576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26A47B2758D97B0015C576 /* Assets.xcassets */; };
 		AD26A47F2758D97B0015C576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26A47E2758D97B0015C576 /* Preview Assets.xcassets */; };
+		AD95F853275915A700C21A4E /* IDnowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95F852275915A700C21A4E /* IDnowService.swift */; };
+		AD95F8562759166300C21A4E /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95F8552759166300C21A4E /* ViewUtils.swift */; };
 		BE0A0B988FE468B4DFC58128 /* Pods_IDnow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA75189F2468774F8DB5831 /* Pods_IDnow.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		AD26A47B2758D97B0015C576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD26A47E2758D97B0015C576 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD95F84D2758E58A00C21A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AD95F852275915A700C21A4E /* IDnowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDnowService.swift; sourceTree = "<group>"; };
+		AD95F8552759166300C21A4E /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
 		FF93EAAC749AC903C2EEF5F6 /* Pods-IDnow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.release.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +71,8 @@
 		AD26A4762758D9780015C576 /* IDnow */ = {
 			isa = PBXGroup;
 			children = (
+				AD95F8542759165600C21A4E /* Utils */,
+				AD95F8512759159700C21A4E /* Service */,
 				AD95F84D2758E58A00C21A4E /* Info.plist */,
 				AD26A4772758D9780015C576 /* IDnowApp.swift */,
 				AD26A4792758D9780015C576 /* ContentView.swift */,
@@ -82,6 +88,22 @@
 				AD26A47E2758D97B0015C576 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD95F8512759159700C21A4E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AD95F852275915A700C21A4E /* IDnowService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AD95F8542759165600C21A4E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD95F8552759166300C21A4E /* ViewUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		F0046A98F241777A4F220883 /* Pods */ = {
@@ -227,6 +249,8 @@
 			files = (
 				AD26A47A2758D9780015C576 /* ContentView.swift in Sources */,
 				AD26A4782758D9780015C576 /* IDnowApp.swift in Sources */,
+				AD95F8562759166300C21A4E /* ViewUtils.swift in Sources */,
+				AD95F853275915A700C21A4E /* IDnowService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
