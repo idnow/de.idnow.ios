@@ -869,7 +869,7 @@ reception of push notifications is soley handled through the AppDelegate which i
 own AppDelegate implements interfaces present in the IDnow SDK please make sure to make a 
 call the super classes (IDnowAppDelegate) implementation as well.
 
-Additionally we will need the production certifcate/key pair to send notifications via push to your app via
+Additionally we will need the production certificate/key pair to send notifications via push to your app via
 our backend.
 
 ```objective-c
