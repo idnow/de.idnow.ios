@@ -1,4 +1,0 @@
-*.a filter=lfs diff=lfs merge=lfs -text
-Sample-Bitcode/OpenTok.framework/OpenTok filter=lfs diff=lfs merge=lfs -text
-OpenTok filter=lfs diff=lfs merge=lfs -text
-*OpenTok filter=lfs diff=lfs merge=lfs -text
