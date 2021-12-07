@@ -15,15 +15,16 @@ class IDnowService {
     
     private init() {}
     
-    func settings() -> IDnowSettings {
-        let settings = IDnowSettings(companyID: "svenvideo")
-        settings.transactionToken = "TST-EVBZS"
+    private func settings(ident: String) -> IDnowSettings {
+        let settings = IDnowSettings()
+        settings.transactionToken = ident
+        settings.companyID = "svenvideo"
         settings.environment = .test
         return settings
     }
     
-    func initialize() {
-        self.controller = IDnowController.init(settings: settings())
+    func initialize(ident: String) {
+        self.controller = IDnowController.init(settings: settings(ident: ident))
     }
     
     func start() {
