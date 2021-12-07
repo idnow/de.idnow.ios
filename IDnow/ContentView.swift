@@ -11,7 +11,8 @@ import IDnowSDK
 struct ContentView: View {
 
     @State private var ident: String = ""
-
+    @State private var error: String? = ""
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 0, content: {
             HStack {
@@ -27,18 +28,29 @@ struct ContentView: View {
                 .padding()
                 .multilineTextAlignment(.center)
                 .onSubmit {
-                    IDnowService.instance.initialize(ident: $ident.wrappedValue)
-                    IDnowService.instance.start()
+                    self.onConfirm()
                 }
             HStack {
                 Spacer()
                 Button("CONFIRM") {
-                    IDnowService.instance.initialize(ident: $ident.wrappedValue)
-                    IDnowService.instance.start()
+                    self.onConfirm()
                 }
                 Spacer()
             }
             
+        }).alert(isPresented: .constant($error.wrappedValue != nil)) {
+            Alert(title: Text("Error"), message: Text($error.wrappedValue!), dismissButton: .cancel())
+        }
+        
+    }
+    
+    func onConfirm() {
+        Task.init(priority: .background, operation: {
+            IDnowService.instance.initialize(ident: $ident.wrappedValue)
+            let result = await IDnowService.instance.start()
+            if (result != nil) {
+                $error.wrappedValue = result
+            }
         })
     }
 }

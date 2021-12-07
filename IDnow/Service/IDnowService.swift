@@ -27,11 +27,39 @@ class IDnowService {
         self.controller = IDnowController.init(settings: settings(ident: ident))
     }
     
-    func start() {
-        self.controller.initialize(completionBlock: {(success, error, canceledByUser) -> Void in
-            self.controller.startIdentification(from: ViewUtils.rootController(), withCompletionBlock: {(success, error, canceledByUser) -> Void in
+    func start() async -> String? {
+        
+        return await withCheckedContinuation{ continuation in
+            
+            self.controller.initialize(completionBlock: {(success, error, canceledByUser) -> Void in
+                if (error != nil) {
+                    let message = error?.localizedDescription;
+                    continuation.resume(returning: message)
+                    return
+                }
                 
+                if (canceledByUser) {
+                    continuation.resume(returning: "You cancelled the identification process. That's it")
+                    return
+                }
+                
+                self.controller.startIdentification(from: ViewUtils.rootController(), withCompletionBlock: {(success, error, canceledByUser) -> Void in
+                    
+                    if (error != nil) {
+                        continuation.resume(returning: error?.localizedDescription)
+                        return
+                    }
+                    
+                    if (canceledByUser) {
+                        continuation.resume(returning: "You cancelled the identification process. That's it")
+                        return
+                    }
+                    
+                    continuation.resume(returning: nil)
+                    
+                })
             })
-        })
+            
+        }
     }
 }
