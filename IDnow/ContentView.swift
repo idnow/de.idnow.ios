@@ -11,7 +11,7 @@ import IDnowSDK
 struct ContentView: View {
 
     @State private var ident: String = ""
-    @State private var error: String? = ""
+    @State private var error: String? = nil
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0, content: {
@@ -39,7 +39,9 @@ struct ContentView: View {
             }
             
         }).alert(isPresented: .constant($error.wrappedValue != nil)) {
-            Alert(title: Text("Error"), message: Text($error.wrappedValue!), dismissButton: .cancel())
+            Alert(title: Text("Error"), message: Text($error.wrappedValue!), dismissButton: .default(Text("Close"), action: {
+                $error.wrappedValue = nil
+            }))
         }
         
     }
