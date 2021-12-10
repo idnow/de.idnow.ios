@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### 5.1.2
+
+- Customizable waiting list
+- Other minor improvements & bugfixes
 
 ### 5.1.0
 
