@@ -2,6 +2,15 @@
 
 ## Changelog
 
+### 5.1.4
+
+- Customizable waiting list fix for VI+
+
+### 5.1.3
+
+- Wallet expired popup
+- Other minor improvements & bugfixes
+
 ### 5.1.2
 
 - Customizable waiting list
