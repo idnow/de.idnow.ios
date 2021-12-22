@@ -18,8 +18,8 @@ class IDnowService {
     private func settings(ident: String) -> IDnowSettings {
         let settings = IDnowSettings()
         settings.transactionToken = ident
-        settings.companyID = "svenvideo"
         settings.environment = .test
+        settings.ignoreCompanyID = true
         return settings
     }
     
