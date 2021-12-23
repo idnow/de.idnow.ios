@@ -2,6 +2,12 @@
 
 ## Changelog
 
+### 5.1.5
+
+- Waiting screen animation updated
+- Accessibility Voice Over usage improved
+- Other minor improvements & bugfixes
+
 ### 5.1.4
 
 - Customizable waiting list fix for VI+
