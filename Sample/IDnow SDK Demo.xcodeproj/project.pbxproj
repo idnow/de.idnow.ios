@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3211E7D7D42DA6C76DE603B7 /* Pods_IDnow_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FAC84ADA073776C25D27A2 /* Pods_IDnow_SDK_Demo.framework */; };
 		486477D21C6E1B8300C72893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E7F1AC1EFC800BA9B5B /* Main.storyboard */; };
 		486477D31C6E1B8300C72893 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E841AC1EFC800BA9B5B /* LaunchScreen.xib */; };
 		48B030411E4DEF050066CE25 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62DFA8E1C007D5700BD5788 /* Accelerate.framework */; };
@@ -23,12 +22,14 @@
 		6FC64E781AC1EFC800BA9B5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E771AC1EFC800BA9B5B /* AppDelegate.m */; };
 		6FC64E7E1AC1EFC800BA9B5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC64E7D1AC1EFC800BA9B5B /* ViewController.m */; };
 		6FC64E831AC1EFC800BA9B5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC64E821AC1EFC800BA9B5B /* Images.xcassets */; };
+		87E3A276BB79EBA951082569 /* Pods_IDnow_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FA6356671964689EA50AF16 /* Pods_IDnow_SDK_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02FF0B141FD54C02005878F6 /* IDnowSettingsPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDnowSettingsPrivate.h; sourceTree = "<group>"; };
-		086F5B23575DD52354616DFD /* Pods-IDnow SDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow SDK Demo.debug.xcconfig"; path = "Target Support Files/Pods-IDnow SDK Demo/Pods-IDnow SDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		10FD2C865CAD05CE5F9C4D9C /* Pods-IDnow SDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow SDK Demo.release.xcconfig"; path = "Target Support Files/Pods-IDnow SDK Demo/Pods-IDnow SDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		0AF98711491F5895E223DF05 /* Pods-IDnow SDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow SDK Demo.release.xcconfig"; path = "Target Support Files/Pods-IDnow SDK Demo/Pods-IDnow SDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		13609D0AD7FDEE6DC0A60E67 /* Pods-IDnow SDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow SDK Demo.debug.xcconfig"; path = "Target Support Files/Pods-IDnow SDK Demo/Pods-IDnow SDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA6356671964689EA50AF16 /* Pods_IDnow_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDnow_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B030431E4DEF050066CE25 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		48B030441E4DEF050066CE25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		48B030451E4DEF050066CE25 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -39,7 +40,6 @@
 		48E1A2781C6E0F3E0062A9F5 /* libidnow-sdk-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libidnow-sdk-universal.a"; path = "../idnow-sdk/libidnow-sdk-universal.a"; sourceTree = "<group>"; };
 		5AFDB1BC25935BEF0018E023 /* IDnow SDK Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDnow SDK Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		5AFDB1BD25935BF00018E023 /* EmptySwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySwiftFile.swift; sourceTree = "<group>"; };
-		68FAC84ADA073776C25D27A2 /* Pods_IDnow_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDnow_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC64E6F1AC1EFC800BA9B5B /* IDnow SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDnow SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FC64E731AC1EFC800BA9B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FC64E741AC1EFC800BA9B5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,13 +67,23 @@
 				48B0304E1E4DEF050066CE25 /* SystemConfiguration.framework in Frameworks */,
 				48B030411E4DEF050066CE25 /* Accelerate.framework in Frameworks */,
 				48B030421E4DEF050066CE25 /* WebKit.framework in Frameworks */,
-				3211E7D7D42DA6C76DE603B7 /* Pods_IDnow_SDK_Demo.framework in Frameworks */,
+				87E3A276BB79EBA951082569 /* Pods_IDnow_SDK_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF8AF3A0EDFAA3DCBFB437A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13609D0AD7FDEE6DC0A60E67 /* Pods-IDnow SDK Demo.debug.xcconfig */,
+				0AF98711491F5895E223DF05 /* Pods-IDnow SDK Demo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4A9E5A247C8C4F21351B0837 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,7 +97,7 @@
 				48E1A2761C6E05C90062A9F5 /* libz.tbd */,
 				D62DFA901C007D6400BD5788 /* WebKit.framework */,
 				D62DFA8E1C007D5700BD5788 /* Accelerate.framework */,
-				68FAC84ADA073776C25D27A2 /* Pods_IDnow_SDK_Demo.framework */,
+				2FA6356671964689EA50AF16 /* Pods_IDnow_SDK_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,7 +108,7 @@
 				6FC64E711AC1EFC800BA9B5B /* IDnow SDK Demo */,
 				6FC64E701AC1EFC800BA9B5B /* Products */,
 				4A9E5A247C8C4F21351B0837 /* Frameworks */,
-				E6110F3697F088A65AC480CF /* Pods */,
+				0DF8AF3A0EDFAA3DCBFB437A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,16 +147,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E6110F3697F088A65AC480CF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				086F5B23575DD52354616DFD /* Pods-IDnow SDK Demo.debug.xcconfig */,
-				10FD2C865CAD05CE5F9C4D9C /* Pods-IDnow SDK Demo.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -154,11 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FC64E951AC1EFC800BA9B5B /* Build configuration list for PBXNativeTarget "IDnow SDK Demo" */;
 			buildPhases = (
-				6189D1A2C8CD0E8EB9A80D60 /* [CP] Check Pods Manifest.lock */,
+				D7E20AEF8F19F9072535063A /* [CP] Check Pods Manifest.lock */,
 				6FC64E6B1AC1EFC800BA9B5B /* Sources */,
 				6FC64E6C1AC1EFC800BA9B5B /* Frameworks */,
 				6FC64E6D1AC1EFC800BA9B5B /* Resources */,
-				0734E54EEA517C5C2B346B70 /* [CP] Copy Pods Resources */,
+				5E8BC4F5FACF7B714ECE711F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +222,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0734E54EEA517C5C2B346B70 /* [CP] Copy Pods Resources */ = {
+		5E8BC4F5FACF7B714ECE711F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -296,7 +296,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow SDK Demo/Pods-IDnow SDK Demo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6189D1A2C8CD0E8EB9A80D60 /* [CP] Check Pods Manifest.lock */ = {
+		D7E20AEF8F19F9072535063A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,7 +451,7 @@
 		};
 		6FC64E961AC1EFC800BA9B5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 086F5B23575DD52354616DFD /* Pods-IDnow SDK Demo.debug.xcconfig */;
+			baseConfigurationReference = 13609D0AD7FDEE6DC0A60E67 /* Pods-IDnow SDK Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -483,7 +483,7 @@
 		};
 		6FC64E971AC1EFC800BA9B5B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10FD2C865CAD05CE5F9C4D9C /* Pods-IDnow SDK Demo.release.xcconfig */;
+			baseConfigurationReference = 0AF98711491F5895E223DF05 /* Pods-IDnow SDK Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
