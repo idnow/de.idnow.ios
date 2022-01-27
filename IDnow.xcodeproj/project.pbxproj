@@ -13,12 +13,12 @@
 		AD26A47F2758D97B0015C576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26A47E2758D97B0015C576 /* Preview Assets.xcassets */; };
 		AD95F853275915A700C21A4E /* IDnowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95F852275915A700C21A4E /* IDnowService.swift */; };
 		AD95F8562759166300C21A4E /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95F8552759166300C21A4E /* ViewUtils.swift */; };
-		BE0A0B988FE468B4DFC58128 /* Pods_IDnow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA75189F2468774F8DB5831 /* Pods_IDnow.framework */; };
+		FF128D667E40624016137EEB /* Pods_IDnow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3AB664E94E772ED7F6C8CAC7 /* Pods-IDnow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.debug.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.debug.xcconfig"; sourceTree = "<group>"; };
-		ACA75189F2468774F8DB5831 /* Pods_IDnow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDnow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.release.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.release.xcconfig"; sourceTree = "<group>"; };
+		4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.debug.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.debug.xcconfig"; sourceTree = "<group>"; };
 		AD26A4742758D9780015C576 /* IDnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD26A4772758D9780015C576 /* IDnowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDnowApp.swift; sourceTree = "<group>"; };
 		AD26A4792758D9780015C576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,7 +27,7 @@
 		AD95F84D2758E58A00C21A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AD95F852275915A700C21A4E /* IDnowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDnowService.swift; sourceTree = "<group>"; };
 		AD95F8552759166300C21A4E /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
-		FF93EAAC749AC903C2EEF5F6 /* Pods-IDnow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.release.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.release.xcconfig"; sourceTree = "<group>"; };
+		E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDnow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +35,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0A0B988FE468B4DFC58128 /* Pods_IDnow.framework in Frameworks */,
+				FF128D667E40624016137EEB /* Pods_IDnow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52AE0E1E895DC4A5A29A49B7 /* Frameworks */ = {
+		901FC84F48E2603D8643FC6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ACA75189F2468774F8DB5831 /* Pods_IDnow.framework */,
+				E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -56,7 +56,7 @@
 				AD26A4762758D9780015C576 /* IDnow */,
 				AD26A4752758D9780015C576 /* Products */,
 				F0046A98F241777A4F220883 /* Pods */,
-				52AE0E1E895DC4A5A29A49B7 /* Frameworks */,
+				901FC84F48E2603D8643FC6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,8 +109,8 @@
 		F0046A98F241777A4F220883 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3AB664E94E772ED7F6C8CAC7 /* Pods-IDnow.debug.xcconfig */,
-				FF93EAAC749AC903C2EEF5F6 /* Pods-IDnow.release.xcconfig */,
+				4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */,
+				029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -122,12 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD26A4822758D97B0015C576 /* Build configuration list for PBXNativeTarget "IDnow" */;
 			buildPhases = (
-				E21239ADBDF0706D6C255B11 /* [CP] Check Pods Manifest.lock */,
+				18B86C0FE75BC154CEAE04EA /* [CP] Check Pods Manifest.lock */,
 				AD26A4702758D9780015C576 /* Sources */,
 				AD26A4712758D9780015C576 /* Frameworks */,
 				AD26A4722758D9780015C576 /* Resources */,
-				4F4D7DB4E00AB24BA2EBC0CD /* [CP] Embed Pods Frameworks */,
-				43BCC247AA842F5989BBE8AC /* [CP] Copy Pods Resources */,
+				DC30B5BF66E8B4414246001A /* [CP] Embed Pods Frameworks */,
+				BEEAA0DAEB249FB61C467763 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -184,41 +184,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		43BCC247AA842F5989BBE8AC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4F4D7DB4E00AB24BA2EBC0CD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E21239ADBDF0706D6C255B11 /* [CP] Check Pods Manifest.lock */ = {
+		18B86C0FE75BC154CEAE04EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,6 +204,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEEAA0DAEB249FB61C467763 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC30B5BF66E8B4414246001A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -375,7 +375,7 @@
 		};
 		AD26A4832758D97B0015C576 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AB664E94E772ED7F6C8CAC7 /* Pods-IDnow.debug.xcconfig */;
+			baseConfigurationReference = 4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -410,7 +410,7 @@
 		};
 		AD26A4842758D97B0015C576 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF93EAAC749AC903C2EEF5F6 /* Pods-IDnow.release.xcconfig */;
+			baseConfigurationReference = 029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

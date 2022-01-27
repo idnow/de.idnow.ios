@@ -1,5 +1,11 @@
 ## Changelog
 
+### 5.1.6
+
+* Provided configuration option conform to PVID requirements
+* Only one flag is now required to show custom waiting screen: `enableWaitingScreenCustomised`
+* Provided configuration option to collect additional device data
+
 ### 5.1.5
 
 - Waiting screen animation updated
