@@ -1,5 +1,31 @@
 ## Changelog
 
+### 5.1.5
+
+- Waiting screen animation updated
+- Accessibility Voice Over usage improved
+- Other minor improvements & bugfixes
+
+### 5.1.4
+
+- Customizable waiting list fix for VI+
+
+### 5.1.3
+
+- Wallet expired popup
+- Other minor improvements & bugfixes
+
+### 5.1.2
+
+- Customizable waiting list
+- Other minor improvements & bugfixes
+
+### 5.1.0
+
+- Updated SDK to new build system
+- eID QES feature
+- Other minor improvements & bugfixes
+
 ### 5.0.12
 Changes:
 - Minor improvements & bugfixes
