@@ -1,0 +1,11 @@
+framework module idnow_eid {
+  umbrella header "idnow_eid.h"
+
+  export *
+  module * { export * }
+}
+
+module idnow_eid.Swift {
+    header "idnow_eid-Swift.h"
+    requires objc
+}
