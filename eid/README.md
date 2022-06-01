@@ -6,6 +6,10 @@ See the root [README](https://github.com/idnow/de.idnow.ios#eid-framework]) of t
 
 ### Changelog
 
+#### v2.0.1
+
+* Various styling fixes, too many to list
+
 #### v2.0.0
 
 * Published as xcframework 🥳
