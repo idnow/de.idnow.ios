@@ -6,7 +6,6 @@
 - [Supported Versions](#supported-versions)
 - [Installation](#installation)
   - [CocoaPods](#cocoapods)
-  - [xCode9](#xcode9)
   - [Manually](#manually)
 - [Settings](#settings)
   - [transactionToken](#transactiontoken)
@@ -31,6 +30,11 @@
     - [textFieldColor](#textfieldcolor)
     - [failureColor](#failurecolor)
     - [successColor](#successcolor)
+    - [headlineColor](#headlineColor)
+    - [linkColor](#linkColor)
+    - [checkIconColor](#checkIconColor)
+    - [primaryAlertActionColor](#primaryAlertActionColor)
+    - [secondaryAlertActionColor](#secondaryAlertActionColor)
     - [CallQualityCheckScreen](#callqualitycheckscreen)
     - [cqcOuterRingColor](#cqcouterringcolor)
     - [proceedButtonTextColor](#proceedbuttontextcolor)
@@ -44,7 +48,8 @@
     - [fontNameRegular](#fontnameregular)
     - [fontNameMedium](#fontnamemedium)
     - [fontNameLight](#fontnamelight)
-    - [fontNameRegular](#fontnameregular)
+    - [underlineButtonTitles](#underlineButtonTitles)
+    - [boldButtonTitles](#boldButtonTitles)
 - [PushNotifications](#pushnotifications)
 - [Usage](#usage)
 - [Localization](#localization)
@@ -76,10 +81,10 @@
     - [Error codes](#error-codes)
   
 ## Requirements
-- Xcode 8.0 or later
-- Deployment Target: iOS 8.0 or later
+- Xcode 13.0 or later
+- Deployment Target: iOS 9.0 or later
 - Supported Devices: iPhone (4s + later), iPod Touch (5 + later), iPad (2 + later)
-- Cocoapods installed
+- Cocoapods installed (v.1.11.2 or later) 
 - Device with Wifi / 3G / LTE
 
 ## Supported Versions
@@ -104,24 +109,6 @@ pod install
 ```
 
 - Import SDK by using "@import IDnowSDK"
-
-### xCode9
-As of XCode 9 there might be a chance that you experience a problem with your host apps AppIcon in case you use CocoaPods.
-One of the symptoms is that the AppIcon will not be visible if you run your app either on the simulator or a real device. 
-There are many reasons why assets/resources are not present (wrong format, transparency, wrong size, ...) but one might be that the auto generated shell script which builds the pods resources misses a flag telling actool the name of the app-icon. 
-
-If you encounter this try to add the following to your projects Podfile exchanging <YOUR_PRODUCT> with the name of your project:
-
-```
-post_install do |installer|
-    copy_pods_resources_path = "Pods/Target Support Files/Pods-<YOUR_PRODUCT>/Pods-<YOUR_PRODUCT>-resources.sh"
-    string_to_replace = '--compile "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"'
-    assets_compile_with_app_icon_arguments = '--compile "${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}" --app-icon "${ASSETCATALOG_COMPILER_APPICON_NAME}" --output-partial-info-plist "${BUILD_DIR}/assetcatalog_generated_info.plist"'
-    text = File.read(copy_pods_resources_path)
-    new_contents = text.gsub(string_to_replace, assets_compile_with_app_icon_arguments)
-    File.open(copy_pods_resources_path, "w") {|file| file.puts new_contents }
-end
-```
 
 ### Manually 
 
@@ -252,6 +239,29 @@ Default: A red color
 Optional color, that replaces the text color in the result screen, when an identification was successful.
 Default: A green color
 
+#### headlineColor
+Optional color, that replaces the color that will be used for headlines.
+Default: primaryBrandColor.
+Recommendation: Should be a color that does not collide with white color.
+
+#### linkColor
+Optional color, that replaces the color that will be used for links.
+Default: primaryBrandColor.
+Recommendation: Should be a color that does not collide with white color.
+
+#### checkIconColor
+Optional color, that replaces the color that will be used for checkboxes.
+Default: primaryBrandColor.
+Recommendation: Should be a color that does not collide with white color.
+
+#### primaryAlertActionColor
+Optional color, that replaces the color on the left action of alert controller
+Default: Default: lighter grey color (#8D96A6)
+
+#### secondaryAlertActionColor
+Optional color, that replaces the color on the right action of alert controller
+Default: black for light mode and white for dark mode.
+
 #### CallQualityCheckScreen
 
 #### cqcOuterRingColor
@@ -280,7 +290,6 @@ Default: strong yellow (almost green).
 Optional: Forces the light status bar style to match dark navigation bars.
 If you tint your navigation bar with a dark color by adjusting navigation bar appearance (e.g. a blue color) you can set this value to true. The statusbar style will then be adjusted to light in screens where the navigation bar is visible.
 
-
 ### Fonts
 
 #### fontNameRegular
@@ -294,6 +303,14 @@ Default: System Font: Helvetica Neue Medium (< iOS 9), San Francisco Medium (>= 
 #### fontNameLight
 An optional font name that can be used to replace the light font used by the SDK.
 Default: System Font: Helvetica Neue Light (< iOS 9), San Francisco Light (>= iOS 9)
+
+#### underlineButtonTitles
+Default: YES - Underline all button titles
+Set this to NO in order to underline button title text
+
+#### boldButtonTitles
+Default: YES - Make button titles bold
+Set this to NO in order to use normal font weight in button titles
 
 ## PushNotifications
 
@@ -442,13 +459,9 @@ In case you would like to change the localization used by the IDnow SDK at runti
 
 Allowed values are: en (English), de (German), fr (French), es (Spanish), it (Italian), pt (Portugese), et (Estonian), hr (Croatian), hu (Hungarian), ka (Georgian), ko(Korean), lt(Lithuanian), lv (Latvian), nl (Dutch), pl (Polish),  ru (Russian), zh (Chinese).
 ```
-settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de,en,it,es,pt)
+settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de, en, it, es, pt, fr, et, hr, hu, ka, ko, lt, lv, nl, pl, ru, zh).
 
 ```
-
-
-
-
 English and German Localizations are provided by the SDK (IDnowSDKLocalization.bundle)
 You can overwrite localisation in your own Localizable.strings files.
 
@@ -460,8 +473,6 @@ You can overwrite localisation in your own Localizable.strings files.
 
 //Overwrite in your Localizable.strings file:
 "NAVIGATION_ITEM_TITLE_DEFAULT" = "Video Ident";
-
-
 ```
 
 # eID Framework
@@ -485,7 +496,7 @@ __Note__: NFC can work only with iPhone 7 and higher
 -- Add a description for `Privacy - NFC Scan Usage Description`
 ![alt text](https://github.com/idnow/de.idnow.ios/blob/master/Sample/eid_screenshot_3.png)
     __NOTE__: 
-    - AuthadaAuthenticationLibrary.xcframework will be provided seprately.
+    - AuthadaAuthenticationLibrary.xcframework can be downloaded here: https://downloads.idnow.de/ios/AuthadaAuthenticationLibrary.xcframework.zip
     - Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` framework are added in `Embeded Frameworks` section
     
 ### eID Usage:
@@ -499,6 +510,7 @@ __Note__: NFC can work only with iPhone 7 and higher
 import idnow_eid
 ```
 ## eID Branding (IDN_eIDAppearance)
+Basically, all appearance settings are identical to the ones from VI SDK.
 **Warning**: Branding is only allowed if you have the permissions from IDnow.
 
 ### eID Colors
