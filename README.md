@@ -496,7 +496,7 @@ __Note__: NFC can work only with iPhone 7 and higher
 -- Add a description for `Privacy - NFC Scan Usage Description`
 ![alt text](https://github.com/idnow/de.idnow.ios/blob/master/Sample/eid_screenshot_3.png)
     __NOTE__: 
-    - AuthadaAuthenticationLibrary.xcframework can be downloaded here: https://downloads.idnow.de/ios/AuthadaAuthenticationLibrary.xcframework.zip
+    - AuthadaAuthenticationLibrary.xcframework will be provided seprately.
     - Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` framework are added in `Embeded Frameworks` section
     
 ### eID Usage:
@@ -510,7 +510,7 @@ __Note__: NFC can work only with iPhone 7 and higher
 import idnow_eid
 ```
 ## eID Branding (IDN_eIDAppearance)
-Basically, all appearance settings are identical to the ones from VI SDK.
+All appearance settings are identical to the ones used in VI SDK.
 **Warning**: Branding is only allowed if you have the permissions from IDnow.
 
 ### eID Colors
