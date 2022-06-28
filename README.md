@@ -95,7 +95,7 @@
 
 ### CocoaPods
 
-[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/master/screenshots/Screenshot_vid.png)](https://www.youtube.com/watch?v=kLCUDDoHwlQ)
+[![Watch the video](/screenshots/Screenshot_vid.png)](https://www.youtube.com/watch?v=kLCUDDoHwlQ)
 
 - Add the following config and pod dependencies to your podfile:
 ```
