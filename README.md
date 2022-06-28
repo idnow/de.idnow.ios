@@ -112,7 +112,7 @@ pod install
 
 ### Manually 
 
-[![Watch the video](https://github.com/idnow/de.idnow.ios/blob/master/screenshots/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
+[![Watch the video](/screenshots/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
 
 - Add the following pod dependencies to your podfile:
 ```
@@ -487,14 +487,14 @@ __Note__: NFC can work only with iPhone 7 and higher
 ----
 ## eID Installation
 # Host app settings 
-- Add the `idnow_eid.framework`, `CoreNFC.framework` to `Link Binary With Libraries`. And the AAL framework must be added to your Xcode project as well. You can simply drag and drop the `AuthadaAuthenticationLibrary.xcframework` folder to your Xcode project.![alt text](https://github.com/idnow/de.idnow.ios/blob/master/screenshots/eid_screenshot_1.png)
+- Add the `idnow_eid.framework`, `CoreNFC.framework` to `Link Binary With Libraries`. And the AAL framework must be added to your Xcode project as well. You can simply drag and drop the `AuthadaAuthenticationLibrary.xcframework` folder to your Xcode project.![alt text](/screenshots/eid_screenshot_1.png)
   - As of v2.0.0 (xcframework build), `libPhoneNumber-iOS` is no longer bundled with the app and needs to be added manually as well, e.g. in Podfile `pod 'libPhoneNumber-iOS', '~> 0.9'`
 
-- Add `Near Field Communication Tag Reading` as a capability. In the entitlements file, check if there is an array for the key `Near Field Communication Tag Reader Session Format`, make sure the array contains the entry `NFC tag-specific data protocol`. ![alt text](https://github.com/idnow/de.idnow.ios/blob/master/screenshots/eid_screenshot_2.png)
+- Add `Near Field Communication Tag Reading` as a capability. In the entitlements file, check if there is an array for the key `Near Field Communication Tag Reader Session Format`, make sure the array contains the entry `NFC tag-specific data protocol`. ![alt text](/screenshots/eid_screenshot_2.png)
 - Update the Info.plis file:
 -- Add an array with the key `com.apple.developer.nfc.readersession.iso7816.select-identifiers` / `ISO7816 application identifiers for NFC Tag Reader Session`. Then add 2 items to the array: `E80704007F00070302`, `A0000002471001`.
 -- Add a description for `Privacy - NFC Scan Usage Description`
-![alt text](https://github.com/idnow/de.idnow.ios/blob/master/screenshots/eid_screenshot_3.png)
+![alt text](/screenshots/eid_screenshot_3.png)
     __NOTE__: 
     - AuthadaAuthenticationLibrary.xcframework will be provided seprately.
     - Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` framework are added in `Embeded Frameworks` section
