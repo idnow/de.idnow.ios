@@ -31,10 +31,11 @@ class ViewController: UIViewController {
                     self.eidRouter.present { (identSuccess, continueVideoIdent, error) in
                         if continueVideoIdent {
                             print("LOG: - Continue video identification")
-                        } else if let error = error {
-                            print("LOG: - Failed \(error)")
                         } else {
                             print("LOG: - Identification finished \(identSuccess ? "Successfully" : "Failed")")
+                            if !identSuccess {
+                                print("LOG: - Ident failed with reason \(String(describing: error))")
+                            }
                         }
                     }
                 } else {
