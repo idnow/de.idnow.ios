@@ -1,5 +1,13 @@
 ## Changelog
 
+
+
+### 5.1.12
+
+Make IDnow logo configurable
+Minor improvements & bugfixes
+
+
 ### 5.1.6
 
 * Provided configuration option conform to PVID requirements
