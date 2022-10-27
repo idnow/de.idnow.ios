@@ -1,6 +1,8 @@
 ## Changelog
 
+### 5.2.0
 
+Minor improvements & bugfixes
 
 ### 5.1.12
 
