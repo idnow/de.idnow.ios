@@ -1,5 +1,9 @@
 ## Changelog
 
+### 6.0.0
+
+Upgrade to liveswitch
+
 ### 5.3.0
 
 Minor improvements & bugfixes
