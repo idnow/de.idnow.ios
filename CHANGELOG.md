@@ -1,5 +1,9 @@
 ## Changelog
 
+### 6.1.0
+
+Added some enhancements for security
+
 ### 6.0.0
 
 Upgrade to liveswitch
