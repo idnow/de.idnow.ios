@@ -1,5 +1,10 @@
 ## Changelog
 
+### 6.1.3
+
+- Minor eID bug fixes
+- Generic UX improvements
+
 ### 6.1.0
 
 Added some enhancements for security
