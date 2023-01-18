@@ -90,6 +90,9 @@
 ## Supported Versions
 - Your current SDK will stop receiving further support by May 21 (VideoIdent SDKs of version 4.2.0 and lower; 4.2.1 and higher continue to be supported)
 - After this time, the old SDK will continue to be operational, but we won’t provide any more updates and maintenance only with additional reimbursement
+- Versions of IDnowSDK lower when v5.2.0 may have issues with iOS higher when 16.0
+- Since Apple deprecated bitcode and the App Store no longer accepts bitcode submissions we have removed bitcode support from IDnow SDK starting from version 6.1.3
+- SDK versions started from 6.0.0 to 6.1.3 were archived using Xcode 14. Therefore, they are likely to have compatibility issues with Xcode 13 and lower. To fix this, starting v6.1.4, we temporarily reverted to the older Xcode version 13.2.1, which is compatible with Xcode 13.x as well as Xcode 14.x.
 
 ## Installation
 
@@ -99,7 +102,7 @@
 
 - Add the following config and pod dependencies to your podfile:
 ```
-use_frameworks! :linkage => :static
+use_frameworks!
 pod 'IDnowSDK'
 ```
 
@@ -488,7 +491,7 @@ __Note__: NFC can work only with iPhone 7 and higher
 ## eID Installation
 # Host app settings 
 - Add the `idnow_eid.framework`, `CoreNFC.framework` to `Link Binary With Libraries`. And the AAL framework must be added to your Xcode project as well. You can simply drag and drop the `AuthadaAuthenticationLibrary.xcframework` folder to your Xcode project.![alt text](/screenshots/eid_screenshot_1.png)
-  - As of v2.0.0 (xcframework build), `libPhoneNumber-iOS` is no longer bundled with the app and needs to be added manually as well, e.g. in Podfile `pod 'libPhoneNumber-iOS', '~> 0.9'`
+  - As of v2.0.0 (xcframework build), `libPhoneNumber-iOS` is no longer bundled with the eID SDK therefore in case of implementing eID as a stand-alone product needs to be added manually, e.g. in Podfile `pod 'libPhoneNumber-iOS', '~> 0.9'`
 
 - Add `Near Field Communication Tag Reading` as a capability. In the entitlements file, check if there is an array for the key `Near Field Communication Tag Reader Session Format`, make sure the array contains the entry `NFC tag-specific data protocol`. ![alt text](/screenshots/eid_screenshot_2.png)
 - Update the Info.plis file:
