@@ -6,6 +6,6 @@ framework module idnow_eid {
 }
 
 module idnow_eid.Swift {
-  header "idnow_eid-Swift.h"
-  requires objc
+    header "idnow_eid-Swift.h"
+    requires objc
 }

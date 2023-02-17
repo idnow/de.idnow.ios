@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		fM6U1YQfuM2YNQ8Rh4m8m2aFZbE=
+		Nb1QeRduEh2o2EqZ/i+vXydOMUE=
 		</data>
 		<key>Headers/idnow_eid-Swift.h</key>
 		<data>
-		w65f1aBToWBnmPcwuTx4qetZRCw=
+		KIUrniwzdYds1T2rZ8JDA3dpEFM=
 		</data>
 		<key>Headers/idnow_eid.h</key>
 		<data>
@@ -18,35 +18,35 @@
 		</data>
 		<key>IDN_eIDTutorialCell.nib</key>
 		<data>
-		HUtKRolJINryO8ToeBzRQyDfaYk=
+		RJlgxZi4R8bbiIB9om8J0t2y0YE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		POkS5JVVbljKeTXzqG8dy2VXGBk=
+		2E2SgeBP9Q0MH+7IXYCpUavZiQY=
 		</data>
 		<key>Main.storyboardc/4A7-6o-ySM-view-S9Q-Fw-hIu.nib/objects-13.0+.nib</key>
 		<data>
-		cZDorFa/prZmoRy13/WmSSSbAZA=
+		k2yoM6DHDJJQn3f2xEbcfk5T1EI=
 		</data>
 		<key>Main.storyboardc/4A7-6o-ySM-view-S9Q-Fw-hIu.nib/runtime.nib</key>
 		<data>
-		cZDorFa/prZmoRy13/WmSSSbAZA=
+		k2yoM6DHDJJQn3f2xEbcfk5T1EI=
 		</data>
 		<key>Main.storyboardc/4T0-9q-ulx-view-aEG-AN-Z5X.nib/objects-13.0+.nib</key>
 		<data>
-		eyBi0+n3xyE/L6bgsNo9RpyM1QU=
+		XSRa1BqqcV33rAvMuREHFUdvhQA=
 		</data>
 		<key>Main.storyboardc/4T0-9q-ulx-view-aEG-AN-Z5X.nib/runtime.nib</key>
 		<data>
-		8sCet2emrna0arHijNTgIHipWR0=
+		bWWlUYD3zVD295LqCF2mmcu+UfU=
 		</data>
 		<key>Main.storyboardc/DSD-yn-LvZ-view-ZIi-nX-EFq.nib/objects-13.0+.nib</key>
 		<data>
-		UGYDQRWNF1+ON0Z9LZMb7RcrDj4=
+		vM8WSOgTIoU05OQU9d/7MrIqhG8=
 		</data>
 		<key>Main.storyboardc/DSD-yn-LvZ-view-ZIi-nX-EFq.nib/runtime.nib</key>
 		<data>
-		UGYDQRWNF1+ON0Z9LZMb7RcrDj4=
+		vM8WSOgTIoU05OQU9d/7MrIqhG8=
 		</data>
 		<key>Main.storyboardc/IDN_eIDCardCommunicationViewController.nib/objects-13.0+.nib</key>
 		<data>
@@ -126,79 +126,71 @@
 		</data>
 		<key>Main.storyboardc/Q0r-e8-XU3-view-3a2-mP-f9M.nib/objects-13.0+.nib</key>
 		<data>
-		CSJa4IpuwRerUc88N+BpWv8kp78=
+		lO0U4Zv6di+C5fNRb57VZYRwMjw=
 		</data>
 		<key>Main.storyboardc/Q0r-e8-XU3-view-3a2-mP-f9M.nib/runtime.nib</key>
 		<data>
-		CSJa4IpuwRerUc88N+BpWv8kp78=
+		lO0U4Zv6di+C5fNRb57VZYRwMjw=
 		</data>
 		<key>Main.storyboardc/USB-HO-aHV-view-eqG-i7-24r.nib/objects-13.0+.nib</key>
 		<data>
-		80jZaNyD4N54LaEWP/J6dZz8wNo=
+		BoSu2+dN7G1xpaIzuEBTAcO7c3M=
 		</data>
 		<key>Main.storyboardc/USB-HO-aHV-view-eqG-i7-24r.nib/runtime.nib</key>
 		<data>
-		80jZaNyD4N54LaEWP/J6dZz8wNo=
+		BoSu2+dN7G1xpaIzuEBTAcO7c3M=
 		</data>
 		<key>Main.storyboardc/Xec-zN-vDX-view-ArN-Yg-uDW.nib/objects-13.0+.nib</key>
 		<data>
-		k0NYU7qruypHkYTbYcDEckMLjBg=
+		hNZps/ct4gLfOIJpS01ijEFeqDk=
 		</data>
 		<key>Main.storyboardc/Xec-zN-vDX-view-ArN-Yg-uDW.nib/runtime.nib</key>
 		<data>
-		k5xuzdqhlRsG1zbqvKO12QDLmF8=
+		l02Wiqu/X0zzQ3NQgDc9b7Fv3R8=
 		</data>
 		<key>Main.storyboardc/Yr8-uD-Yb2-view-bIo-uh-sFa.nib/objects-13.0+.nib</key>
 		<data>
-		CTngtsBIOQuxCUMtEwVJkXE5Ee0=
+		f6XkesAioXMdeufm8SMKDSQt42o=
 		</data>
 		<key>Main.storyboardc/Yr8-uD-Yb2-view-bIo-uh-sFa.nib/runtime.nib</key>
 		<data>
-		CTngtsBIOQuxCUMtEwVJkXE5Ee0=
+		f6XkesAioXMdeufm8SMKDSQt42o=
 		</data>
 		<key>Main.storyboardc/kGX-zu-Wm7-view-MAL-0D-p39.nib/objects-13.0+.nib</key>
 		<data>
-		i9Rs/MzPshOtGiN3tui8RooPxg0=
+		adasTfcpVt1za68ONTXx6wslmmI=
 		</data>
 		<key>Main.storyboardc/kGX-zu-Wm7-view-MAL-0D-p39.nib/runtime.nib</key>
 		<data>
-		i9Rs/MzPshOtGiN3tui8RooPxg0=
+		adasTfcpVt1za68ONTXx6wslmmI=
 		</data>
 		<key>Main.storyboardc/lcy-Cu-uBz-view-oFb-Ub-X53.nib/objects-13.0+.nib</key>
 		<data>
-		NEvP9Dsw0Tm1bxb091d9+PqzVOM=
+		njtikO/FT6LI65LgJc1wRKRICtE=
 		</data>
 		<key>Main.storyboardc/lcy-Cu-uBz-view-oFb-Ub-X53.nib/runtime.nib</key>
 		<data>
-		NEvP9Dsw0Tm1bxb091d9+PqzVOM=
+		njtikO/FT6LI65LgJc1wRKRICtE=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		eczDsfpkn8l3sGA+Gaw3olzGTmc=
-		</data>
-		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		8zv8V3UApncCK/zK6pvqy7anwE4=
-		</data>
-		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		TKQZPEjPpAF5I0duOWyGgvbFQ7k=
+		zUhfgTVBfv5ZgkwN0HDkzhiliEc=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		SNCTS6+n5kV1Jl9ryPGKgUd5w3Q=
+		4yYKb8vlIY6Ju6N7zs/0TLBHjOs=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TKQZPEjPpAF5I0duOWyGgvbFQ7k=
+		0HATmFF7Q2bDuNvlGAIYvSbW0ZQ=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ptbDPKKN4PUHQyKwmalJI0YgeWM=
+		1bawoOfnkg1rAE9susvvXlmSZ6M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		D6ajN2gpfY59ourlVTOSn48Lh34=
+		jiC5l5xCg92/2OXbsVB5Mp80aR8=
 		</data>
 		<key>animate_scan_iOS.json</key>
 		<data>
@@ -445,14 +437,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NVqqVWYbNn++o2UTyDepMZRNcYzf9rrPTMO2XribLuA=
+			AWEFCyvGy9QtWwLjkvCDvrNXHIyj8xJvSJ5/L+tKPQk=
 			</data>
 		</dict>
 		<key>Headers/idnow_eid-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ixXAPqCDReKX66koaoco9xxSGA4dNVxbhUfd1jeOyiQ=
+			Cdjx2ikLUXNdQeDnCRh2ifMHin0kCglwIV8tpyW7EmY=
 			</data>
 		</dict>
 		<key>Headers/idnow_eid.h</key>
@@ -466,49 +458,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IjhjiAWxp6JuCq2lyKY1CMpqU3jDFhmTyU6HZD0oeKY=
+			iy6c2d0saTigtvcwjF6ZKhSJ5x7w2gvrvijXAlqoWkE=
 			</data>
 		</dict>
 		<key>Main.storyboardc/4A7-6o-ySM-view-S9Q-Fw-hIu.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BwlXCOn0DDaYc3TxoZwveEr6tgSr626Idqf0T/3FUpk=
+			yfnuywLoLq4SQ3FwSNKF9CJnVXOrNPBIB8HdkPyGxS0=
 			</data>
 		</dict>
 		<key>Main.storyboardc/4A7-6o-ySM-view-S9Q-Fw-hIu.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BwlXCOn0DDaYc3TxoZwveEr6tgSr626Idqf0T/3FUpk=
+			yfnuywLoLq4SQ3FwSNKF9CJnVXOrNPBIB8HdkPyGxS0=
 			</data>
 		</dict>
 		<key>Main.storyboardc/4T0-9q-ulx-view-aEG-AN-Z5X.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fJRshjl15PuorbmWnQf66hXCsq7YXvGXgfSyppzrQDg=
+			KZVNTx/WcFYnb0aVo7RO4yPshRncgsu+kq+7Yg7WTdY=
 			</data>
 		</dict>
 		<key>Main.storyboardc/4T0-9q-ulx-view-aEG-AN-Z5X.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CsItLd4/ItyNR10HkLc9b/zxoYwRHrLWWLJvuBM1Ss8=
+			9URcX8GLamehNudGcJoLcCHebUX7GocCft+556IQptc=
 			</data>
 		</dict>
 		<key>Main.storyboardc/DSD-yn-LvZ-view-ZIi-nX-EFq.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ra9Xez/zgCcF2V1jIg6oKxXIhG0SvYDkTQOjqNalfEo=
+			NypcrfoFkpN+wzqYMOluvk/qrM9iTBJ/JXFVCcxeloU=
 			</data>
 		</dict>
 		<key>Main.storyboardc/DSD-yn-LvZ-view-ZIi-nX-EFq.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ra9Xez/zgCcF2V1jIg6oKxXIhG0SvYDkTQOjqNalfEo=
+			NypcrfoFkpN+wzqYMOluvk/qrM9iTBJ/JXFVCcxeloU=
 			</data>
 		</dict>
 		<key>Main.storyboardc/IDN_eIDCardCommunicationViewController.nib/objects-13.0+.nib</key>
@@ -648,133 +640,119 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/GMrAQqb6Jyx6kwYGGlmsrDVhGGBA3uOpaK+hyrEuZc=
+			8UvyTGuNPKEPajNb9pKk6jfA65hvto8sCmvyAMYmWmY=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Q0r-e8-XU3-view-3a2-mP-f9M.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/GMrAQqb6Jyx6kwYGGlmsrDVhGGBA3uOpaK+hyrEuZc=
+			8UvyTGuNPKEPajNb9pKk6jfA65hvto8sCmvyAMYmWmY=
 			</data>
 		</dict>
 		<key>Main.storyboardc/USB-HO-aHV-view-eqG-i7-24r.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1vaADhxHyPpXtt0fkM6fDFiQDCIpTGetIztiBTz4mXY=
+			KnyvDdndzc6uE6rrL8Iqf2+ZL9HRIY/pdsPfk6tJH6Y=
 			</data>
 		</dict>
 		<key>Main.storyboardc/USB-HO-aHV-view-eqG-i7-24r.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1vaADhxHyPpXtt0fkM6fDFiQDCIpTGetIztiBTz4mXY=
+			KnyvDdndzc6uE6rrL8Iqf2+ZL9HRIY/pdsPfk6tJH6Y=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Xec-zN-vDX-view-ArN-Yg-uDW.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rT3UIlC+YMyWP0ANM+BtQLtnDNEv5qBbrcVfSeLkE8w=
+			9zEcsfqIrR4j4fyb0p0jqyeqLQjL4S9h7PtSPJUk1Y4=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Xec-zN-vDX-view-ArN-Yg-uDW.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A1keY1BMi1FkDV0oMR6PzRZQ4LnoaVTfZcXv3NcFGUA=
+			ghuL78619ZoZdXPewL0mfFU2kuVheoru8nPR1WfXkDg=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Yr8-uD-Yb2-view-bIo-uh-sFa.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WNPw1IYuKJoo08bQomGac963WLXjN7Mqzf140stVXYc=
+			yHC3P4LU3MkhkR/Xx+7a1tfNj+fU5xwg+eEHEZQa6ek=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Yr8-uD-Yb2-view-bIo-uh-sFa.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WNPw1IYuKJoo08bQomGac963WLXjN7Mqzf140stVXYc=
+			yHC3P4LU3MkhkR/Xx+7a1tfNj+fU5xwg+eEHEZQa6ek=
 			</data>
 		</dict>
 		<key>Main.storyboardc/kGX-zu-Wm7-view-MAL-0D-p39.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiSSdXrBErauzl89Dz0qXdB+6vjJiG6++3VJqFkL7sI=
+			HsrQY1K0g7naexoCfnWDyMwXfR9mnsbcLD0OpFRfjcY=
 			</data>
 		</dict>
 		<key>Main.storyboardc/kGX-zu-Wm7-view-MAL-0D-p39.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiSSdXrBErauzl89Dz0qXdB+6vjJiG6++3VJqFkL7sI=
+			HsrQY1K0g7naexoCfnWDyMwXfR9mnsbcLD0OpFRfjcY=
 			</data>
 		</dict>
 		<key>Main.storyboardc/lcy-Cu-uBz-view-oFb-Ub-X53.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M9zZ3o9riIwNQCo2I5NRTMKBt/CYCa15WCDiIUJqbQQ=
+			3AwZyp5eHffiYdCC/kVVR9+LsrTS7RHkiJKUdrY3zo8=
 			</data>
 		</dict>
 		<key>Main.storyboardc/lcy-Cu-uBz-view-oFb-Ub-X53.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M9zZ3o9riIwNQCo2I5NRTMKBt/CYCa15WCDiIUJqbQQ=
+			3AwZyp5eHffiYdCC/kVVR9+LsrTS7RHkiJKUdrY3zo8=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PqTfR2dufeoxI3HiCexS9pARhD/KWF3HI/RpPyKedZc=
-			</data>
-		</dict>
-		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+4okOcq0jGYKlkKEDWkHV4rb8ocP4mbiA+SfBLB/UrE=
-			</data>
-		</dict>
-		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0OOgJLIsinnFCIW9Jdzj9WvOJfiRd2l9pwxShHzl01s=
+			h+Ia/YazRI28MTkNovMzo05SbhWiKb6wuARWz2XGMKY=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qqJi3rYtsc+DEbDYu3VVrIqD8JZqh+pM5JwiLnYcbX0=
+			2lhZWGVZ0bYBbEE8w2h+CauxSiiqyRFhOnXuQ6Hw+VI=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0OOgJLIsinnFCIW9Jdzj9WvOJfiRd2l9pwxShHzl01s=
+			WAUj1jajhZqiW46X7vUxGd8zojaCvAOJ56uuWWmTaoE=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6nMsZVi7dVA+z9rIqAj3kZ69sScpjlAirOUbeZ/AdQA=
+			T7PD5XUYahNbC9hV3NLas3fTnRg0PfcV314jfvOudn4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ptor0CVqvm7paCQaBS9DVg9Gu+OUsmLxV9cNx8AQ+qs=
+			f/iGTY7yoEq2n8szgTB5Y0MNYO0DAlZ/s9seTQg/Cd8=
 			</data>
 		</dict>
 		<key>animate_scan_iOS.json</key>

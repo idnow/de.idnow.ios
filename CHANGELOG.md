@@ -1,5 +1,21 @@
 ## Changelog
 
+### 6.1.5
+
+Improvement:
+- For the signing process, we allow additional checkboxes to be configured and displayed to the end-user in case our customers have any regulatory requirement to do so
+
+Bug fix:
+- In order to avoid backward compatibility issues resulting from provisioning profiles added by xCode 14, we have now built eID with xCode 13, which enables our customers to build and archive their apps without any issues
+
+### 6.1.4
+
+Bug fixes:
+- Translation discrepancies in French and Italian
+- Localization wasn't being applied to the list of countries in VI+. This has been fixed now
+
+Note: This SDK version was archived usig Xcode 13.2.1
+
 ### 6.1.3
 
 - Minor eID bug fixes
