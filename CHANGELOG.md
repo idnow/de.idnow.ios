@@ -1,5 +1,14 @@
 ## Changelog
 
+
+### 6.2.0
+
+Improvement:
+- We have upgraded the libraries responsible for enabling the video call in order to offer end-users and identification experts a seamless experience.
+
+Bug fix:
+- We have fixed a UI discrepancy on one of the screens that existed when the device/application language was German
+
 ### 6.1.5
 
 Improvement:
