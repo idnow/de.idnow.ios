@@ -1,6 +1,11 @@
 ## Changelog
 
 
+### 6.3.0
+
+Improvement:
+- The host URL for a third-party service provider required for the eID identification process has been updated upon the service provider's request. Previously, this URL had been statically specified inside our SDK. As part of this release, not only have we updated it to the new one, we have also made it configurable, so that in the future any changes can be taken care of without the need for a release.
+
 ### 6.2.0
 
 Improvement:
