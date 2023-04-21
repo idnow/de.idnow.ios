@@ -1,4 +1,4 @@
-# IDnowSDK
+op# IDnowSDK
 
 ## Table of Contents
 
@@ -7,6 +7,7 @@
 - [Installation](#installation)
   - [CocoaPods](#cocoapods)
   - [Manually](#manually)
+  - [XCFramework](#xcframework)
 - [Settings](#settings)
   - [transactionToken](#transactiontoken)
   - [companyID](#companyid)
@@ -146,6 +147,18 @@ Accelerate.framework
 
 __Note__: To get the sample projects work, you have to call "pod install" to install dependencies.
 
+### XCFramework 
+
+- Download the current release from and copy the idnow_vi.xcframework folder to your project directory.
+
+- Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
+
+- Add idnow_vi.xcframework folder into Embed Frameworks of your Xcode project as embed and signed.
+
+- import 'idnow_vi.h' // --> Objective-C Project
+
+- or import idnow_vi // --> Swift Project
+
 ## Settings
 The settings that should be used for the identification process provided by IDnow.
 
@@ -197,6 +210,70 @@ For custom DTLS certificates use certificateProvider parameter of IDnowSettings
  SHA fingerprint of the server certificate (featureFingerprint == YES)
  
 @property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
+
+
+Starting from SDK version 6.5.0 we offer MTLS support for API connections
+
+MTLS enables server/client certificate validation. SDK can provide custom client certificate and several server certificates
+
+What has changed:
+
+- Certificate provider now can validate multiple server certificates/fingerprints
+- REST supports MTLS
+- WebSocket supports MTLS. For this purpose, SRWebsocket implementation was slightly updated. So, now we have a local version of SRWebsocket.
+
+To enable mTLS, it should be available in customer backend setting and client (consumer) should supply certificate provider to our SDK.
+
+Certificate Generation :
+
+Client certificate and private key pair can be generated in a number of ways, for example, with Certificate Sign Request on Mac OS X Keychain.
+
+Client Certificates :
+
+For iOS, key pair can be imported by platform tools from p12 package format. For example:
+
+```
+
++ (SecIdentityRef)loadIdentityFromP12:(NSData *)p12Data password:(NSString *)password {
+    const void *keys[] = { kSecImportExportPassphrase };
+    const void *values[] = { (__bridge CFStringRef)password };
+    CFDictionaryRef optionsDictionary = CFDictionaryCreate(NULL, keys, values, 1, NULL, NULL);
+    CFArrayRef p12Items;
+    OSStatus status = SecPKCS12Import((__bridge CFDataRef) p12Data, optionsDictionary, &p12Items);
+    if (status != errSecSuccess) {
+        return NULL;
+    }
+    
+    CFDictionaryRef identityDict = CFArrayGetValueAtIndex(p12Items, 0);
+    SecIdentityRef identityApp = (SecIdentityRef) CFDictionaryGetValue(identityDict, kSecImportItemIdentity);
+    
+    CFRetain(identityApp);
+    CFRelease(optionsDictionary);
+    CFRelease(p12Items);
+    
+    return identityApp;
+}
+```
+
+
+How to do it:
+
+1- Create class similar to IDNMyMtlsCertificateProvider in ios folder
+
+2- During SDK configuration:
+
+[IDnowSettings sharedSettings].certificateProvider = [[IDNMyMtlsCertificateProvider alloc] init];
+
+Feature flags for certificate provider allow usage of the corresponding features:
+
+```
+- (BOOL)featureCertificate;  // use client certificate
+- (BOOL)featureFingerPrint;  // use server certificate fingerprints
+- (BOOL)featureServerCert;   // use server certificates
+```
+
+Please check the certificate provider + certificates here https://github.com/idnow/de.idnow.ios/tree/master/IDnow 
+
 
 ## Branding
 Warning: Branding is only allowed if you have the permissions from IDnow.

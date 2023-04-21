@@ -1,5 +1,10 @@
 ## Changelog
 
+### 6.5.0
+
+- Changes have been made to the SDK in order to enhance the security of communication that takes place between the client and SDK.
+- we have wrapped the IDnow SDK as XCFramework. At the moment it is only available for manual implementation. Please check the documentation for details.
+
 ### 6.4.0
 
 - Removed PhotoIdent: PhotoIdent was an identification method that was offered as part of our SDK. However, this identification method is obsolete now and no longer being used by our customers. Therefore, we have removed it to reduce the overall SDK size. This will make the integration process easier for our customers.
