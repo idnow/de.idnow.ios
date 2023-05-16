@@ -1,5 +1,12 @@
 ## Changelog
 
+
+### 6.6.0
+
+- Treating the user's PII data with more care: We have introduced a configurable option to hide the user's PII data so that if a user's Ident ID is somehow accessed by someone else, the user's PII data is not exposed
+- eSign wallet expiry use case: A popup is introduced to ensure that the user is informed once their eSign wallet has expired and they need to renew it.
+- eSign token expiry use case: A user is only allowed to perform a successful eSign process as long as the token generated from our TSP is valid. In a situation where the token expires, we now show the appropriate messaging to the user so they know how to proceed.
+- Dark mode issue: One of our clients had reported that when dark mode was enabled, users were not able to see the radio buttons shown on the Consent Protocol screen that is shown as part of the eSign process. This UI issue has been addressed.
 ### 6.5.0
 
 - Changes have been made to the SDK in order to enhance the security of communication that takes place between the client and SDK.
