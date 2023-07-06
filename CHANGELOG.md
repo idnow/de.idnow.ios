@@ -1,5 +1,13 @@
 ## Changelog
 
+### 6.7.0
+
+- Addressed deprecated dependencies: There were some dependencies in the iOS SDK that were deprecated. We have addressed these dependencies by either removing them, upgrading them to newer versions and/or building those inside our codebase.
+- Configurability for the user of Bluetooth devices: We have now made it possible to configure whether end-users are allowed to perform the VideoIdent and/or eSign process, while being connected to a Bluetooth device. This configurability exists on an OS-level.  
+- Better control over WebSocket communication: We have enhanced the way we manage WebSocket communication to reduce connectivity issues once the call gets connected to the identification expert.
+- Fixed waiting list behavior: We have modified the flow on iOS to match it with Android, so that the connection quality check (CQC) is not performed for users that are already on the waiting list.
+- Some crashes have also been identified and fixed to offer end-users a seamless experience
+
 
 ### 6.6.0
 
