@@ -1,5 +1,16 @@
 ## Changelog
 
+### 6.8.0
+
+Improvements:
+- Upgrade the target deployment version: In order to upgrade a deprecated dependency, we have changed the deployment target version from 9.0+ to 11.0+. This change was a prerequisite to upgrading the library.
+- Upgrade libPhoneNumber-iOS: Previously the version being used for this library was 0.9.15. Now it has been upgraded to 1.0.4. Unlike in the past, the library will not be installed automatically along with the SDK. Please refer to more information here: pod 'libPhoneNumber-iOS', :git => 'https://github.com/iziz/libPhoneNumber-iOS.git'
+
+- Language selector feature: We have introduced a new feature that will allow end-users to choose their preferred language of identification at the beginning of the flow. The choice will be offered depending on the language(s) configured for each customer and the languages supported by the IDnow call center.
+Bug fixes:
+- Mismatch area code and country flag: We have fixed an issue whereby we noticed a mismatch between the country flag chosen by the user and the corresponding area code appearing before the number.
+- Missing callback: A callback was missing when the user clicked on 'My country is not listed here'. This has been fixed now so that our SDK customers don't face any difficulty displaying the corresponding step/screen to the users.
+
 ### 6.7.0
 
 - Addressed deprecated dependencies: There were some dependencies in the iOS SDK that were deprecated. We have addressed these dependencies by either removing them, upgrading them to newer versions and/or building those inside our codebase.
