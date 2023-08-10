@@ -105,6 +105,7 @@ op# IDnowSDK
 ```
 use_frameworks!
 pod 'IDnowSDK'
+pod 'libPhoneNumber-iOS', :git => 'https://github.com/iziz/libPhoneNumber-iOS.git'
 ```
 
 - Then, run the following command:
