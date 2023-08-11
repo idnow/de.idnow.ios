@@ -121,11 +121,7 @@ pod install
 
 - Add the following pod dependencies to your podfile:
 ```
-pod 'AFNetworking', '~> 4.0.1'
-pod 'FLAnimatedImage', '~> 1.0'
-pod 'SocketRocket', '~> 0.5.1'
-pod 'Masonry', '~> 1.1.0'
-pod 'libPhoneNumber-iOS', '~> 0.9'
+pod 'libPhoneNumber-iOS', :git => 'https://github.com/iziz/libPhoneNumber-iOS.git'
 ```
 - Download the current release from and copy the idnow-sdk folder to your project directory.
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
