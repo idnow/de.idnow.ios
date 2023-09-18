@@ -1,9 +1,10 @@
-op# IDnowSDK
+# IDnowSDK
 
 ## Table of Contents
 
 - [Requirements](#requirements)
 - [Supported Versions](#supported-versions)
+- [Compatibility Matrix](#compatibility-matrix)
 - [Installation](#installation)
   - [CocoaPods](#cocoapods)
   - [Manually](#manually)
@@ -94,6 +95,10 @@ op# IDnowSDK
 - Versions of IDnowSDK lower when v5.2.0 may have issues with iOS higher when 16.0
 - Since Apple deprecated bitcode and the App Store no longer accepts bitcode submissions we have removed bitcode support from IDnow SDK starting from version 6.1.3
 - SDK versions started from 6.0.0 to 6.1.3 were archived using Xcode 14. Therefore, they are likely to have compatibility issues with Xcode 13 and lower. To fix this, starting v6.1.4, we temporarily reverted to the older Xcode version 13.2.1, which is compatible with Xcode 13.x as well as Xcode 14.x.
+
+## Compatibility Matrix
+
+Please refer to the following link to find information about compatibility, end-of-support (EOS) and end-of-life (EOL) dates pertaining to our products: [IDnow Compatibility Matrix: Browser & OS Compatibility guide](https://www.idnow.io/developers/compatibility-overview/)
 
 ## Installation
 
