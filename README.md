@@ -4,7 +4,7 @@
 
 - [Requirements](#requirements)
 - [Supported Versions](#supported-versions)
-- [Compatibility, End of Support, End of Life](#compatibility-matrix)
+- [Compatibility, End of Support, End of Life](#compatibility-end-of-support-end-of-life)
 - [Installation](#installation)
   - [CocoaPods](#cocoapods)
   - [Manually](#manually)
