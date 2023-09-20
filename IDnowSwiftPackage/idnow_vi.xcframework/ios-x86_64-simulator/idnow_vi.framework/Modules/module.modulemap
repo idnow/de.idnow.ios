@@ -1,0 +1,6 @@
+framework module idnow_vi {
+  umbrella header "idnow_vi.h"
+
+  export *
+  module * { export * }
+}
