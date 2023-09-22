@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "de.idnow.ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/phu-idnow/de.idnow.ios",
+      "state" : {
+        "branch" : "feature/spm_support",
+        "revision" : "fe0d7ee82060b716a65bfdf7fffcf1d72f9f9533"
+      }
+    },
+    {
+      "identity" : "factory",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hmlongco/Factory",
+      "state" : {
+        "revision" : "061b3afe0358a0da7ce568f8272c847910be3dd7",
+        "version" : "2.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}

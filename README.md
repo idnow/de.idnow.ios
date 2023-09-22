@@ -9,6 +9,7 @@
   - [CocoaPods](#cocoapods)
   - [Manually](#manually)
   - [XCFramework](#xcframework)
+  - [Swift package manager](#spm)
 - [Settings](#settings)
   - [transactionToken](#transactiontoken)
   - [companyID](#companyid)
@@ -96,7 +97,7 @@
 - Since Apple deprecated bitcode and the App Store no longer accepts bitcode submissions we have removed bitcode support from IDnow SDK starting from version 6.1.3
 - SDK versions started from 6.0.0 to 6.1.3 were archived using Xcode 14. Therefore, they are likely to have compatibility issues with Xcode 13 and lower. To fix this, starting v6.1.4, we temporarily reverted to the older Xcode version 13.2.1, which is compatible with Xcode 13.x as well as Xcode 14.x.
 
-## Compatibility, End of Support, End of Life.
+## Compatibility, End of Support, End of Life
 
 Please refer to the following link to find information about compatibility, end-of-support (EOS) and end-of-life (EOL) dates pertaining to our products: [IDnow Compatibility Matrix: Browser & OS Compatibility guide](https://www.idnow.io/developers/compatibility-overview/)
 
@@ -160,6 +161,15 @@ __Note__: To get the sample projects work, you have to call "pod install" to ins
 - import 'idnow_vi.h' // --> Objective-C Project
 
 - or import idnow_vi // --> Swift Project
+
+### SPM :package:
+
+Since VI SDK version 7.2.0 (Xcode 14.3 and later) we added support for SPM by providing the corresponding xcframework as binary target.
+To add the swift package to your project please refer to: https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app
+
+- Add swift package: `https://github.com/idnow/de.idnow.ios` as dependency ![swift_package_manager_choose](/screenshots/Screenshot_spm.png)
+- Import SDK module into your code: `import idnow_vi`
+- Reference [spm example project](/examples/spm-example-idnow)
 
 ## Settings
 The settings that should be used for the identification process provided by IDnow.

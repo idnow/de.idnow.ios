@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD26A4782758D9780015C576 /* IDnowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26A4772758D9780015C576 /* IDnowApp.swift */; };
+		AD26A47A2758D9780015C576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26A4792758D9780015C576 /* ContentView.swift */; };
+		AD26A47C2758D97B0015C576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26A47B2758D97B0015C576 /* Assets.xcassets */; };
+		AD26A47F2758D97B0015C576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26A47E2758D97B0015C576 /* Preview Assets.xcassets */; };
+		AD95F853275915A700C21A4E /* IDnowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95F852275915A700C21A4E /* IDnowService.swift */; };
+		AD95F8562759166300C21A4E /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD95F8552759166300C21A4E /* ViewUtils.swift */; };
+		FF128D667E40624016137EEB /* Pods_IDnow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.release.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.release.xcconfig"; sourceTree = "<group>"; };
+		4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDnow.debug.xcconfig"; path = "Target Support Files/Pods-IDnow/Pods-IDnow.debug.xcconfig"; sourceTree = "<group>"; };
+		AD26A4742758D9780015C576 /* IDnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDnow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD26A4772758D9780015C576 /* IDnowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDnowApp.swift; sourceTree = "<group>"; };
+		AD26A4792758D9780015C576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD26A47B2758D97B0015C576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD26A47E2758D97B0015C576 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD95F84D2758E58A00C21A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AD95F852275915A700C21A4E /* IDnowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDnowService.swift; sourceTree = "<group>"; };
+		AD95F8552759166300C21A4E /* ViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUtils.swift; sourceTree = "<group>"; };
+		E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDnow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD26A4712758D9780015C576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF128D667E40624016137EEB /* Pods_IDnow.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		901FC84F48E2603D8643FC6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E27C325580A91FA1E51E61C3 /* Pods_IDnow.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD26A46B2758D9780015C576 = {
+			isa = PBXGroup;
+			children = (
+				AD26A4762758D9780015C576 /* IDnow */,
+				AD26A4752758D9780015C576 /* Products */,
+				F0046A98F241777A4F220883 /* Pods */,
+				901FC84F48E2603D8643FC6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD26A4752758D9780015C576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD26A4742758D9780015C576 /* IDnow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD26A4762758D9780015C576 /* IDnow */ = {
+			isa = PBXGroup;
+			children = (
+				AD95F8542759165600C21A4E /* Utils */,
+				AD95F8512759159700C21A4E /* Service */,
+				AD95F84D2758E58A00C21A4E /* Info.plist */,
+				AD26A4772758D9780015C576 /* IDnowApp.swift */,
+				AD26A4792758D9780015C576 /* ContentView.swift */,
+				AD26A47B2758D97B0015C576 /* Assets.xcassets */,
+				AD26A47D2758D97B0015C576 /* Preview Content */,
+			);
+			path = IDnow;
+			sourceTree = "<group>";
+		};
+		AD26A47D2758D97B0015C576 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD26A47E2758D97B0015C576 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD95F8512759159700C21A4E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AD95F852275915A700C21A4E /* IDnowService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AD95F8542759165600C21A4E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD95F8552759166300C21A4E /* ViewUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F0046A98F241777A4F220883 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */,
+				029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD26A4732758D9780015C576 /* IDnow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD26A4822758D97B0015C576 /* Build configuration list for PBXNativeTarget "IDnow" */;
+			buildPhases = (
+				18B86C0FE75BC154CEAE04EA /* [CP] Check Pods Manifest.lock */,
+				AD26A4702758D9780015C576 /* Sources */,
+				AD26A4712758D9780015C576 /* Frameworks */,
+				AD26A4722758D9780015C576 /* Resources */,
+				DC30B5BF66E8B4414246001A /* [CP] Embed Pods Frameworks */,
+				BEEAA0DAEB249FB61C467763 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDnow;
+			productName = IDnow;
+			productReference = AD26A4742758D9780015C576 /* IDnow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD26A46C2758D9780015C576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AD26A4732758D9780015C576 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = AD26A46F2758D9780015C576 /* Build configuration list for PBXProject "IDnow" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD26A46B2758D9780015C576;
+			productRefGroup = AD26A4752758D9780015C576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD26A4732758D9780015C576 /* IDnow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD26A4722758D9780015C576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD26A47F2758D97B0015C576 /* Preview Assets.xcassets in Resources */,
+				AD26A47C2758D97B0015C576 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B86C0FE75BC154CEAE04EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IDnow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEEAA0DAEB249FB61C467763 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC30B5BF66E8B4414246001A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD26A4702758D9780015C576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD26A47A2758D9780015C576 /* ContentView.swift in Sources */,
+				AD26A4782758D9780015C576 /* IDnowApp.swift in Sources */,
+				AD95F8562759166300C21A4E /* ViewUtils.swift in Sources */,
+				AD95F853275915A700C21A4E /* IDnowService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD26A4802758D97B0015C576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD26A4812758D97B0015C576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD26A4832758D97B0015C576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EBE1F4B4ADEF677B7868298 /* Pods-IDnow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IDnow/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W3KTRTP73;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IDnow/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gimme video!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Gimme mic!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.example.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD26A4842758D97B0015C576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 029A1AB31F865BDC1FD4F8D6 /* Pods-IDnow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IDnow/Preview Content\"";
+				DEVELOPMENT_TEAM = 4W3KTRTP73;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IDnow/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Gimme video!";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Gimme mic!";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.idnow.example.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD26A46F2758D9780015C576 /* Build configuration list for PBXProject "IDnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD26A4802758D97B0015C576 /* Debug */,
+				AD26A4812758D97B0015C576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD26A4822758D97B0015C576 /* Build configuration list for PBXNativeTarget "IDnow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD26A4832758D97B0015C576 /* Debug */,
+				AD26A4842758D97B0015C576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD26A46C2758D9780015C576 /* Project object */;
+}
