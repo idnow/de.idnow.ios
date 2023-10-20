@@ -10,6 +10,8 @@ Fixed crashes: We have identified and fixed some crashes to offer our end-users 
 UI/UX enhancements: We have made many adjustments to our user interface (UI) and user experience (UX) to ensure you have a seamless experience throughout the flow
 Support for arm64 and xCode 15: As part of this SDK release, we also offer support for arm64 and xCode 15
 
+Update eID intermediary certificate: For our eID solution we have updated the intermediary certificate to match the server certificate
+
 ### 6.8.0
 
 Improvements:
