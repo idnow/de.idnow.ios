@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name idnow_eid
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AuthadaAuthenticationLibrary
 import CoreGraphics
@@ -12,14 +13,15 @@ import Swift
 import SystemConfiguration
 import UIKit
 import _Concurrency
+import _StringProcessing
 @_exported import idnow_eid
-public typealias eIDRouterInitializationHandler = (Swift.Bool, Swift.Error?) -> Swift.Void
-public typealias eIDRouterCompletionHandler = (Swift.Bool, Swift.Bool, Swift.Error?) -> Swift.Void
+public typealias eIDRouterInitializationHandler = (Swift.Bool, (any Swift.Error)?) -> Swift.Void
+public typealias eIDRouterCompletionHandler = (Swift.Bool, Swift.Bool, (any Swift.Error)?) -> Swift.Void
 @_inheritsConvenienceInitializers @objc public class IDN_eID : ObjectiveC.NSObject {
   @objc public static var isDeviceNFCSupported: Swift.Bool {
     @objc get
   }
-  @objc public static var internalLogger: idnow_eid.IDnowLoggerProtocol?
+  @objc public static var internalLogger: (any idnow_eid.IDnowLoggerProtocol)?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -41,7 +43,7 @@ public typealias eIDRouterCompletionHandler = (Swift.Bool, Swift.Bool, Swift.Err
   @objc func recordView(_ name: Swift.String, segmentation: [Swift.String : Swift.String]?)
 }
 extension Foundation.URLComponents {
-  public init(service: idnow_eid.IDnowServiceProtocol)
+  public init(service: any idnow_eid.IDnowServiceProtocol)
 }
 public enum IDNowLottieLoopMode {
   case playOnce
@@ -94,7 +96,7 @@ extension idnow_eid.IDN_eIDNetworkError : Swift.CustomStringConvertible {
   @objc public var backgroundColor: UIKit.UIColor
   @objc public var underlineButtonTitles: Swift.Bool
   @objc public var boldButtonTitles: Swift.Bool
-  @objc public var cornerRadius: CoreGraphics.CGFloat {
+  @objc public var cornerRadius: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -132,15 +134,15 @@ final public class IDNowAnimation : Swift.Codable {
   final public var markerNames: [Swift.String] {
     get
   }
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  final public func encode(to encoder: Swift.Encoder) throws
+  final public func encode(to encoder: any Swift.Encoder) throws
 }
 extension idnow_eid.IDNowAnimation {
-  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: idnow_eid.IDNowAnimationCacheProvider? = nil) -> idnow_eid.IDNowAnimation?
-  public static func filepath(_ filepath: Swift.String, animationCache: idnow_eid.IDNowAnimationCacheProvider? = nil) -> idnow_eid.IDNowAnimation?
+  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: (any idnow_eid.IDNowAnimationCacheProvider)? = nil) -> idnow_eid.IDNowAnimation?
+  public static func filepath(_ filepath: Swift.String, animationCache: (any idnow_eid.IDNowAnimationCacheProvider)? = nil) -> idnow_eid.IDNowAnimation?
   public typealias IDNowDownloadClosure = (idnow_eid.IDNowAnimation?) -> Swift.Void
-  public static func loadedFrom(url: Foundation.URL, closure: @escaping idnow_eid.IDNowAnimation.IDNowDownloadClosure, animationCache: idnow_eid.IDNowAnimationCacheProvider?)
+  public static func loadedFrom(url: Foundation.URL, closure: @escaping idnow_eid.IDNowAnimation.IDNowDownloadClosure, animationCache: (any idnow_eid.IDNowAnimationCacheProvider)?)
   final public func progressTime(forMarker named: Swift.String) -> idnow_eid.IDNowAnimationProgressTime?
   final public func frameTime(forMarker named: Swift.String) -> idnow_eid.IDNowAnimationFrameTime?
   final public func progressTime(forFrame frameTime: idnow_eid.IDNowAnimationFrameTime) -> idnow_eid.IDNowAnimationProgressTime
@@ -150,15 +152,15 @@ extension idnow_eid.IDNowAnimation {
   final public var duration: Foundation.TimeInterval {
     get
   }
-  final public var bounds: CoreGraphics.CGRect {
+  final public var bounds: CoreFoundation.CGRect {
     get
   }
-  final public var size: CoreGraphics.CGSize {
+  final public var size: CoreFoundation.CGSize {
     get
   }
 }
 extension Foundation.URLRequest {
-  public init(service: idnow_eid.IDnowServiceProtocol)
+  public init(service: any idnow_eid.IDnowServiceProtocol)
 }
 public enum IDnoweIDServices : idnow_eid.IDnowServiceProtocol {
   case start(payload: idnow_eid.IDnowParameters)
@@ -190,19 +192,19 @@ public enum IDnoweIDServices : idnow_eid.IDnowServiceProtocol {
     get
   }
 }
-public typealias BoolClosure = (Swift.Bool, Swift.Error?) -> Swift.Void
+public typealias BoolClosure = (Swift.Bool, (any Swift.Error)?) -> Swift.Void
 public class IDNowAsset : Swift.Codable {
   final public let id: Swift.String
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class IDNowImageAsset : idnow_eid.IDNowAsset {
   final public let name: Swift.String
   final public let directory: Swift.String
   final public let width: Swift.Double
   final public let height: Swift.Double
-  override final public func encode(to encoder: Swift.Encoder) throws
+  override final public func encode(to encoder: any Swift.Encoder) throws
   @objc deinit
 }
 public enum IDnowHTTPMethod : Swift.String {
@@ -241,11 +243,11 @@ public protocol IDnowServiceProtocol {
   var parametersEncoding: idnow_eid.IDnowParametersEncoding { get }
 }
 public protocol IDnowProviderProtocol : ObjectiveC.NSObjectProtocol {
-  func request<T>(type: T.Type, service: idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<T, idnow_eid.IDN_eIDNetworkError>) -> ()) where T : Swift.Decodable
-  func requestData(service: idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<Foundation.Data, idnow_eid.IDN_eIDNetworkError>) -> ())
+  func request<T>(type: T.Type, service: any idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<T, idnow_eid.IDN_eIDNetworkError>) -> ()) where T : Swift.Decodable
+  func requestData(service: any idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<Foundation.Data, idnow_eid.IDN_eIDNetworkError>) -> ())
 }
 public protocol IDnowURLSessionProtocol {
-  typealias DataTaskResult = (Foundation.Data?, Foundation.URLResponse?, Swift.Error?) -> ()
+  typealias DataTaskResult = (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> ()
   func dataTask(request: Foundation.URLRequest, completionHandler: @escaping Self.DataTaskResult) -> Foundation.URLSessionDataTask
 }
 public enum IDNowLayerType : Swift.Int, Swift.Codable {
@@ -255,7 +257,7 @@ public enum IDNowLayerType : Swift.Int, Swift.Codable {
   case null
   case shape
   case text
-  public init(from decoder: Swift.Decoder) throws
+  public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -352,8 +354,8 @@ public protocol IDN_eIDNErrorProtocol {
     get
   }
 }
-public typealias IDNowAnimationFrameTime = CoreGraphics.CGFloat
-public typealias IDNowAnimationProgressTime = CoreGraphics.CGFloat
+public typealias IDNowAnimationFrameTime = CoreFoundation.CGFloat
+public typealias IDNowAnimationProgressTime = CoreFoundation.CGFloat
 public struct IDNowVector1D {
   public init(_ value: Swift.Double)
   public let value: Swift.Double
@@ -391,22 +393,22 @@ public enum IDNowCoordinateSpace : Swift.Int, Swift.Codable {
   }
 }
 extension idnow_eid.IDNowColor : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension idnow_eid.IDNowVector1D : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension idnow_eid.IDNowVector3D : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 extension idnow_eid.IDNowVector3D {
-  public var pointValue: CoreGraphics.CGPoint {
+  public var pointValue: CoreFoundation.CGPoint {
     get
   }
-  public var sizeValue: CoreGraphics.CGSize {
+  public var sizeValue: CoreFoundation.CGSize {
     get
   }
 }
@@ -431,73 +433,73 @@ public struct IDNowAnimationKeypath {
   public init(keys: [Swift.String])
 }
 public protocol IDNowAnyValueProvider {
-  var valueType: Any.Type { get }
+  var valueType: any Any.Type { get }
   func hasUpdate(frame: idnow_eid.IDNowAnimationFrameTime) -> Swift.Bool
   func value(frame: idnow_eid.IDNowAnimationFrameTime) -> Any
 }
 final public class IDNowColorValueProvider : idnow_eid.IDNowAnyValueProvider {
-  public typealias IDNowColorValueBlock = (CoreGraphics.CGFloat) -> idnow_eid.IDNowColor
+  public typealias IDNowColorValueBlock = (CoreFoundation.CGFloat) -> idnow_eid.IDNowColor
   final public var color: idnow_eid.IDNowColor {
     get
     set
   }
   public init(block: @escaping idnow_eid.IDNowColorValueProvider.IDNowColorValueBlock)
   public init(_ color: idnow_eid.IDNowColor)
-  final public var valueType: Any.Type {
+  final public var valueType: any Any.Type {
     get
   }
-  final public func hasUpdate(frame: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 final public class IDNowFloatValueProvider : idnow_eid.IDNowAnyValueProvider {
-  public typealias IDNowCGFloatValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGFloat
-  final public var float: CoreGraphics.CGFloat {
+  public typealias IDNowCGFloatValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  final public var float: CoreFoundation.CGFloat {
     get
     set
   }
   public init(block: @escaping idnow_eid.IDNowFloatValueProvider.IDNowCGFloatValueBlock)
-  public init(_ float: CoreGraphics.CGFloat)
-  final public var valueType: Any.Type {
+  public init(_ float: CoreFoundation.CGFloat)
+  final public var valueType: any Any.Type {
     get
   }
-  final public func hasUpdate(frame: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 final public class IDNowSizeValueProvider : idnow_eid.IDNowAnyValueProvider {
-  public typealias IDNowSizeValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGSize
-  final public var size: CoreGraphics.CGSize {
+  public typealias IDNowSizeValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGSize
+  final public var size: CoreFoundation.CGSize {
     get
     set
   }
   public init(block: @escaping idnow_eid.IDNowSizeValueProvider.IDNowSizeValueBlock)
-  public init(_ size: CoreGraphics.CGSize)
-  final public var valueType: Any.Type {
+  public init(_ size: CoreFoundation.CGSize)
+  final public var valueType: any Any.Type {
     get
   }
-  final public func hasUpdate(frame: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 final public class IDNowPointValueProvider : idnow_eid.IDNowAnyValueProvider {
-  public typealias IDNowPointValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGPoint
-  final public var point: CoreGraphics.CGPoint {
+  public typealias IDNowPointValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGPoint
+  final public var point: CoreFoundation.CGPoint {
     get
     set
   }
   public init(block: @escaping idnow_eid.IDNowPointValueProvider.IDNowPointValueBlock)
-  public init(_ point: CoreGraphics.CGPoint)
-  final public var valueType: Any.Type {
+  public init(_ point: CoreFoundation.CGPoint)
+  final public var valueType: any Any.Type {
     get
   }
-  final public func hasUpdate(frame: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 final public class IDNowGradientValueProvider : idnow_eid.IDNowAnyValueProvider {
-  public typealias IDNowColorsValueBlock = (CoreGraphics.CGFloat) -> [idnow_eid.IDNowColor]
-  public typealias IDNowColorLocationsBlock = (CoreGraphics.CGFloat) -> [Swift.Double]
+  public typealias IDNowColorsValueBlock = (CoreFoundation.CGFloat) -> [idnow_eid.IDNowColor]
+  public typealias IDNowColorLocationsBlock = (CoreFoundation.CGFloat) -> [Swift.Double]
   final public var colors: [idnow_eid.IDNowColor] {
     get
     set
@@ -508,11 +510,11 @@ final public class IDNowGradientValueProvider : idnow_eid.IDNowAnyValueProvider 
   }
   public init(block: @escaping idnow_eid.IDNowGradientValueProvider.IDNowColorsValueBlock, locations: idnow_eid.IDNowGradientValueProvider.IDNowColorLocationsBlock? = nil)
   public init(_ colors: [idnow_eid.IDNowColor], locations: [Swift.Double] = [])
-  final public var valueType: Any.Type {
+  final public var valueType: any Any.Type {
     get
   }
-  final public func hasUpdate(frame: CoreGraphics.CGFloat) -> Swift.Bool
-  final public func value(frame: CoreGraphics.CGFloat) -> Any
+  final public func hasUpdate(frame: CoreFoundation.CGFloat) -> Swift.Bool
+  final public func value(frame: CoreFoundation.CGFloat) -> Any
   @objc deinit
 }
 public protocol IDNowAnimationTextProvider : AnyObject {
@@ -529,10 +531,10 @@ final public class IDNowDefaultTextProvider : idnow_eid.IDNowAnimationTextProvid
   @objc deinit
 }
 public protocol IDNowAnimationFontProvider {
-  func fontFor(family: Swift.String, size: CoreGraphics.CGFloat) -> CoreText.CTFont?
+  func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
 }
 final public class IDNowDefaultFontProvider : idnow_eid.IDNowAnimationFontProvider {
-  final public func fontFor(family: Swift.String, size: CoreGraphics.CGFloat) -> CoreText.CTFont?
+  final public func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
   public init()
   @objc deinit
 }
@@ -572,9 +574,9 @@ public enum IDNowLottieBackgroundBehavior {
   @objc deinit
 }
 @objc public class IDnowURLSessionProvider : ObjectiveC.NSObject, idnow_eid.IDnowProviderProtocol {
-  public func request<T>(type: T.Type, service: idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<T, idnow_eid.IDN_eIDNetworkError>) -> ()) where T : Swift.Decodable
-  public func requestData(service: idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<Foundation.Data, idnow_eid.IDN_eIDNetworkError>) -> ())
-  public init(session: idnow_eid.IDnowURLSessionProtocol = URLSession.shared, headers: [Swift.String : Swift.String]? = nil)
+  public func request<T>(type: T.Type, service: any idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<T, idnow_eid.IDN_eIDNetworkError>) -> ()) where T : Swift.Decodable
+  public func requestData(service: any idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<Foundation.Data, idnow_eid.IDN_eIDNetworkError>) -> ())
+  public init(session: any idnow_eid.IDnowURLSessionProtocol = URLSession.shared, headers: [Swift.String : Swift.String]? = nil)
   @objc deinit
 }
 public typealias IDNowLottieCompletionBlock = (Swift.Bool) -> Swift.Void
