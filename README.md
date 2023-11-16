@@ -9,7 +9,7 @@
   - [CocoaPods](#cocoapods)
   - [Manually](#manually)
   - [XCFramework](#xcframework)
-  - [Swift package manager](#spm)
+  - [Swift package manager](#spm-package)
 - [Settings](#settings)
   - [transactionToken](#transactiontoken)
   - [companyID](#companyid)
@@ -164,7 +164,7 @@ __Note__: To get the sample projects work, you have to call "pod install" to ins
 
 ### SPM :package:
 
-Since VI SDK version 7.2.0 (Xcode 14.3 and later) we added support for SPM by providing the corresponding xcframework as binary target.
+Since VI SDK version 7.4.1 (Xcode 14.3 and later) we added support for SPM by providing the corresponding xcframework as binary target.
 To add the swift package to your project please refer to: https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app
 
 - Add swift package: `https://github.com/idnow/de.idnow.ios` as dependency ![swift_package_manager_choose](/screenshots/Screenshot_spm.png)
