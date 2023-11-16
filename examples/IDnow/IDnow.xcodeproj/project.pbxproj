@@ -126,7 +126,6 @@
 				AD26A4702758D9780015C576 /* Sources */,
 				AD26A4712758D9780015C576 /* Frameworks */,
 				AD26A4722758D9780015C576 /* Resources */,
-				DC30B5BF66E8B4414246001A /* [CP] Embed Pods Frameworks */,
 				BEEAA0DAEB249FB61C467763 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -221,23 +220,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DC30B5BF66E8B4414246001A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IDnow/Pods-IDnow-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

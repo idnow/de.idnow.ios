@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18422FDB2AFA16EE00A5822D /* IDnowSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 18422FDA2AFA16EE00A5822D /* IDnowSDK */; };
 		18652B692ABC53A9000B2502 /* IDnowSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 18652B682ABC53A9000B2502 /* IDnowSDK */; };
-		18652B6C2ABC53D1000B2502 /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = 18652B6B2ABC53D1000B2502 /* Factory */; };
-		18652B6F2ABC5528000B2502 /* IDnowSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 18652B6E2ABC5528000B2502 /* IDnowSDK */; };
+		187F8BA92AC577AC00ED9216 /* MyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187F8BA82AC577AC00ED9216 /* MyUITests.swift */; };
 		18AB34AB2A0B7FA70086E453 /* spm_example_idnowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB34AA2A0B7FA70086E453 /* spm_example_idnowApp.swift */; };
 		18AB34AD2A0B7FA70086E453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB34AC2A0B7FA70086E453 /* ContentView.swift */; };
 		18AB34AF2A0B7FA80086E453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AB34AE2A0B7FA80086E453 /* Assets.xcassets */; };
@@ -18,6 +18,7 @@
 		18AB34C72A0B7FA80086E453 /* spm_example_idnowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB34C62A0B7FA80086E453 /* spm_example_idnowUITests.swift */; };
 		18AB34C92A0B7FA80086E453 /* spm_example_idnowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB34C82A0B7FA80086E453 /* spm_example_idnowUITestsLaunchTests.swift */; };
 		18AB34DB2A0B80F60086E453 /* IDnowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AB34DA2A0B80F60086E453 /* IDnowService.swift */; };
+		18C622FB2B05B6F700E25113 /* IDnowSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 18C622FA2B05B6F700E25113 /* IDnowSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187F8BA82AC577AC00ED9216 /* MyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUITests.swift; sourceTree = "<group>"; };
 		18AB34A72A0B7FA70086E453 /* spm-example-idnow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spm-example-idnow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AB34AA2A0B7FA70086E453 /* spm_example_idnowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spm_example_idnowApp.swift; sourceTree = "<group>"; };
 		18AB34AC2A0B7FA70086E453 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,8 +60,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18652B692ABC53A9000B2502 /* IDnowSDK in Frameworks */,
-				18652B6F2ABC5528000B2502 /* IDnowSDK in Frameworks */,
-				18652B6C2ABC53D1000B2502 /* Factory in Frameworks */,
+				18C622FB2B05B6F700E25113 /* IDnowSDK in Frameworks */,
+				18422FDB2AFA16EE00A5822D /* IDnowSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +137,7 @@
 			children = (
 				18AB34C62A0B7FA80086E453 /* spm_example_idnowUITests.swift */,
 				18AB34C82A0B7FA80086E453 /* spm_example_idnowUITestsLaunchTests.swift */,
+				187F8BA82AC577AC00ED9216 /* MyUITests.swift */,
 			);
 			path = "spm-example-idnowUITests";
 			sourceTree = "<group>";
@@ -164,8 +167,8 @@
 			name = "spm-example-idnow";
 			packageProductDependencies = (
 				18652B682ABC53A9000B2502 /* IDnowSDK */,
-				18652B6B2ABC53D1000B2502 /* Factory */,
-				18652B6E2ABC5528000B2502 /* IDnowSDK */,
+				18422FDA2AFA16EE00A5822D /* IDnowSDK */,
+				18C622FA2B05B6F700E25113 /* IDnowSDK */,
 			);
 			productName = "spm-example-idnow";
 			productReference = 18AB34A72A0B7FA70086E453 /* spm-example-idnow.app */;
@@ -240,8 +243,7 @@
 			);
 			mainGroup = 18AB349E2A0B7FA70086E453;
 			packageReferences = (
-				18652B6A2ABC53D1000B2502 /* XCRemoteSwiftPackageReference "Factory" */,
-				18652B6D2ABC5528000B2502 /* XCRemoteSwiftPackageReference "de.idnow" */,
+				18C622F92B05B6F700E25113 /* XCLocalSwiftPackageReference "../.." */,
 			);
 			productRefGroup = 18AB34A82A0B7FA70086E453 /* Products */;
 			projectDirPath = "";
@@ -305,6 +307,7 @@
 			files = (
 				18AB34C92A0B7FA80086E453 /* spm_example_idnowUITestsLaunchTests.swift in Sources */,
 				18AB34C72A0B7FA80086E453 /* spm_example_idnowUITests.swift in Sources */,
+				187F8BA92AC577AC00ED9216 /* MyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +448,6 @@
 				DEVELOPMENT_TEAM = 38MPL7CVUN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Access for identification";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access for identification";
@@ -646,38 +648,24 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		18652B6A2ABC53D1000B2502 /* XCRemoteSwiftPackageReference "Factory" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hmlongco/Factory";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.0;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		18C622F92B05B6F700E25113 /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
 		};
-		18652B6D2ABC5528000B2502 /* XCRemoteSwiftPackageReference "de.idnow" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/phu-idnow/de.idnow.ios";
-			requirement = {
-				branch = feature/spm_support;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		18422FDA2AFA16EE00A5822D /* IDnowSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IDnowSDK;
+		};
 		18652B682ABC53A9000B2502 /* IDnowSDK */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = IDnowSDK;
 		};
-		18652B6B2ABC53D1000B2502 /* Factory */ = {
+		18C622FA2B05B6F700E25113 /* IDnowSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 18652B6A2ABC53D1000B2502 /* XCRemoteSwiftPackageReference "Factory" */;
-			productName = Factory;
-		};
-		18652B6E2ABC5528000B2502 /* IDnowSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 18652B6D2ABC5528000B2502 /* XCRemoteSwiftPackageReference "de.idnow" */;
 			productName = IDnowSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
