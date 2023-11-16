@@ -1,17 +1,9 @@
 ## Changelog
 
 
-### 7.4.0
-
-Improvements: 
-
-Support for arm64: As part of this release, we have made further modifications to ensure our SDK is buildable with the arm64 simulator
-Fixed crashes: We have also identified and fixed some crashes in the flow to offer our end-users a seamless experience
-UI/UX enhancements: We have made many adjustments to our user interface (UI) and user experience (UX) to ensure users don't have any trouble going through the flow
-
 ### 7.3.0
 
-Improvements: 
+Improvements:
 
 Seamless video call experience: We have taken additional steps to ensure our end-users have a seamless video call experience
 Enhanced security via dTLS: Given our commitment to data privacy and security, we have taken additional measures to make our SDK even more secure to use. A new method (setDtlsCertificateProvider) has been added in the SDK interface in order to support Datagram Transport Layer Security (dTLS).
@@ -35,7 +27,7 @@ Bug fixes:
 ### 6.7.0
 
 - Addressed deprecated dependencies: There were some dependencies in the iOS SDK that were deprecated. We have addressed these dependencies by either removing them, upgrading them to newer versions and/or building those inside our codebase.
-- Configurability for the user of Bluetooth devices: We have now made it possible to configure whether end-users are allowed to perform the VideoIdent and/or eSign process, while being connected to a Bluetooth device. This configurability exists on an OS-level.  
+- Configurability for the user of Bluetooth devices: We have now made it possible to configure whether end-users are allowed to perform the VideoIdent and/or eSign process, while being connected to a Bluetooth device. This configurability exists on an OS-level.
 - Better control over WebSocket communication: We have enhanced the way we manage WebSocket communication to reduce connectivity issues once the call gets connected to the identification expert.
 - Fixed waiting list behavior: We have modified the flow on iOS to match it with Android, so that the connection quality check (CQC) is not performed for users that are already on the waiting list.
 - Some crashes have also been identified and fixed to offer end-users a seamless experience
@@ -317,7 +309,7 @@ Changes:
 
 Migration Guide:
 - Change the SDK reference to 4.2.0,  and call pod update
-- Add eID framework 
+- Add eID framework
 - Add Authada framework
 
 ### 4.1.7
@@ -531,7 +523,7 @@ Bugfixes:
 ### 3.7.0
 Improvements:
 - Enhancements to the PhotoIdent process
-- adds deep link support for ident code urls (https://go.idnow.de/code/XXXXXX). Requires host app's 
+- adds deep link support for ident code urls (https://go.idnow.de/code/XXXXXX). Requires host app's
 application delegate to subclass the `IDNAppDelegate`.
 
 Migration Guide:
@@ -573,7 +565,7 @@ Bugfixes:
 
 ### 3.4.1
 Improvements:
-- dynamic links for the terms of use and privacy policy 
+- dynamic links for the terms of use and privacy policy
 
 Migration Guide:
 - please change the SDK reference to 3.4.1 and call pod update
@@ -607,7 +599,7 @@ Migration Guide:
 
 ### 3.3.2
 Bugfixes:
-- minor bugixes 
+- minor bugixes
 
 ### 3.3.1
 Improvements:
@@ -673,7 +665,7 @@ Migration Guide:
 ### 3.0.1
 Improvements:
 - updated audio/video client
-- custom DTLS client certificate  
+- custom DTLS client certificate
 - certificate pinning for known server certificates
 
 ### 3.0.0
