@@ -1,5 +1,10 @@
 ## Changelog
 
+### 7.4.1
+
+- Support for arm64: As part of this release, we have made further modifications to ensure our SDK is buildable with the arm64 simulator
+- Fixed crashes: We have also identified and fixed some crashes in the flow to offer our end-users a seamless experience
+ UI/UX enhancements: We have made many adjustments to our user interface (UI) and user experience (UX) to ensure users don't have any trouble going through the flow
 
 ### 7.3.0
 
