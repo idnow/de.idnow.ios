@@ -8,8 +8,9 @@
 - [Installation](#installation)
   - [CocoaPods](#cocoapods)
   - [Manually](#manually)
-  - [XCFramework](#xcframework)
-  - [Swift package manager](#spm-package)
+  - [Static XCFramework](#Static-XCFramework)
+  - [Dynamic XCFramework](#Dynamic-XCFramework)
+  - [Swift package manager (SPM)](#Swift-Package-Manager-(SPM)-package)
 - [Settings](#settings)
   - [transactionToken](#transactiontoken)
   - [companyID](#companyid)
@@ -84,11 +85,12 @@
     - [Error codes](#error-codes)
   
 ## Requirements
-- Xcode 13.0 or later
-- Deployment Target: iOS 9.0 or later
+
+- Xcode 13.0 or above for Cocoapods
+- Xcode 14.3 or above for Swift Package Manager (SPM)
 - Supported Devices: iPhone (4s + later), iPod Touch (5 + later), iPad (2 + later)
-- Cocoapods installed (v.1.11.2 or later) 
-- Device with Wifi / 3G / LTE
+- Cocoapods installed v1.11.2 or above (Note: Xcdoe 15 requires Cocoapods v1.13.0 or above)
+- Device with WiFi/3G/LTE
 
 ## Supported Versions
 - Your current SDK will stop receiving further support by May 21 (VideoIdent SDKs of version 4.2.0 and lower; 4.2.1 and higher continue to be supported)
@@ -121,18 +123,31 @@ pod install
 
 - Import SDK by using "@import IDnowSDK"
 
+Note: This is only available for Xcode 14.3 or above.
+
+When integrating VideoIdent SDK into your project, please ensure you add the -ObjC flag to your project's Other Linker Flags. This can be done by:
+1. Opening your project in Xcode
+2. Navigating to the project settings
+3. Selecting your application target
+4. Going to the ‘Build Settings’ tab
+5. Searching for Other Linker Flags
+6. Adding -ObjC to the list of flags
+
 ### Manually 
 
 [![Watch the video](/screenshots/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
+
+### Static XCFramework
 
 - Add the following pod dependencies to your podfile:
 ```
 pod 'libPhoneNumber-iOS', :git => 'https://github.com/iziz/libPhoneNumber-iOS.git'
 ```
-- Download the current release from and copy the idnow-sdk folder to your project directory.
+- Download idnow_vi_static.xcframework-<version>.tar.gz and copy the idnow_vi_static.xcframework folder to your project directory
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
-- Drag idnow-sdk folder into your Xcode project
+- Drag idnow_vi_static.xcframework into your Xcode project
 - Add to your "Link binary with libraries" section
+  
 ```
 AudioToolbox.framework
 VideoToolbox.framework
@@ -150,7 +165,7 @@ Accelerate.framework
 
 __Note__: To get the sample projects work, you have to call "pod install" to install dependencies.
 
-### XCFramework 
+### Dynamic XCFramework 
 
 - Download the current release from and copy the idnow_vi.xcframework folder to your project directory.
 
@@ -162,14 +177,16 @@ __Note__: To get the sample projects work, you have to call "pod install" to ins
 
 - or import idnow_vi // --> Swift Project
 
-### SPM :package:
+### Swift Package Manager (SPM) :package:
 
-Since VI SDK version 7.4.1 (Xcode 14.3 and later) we added support for SPM by providing the corresponding xcframework as binary target.
-To add the swift package to your project please refer to: https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app
+With the release of VideoIdent SDK v7.4.1, we have added support for SPM by providing the corresponding dynamic XCFramework as a Package Product. Please refer to the following documentation in order to add the swift package to your project:
+https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app
 
 - Add swift package: `https://github.com/idnow/de.idnow.ios` as dependency ![swift_package_manager_choose](/screenshots/Screenshot_spm.png)
 - Import SDK module into your code: `import idnow_vi`
 - Reference [spm example project](/examples/spm-example-idnow)
+
+Note: This is only available for Xcode 14.3 or above.
 
 ## Settings
 The settings that should be used for the identification process provided by IDnow.
