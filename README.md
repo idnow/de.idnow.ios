@@ -10,7 +10,7 @@
   - [Manually](#manually)
   - [Static XCFramework](#Static-XCFramework)
   - [Dynamic XCFramework](#Dynamic-XCFramework)
-  - [Swift Package Manager (SPM) :package:](#Swift-Package-Manager-(SPM)-package)
+  - [Swift Package Manager (SPM) :package:](#swift-package-manager-spm-package)
 - [Settings](#settings)
   - [transactionToken](#transactiontoken)
   - [companyID](#companyid)
