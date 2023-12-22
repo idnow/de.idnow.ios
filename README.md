@@ -605,7 +605,7 @@ __Note__: NFC can work only with iPhone 7 and higher
 -- Add a description for `Privacy - NFC Scan Usage Description`
 ![alt text](/screenshots/eid_screenshot_3.png)
     __NOTE__: 
-    - AuthadaAuthenticationLibrary.xcframework will be provided seprately.
+    - Due to technical reasons, we cannot make the following library available on Github: `AuthadaAuthenticationLibrary.xcframework`. Please contact your customer success manager so they can provide it to you.
     - Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` framework are added in `Embeded Frameworks` section
     
 ### eID Usage:
