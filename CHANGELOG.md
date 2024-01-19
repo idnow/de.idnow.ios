@@ -1,20 +1,25 @@
 ## Changelog
 
+### 7.5.0
+
+- **UI/UX enhancements**: We have made numerous adjustments to our user interface (UI) and user experience (UX) to ensure users have a seamless experience throughout the flow
+- **Fixed crashes** : We have also identified and fixed some crashes in the flow to offer our end-users a seamless experience
+
 ### 7.4.1
 
-- Support for arm64: As part of this release, we have made further modifications to ensure our SDK is buildable with the arm64 simulator
-- Fixed crashes: We have also identified and fixed some crashes in the flow to offer our end-users a seamless experience
-- UI/UX enhancements: We have made many adjustments to our user interface (UI) and user experience (UX) to ensure users don't have any trouble going through the flow
+- **Support for arm64**: As part of this release, we have made further modifications to ensure our SDK is buildable with the arm64 simulator
+- **Fixed crashes**: We have also identified and fixed some crashes in the flow to offer our end-users a seamless experience
+- **UI/UX enhancements**: We have made many adjustments to our user interface (UI) and user experience (UX) to ensure users don't have any trouble going through the flow
 
 ### 7.3.0
 
 Improvements:
 
-Seamless video call experience: We have taken additional steps to ensure our end-users have a seamless video call experience
-Enhanced security via dTLS: Given our commitment to data privacy and security, we have taken additional measures to make our SDK even more secure to use. A new method (setDtlsCertificateProvider) has been added in the SDK interface in order to support Datagram Transport Layer Security (dTLS).
-Fixed crashes: We have identified and fixed some crashes to offer our end-users a seamless experience
-UI/UX enhancements: We have made many adjustments to our user interface (UI) and user experience (UX) to ensure you have a seamless experience throughout the flow
-Support for arm64 and xCode 15: As part of this SDK release, we also offer support for arm64 and xCode 15
+- **Seamless video call experience**: We have taken additional steps to ensure our end-users have a seamless video call experience
+- **Enhanced security via dTLS**: Given our commitment to data privacy and security, we have taken additional measures to make our SDK even more secure to use. A new method (setDtlsCertificateProvider) has been added in the SDK interface in order to support Datagram Transport Layer Security (dTLS).
+- **Fixed crashes**: We have identified and fixed some crashes to offer our end-users a seamless experience
+- **UI/UX enhancements**: We have made many adjustments to our user interface (UI) and user experience (UX) to ensure you have a seamless experience throughout the flow
+- **Support for arm64 and xCode 15**: As part of this SDK release, we also offer support for arm64 and xCode 15
 
 Update eID intermediary certificate: For our eID solution we have updated the intermediary certificate to match the server certificate
 
