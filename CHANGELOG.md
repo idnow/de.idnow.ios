@@ -1,5 +1,14 @@
 ## Changelog
 
+
+### 7.7.0
+
+- **Language selector feature (v2)**: We have made some modifications to the recently-introduced Language Selector feature in order to ensure that our SaaS customers can also benefit from it.
+- **UX enhancements**: We have made numerous adjustments to our user interface (UI) and user experience (UX) to ensure users have a seamless experience throughout the flow.
+- **Masking users' PII data**: Given our focus on users' data privacy, we have taken additional steps to partially mask their Personal Identifiable Information (PII) data as it is shared between the server and client side
+- **Better memory management**: We have identified some areas of improvement to achieve better memory management and taken the necessary steps to free portions of memory for reuse when no longer needed.
+- **Name-matching for eID+QES**: For the eID QES use case, we have introduced an additional check to compare the user's full name specified during Ident ID creation with the full name received from their eID card
+
 ### 7.5.0
 
 - **UI/UX enhancements**: We have made numerous adjustments to our user interface (UI) and user experience (UX) to ensure users have a seamless experience throughout the flow
