@@ -86,9 +86,7 @@
   
 ## Requirements
 
-- Xcode 13.0 or above for Cocoapods
 - Xcode 14.3 or above for Swift Package Manager (SPM)
-- Supported Devices: iPhone (4s + later), iPod Touch (5 + later), iPad (2 + later)
 - Cocoapods installed v1.11.2 or above (Note: Xcdoe 15 requires Cocoapods v1.13.0 or above)
 - Device with WiFi/3G/LTE
 
@@ -113,7 +111,6 @@ Please refer to the following link to find information about compatibility, end-
 ```
 use_frameworks!
 pod 'IDnowSDK'
-pod 'libPhoneNumber-iOS', :git => 'https://github.com/iziz/libPhoneNumber-iOS.git'
 ```
 
 - Then, run the following command:
@@ -139,10 +136,6 @@ When integrating VideoIdent SDK into your project, please ensure you add the -Ob
 
 ### Static XCFramework
 
-- Add the following pod dependencies to your podfile:
-```
-pod 'libPhoneNumber-iOS', :git => 'https://github.com/iziz/libPhoneNumber-iOS.git'
-```
 - Download idnow_vi_static.xcframework-<version>.tar.gz and copy the idnow_vi_static.xcframework folder to your project directory
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
 - Drag idnow_vi_static.xcframework into your Xcode project
@@ -589,7 +582,7 @@ You can overwrite localisation in your own Localizable.strings files.
 ---
 
 ## eID Requirements
-- Xcode 11.x or later
+- Xcode 14.3 or later
 - Deployment Target: iOS 11.0 or later
 __Note__: NFC can work only with iPhone 7 and higher
 
@@ -597,7 +590,6 @@ __Note__: NFC can work only with iPhone 7 and higher
 ## eID Installation
 # Host app settings 
 - Add the `idnow_eid.framework`, `CoreNFC.framework` to `Link Binary With Libraries`. And the AAL framework must be added to your Xcode project as well. You can simply drag and drop the `AuthadaAuthenticationLibrary.xcframework` folder to your Xcode project.![alt text](/screenshots/eid_screenshot_1.png)
-  - As of v2.0.0 (xcframework build), `libPhoneNumber-iOS` is no longer bundled with the eID SDK therefore in case of implementing eID as a stand-alone product needs to be added manually, e.g. in Podfile `pod 'libPhoneNumber-iOS', '~> 0.9'`
 
 - Add `Near Field Communication Tag Reading` as a capability. In the entitlements file, check if there is an array for the key `Near Field Communication Tag Reader Session Format`, make sure the array contains the entry `NFC tag-specific data protocol`. ![alt text](/screenshots/eid_screenshot_2.png)
 - Update the Info.plis file:
