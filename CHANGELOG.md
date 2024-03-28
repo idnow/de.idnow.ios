@@ -1,5 +1,13 @@
 ## Changelog
 
+### 7.8.0
+
+- **UX enhancements**: We have made numerous adjustments to our user interface (UI) and user experience (UX) to ensure users have a seamless experience throughout the flow.
+
+- **Better memory management**: We have identified some areas of improvement to achieve better memory management and taken the necessary steps to free portions of memory for reuse when no longer needed.
+
+- **Replaced libPhoneNumber library with native implementation**: Instead of using a 3rd party library, we have developed the same functionality natively.
+
 
 ### 7.7.0
 
