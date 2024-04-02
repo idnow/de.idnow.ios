@@ -1,28 +1,16 @@
 PODS:
-  - IDnowSDK (7.3.0)
-  - libPhoneNumber-iOS (1.0.4)
+  - IDnowSDK (7.8.0)
 
 DEPENDENCIES:
-  - IDnowSDK (= 7.3.0)
-  - libPhoneNumber-iOS (from `https://github.com/iziz/libPhoneNumber-iOS.git`)
+  - IDnowSDK (= 7.8.0)
 
 SPEC REPOS:
   trunk:
     - IDnowSDK
 
-EXTERNAL SOURCES:
-  libPhoneNumber-iOS:
-    :git: https://github.com/iziz/libPhoneNumber-iOS.git
-
-CHECKOUT OPTIONS:
-  libPhoneNumber-iOS:
-    :commit: 8327e0d626b59b01f04c5016f5ae85f99dfcb98e
-    :git: https://github.com/iziz/libPhoneNumber-iOS.git
-
 SPEC CHECKSUMS:
-  IDnowSDK: 2d60791b260d37503d154c7de7091d69964ce34c
-  libPhoneNumber-iOS: 17715d691e3db21af61243557f455d04b082cd02
+  IDnowSDK: 6d3af54280a4d7100a31041c56e864147c3163cf
 
-PODFILE CHECKSUM: 5175ca549dce08348873ae2b2edc2f79e7322f26
+PODFILE CHECKSUM: d2314114c28993dd7b9d8e97ca50feb5373777bb
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.14.3
