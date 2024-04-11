@@ -1,5 +1,9 @@
 ## Changelog
 
+### 7.8.1
+
+- **Fixed crashes**: We have identified and fixed some crashes to ensure that our end-users don't have any trouble as they use our app
+
 ### 7.8.0
 
 - **UX enhancements**: We have made numerous adjustments to our user interface (UI) and user experience (UX) to ensure users have a seamless experience throughout the flow.
