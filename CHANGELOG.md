@@ -1,5 +1,9 @@
 ## Changelog
 
+### 8.0.1
+
+Minor improvements & bugfixes
+
 ### 8.0.0
 
 Apple has introduced some changes in regards to AppStore’s guidelines concerning data collection and API declaration, and this version is being released to ensure that the VideoIdent App/SDK complies with these changes.
