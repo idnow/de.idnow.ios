@@ -2,7 +2,7 @@
 
 ### 8.0.1
 
-Minor improvements & bugfixes
+Updated the CocoaPods distribution configuration to resolve conflicts related to the Privacy Manifest. This adjustment was necessary due to an issue where the library erroneously included the PrivacyInfo.xcprivacy file in the main bundle, causing build conflicts if two or more pods with the incorrect configuration were used in the integrator app.
 
 ### 8.0.0
 
