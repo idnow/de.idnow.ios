@@ -1,5 +1,5 @@
 
 target 'IDnow' do
   use_frameworks!
-  pod 'IDnowSDK', '8.0.0'
+  pod 'IDnowSDK', '8.0.1'
 end
