@@ -8,7 +8,9 @@ Minor improvements & bugfixes
 
 Apple has introduced some changes in regards to AppStore’s guidelines concerning data collection and API declaration, and this version is being released to ensure that the VideoIdent App/SDK complies with these changes.
 A privacy manifest file named PrivacyInfo.xcprivacy has been added to the App’s target resources where we declare the user of certain APIs and explain why they are being used.
-Implications for customers:
+
+**Implications for customers**:
+
 Starting from 01.05.2024, VideoIdent/eID SDK customers that wish to publish a new version of their Host App, have to ensure that they are using the version 8.0.0 or above. (edited) 
 
 ### 7.8.1
