@@ -1,5 +1,12 @@
 ## Changelog
 
+### 8.1.0
+
+- **InstantSign feature**: We have introduced a new feature, InstantSign, that allows users to quickly sign documents online without having the need to go through the identity verification process. In order to make this happen, we will require additional information from customers during Ident-Id creation. This will serve as a much faster eSign solution for AML-compliant customers that have previously stored ident data, and is likely to improve user experience and increase conversions.
+- **UX enhancements**: We have made various adjustments to our user interface (UI) and user experience (UX) to ensure users have a seamless experience throughout the flow.
+- **Bug fixes**: We regularly test our products to assess areas where there is any room for improvement. We identified some bugs and fixed those as part of this release.
+
+
 ### 8.0.1
 
 Updated the CocoaPods distribution configuration to resolve conflicts related to the Privacy Manifest. This adjustment was necessary due to an issue where the library erroneously included the PrivacyInfo.xcprivacy file in the main bundle, causing build conflicts if two or more pods with the incorrect configuration were used in the integrator app.
