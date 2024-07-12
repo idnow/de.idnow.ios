@@ -1,4 +1,8 @@
 ## Changelog
+### 8.2.0
+
+- **Bug fix**: Ensure that test system works with all test prefixes.
+
 
 ### 8.1.0
 
