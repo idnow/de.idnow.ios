@@ -767,12 +767,12 @@ All appearance settings are identical to the ones used in VI SDK.
 
 #### fontNameRegular
 
-An optional font name that can be used to replace the regular font used by the SDK.
+An optional font name that can be used to replace the regular font used by the SDK.</br>
 _Default:_ System regular Font
 
 #### fontNameBold
 
-An optional font name that can be used to replace the bold font used by the SDK.
+An optional font name that can be used to replace the bold font used by the SDK.</br>
 _Default:_ System bold Font
 
 ### eID Button styles
