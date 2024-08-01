@@ -768,21 +768,21 @@ All appearance settings are identical to the ones used in VI SDK.
 #### fontNameRegular
 
 An optional font name that can be used to replace the regular font used by the SDK.
-Default: System regular Font
+_Default:_ System regular Font
 
 #### fontNameBold
 
 An optional font name that can be used to replace the bold font used by the SDK.
-Default: System bold Font
+_Default:_ System bold Font
 
 ### eID Button styles
 
 #### underlineButtonTitles
 
-_Default:_ `true` - Underline all button titles
-Set this to `false` in order to underline button title text
+Underline all button titles. Set this to `false` in order to underline button title text.</br> 
+_Default:_ `true`
 
 #### boldButtonTitles
 
-_Default:_ `true` - Make button titles bold
-Set this to `false` in order to use normal font weight in button titles
+Make button titles bold. Set this to `false` in order to use normal font weight in button titles.</br>
+_Default:_ `true`
