@@ -17,9 +17,13 @@
   - [Error codes](#error-codes)
   - [Branding (IDN\_eIDAppearance)](#branding-idn_eidappearance)
     - [eID Colors](#eid-colors)
+    - [eID Configuration](#eid-configuration)
+      - [enableTnC](#enabletnc)
     - [Fonts](#fonts)
       - [fontNameRegular](#fontnameregular)
       - [fontNameBold](#fontnamebold)
+      - [fontNameMedium](#fontnamemedium)
+      - [fontNameLight](#fontnamelight)
     - [Button styles](#button-styles)
       - [underlineButtonTitles](#underlinebuttontitles)
       - [boldButtonTitles](#boldbuttontitles)
@@ -184,6 +188,7 @@ All appearance settings are identical to the ones used in VI SDK.
 | primarySubstitutionColor     | A color for link actions/subtitles in case the brand color is unreadable. Default value: brand color.                                                                          | ![eid_substitutionColor](/screenshots/eid_substitution.jpeg)           |
 | textFieldColor               | Optional color that replaces the default color of textfield backgrounds and borders. Default: defaultTextColor                                                                 | -                                                                      |
 | userInterfaceLanguage        | Optional string representing a language code to be used for the flow. Default value: system language.                                                                          | -                                                                      |
+| mode                         | IDN_eIDAppearanceMode flag that is responsible for controlling the flow appearance mode.<br />*Possible values:* </br> *light*</br>*dark*</br>*system*                              | -                                                                      |
 
 ### eID Configuration
 
@@ -211,6 +216,18 @@ _Default:_ System regular Font
 
 An optional font name that can be used to replace the bold font used by the SDK.</br>
 _Default:_ System bold Font
+
+#### fontNameMedium
+
+An optional font name that can be used to replace the medium font used by the SDK.
+
+*Default: System medium Font*
+
+#### fontNameLight
+
+An optional font name that can be used to replace the light font used by the SDK.
+
+*Default: System light Font*
 
 ### Button styles
 
