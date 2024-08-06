@@ -188,7 +188,9 @@ All appearance settings are identical to the ones used in VI SDK.
 | primarySubstitutionColor     | A color for link actions/subtitles in case the brand color is unreadable. Default value: brand color.                                                                          | ![eid_substitutionColor](/screenshots/eid_substitution.jpeg)           |
 | textFieldColor               | Optional color that replaces the default color of textfield backgrounds and borders. Default: defaultTextColor                                                                 | -                                                                      |
 | userInterfaceLanguage        | Optional string representing a language code to be used for the flow. Default value: system language.                                                                          | -                                                                      |
-| mode                         | IDN_eIDAppearanceMode flag that is responsible for controlling the flow appearance mode.<br />*Possible values:* </br> *light*</br>*dark*</br>*system*                              | -                                                                      |
+| mode                         | IDN_eIDAppearanceMode flag that is responsible for controlling the flow appearance mode.<br />*Possible values:* </br> *light*</br>*dark*</br>*system*                         | -                                                                      |
+| usedNewBrand                 | A flag that specifies if the flow should use the new style (this includes fonts, logo and button corner radius).<br />Default value: `true`                                    | ![eid_oldBrand](/screenshots/eid_old_brand.jpeg)                       |
+| cornerRadius                 | An optional value for button corner radius.**Note**: works only with `usedNewBrand = false` otherwise the button has round corners. Default value: `4.0`                       | ![eid_cornerRadius](/screenshots/eid_corner_radius.jpeg)               |
 
 ### eID Configuration
 
