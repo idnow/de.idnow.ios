@@ -16,8 +16,8 @@
       - [Objective C](#objective-c-2)
   - [Error codes](#error-codes)
   - [Branding (IDN\_eIDAppearance)](#branding-idn_eidappearance)
-    - [eID Colors](#eid-colors)
-    - [eID Configuration](#eid-configuration)
+    - [Colors](#colors)
+    - [Configuration](#configuration)
       - [enableTnC](#enabletnc)
     - [Fonts](#fonts)
       - [fontNameRegular](#fontnameregular)
@@ -173,7 +173,7 @@ self.eidRouter = [[IDN_eIDRouter alloc]
 All appearance settings are identical to the ones used in VI SDK.
 **Warning**: Branding is only allowed if you have the permissions from IDnow.
 
-### eID Colors
+### Colors
 
 
 | Parameter name               | Description                                                                                                                                                                    | Appearance                                                             |
@@ -192,7 +192,7 @@ All appearance settings are identical to the ones used in VI SDK.
 | usedNewBrand                 | A flag that specifies if the flow should use the new style (this includes fonts, logo and button corner radius).<br />Default value: `true`                                    | ![eid_oldBrand](/screenshots/eid_old_brand.jpeg)                       |
 | cornerRadius                 | An optional value for button corner radius.**Note**: works only with `usedNewBrand = false` otherwise the button has round corners. Default value: `4.0`                       | ![eid_cornerRadius](/screenshots/eid_corner_radius.jpeg)               |
 
-### eID Configuration
+### Configuration
 
 Additionally, some elements of the flow can be configured via `IDN_eIDConfig`.
 
