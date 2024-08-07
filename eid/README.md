@@ -48,7 +48,7 @@ Download the latest version of the [eID framework](https://github.com/idnow/de.i
   - Please contact your customer success manager to get a copy of `AuthadaAuthenticationLibrary.xcframework`.
 - Navigate to your project settings, select your build target and open `Build Phases`.
 - Add the `idnow_eid.framework`, `CoreNFC.framework` and `AuthadaAuthenticationLibrary.xcframework` to `Link Binary With Libraries` ![alt text](/screenshots/eid_screenshot_1.png)
-- Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` frameworks are added in `Embeded Frameworks` section![alt text](/screenshots/eid_screenshot_4.png)
+- Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` frameworks are added in `Embeded Frameworks` section.![alt text](/screenshots/eid_screenshot_4.png)
 - Add `Near Field Communication Tag Reading` as a capability. In the entitlements file, check if there is an array for the key `Near Field Communication Tag Reader Session Format`, make sure the array contains the entry `NFC tag-specific data protocol`. ![alt text](/screenshots/eid_screenshot_2.png)
 - Update the `Info.plist` file:
 
