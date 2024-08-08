@@ -171,7 +171,6 @@ self.eidRouter = [[IDN_eIDRouter alloc]
 ## Branding (IDN_eIDAppearance)
 
 All appearance settings are identical to the ones used in VI SDK.
-**Warning**: Branding is only allowed if you have the permissions from IDnow.
 
 ### Colors
 
