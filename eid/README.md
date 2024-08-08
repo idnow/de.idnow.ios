@@ -43,12 +43,11 @@ Download the latest version of the [eID framework](https://github.com/idnow/de.i
 
 ### Host app configuration
 
-- Add the `idnow_eid.framework` and `AuthadaAuthenticationLibrary.xcframework` to your Xcode project files.</br> __NOTE__:
-
-  - Please contact your customer success manager to get a copy of `AuthadaAuthenticationLibrary.xcframework`.
+- Add the `idnow_eid.framework` and `AuthadaAuthenticationLibrary.xcframework` to your Xcode project files. __NOTE__:
+  - Due to technical reasons, we cannot make the following library available on Github: `AuthadaAuthenticationLibrary.xcframework`. Please contact your customer success manager so that they can provide it to you.
 - Navigate to your project settings, select your build target and open `Build Phases`.
 - Add the `idnow_eid.framework`, `CoreNFC.framework` and `AuthadaAuthenticationLibrary.xcframework` to `Link Binary With Libraries` ![alt text](/screenshots/eid_screenshot_1.png)
-- Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` frameworks are added in `Embeded Frameworks` section.![alt text](/screenshots/eid_screenshot_4.png)
+- Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` frameworks are added in `Embed Frameworks` section.![alt text](/screenshots/eid_screenshot_4.png)
 - Add `Near Field Communication Tag Reading` as a capability. In the entitlements file, check if there is an array for the key `Near Field Communication Tag Reader Session Format`, make sure the array contains the entry `NFC tag-specific data protocol`. ![alt text](/screenshots/eid_screenshot_2.png)
 - Update the `Info.plist` file:
 
@@ -189,7 +188,7 @@ All appearance settings are identical to the ones used in VI SDK.
 | primarySubstitutionColor     | A color for link actions/subtitles in case the brand color is unreadable. Default value: brand color.                                                                                    | ![eid_substitutionColor](/screenshots/eid_substitution.jpeg)                                                                                  |
 | textFieldColor               | Optional color that replaces the default text color of the textfield components. Default: defaultTextColor                                                                               | ![eid_textFieldColor](/screenshots/eid_textfield_color.jpeg)                                                                                  |
 | mode                         | IDN_eIDAppearanceMode flag that is responsible for controlling the flow appearance mode.<br />*Possible values:* </br> *light*</br>*dark*</br>*system*                                   | ![eid_nightMode](/screenshots/eid_night_mode.jpeg) </br> *IDN_eIDAppearanceMode.dark*</br></br>Light mode can be seen on other illustrations. |
-| usedNewBrand                 | A flag that specifies if the flow should use the new style (this includes fonts, logo and button corner radius).<br />Default value: `true`                                              | ![eid_oldBrand](/screenshots/eid_old_brand.jpeg) *Old brand*<br /> ![eid_newBrand](/screenshots/eid_new_brand.jpeg)</br> *New brand*          |
+| usedNewBrand                 | A flag that specifies if the flow should use the new style (this includes fonts, logo and button corner radius).<br />Default value: `true`                                              | ![eid_oldBrand](/screenshots/eid_old_brand.jpeg) *usedNewBrand = false*<br /><br /> ![eid_newBrand](/screenshots/eid_new_brand.jpeg)</br> *usedNewBrand = true*          |
 | cornerRadius                 | An optional value for button corner radius.</br>**Note**: works only with `usedNewBrand = false` otherwise the button has round corners. </br>Default value: `4.0`                       | ![eid_cornerRadius](/screenshots/eid_corner_radius.jpeg)                                                                                      |
 | userInterfaceLanguage        | Optional string representing a language code to be used for the flow.</br>Default value: system language.                                                                                | -                                                                                                                                             |
 
