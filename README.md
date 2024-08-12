@@ -593,7 +593,6 @@ You can overwrite localisation in your own Localizable.strings files.
 ```
 
 # eID Framework
+IDnow eID is an automated and fully AML-compliant identification product. All it requires is an NFC-enabled (Near Field Communication) smartphone and a German ID document (ID card or Residence permit) with an activated eID function or the eID card for EU citizens.
 
----
-
-For configuration information see: [IDnow eID SDK](/eid/README.md)
+For configuration details, please refer to the [IDnow eID SDK Documentation](/eid/README.md)
