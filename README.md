@@ -418,13 +418,13 @@ Default: System Font: Helvetica Neue Light (< iOS 9), San Francisco Light (>= iO
 
 #### underlineButtonTitles
 
-Default: YES - Underline all button titles
-Set this to NO in order to underline button title text
+Default: `false` - Underline all button titles
+Set this to `true` in order to underline button title text
 
 #### boldButtonTitles
 
-Default: YES - Make button titles bold
-Set this to NO in order to use normal font weight in button titles
+Default: `true` - Make button titles bold
+Set this to `false` in order to use normal font weight in button titles
 
 ## PushNotifications
 
