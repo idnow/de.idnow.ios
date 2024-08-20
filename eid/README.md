@@ -14,6 +14,8 @@
       - [Objective C](#objective-c-1)
       - [Swift](#swift-2)
       - [Objective C](#objective-c-2)
+      - [Swift](#swift-3)
+      - [Objective C](#objective-c-3)
   - [Error codes](#error-codes)
   - [Branding (IDN\_eIDAppearance)](#branding-idn_eidappearance)
     - [Colors](#colors)
@@ -99,7 +101,58 @@ appearance.fontNameRegular           = @"TimesNewRomanPSMT";
 appearance.fontNameBold              = @"TimesNewRomanPS-BoldMT";
 ```
 
-**Step 3:** Obtain the ident token and instantiate the eID flow router.
+**Step 3:** Obtain the ident token and configure the `IDnowController` same as for the regular VideoIdent flow. This is needed to properly instantiate the identification system. For details see the [VideoIdent configuration.](../README.md#usage)
+
+**Step 4:** Once the initialization is finished, check for errors and proceed to the eID identification.
+
+#### Swift
+
+```
+idnowController.initialize(completionBlock: {(success, error, canceledByUser) -> Void in
+    if error != nil {
+        // Handle the error
+        return
+    }        
+    if canceledByUser {
+        // Handle cancellation
+    } else if success {
+        if IDnowSettings.sharedSettings.enable_eID {
+            // Initialize the eID flow (See step 5)
+        } else {
+            // Continue with the VideoIdent flow as described in the SDK documentation
+        }
+    }           
+})
+```
+
+#### Objective C
+
+```
+[self.idnowController initializeWithCompletionBlock:^(BOOL success, NSError *error, BOOL canceledByUser)
+     {
+        if (error)
+        {
+            // Handle the error
+        }
+        else if (success)
+        {
+            if ([IDnowSettings sharedSettings].enable_eID)
+            {
+                // Initialize the eID flow (See step 5)
+            } 
+            else
+            {
+                // Continue with the VideoIdent flow as described in the SDK documentation
+            }
+        }
+        else if (cancelledByUser)
+        {
+            // Handle cancellation
+        }
+    }];
+```
+
+**Step 5:** Initialize the `IDN_eIDRouter` that will be responsible for showing the VideoIdent/eID chooser page and the subsequent identification flow.
 
 #### Swift
 
