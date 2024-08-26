@@ -604,9 +604,9 @@ For configuration details, please refer to the [IDnow eID SDK Documentation](/ei
 
 # Other Supported Platforms
 ## Cordova
-Our Cordova plugin offers the possibility of integrating our native Android and iOS SDK into the Cordova-based applications. The plugin offers the possibility to customize and setup of the SDK. At the end of the identification process, the SDK communicates with the plug-in via a callback, allowing the Cordova application to update the flow. Please refer to this link for implementation details.
+Our Cordova plugin offers the possibility of integrating our native Android and iOS SDK into the Cordova-based applications. The plugin offers the possibility to customize and setup of the SDK. At the end of the identification process, the SDK communicates with the plug-in via a callback, allowing the Cordova application to update the flow. Please refer to this [link](https://www.npmjs.com/package/com-idnow-plugin) for implementation details.\
 **Note**: Only VideoIdent and eSign are supported so far. eID is not supported.
 
 ## React native
-Our React Native plug-in offers the possibility of integrating our native Android and iOS SDK into the React Native-based applications. It offers the possibility to customize and setup the SDK, and uses the latest expo native modules to create the bridging mechanism. Please refer to this link for implementation details.
-**Note**: Only VideoIdent and eSign are supported so far. eID is not supported.
+Our React Native plug-in offers the possibility of integrating our native Android and iOS SDK into the React Native-based applications. It offers the possibility to customize and setup the SDK, and uses the latest expo native modules to create the bridging mechanism. Please refer to this [link](https://www.npmjs.com/package/react-native-vi-idnow-library) for implementation details.\
+**Note**: Only VideoIdent and eSign are supported so far. eID is not supported
