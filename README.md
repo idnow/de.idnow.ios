@@ -59,11 +59,10 @@
   - [Usage](#usage)
   - [Localization](#localization)
     - [Example](#example)
-- [eID Framework](#eid-framework)
 - [Other Supported Platforms](#Other-Supported-Platforms)
     - [Cordova](#Cordova)
     - [Reat native](#React-native)
-
+- [eID Framework](#eid-framework)
   
 
 ## Requirements
@@ -597,11 +596,6 @@ You can overwrite localisation in your own Localizable.strings files.
 "NAVIGATION_ITEM_TITLE_DEFAULT" = "Video Ident";
 ```
 
-# eID Framework
-IDnow eID is an automated and fully AML-compliant identification product. All it requires is an NFC-enabled (Near Field Communication) smartphone and a German ID document (ID card or Residence permit) with an activated eID function or the eID card for EU citizens.
-
-For configuration details, please refer to the [IDnow eID SDK Documentation](/eid/README.md)
-
 # Other Supported Platforms
 ## Cordova
 Our Cordova plugin offers the possibility of integrating our native Android and iOS SDK into the Cordova-based applications. The plugin offers the possibility to customize and setup of the SDK. At the end of the identification process, the SDK communicates with the plug-in via a callback, allowing the Cordova application to update the flow. Please refer to this [link](https://www.npmjs.com/package/com-idnow-plugin) for implementation details.\
@@ -610,3 +604,9 @@ Our Cordova plugin offers the possibility of integrating our native Android and 
 ## React native
 Our React Native plug-in offers the possibility of integrating our native Android and iOS SDK into the React Native-based applications. It offers the possibility to customize and setup the SDK, and uses the latest expo native modules to create the bridging mechanism. Please refer to this [link](https://www.npmjs.com/package/react-native-vi-idnow-library) for implementation details.\
 **Note**: Only VideoIdent and eSign are supported so far. eID is not supported
+
+# eID Framework
+IDnow eID is an automated and fully AML-compliant identification product. All it requires is an NFC-enabled (Near Field Communication) smartphone and a German ID document (ID card or Residence permit) with an activated eID function or the eID card for EU citizens.
+
+For configuration details, please refer to the [IDnow eID SDK Documentation](/eid/README.md)
+
