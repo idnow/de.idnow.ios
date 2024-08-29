@@ -14,48 +14,27 @@
     - [Dynamic XCFramework](#dynamic-xcframework)
     - [Swift Package Manager (SPM) :package:](#swift-package-manager-spm-package)
   - [Usage](#usage)
-    - [Swift](#swift)
-    - [Objective C](#objective-c)
+      - [Swift](#swift)
+      - [Objective C](#objective-c)
     - [Settings](#settings)
       - [Swift](#swift-1)
       - [Objective C](#objective-c-1)
   - [Custom Certificate Providers](#custom-certificate-providers)
-    - [DTLS](#dtls)
-    - [mTLS](#mtls)
+      - [DTLS](#dtls)
+      - [mTLS](#mtls)
   - [Branding](#branding)
     - [Colors](#colors)
-      - [defaultTextColor](#defaulttextcolor)
-      - [primaryBrandColor](#primarybrandcolor)
-      - [proceedButtonBackgroundColor](#proceedbuttonbackgroundcolor)
-      - [proceedButtonTextColor](#proceedbuttontextcolor)
-      - [photoIdentRetakeButtonBackgroundColor](#photoidentretakebuttonbackgroundcolor)
-      - [photoIdentRetakeButtonTextColor](#photoidentretakebuttontextcolor)
-      - [textFieldColor](#textfieldcolor)
-      - [failureColor](#failurecolor)
-      - [successColor](#successcolor)
-      - [headlineColor](#headlinecolor)
-      - [linkColor](#linkcolor)
-      - [checkIconColor](#checkiconcolor)
-      - [primaryAlertActionColor](#primaryalertactioncolor)
-      - [secondaryAlertActionColor](#secondaryalertactioncolor)
-      - [CallQualityCheckScreen](#callqualitycheckscreen)
-      - [cqcOuterRingColor](#cqcouterringcolor)
-      - [cqcDefaultInnerRingColor](#cqcdefaultinnerringcolor)
-      - [cqcPoorQualityInnerColor](#cqcpoorqualityinnercolor)
-      - [cqcModerateQualityInnerColor](#cqcmoderatequalityinnercolor)
-      - [cqcExcellentQualityInnerColor](#cqcexcellentqualityinnercolor)
-    - [StatusBar](#statusbar)
-      - [enableStatusBarStyleLightContent](#enablestatusbarstylelightcontent)
+    - [Deprecated parameters (not used in VideoIdent+)](#deprecated-parameters-not-used-in-videoident)
     - [Fonts](#fonts)
       - [fontNameRegular](#fontnameregular)
       - [fontNameMedium](#fontnamemedium)
       - [fontNameLight](#fontnamelight)
+    - [Buttons](#buttons)
       - [underlineButtonTitles](#underlinebuttontitles)
       - [boldButtonTitles](#boldbuttontitles)
   - [PushNotifications](#pushnotifications)
   - [Usage](#usage-1)
   - [Localization](#localization)
-    - [Example](#example)
 - [eID Framework](#eid-framework)
 
 ## Requirements
@@ -189,9 +168,8 @@ settings.transactionToken = validatedToken;
 | websocketHost               | The target server url for websocket calls if custom server is used.                                                                                                                                                                                                                                                                                                                                                |
 | connectionType              | The connection type to use to talk the backend.`IDnowConnectionType`<br />Possible values:<br />- IDnowConnectionTypeWebsocket *(default)*<br />- IDnowConnectionTypeLongPolling                                                                                                                                                                                                                                   |
 | showIdentTokenOnCheckScreen | If this is set to`YES` the ident token will be visible on the check screen page as well. The default value of this property is `NO`. **NOTE:** does not affect VideoIdent+.                                                                                                                                                                                                                                        |
-| certificateProvider         | Accepts a subclass of`IDnowCertificateProvider`. Used to provide custom mTLS certificates used by the network connections. See [Custom certificate providres](#custom_certificate_providers).                                                                                                                                                                                                                      |
-| dtlsCertificateProvider     | Accepts a subclass of`IDnowDtlsCertificateProvider`. Used to provide custom DTLS certificates used by the WebRTC connection. See [Custom certificate providres](#custom_certificate_providers).                                                                                                                                                                                                                    |
-|                             |                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| certificateProvider         | Accepts a subclass of`IDnowCertificateProvider`. Used to provide custom mTLS certificates used by the network connections. See [Custom certificate providres](#custom-certificate-providers).                                                                                                                                                                                                                      |
+| dtlsCertificateProvider     | Accepts a subclass of`IDnowDtlsCertificateProvider`. Used to provide custom DTLS certificates used by the WebRTC connection. See [Custom certificate providres](#custom-certificate-providers).                                                                                                                                                                                                                    |
 
 ## Custom Certificate Providers
 
@@ -281,15 +259,15 @@ You can check the certificate provider + certificates [here](https://github.com/
 
 | Property name                | Description                                                                                                                                                                                                          | Appearance                                                       |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| defaultTextColor             | Optional color that replaces the default text color.<br />Default: A nearly black color <br />Recommendation: Should be some kind of a dark color that does not collide with white color.                            | <img src="/screenshots/vi_default_text.jpeg" width="250">        |
-| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: A nearly black color <br />Recommendation: Should be some kind of a dark color that does not collide with white color.                          | <img src="/screenshots/vi_secondary_text.jpeg" width="250">      |
-| primaryBrandColor            | Optional color that replaces the default brand color.<br />Default:IDnow brand orange color.<br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with white color. | <img src="/screenshots/vi_brand_color.jpeg" width="250">         |
-| proceedButtonBackgroundColor | Optional color that replaces the proceed button background color.<br />Default: `primaryBrandColor`                                                                                                                  | <img src="/screenshots/vi_primary_button.jpeg" width="250">      |
-| proceedButtonBackgroundColor | Optional color that replaces the proceed button text color.<br />Default value: White color                                                                                                                          | <img src="/screenshots/vi_primary_button_text.jpeg" width="250"> |
-| textFieldColor               | Optional color that replaces the default color of the text in the textField components.<br />Default: defaultTextColor                                                                                               | <img src="/screenshots/vi_textfield_color.jpeg" width="250">     |
-| checkIconColor               | Optional color that replaces the color that will be used for checkboxes.<br />Default: primaryBrandColor.<br />Recommendation: it should be a color that does not collide with white color.                          | <img src="/screenshots/vi_checkbox_color.jpeg" width="250">      |
-| primaryAlertActionColor      | Optional color, that replaces the color on the left action of alert controller.<br />Default: lighter grey color (#8D96A6)                                                                                           | <img src="/screenshots/vi_alert_primary.jpeg" width="250">       |
-| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: black for light mode and white for dark mode.                                                                          | <img src="/screenshots/vi_alert_secondary.jpeg" width="250">     |
+| defaultTextColor             | Optional color that replaces the default text color.<br />Default: A nearly black color <br />Recommendation: Should be some kind of a dark color that does not collide with white color.                            | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
+| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: A nearly black color <br />Recommendation: Should be some kind of a dark color that does not collide with white color.                          | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
+| primaryBrandColor            | Optional color that replaces the default brand color.<br />Default:IDnow brand orange color.<br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with white color. | <img src="/screenshots/vi_brand_color.jpeg" width="300">         |
+| proceedButtonBackgroundColor | Optional color that replaces the proceed button background color.<br />Default: `primaryBrandColor`                                                                                                                  | <img src="/screenshots/vi_primary_button.jpeg" width="300">      |
+| proceedButtonBackgroundColor | Optional color that replaces the proceed button text color.<br />Default value: White color                                                                                                                          | <img src="/screenshots/vi_primary_button_text.jpeg" width="300"> |
+| textFieldColor               | Optional color that replaces the default color of the text in the textField components.<br />Default: defaultTextColor                                                                                               | <img src="/screenshots/vi_textfield_color.jpeg" width="300">     |
+| checkIconColor               | Optional color that replaces the color that will be used for checkboxes.<br />Default: primaryBrandColor.<br />Recommendation: it should be a color that does not collide with white color.                          | <img src="/screenshots/vi_checkbox_color.jpeg" width="300">      |
+| primaryAlertActionColor      | Optional color, that replaces the color on the left action of alert controller.<br />Default: lighter grey color (#8D96A6)                                                                                           | <img src="/screenshots/vi_alert_primary.jpeg" width="300">       |
+| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: black for light mode and white for dark mode.                                                                          | <img src="/screenshots/vi_alert_secondary.jpeg" width="300">     |
 
 ### Deprecated parameters (not used in VideoIdent+)
 
@@ -484,7 +462,7 @@ In case you would like to change the localization used by the IDnow SDK at runti
 
 Supported values are: en (English), de (German), fr (French), es (Spanish), it (Italian), pt (Portugese), et (Estonian), hr (Croatian), hu (Hungarian), ka (Georgian), ko(Korean), lt(Lithuanian), lv (Latvian), nl (Dutch), pl (Polish), ua (Ukrainian),  zh (Chinese), ru (Russian).
 
-```
+```objectivec
 settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de, en, it, es, pt, fr, et, hr, hu, uk, ka, ko, lt, lv, nl, pl, ru, zh).
 
 ```
