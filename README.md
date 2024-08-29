@@ -13,18 +13,15 @@
     - [Static XCFramework](#static-xcframework)
     - [Dynamic XCFramework](#dynamic-xcframework)
     - [Swift Package Manager (SPM) :package:](#swift-package-manager-spm-package)
-  - [Settings](#settings)
-      - [transactionToken](#transactiontoken)
-      - [companyID](#companyid)
-      - [environment](#environment)
-      - [showErrorSuccessScreen](#showerrorsuccessscreen)
-      - [showVideoOverviewCheck](#showvideooverviewcheck)
-      - [forceModalPresentation](#forcemodalpresentation)
-      - [modalPresentationStyle](#modalpresentationstyle)
-      - [apiHost](#apihost)
-      - [websocketHost](#websockethost)
-      - [connectionType](#connectiontype)
-      - [certificateProvider](#certificateprovider)
+  - [Usage](#usage)
+    - [Swift](#swift)
+    - [Objective C](#objective-c)
+    - [Settings](#settings)
+      - [Swift](#swift-1)
+      - [Objective C](#objective-c-1)
+  - [Custom Certificate Providers](#custom-certificate-providers)
+    - [DTLS](#dtls)
+    - [mTLS](#mtls)
   - [Branding](#branding)
     - [Colors](#colors)
       - [defaultTextColor](#defaulttextcolor)
@@ -56,7 +53,7 @@
       - [underlineButtonTitles](#underlinebuttontitles)
       - [boldButtonTitles](#boldbuttontitles)
   - [PushNotifications](#pushnotifications)
-  - [Usage](#usage)
+  - [Usage](#usage-1)
   - [Localization](#localization)
     - [Example](#example)
 - [eID Framework](#eid-framework)
@@ -69,11 +66,7 @@
 
 ## Supported Versions
 
-- Your current SDK will stop receiving further support by May 21 (VideoIdent SDKs of version 4.2.0 and lower; 4.2.1 and higher continue to be supported)
-- After this time, the old SDK will continue to be operational, but we won’t provide any more updates and maintenance only with additional reimbursement
-- Versions of IDnowSDK lower when v5.2.0 may have issues with iOS higher when 16.0
-- Since Apple deprecated bitcode and the App Store no longer accepts bitcode submissions we have removed bitcode support from IDnow SDK starting from version 6.1.3
-- SDK versions started from 6.0.0 to 6.1.3 were archived using Xcode 14. Therefore, they are likely to have compatibility issues with Xcode 13 and lower. To fix this, starting v6.1.4, we temporarily reverted to the older Xcode version 13.2.1, which is compatible with Xcode 13.x as well as Xcode 14.x.
+The minimum SDK version required for publishing to the App Store is now 8.0.1, following the introduction of Apple's Privacy Manifest. The SDK is compiled with Xcode 15.4, which is recommended for optimal compatibility and performance.
 
 ## Compatibility, End of Support, End of Life
 
@@ -92,7 +85,7 @@ use_frameworks!
 pod 'IDnowSDK'
 ```
 
-- Then, run the following command:
+- Then, run the following command from the project's root folder in the terminal:
 
 ```
 pod install
@@ -100,9 +93,7 @@ pod install
 
 - Import SDK by using "@import IDnowSDK"
 
-Note: This is only available for Xcode 14.3 or above.
-
-When integrating VideoIdent SDK into your project, please ensure you add the -ObjC flag to your project's Other Linker Flags. This can be done by:
+__Note:__ when integrating VideoIdent SDK into your project, please ensure you have the -ObjC flag to your project's Other Linker Flags. This can be done by:
 
 1. Opening your project in Xcode
 2. Navigating to the project settings
@@ -135,9 +126,6 @@ StoreKit.framework
 Accelerate.framework
 ```
 
-- import 'IDnowSDK.h' // --> Objective-C Project
-- or import IDnowSDK // --> Swift Project
-
 __Note__: To get the sample projects work, you have to call "pod install" to install dependencies.
 
 ### Dynamic XCFramework
@@ -145,104 +133,100 @@ __Note__: To get the sample projects work, you have to call "pod install" to ins
 - Download the current release from and copy the idnow_vi.xcframework folder to your project directory.
 - Or add the repo as a git submodule (git lfs required. For the initial checkout do git lfs pull)
 - Add idnow_vi.xcframework folder into Embed Frameworks of your Xcode project as embed and signed.
-- import 'idnow_vi.h' // --> Objective-C Project
-- or import idnow_vi // --> Swift Project
 
 ### Swift Package Manager (SPM) :package:
 
-With the release of VideoIdent SDK v7.4.1, we have added support for SPM by providing the corresponding dynamic XCFramework as a Package Product. Please refer to the following documentation in order to add the swift package to your project:
+Since the release of VideoIdent SDK v7.4.1, we now support Swift Package Manager (SPM) by providing a dynamic XCFramework as a package product. For instructions on how to add the Swift package to your project, please refer to the following documentation:
 https://developer.apple.com/documentation/swift_packages/adding_package_dependencies_to_your_app
 
 - Add swift package: `https://github.com/idnow/de.idnow.ios` as dependency ![swift_package_manager_choose](/screenshots/Screenshot_spm.png)
 - Import SDK module into your code: `import idnow_vi`
 - Reference [spm example project](/examples/spm-example-idnow)
 
-Note: This is only available for Xcode 14.3 or above.
+**Note:** This is only available for Xcode 14.3 or above.
 
-## Settings
+## Usage
 
-The settings that should be used for the identification process provided by IDnow.
+After adding the IDnowSDK into your project you need to import it into your source code.
 
-#### transactionToken
+#### Swift
 
-A token that will be used for instantiating a photo or video identification.
+```import IDnowSDK```
 
-#### companyID
+#### Objective C
 
-Your company id provided by IDnow.
+```#import "IDNowSDK.h"```
 
-#### environment
+### Settings
 
-Optional: The environment that should be used for the identification (DEV, TEST, LIVE)
-The default value is `IDnowEnvironmentNotDefined`.
-The used environment will then base on the prefix of the transaction token (DEV -> DEV, TST -> Test, else -> Live).
-You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the apiHost and websocketHost.
+Before initializing the identification process at least a `transactionToken` and a `companyID` have to be set in the `IDnowSettings`. Below is an example of setting a field in the `IDnowSettings`
 
-#### showErrorSuccessScreen
+#### Swift
 
-Optional: If set to `false`, the Error-Success-Screen provided by the SDK will not be displayed.
-The default value of this property is `true`.
+```swift
+let settings = IDnowSettings() 
+settings.transactionToken = ident
+```
 
-#### showVideoOverviewCheck
+#### Objective C
 
-Optional: If set to `false`, the video overview check screen will not be shown befsore starting a video identification.
-The default value of this property is `true`.
+```objectivec
+IDnowSettings *settings = [[IDnowSettings alloc] init];
+settings.transactionToken = validatedToken;
+```
 
-#### forceModalPresentation
 
-Optional: If set to `true`, the UI for the identification will always be displayed modal.
-By default the value of this property is `false` and the identification UI will be pushed on an existing navigation controller if possible.
+| Property name               | Description                                                                                                                                                                                                                                                                                                                                                                                                        |
+| ----------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| transactionToken            | A token that will be used for instantiating a photo or video identification.                                                                                                                                                                                                                                                                                                                                       |
+| companyID                   | Your company id provided by IDnow.                                                                                                                                                                                                                                                                                                                                                                                 |
+| environment                 | Optional: The environment that should be used for the identification (DEV, TEST, LIVE) The default value is`IDnowEnvironmentNotDefined`. The used environment will then base on the prefix of the transaction token (DEV -> DEV, TST -> Test, else -> Live). You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the apiHost and websocketHost. |
+| showErrorSuccessScreen      | Optional: If set to`false`, the Error-Success-Screen provided by the SDK will not be displayed. The default value of this property is `true`.                                                                                                                                                                                                                                                                      |
+| showVideoOverviewCheck      | Optional: If set to`false`, the video overview check screen will not be shown befsore starting a video identification. The default value of this property is `true`.                                                                                                                                                                                                                                               |
+| forceModalPresentation      | Optional: If set to`true`, the UI for the identification will always be displayed modal. By default the value of this property is `false` and the identification UI will be pushed on an existing navigation controller if possible.                                                                                                                                                                               |
+| modalPresentationStyle      | Optional: Specifies the presentation style for the modal ident viewcontroller. E.g. Can be set to`UIModalPresentationCurrentContext` to allow presenting ident view controller within a popover on an iPad.                                                                                                                                                                                                        |
+| apiHost                     | The target server url for REST calls if custom server is used.                                                                                                                                                                                                                                                                                                                                                     |
+| websocketHost               | The target server url for websocket calls if custom server is used.                                                                                                                                                                                                                                                                                                                                                |
+| connectionType              | The connection type to use to talk the backend.`IDnowConnectionType`<br />Possible values:<br />- IDnowConnectionTypeWebsocket *(default)*<br />- IDnowConnectionTypeLongPolling                                                                                                                                                                                                                                   |
+| showIdentTokenOnCheckScreen | If this is set to`YES` the ident token will be visible on the check screen page as well. The default value of this property is `NO`. **NOTE:** does not affect VideoIdent+.                                                                                                                                                                                                                                        |
+| certificateProvider         | Accepts a subclass of`IDnowCertificateProvider`. Used to provide custom mTLS certificates used by the network connections. See [Custom certificate providres](#custom_certificate_providers).                                                                                                                                                                                                                      |
+| dtlsCertificateProvider     | Accepts a subclass of`IDnowDtlsCertificateProvider`. Used to provide custom DTLS certificates used by the WebRTC connection. See [Custom certificate providres](#custom_certificate_providers).                                                                                                                                                                                                                    |
+|                             |                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
-#### modalPresentationStyle
+## Custom Certificate Providers
 
-Optional: Specifies the presentation style for the modal ident viewcontroller.
-E.g. Can be set to `UIModalPresentationCurrentContext` to allow presenting ident view controller within a popover on an iPad.
+#### DTLS
 
-#### apiHost
+For custom DTLS certificates use `dtlsCertificateProvider` parameter of `IDnowSettings`.
 
-The target server url for REST calls if custom server is used.
+The certificate provider can be used to provide a custom DTLS certificate (`featureCertificate == YES`) and/or to check the
+SHA fingerprint of the server certificate (`featureFingerprint == YES`).
 
-#### websocketHost
+#### mTLS
 
-The target server url for websocket calls if custom server is used.
+For custom mTLS certificates use `certificateProvider` parameter of `IDnowSettings`.
 
-#### connectionType
+Starting from SDK version 6.5.0 we offer mTLS support for API connections.
 
-The connection type to use to talk the backend. (Websocket)
-
-#### certificateProvider
-
-(supported by the SDK version 3.22.1 or before )
-
-For custom DTLS certificates use certificateProvider parameter of IDnowSettings
-
-Sets a certificate provider for custom DTLS certificates used by the WebRTC connection.
-The certificate provider can be used to provide a custom DTLS certificate (featureCertificate == YES) and/or to check the
-SHA fingerprint of the server certificate (featureFingerprint == YES)
-
-@property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
-
-Starting from SDK version 6.5.0 we offer MTLS support for API connections
-
-MTLS enables server/client certificate validation. SDK can provide custom client certificate and several server certificates
+mTLS enables server/client certificate validation. SDK can provide custom client certificate and several server certificates.
 
 What has changed:
 
 - Certificate provider now can validate multiple server certificates/fingerprints
-- REST supports MTLS
-- WebSocket supports MTLS. For this purpose, SRWebsocket implementation was slightly updated. So, now we have a local version of SRWebsocket.
+- REST supports mTLS
+- WebSocket support for mTLS. For this purpose, SRWebsocket implementation was slightly updated. So, now we have a local version of SRWebsocket.
 
-To enable mTLS, it should be available in customer backend setting and client (consumer) should supply certificate provider to our SDK.
+To enable mTLS, it should be available in the customer backend configuration, and client (consumer) should supply certificate provider to the SDK.
 
-Certificate Generation :
+Certificate Generation:
 
 Client certificate and private key pair can be generated in a number of ways, for example, with Certificate Sign Request on Mac OS X Keychain.
 
-Client Certificates :
+Client Certificates:
 
 For iOS, key pair can be imported by platform tools from p12 package format. For example:
 
-```
+```objectivec
 
 + (SecIdentityRef)loadIdentityFromP12:(NSData *)p12Data password:(NSString *)password {
     const void *keys[] = { kSecImportExportPassphrase };
@@ -267,154 +251,82 @@ For iOS, key pair can be imported by platform tools from p12 package format. For
 
 How to do it:
 
-1- Create class similar to IDNMyMtlsCertificateProvider in ios folder
+1 - Create subclass of `IDnowCertificateProvider` similar to [IDNMyMtlsCertificateProvider](https://github.com/idnow/de.idnow.ios/blob/master/examples/IDnow/IDnow/IDNMyMtlsCertificateProvider.m)
 
-2- During SDK configuration:
+2 - During the SDK configuration step set the certificate provider:
 
+```objectivec
 [IDnowSettings sharedSettings].certificateProvider = [[IDNMyMtlsCertificateProvider alloc] init];
+```
+
+```swift
+let settings = IDnowSettings() 
+settings.certificateProvider = IDNMyMtlsCertificateProvider()
+```
 
 Feature flags for certificate provider allow usage of the corresponding features:
 
-```
+```objectivec
 - (BOOL)featureCertificate;  // use client certificate
 - (BOOL)featureFingerPrint;  // use server certificate fingerprints
 - (BOOL)featureServerCert;   // use server certificates
 ```
 
-Please check the certificate provider + certificates here https://github.com/idnow/de.idnow.ios/tree/master/IDnow
+You can check the certificate provider + certificates [here](https://github.com/idnow/de.idnow.ios/tree/master/IDnow).
 
 ## Branding
 
-Warning: Branding is only allowed if you have the permissions from IDnow.
-
 ### Colors
 
-#### defaultTextColor
 
-Optional color, that replaces the default text color.
-Default: A nearly black color
-Recommendation: Should be some kind of a dark color that does not collide with white color.
+| Property name                | Description                                                                                                                                                                                                          | Appearance                                                       |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| defaultTextColor             | Optional color that replaces the default text color.<br />Default: A nearly black color <br />Recommendation: Should be some kind of a dark color that does not collide with white color.                            | <img src="/screenshots/vi_default_text.jpeg" width="250">        |
+| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: A nearly black color <br />Recommendation: Should be some kind of a dark color that does not collide with white color.                          | <img src="/screenshots/vi_secondary_text.jpeg" width="250">      |
+| primaryBrandColor            | Optional color that replaces the default brand color.<br />Default:IDnow brand orange color.<br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with white color. | <img src="/screenshots/vi_brand_color.jpeg" width="250">         |
+| proceedButtonBackgroundColor | Optional color that replaces the proceed button background color.<br />Default: `primaryBrandColor`                                                                                                                  | <img src="/screenshots/vi_primary_button.jpeg" width="250">      |
+| proceedButtonBackgroundColor | Optional color that replaces the proceed button text color.<br />Default value: White color                                                                                                                          | <img src="/screenshots/vi_primary_button_text.jpeg" width="250"> |
+| textFieldColor               | Optional color that replaces the default color of the text in the textField components.<br />Default: defaultTextColor                                                                                               | <img src="/screenshots/vi_textfield_color.jpeg" width="250">     |
+| checkIconColor               | Optional color that replaces the color that will be used for checkboxes.<br />Default: primaryBrandColor.<br />Recommendation: it should be a color that does not collide with white color.                          | <img src="/screenshots/vi_checkbox_color.jpeg" width="250">      |
+| primaryAlertActionColor      | Optional color, that replaces the color on the left action of alert controller.<br />Default: lighter grey color (#8D96A6)                                                                                           | <img src="/screenshots/vi_alert_primary.jpeg" width="250">       |
+| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: black for light mode and white for dark mode.                                                                          | <img src="/screenshots/vi_alert_secondary.jpeg" width="250">     |
 
-#### primaryBrandColor
+### Deprecated parameters (not used in VideoIdent+)
 
-Optional color, that replaces the default brand color.
-Default: defaultTextColor
-Used in headlines, checkboxes, links, alerts etc.
-Recommendation: Should be a color that does not collide with white color.
 
-#### proceedButtonBackgroundColor
-
-Optional color, that replaces the proceed button background color.
-Default: An orange color
-
-#### proceedButtonTextColor
-
-Optional color, that replaces the proceed button text color.
-Default value: White color
-
-#### photoIdentRetakeButtonBackgroundColor
-
-Optional color, that replaces the photo ident retake button background color.
-Default value: defaultTextColor
-
-#### photoIdentRetakeButtonTextColor
-
-Optional color, that replaces the photo ident retake button text color.
-Default value: proceedButtonTextColor
-
-#### textFieldColor
-
-Optional color, that replaces the default color of textfield backgrounds and borders
-Default: defaultTextColor
-
-#### failureColor
-
-Optional color, that replaces the text color in the result screen, when an identification failed.
-Default: A red color
-
-#### successColor
-
-Optional color, that replaces the text color in the result screen, when an identification was successful.
-Default: A green color
-
-#### headlineColor
-
-Optional color, that replaces the color that will be used for headlines.
-Default: primaryBrandColor.
-Recommendation: Should be a color that does not collide with white color.
-
-#### linkColor
-
-Optional color, that replaces the color that will be used for links.
-Default: primaryBrandColor.
-Recommendation: Should be a color that does not collide with white color.
-
-#### checkIconColor
-
-Optional color, that replaces the color that will be used for checkboxes.
-Default: primaryBrandColor.
-Recommendation: Should be a color that does not collide with white color.
-
-#### primaryAlertActionColor
-
-Optional color, that replaces the color on the left action of alert controller
-Default: Default: lighter grey color (#8D96A6)
-
-#### secondaryAlertActionColor
-
-Optional color, that replaces the color on the right action of alert controller
-Default: black for light mode and white for dark mode.
-
-#### CallQualityCheckScreen
-
-#### cqcOuterRingColor
-
-Optional color that replaces default dark gray for the outer ring indicator on the quality check screen.
-Default: dark gray
-
-#### cqcDefaultInnerRingColor
-
-Optional color that replaces default light gray for the inner ring indicator on the quality check screen.
-Default: light gray
-
-#### cqcPoorQualityInnerColor
-
-Optional color that replaces default bright red for the inner ring indicator in case bad network quality on the quality check screen.
-Default: bright red
-
-#### cqcModerateQualityInnerColor
-
-Optional color that replaces default bright orange for the inner ring indicator in case moderate network quality on the quality check screen.
-Default: bright orange
-
-#### cqcExcellentQualityInnerColor
-
-Optional color that replaces default strong yellow for the inner ring indicator in case excellent network quality on the quality check screen.
-Default: strong yellow (almost green).
-
-### StatusBar
-
-#### enableStatusBarStyleLightContent
-
-Optional: Forces the light status bar style to match dark navigation bars.
-If you tint your navigation bar with a dark color by adjusting navigation bar appearance (e.g. a blue color) you can set this value to true. The statusbar style will then be adjusted to light in screens where the navigation bar is visible.
+| Property name                    | Description                                                                                                                                                                                                                                                                                                                |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| failureColor                     | Optional color, that replaces the text color in the result screen, when an identification failed.<br />Default: A red color                                                                                                                                                                                                |
+| successColor                     | Optional color, that replaces the text color in the result screen, when an identification was successful.<br />Default: A green color                                                                                                                                                                                      |
+| headlineColor                    | Optional color, that replaces the color that will be used for headlines.<br />Default: primaryBrandColor. <br />Recommendation: Should be a color that does not collide with white color.                                                                                                                                  |
+| linkColor                        | Optional color, that replaces the color that will be used for links.<br />Default: primaryBrandColor. <br />Recommendation: Should be a color that does not collide with white color.                                                                                                                                      |
+| cqcOuterRingColor                | Optional color that replaces default dark gray for the outer ring indicator on the quality check screen. Default: dark gray                                                                                                                                                                                                |
+| cqcDefaultInnerRingColor         | Optional color that replaces default light gray for the inner ring indicator on the quality check screen. Default: light gray                                                                                                                                                                                              |
+| cqcPoorQualityInnerColor         | Optional color that replaces default bright red for the inner ring indicator in case bad network quality on the quality check screen. Default: bright red                                                                                                                                                                  |
+| cqcModerateQualityInnerColor     | Optional color that replaces default bright orange for the inner ring indicator in case moderate network quality on the quality check screen. Default: bright orange                                                                                                                                                       |
+| cqcExcellentQualityInnerColor    | Optional color that replaces default strong yellow for the inner ring indicator in case excellent network quality on the quality check screen. Default: strong yellow (almost green).                                                                                                                                      |
+| enableStatusBarStyleLightContent | Optional: Forces the light status bar style to match dark navigation bars. If you tint your navigation bar with a dark color by adjusting navigation bar appearance (e.g. a blue color) you can set this value to true. The statusbar style will then be adjusted to light in screens where the navigation bar is visible. |
 
 ### Fonts
+
+Using custom fonts can be observed on the appearance illustrations fo the [branding](#branding) section.
 
 #### fontNameRegular
 
 An optional font name that can be used to replace the regular font used by the SDK.
-Default: System Font: Helvetica Neue Regular (< iOS 9), San Francisco Regular (>= iOS 9)
+Default: System Font: San Francisco Regular
 
 #### fontNameMedium
 
 An optional font name that can be used to replace the medium font used by the SDK.
-Default: System Font: Helvetica Neue Medium (< iOS 9), San Francisco Medium (>= iOS 9)
+Default: System Font: San Francisco Medium
 
 #### fontNameLight
 
 An optional font name that can be used to replace the light font used by the SDK.
-Default: System Font: Helvetica Neue Light (< iOS 9), San Francisco Light (>= iOS 9)
+Default: System Font: San Francisco Light
+
+### Buttons
 
 #### underlineButtonTitles
 
@@ -568,31 +480,17 @@ settings.connectionType = IDnowConnectionTypeLongPolling;
 
 ## Localization
 
-Warning: Adapting localizations is only allowed if you have the permissions from IDnow.
+In case you would like to change the localization used by the IDnow SDK at runtime you can do it by supplying the language code to the `IDnowSettings` instance:
 
-In case you would like to change the localization used by the IDnow SDK at runtime you can do:
-
-Allowed values are: en (English), de (German), fr (French), es (Spanish), it (Italian), pt (Portugese), et (Estonian), hr (Croatian), hu (Hungarian), ka (Georgian), ko(Korean), lt(Lithuanian), lv (Latvian), nl (Dutch), pl (Polish),  ru (Russian), zh (Chinese).
+Supported values are: en (English), de (German), fr (French), es (Spanish), it (Italian), pt (Portugese), et (Estonian), hr (Croatian), hu (Hungarian), ka (Georgian), ko(Korean), lt(Lithuanian), lv (Latvian), nl (Dutch), pl (Polish), ua (Ukrainian),  zh (Chinese), ru (Russian).
 
 ```
-settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de, en, it, es, pt, fr, et, hr, hu, ka, ko, lt, lv, nl, pl, ru, zh).
+settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de, en, it, es, pt, fr, et, hr, hu, uk, ka, ko, lt, lv, nl, pl, ru, zh).
 
-```
-
-English and German Localizations are provided by the SDK (IDnowSDKLocalization.bundle)
-You can overwrite localisation in your own Localizable.strings files.
-
-### Example
-
-```
-//Defined in the IDnowSDKLocalization.bundle
-"NAVIGATION_ITEM_TITLE_DEFAULT" = "IDnow";
-
-//Overwrite in your Localizable.strings file:
-"NAVIGATION_ITEM_TITLE_DEFAULT" = "Video Ident";
 ```
 
 # eID Framework
+
 IDnow eID is an automated and fully AML-compliant identification product. All it requires is an NFC-enabled (Near Field Communication) smartphone and a German ID document (ID card or Residence permit) with an activated eID function or the eID card for EU citizens.
 
 For configuration details, please refer to the [IDnow eID SDK Documentation](/eid/README.md)
