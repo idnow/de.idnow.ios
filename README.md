@@ -83,8 +83,6 @@ pod 'IDnowSDK'
 pod install
 ```
 
-- Import SDK by using "@import IDnowSDK"
-
 __Note:__ when integrating VideoIdent SDK into your project, please ensure you have the -ObjC flag to your project's Other Linker Flags. This can be done by:
 
 1. Opening your project in Xcode
@@ -615,8 +613,8 @@ Below is the list of possible errors.
 | IDnowErrorTokenNotSupported               | The supplied token is meant for Auto Ident.                                                                                                                                 |
 | IDnowErrorJailbreakPhoneNotSupported      | Unable to perform an identification on a jailbroken device.                                                                                               |
 | IDnowErrorInvalidWebRTCToken              | Using LiveSwitch with an invalid key.                                                                                                                     |
-| IDnowErrorHighCallVolumeTryLater          | High call volume so user agrees to try later.                                                                                                             |
-| IDnowErrorEnrolledInWaitingList           | User enrolled in Waiting List so current identification session aborted.                                                                                  |
+| IDnowErrorHighCallVolumeTryLater          | User agreeed to try the identification later due to the high call volume.                                                                                                             |
+| IDnowErrorEnrolledInWaitingList           | User enrolled in the Waiting List so current identification session aborted.                                                                                  |
 | IDnowErrorDeviceNotMeetPVIDRequirements   | The PVID requirements only allow users with devices that support the required resolution criteria (minimum 720p: 1280 × 720 at 25 frames per second) for the VideoIdent process. |
 | IDnowErrorUnifiedIdentAnotherMethod       | Error for a Unified Ident which states the user decided to switch to another type of identification.                                                      |
 | IDnowErrorTokenNotSupported_eIDStandalone | eID standalone tokens are not supported.                                                                                                                  |
