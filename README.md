@@ -34,6 +34,15 @@
       - [boldButtonTitles](#boldbuttontitles)
   - [PushNotifications](#pushnotifications)
   - [Usage](#usage-1)
+      - [Swift](#swift-2)
+      - [Objective C](#objective-c-2)
+      - [Swift](#swift-3)
+      - [Objective C](#objective-c-3)
+      - [Swift](#swift-4)
+      - [Objective C](#objective-c-4)
+      - [Swift](#swift-5)
+      - [Objective C](#objective-c-5)
+  - [Error codes](#error-codes)
   - [Localization](#localization)
 - [eID Framework](#eid-framework)
 
@@ -327,7 +336,7 @@ call the super classes (IDnowAppDelegate) implementation as well.
 Additionally we will need the production certifcate/key pair to send notifications via push to your app via
 our backend.
 
-```objective-c
+```objectivec
 
 // header
 @interface YourAppDelegate : IDnowAppDelegate
@@ -376,7 +385,30 @@ our backend.
 
 ## Usage
 
-```objective-c
+**Step 1:** Configure the appearance of the SDK. Detailed description of possible values can be found [here](#branding).
+
+#### Swift
+
+```swift
+let appearance = IDnowAppearance.shared()
+// Adjust colors
+appearance.defaultTextColor = UIColor.black
+appearance.primaryBrandColor = UIColor.blue
+appearance.proceedButtonBackgroundColor = UIColor.orange
+appearance.checkIconColor = UIColor.red
+appearance.primaryAlertActionColor = UIColor.green
+
+// Adjust fonts
+appearance.fontNameRegular = "AmericanTypewriter"
+appearance.fontNameLight = "AmericanTypewriter-Light"
+appearance.fontNameMedium = "AmericanTypewriter-CondensedBold"
+
+// To adjust navigation bar / bar button items etc. you should follow Apples UIAppearance protocol.
+```
+
+#### Objective C
+
+```objectivec
 
 // Setup IDnowAppearance
 IDnowAppearance *appearance = [IDnowAppearance sharedAppearance];
@@ -385,11 +417,8 @@ IDnowAppearance *appearance = [IDnowAppearance sharedAppearance];
 appearance.defaultTextColor = [UIColor blackColor];
 appearance.primaryBrandColor = [UIColor blueColor];
 appearance.proceedButtonBackgroundColor = [UIColor orangeColor];
-appearance.failureColor = [UIColor redColor];
-appearance.successColor = [UIColor greenColor];
-  
-// Adjust statusbar
-appearance.enableStatusBarStyleLightContent = YES;
+appearance.checkIconColor = [UIColor redColor];
+appearance.primaryAlertActionColor = [UIColor greenColor];
   
 // Adjust fonts
 appearance.fontNameRegular = @"AmericanTypewriter";
@@ -397,16 +426,63 @@ appearance.fontNameLight = @"AmericanTypewriter-Light";
 appearance.fontNameMedium = @"AmericanTypewriter-CondensedBold";
 
 // To adjust navigation bar / bar button items etc. you should follow Apples UIAppearance protocol.
+```
 
-// Setup IDnowSettings
-IDnowSettings *settings = [IDnowSettings settingsWithCompanyID:@"yourCompanyIdentifier"];
-settings.transactionToken = @"DEV-TXTXT";
+**Step 2:** Instantiate the `IDnowSettings` with your company id and the transaction token obtained from the user. The complete list of settings can be found [here](#settings).
 
-// Initialise and start identification
+#### Swift
+
+```swift
+let settings = IDnowSettings(companyID: "example_comp", transactionToken: "DEV-EXMPL") 
+```
+
+#### Objective C
+
+```objectivec
+IDnowSettings *settings = [IDnowSettings settingsWithCompanyID:@"example_comp" transactionToken:@"DEV-EXMPL"];
+```
+
+**Step 3:** Initialize and start the identification controller
+
+#### Swift
+
+```swift
+let idnowController = IDnowController.init(settings: settings)
+self.controller.initialize(completionBlock: {(success, error, canceledByUser) -> Void in
+    if (error != nil) {
+        // Handle initialization error - display an alert
+    }
+              
+    if (canceledByUser) {
+        // Identification was cancelled by user
+        return
+    }
+    // Otherwise display the identification flow to the user          
+    self.controller.startIdentification(from: ViewUtils.rootController(), withCompletionBlock: {(success, error, canceledByUser) -> Void in
+                  
+        if (error != nil) {
+            // Hnadle an identification error
+             return
+        }
+                  
+        if (canceledByUser) {
+            // The ident process was cancelled by the user
+            return
+        }
+                  
+        // Identidication was successful, proceed to the next steps in your app flow
+                  
+    })
+})
+```
+
+#### Objective C
+
+```objectivec
+// Initialize and start identification
 IDnowController *idnowController = [[IDnowController alloc] initWithSettings: settings];
 
-// Initialize identification using blocks 
-// (alternatively you can set the delegate and implement the IDnowControllerDelegate protocol)
+// Initialize identification using blocks
 [idnowController initializeWithCompletionBlock: ^(BOOL success, NSError *error, BOOL canceledByUser)
 {
         if ( success )
@@ -440,21 +516,111 @@ IDnowController *idnowController = [[IDnowController alloc] initWithSettings: se
     }];
 ```
 
-You can also change some of the optional settings:
+Alternatively, instead of handling the events via the callbacks you can implement the `IDnowControllerDelegate` and pass it as a delegate to the `IDnowViewController`.
 
-```objective-c
-// Optionally disable success and error screens
-settings.showErrorSuccessScreen = NO;
-settings.showVideoOverviewCheck = NO;
-settings.forceModalPresentation = YES;
-settings.showIdentTokenOnCheckScreen = YES;
+The protocol is as follows:
 
-// Optionally enable custom server with long polling
-settings.environment = IDnowEnvironmentCustom;
-settings.apiHost = @"https://api.yourserver.com";
-settings.websocketHost = @"https://websocket.yourserver.com";
-settings.connectionType = IDnowConnectionTypeLongPolling;
+```objectivec
+/**
+ *  Notifies the delegate
+ *  about the success or failure of an initialization or identification.
+ */
+@protocol IDnowControllerDelegate
+
+/**
+ *  Sent to the delegate when an initialization (e.g. triggered by [IDnowController initialize]) was successfull.
+ *
+ *  @param idnowController The responsible caller.
+ */
+- (void) idnowControllerDidFinishInitializing: (IDnowController *) idnowController;
+
+/**
+ *  Sent to the delegate when an initialization (e.g. triggered by [IDnowController initialize]) failed.
+ *
+ *  @param idnowController The responsible caller.
+ *  @param error The error that occurred
+ */
+- (void) idnowController: (IDnowController *) idnowController initializationDidFailWithError: (NSError *) error;
+
+@optional
+
+/**
+ *  Sent to the delegate when an identification (e.g. triggered by [IDnowController startIdentificationFromViewController:]) was successfull.
+ *
+ *  @param idnowController The responsible caller.
+ */
+- (void) idnowControllerDidFinishIdentification: (IDnowController *) idnowController;
+
+/**
+ *  Sent to the delegate when an identification (e.g. triggered by [IDnowController startIdentificationFromViewController:]) was canceled by the user.
+ *
+ *  @param idnowController The responsible caller.
+ */
+- (void) idnowControllerCanceledByUser: (IDnowController *) idnowController;
+
+/**
+ *  Sent to the delegate when an identification
+ *  (e.g. triggered by [IDnowController startIdentificationFromViewController:]) failed.
+ *
+ *  @param idnowController The responsible caller.
+ *  @param error The error that occurred.
+ */
+- (void) idnowController: (IDnowController *) idnowController identificationDidFailWithError: (NSError *) error;
+
+@end
 ```
+
+In that case, you can setup the flow like this:
+
+#### Swift
+
+```swift
+let idnowController = IDnowController.init(settings: settings)
+indowController.delegate = self // Conforms to IDnowControllerDelegate
+idnowController.initialize()
+```
+
+#### Objective C
+
+```objectivec
+IDnowController *idnowController = [[IDnowController alloc] initWithSettings: settings];
+indowController.delegate = self; // Conforms to IDnowControllerDelegate
+[idnowController initialize];
+```
+
+## Error codes
+
+In case the identification process ends with an error a resulting callback will be passed an instance of an `NSError` with a corresponding error code. The full localized description of the error can be found in the `userInfo` of the `error` object.
+
+Below is the list of possible errors.
+
+| Error Code                                | Description                                                                                                                                             |
+|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| IDnowErrorMissingTransactionToken         | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when the IDnowSettings instance does not contain a transactionToken. |
+| IDnowErrorMissingCompanyID                | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when the IDnowSettings instance does not contain a companyID.      |
+| IDnowErrorOfficeClosed                    | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when an identification cannot be initialized because the time is outside business hours. |
+| IDnowErrorMissingCamera                   | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when the device does either have no front camera or no back camera. |
+| IDnowErrorCameraAccessNotGranted          | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but the camera access was not granted by the user. |
+| IDnowErrorMicrophoneAccessNotGranted      | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but the microphone access was not granted by the user. |
+| IDnowErrorMissingMicrophone               | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but the device does not provide a microphone. |
+| IDnowErrorNoInternetConnection            | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but no internet connection is present. |
+| IDnowErrorServer                          | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`) and identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). The error object will also contain the status code returned by the server. |
+| IDnowErrorWebRTC                          | Can occur during an identification process (e.g. WebRTC service could not establish a video connection).                                                   |
+| IDnowErrorIdentificationFailed            | Can occur during an identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed. |
+| IDnowErrorTokBoxNotSupported              | With version 3.0.0 we stopped to support TokBox.                                                                                                          |
+| IDnowErrorTokenNotSupported               | The supplied token is meant for Auto Ident.                                                                                                                                 |
+| IDnowErrorJailbreakPhoneNotSupported      | Unable to perform an identification on a jailbroken device.                                                                                               |
+| IDnowErrorInvalidWebRTCToken              | Using LiveSwitch with an invalid key.                                                                                                                     |
+| IDnowErrorHighCallVolumeTryLater          | High call volume so user agrees to try later.                                                                                                             |
+| IDnowErrorEnrolledInWaitingList           | User enrolled in Waiting List so current identification session aborted.                                                                                  |
+| IDnowErrorDeviceNotMeetPVIDRequirements   | The PVID requirements only allow users with devices that support the required resolution criteria (minimum 720p: 1280 × 720 at 25 frames per second) for the VideoIdent process. |
+| IDnowErrorUnifiedIdentAnotherMethod       | Error for a Unified Ident which states the user decided to switch to another type of identification.                                                      |
+| IDnowErrorTokenNotSupported_eIDStandalone | eID standalone tokens are not supported.                                                                                                                  |
+| IDnowErrorInvalidServerCertificate        | Server trust certificate is not valid.                                                                                                                    |
+| IDnowErrorUnsupportedProduct              | Unsupported products.                                                                                                                                    |
+| IDnowErrorUnsupportedBluetoothHeadset     | Bluetooth headset not supported.                                                                                                                          |
+| IDnowInstantSignDocumentExpired           | `INSTANT_SIGN` rejected, the trusted document is expired. This document is not valid.                                                                       |
+
 
 ## Localization
 
