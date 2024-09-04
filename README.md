@@ -211,26 +211,26 @@ self.controller.initialize(completionBlock: {(success, error, canceledByUser) ->
     if (error != nil) {
         // Handle initialization error - display an alert
     }
-        
+      
     if (canceledByUser) {
         // Identification was cancelled by user
         return
     }
-    // Otherwise display the identification flow to the user    
+    // Otherwise display the identification flow to the user  
     self.controller.startIdentification(from: ViewUtils.rootController(), withCompletionBlock: {(success, error, canceledByUser) -> Void in
-            
+          
         if (error != nil) {
             // Hnadle an identification error
              return
         }
-            
+          
         if (canceledByUser) {
             // The ident process was cancelled by the user
             return
         }
-            
+          
         // Identidication was successful, proceed to the next steps in your app flow
-            
+          
     })
 })
 ```
@@ -467,20 +467,20 @@ You can check the certificate provider + certificates [here](https://github.com/
 ### Colors
 
 
-| Property name                | Description                                                                                                                                                                                                                                                                                 | Appearance                                                       |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| defaultTextColor             | Optional color that replaces the default text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> <br />Recommendation: Should be some kind of a dark color that does not collide with white color. | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
-| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> <br />Recommendation: Should be some kind of a dark color that does not collide with white color.                                                                                                 | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
-| primaryBrandColor            | Optional color that replaces the default brand color.<br />Default: <a href="#"><img valign='middle' alt='#F95602' src='https://readme-swatches.vercel.app/F95602?style=round'/></a><br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with white color.                                                                        | <img src="/screenshots/vi_brand_color.jpeg" width="300">         |
-| proceedButtonBackgroundColor | Optional color that replaces the proceed button background color.<br />Default: `primaryBrandColor`                                                                                                                                                                                         | <img src="/screenshots/vi_primary_button.jpeg" width="300">      |
-| proceedButtonTextColor | Optional color that replaces the proceed button text color.<br />Default value: <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a>                                                                                                                                                                                                 | <img src="/screenshots/vi_primary_button_text.jpeg" width="300"> |
-| textFieldColor               | Optional color that replaces the default color of the text in the textField components.<br />Default: `defaultTextColor`                                                                                                                                                                      | <img src="/screenshots/vi_textfield_color.jpeg" width="300">     |
-| checkIconColor               | Optional color that replaces the color that will be used for checkboxes.<br />Default: `primaryBrandColor`.<br />Recommendation: it should be a color that does not collide with white color.                                                                                                 | <img src="/screenshots/vi_checkbox_color.jpeg" width="300">      |
-| primaryAlertActionColor      | Optional color, that replaces the color on the left action of alert controller.<br />Default: <a href="#"><img valign='middle' alt='#8D96A6' src='https://readme-swatches.vercel.app/8D96A6?style=round'/></a>                                                                                                                                                                | <img src="/screenshots/vi_alert_primary.jpeg" width="300">       |
-| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: *dark mode* <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a> *light mode* <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a>                                                                                                                                                 | <img src="/screenshots/vi_alert_secondary.jpeg" width="300">     |
+| Property name                | Description                                                                                                                                                                                                                                                                                                                                              | Appearance                                                       |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| defaultTextColor             | Optional color that replaces the default text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                    | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
+| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                  | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
+| primaryBrandColor            | Optional color that replaces the default brand color.<br />Default: <a href="#"><img valign='middle' alt='#F95602' src='https://readme-swatches.vercel.app/F95602?style=round'/></a><br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with light color.                                             | <img src="/screenshots/vi_brand_color.jpeg" width="300">         |
+| proceedButtonBackgroundColor | Optional color that replaces the proceed button background color.<br />Default: `primaryBrandColor`                                                                                                                                                                                                                                                      | <img src="/screenshots/vi_primary_button.jpeg" width="300">      |
+| proceedButtonTextColor       | Optional color that replaces the proceed button text color.<br />Default value: <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a>                                                                                                                                                         | <img src="/screenshots/vi_primary_button_text.jpeg" width="300"> |
+| textFieldColor               | Optional color that replaces the default color of the text in the textField components.<br />Default: `defaultTextColor`                                                                                                                                                                                                                                 | <img src="/screenshots/vi_textfield_color.jpeg" width="300">     |
+| checkIconColor               | Optional color that replaces the color that will be used for checkboxes.<br />Default: `primaryBrandColor`.<br />Recommendation: it should be a color that does not collide with light color.                                                                                                                                                            | <img src="/screenshots/vi_checkbox_color.jpeg" width="300">      |
+| primaryAlertActionColor      | Optional color, that replaces the color on the left action of alert controller.<br />Default: <a href="#"><img valign='middle' alt='#8D96A6' src='https://readme-swatches.vercel.app/8D96A6?style=round'/></a>                                                                                                                                           | <img src="/screenshots/vi_alert_primary.jpeg" width="300">       |
+| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: *dark mode* <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a> *light mode* <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> | <img src="/screenshots/vi_alert_secondary.jpeg" width="300">     |
 
 <details>
-    <summary>### Deprecated parameters (not used in VideoIdent+)</summary>
+    <summary>Deprecated parameters (not used in VideoIdent+)</summary>
 
 
 | Property name                    | Description                                                                                                                                                                                                                                                                                                                |
@@ -495,6 +495,7 @@ You can check the certificate provider + certificates [here](https://github.com/
 | cqcModerateQualityInnerColor     | Optional color that replaces default bright orange for the inner ring indicator in case moderate network quality on the quality check screen. Default: bright orange                                                                                                                                                       |
 | cqcExcellentQualityInnerColor    | Optional color that replaces default strong yellow for the inner ring indicator in case excellent network quality on the quality check screen. Default: strong yellow (almost green).                                                                                                                                      |
 | enableStatusBarStyleLightContent | Optional: Forces the light status bar style to match dark navigation bars. If you tint your navigation bar with a dark color by adjusting navigation bar appearance (e.g. a blue color) you can set this value to true. The statusbar style will then be adjusted to light in screens where the navigation bar is visible. |
+
 </details>
 
 ### Fonts
@@ -504,37 +505,32 @@ Using custom fonts can be observed on the appearance illustrations fo the [brand
 #### fontNameRegular
 
 An optional font name that can be used to replace the regular font used by the SDK.
-Default: System Font: San Francisco Regular
+Default: San Francisco Regular
 
 #### fontNameMedium
 
 An optional font name that can be used to replace the medium font used by the SDK.
-Default: System Font: San Francisco Medium
+Default: San Francisco Medium
 
 #### fontNameLight
 
 An optional font name that can be used to replace the light font used by the SDK.
-Default: System Font: San Francisco Light
+Default: San Francisco Light
 
 ### Buttons
 
 #### underlineButtonTitles
 
-Default: `false` - Underline all button titles
-Set this to `true` in order to underline button title text
+Default: `false` - Underline all button titles. Set this to `true` in order to underline button title text
 
 #### boldButtonTitles
 
-Default: `true` - Make button titles bold
-Set this to `false` in order to use normal font weight in button titles
+Default: `true` - Make button titles bold. Set this to `false` in order to use normal font weight in button titles
 
 ## PushNotifications
 
-In order to use push notifications via the IDnow SDK it is neccessary that your own AppDelegate inherits from
-the provided IDnowAppDelegate. This is neccessary since the callbacks form Apple concerning registration and
-reception of push notifications is soley handled through the AppDelegate which is not part of our SDK. In case your
-own AppDelegate implements interfaces present in the IDnow SDK please make sure to make a
-call the super classes (IDnowAppDelegate) implementation as well.
+In order to use push notifications via the IDnow SDK it is neccessary that your own `AppDelegate` inherits from
+the provided `IDnowAppDelegate`. This is necessary because the callbacks from Apple regarding the registration and reception of push notifications are solely handled through the `AppDelegate`, which is not part of our SDK. If your own `IDnowAppDelegate` subclass overrides some methods, please make sure to call the superclass's implementation within your overrides.
 
 Additionally we will need the production certifcate/key pair to send notifications via push to your app via
 our backend.
@@ -606,8 +602,6 @@ Below is the list of possible errors.
 | IDnowErrorServer                          | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`) and identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). The error object will also contain the status code returned by the server. |
 | IDnowErrorWebRTC                          | Can occur during an identification process (e.g. WebRTC service could not establish a video connection).                                                                                                                                                                |
 | IDnowErrorIdentificationFailed            | Can occur during an identification process (e.g. triggered by`[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed.                                                                                                      |
-| IDnowErrorTokBoxNotSupported              | With version 3.0.0 we stopped to support TokBox.                                                                                                                                                                                                                        |
-| IDnowErrorTokenNotSupported               | The supplied token is meant for Auto Ident.                                                                                                                                                                                                                             |
 | IDnowErrorJailbreakPhoneNotSupported      | Unable to perform an identification on a jailbroken device.                                                                                                                                                                                                             |
 | IDnowErrorInvalidWebRTCToken              | Using LiveSwitch with an invalid key.                                                                                                                                                                                                                                   |
 | IDnowErrorHighCallVolumeTryLater          | User agreeed to try the identification later due to the high call volume.                                                                                                                                                                                               |
