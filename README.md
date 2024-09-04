@@ -32,7 +32,6 @@
       - [mTLS](#mtls)
   - [Branding](#branding)
     - [Colors](#colors)
-    - [Deprecated parameters (not used in VideoIdent+)](#deprecated-parameters-not-used-in-videoident)
     - [Fonts](#fonts)
       - [fontNameRegular](#fontnameregular)
       - [fontNameMedium](#fontnamemedium)
@@ -478,9 +477,10 @@ You can check the certificate provider + certificates [here](https://github.com/
 | textFieldColor               | Optional color that replaces the default color of the text in the textField components.<br />Default: `defaultTextColor`                                                                                                                                                                      | <img src="/screenshots/vi_textfield_color.jpeg" width="300">     |
 | checkIconColor               | Optional color that replaces the color that will be used for checkboxes.<br />Default: `primaryBrandColor`.<br />Recommendation: it should be a color that does not collide with white color.                                                                                                 | <img src="/screenshots/vi_checkbox_color.jpeg" width="300">      |
 | primaryAlertActionColor      | Optional color, that replaces the color on the left action of alert controller.<br />Default: <a href="#"><img valign='middle' alt='#8D96A6' src='https://readme-swatches.vercel.app/8D96A6?style=round'/></a>                                                                                                                                                                | <img src="/screenshots/vi_alert_primary.jpeg" width="300">       |
-| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: (ligth mode) <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a> (dark mode) <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a>                                                                                                                                                 | <img src="/screenshots/vi_alert_secondary.jpeg" width="300">     |
+| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: *dark mode* <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a> *light mode* <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a>                                                                                                                                                 | <img src="/screenshots/vi_alert_secondary.jpeg" width="300">     |
 
-### Deprecated parameters (not used in VideoIdent+)
+<details>
+    <summary>### Deprecated parameters (not used in VideoIdent+)</summary>
 
 
 | Property name                    | Description                                                                                                                                                                                                                                                                                                                |
@@ -495,6 +495,7 @@ You can check the certificate provider + certificates [here](https://github.com/
 | cqcModerateQualityInnerColor     | Optional color that replaces default bright orange for the inner ring indicator in case moderate network quality on the quality check screen. Default: bright orange                                                                                                                                                       |
 | cqcExcellentQualityInnerColor    | Optional color that replaces default strong yellow for the inner ring indicator in case excellent network quality on the quality check screen. Default: strong yellow (almost green).                                                                                                                                      |
 | enableStatusBarStyleLightContent | Optional: Forces the light status bar style to match dark navigation bars. If you tint your navigation bar with a dark color by adjusting navigation bar appearance (e.g. a blue color) you can set this value to true. The statusbar style will then be adjusted to light in screens where the navigation bar is visible. |
+</details>
 
 ### Fonts
 
