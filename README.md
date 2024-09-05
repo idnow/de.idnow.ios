@@ -211,26 +211,26 @@ self.controller.initialize(completionBlock: {(success, error, canceledByUser) ->
     if (error != nil) {
         // Handle initialization error - display an alert
     }
-      
+    
     if (canceledByUser) {
         // Identification was cancelled by user
         return
     }
     // Otherwise display the identification flow to the user  
     self.controller.startIdentification(from: ViewUtils.rootController(), withCompletionBlock: {(success, error, canceledByUser) -> Void in
-          
+        
         if (error != nil) {
             // Hnadle an identification error
              return
         }
-          
+        
         if (canceledByUser) {
             // The ident process was cancelled by the user
             return
         }
-          
+        
         // Identidication was successful, proceed to the next steps in your app flow
-          
+        
     })
 })
 ```
@@ -374,7 +374,6 @@ settings.transactionToken = validatedToken;
 | showErrorSuccessScreen  | **Optional:** If set to `false`, the Error-Success-Screen provided by the SDK will not be displayed. <br />The default value of this property is `true`.                                                                                                                                                                                                                                                               |
 | showVideoOverviewCheck  | **Optional:** If set to `false`, the `Terms and Conditions` screen will not be shown before starting a video identification. <br />The default value of this property is `true`.                                                                                                                                                                                                                                       |
 | forceModalPresentation  | **Optional:** If set to`true`, the UI for the identification will always be displayed modal. By default the value of this property is `false` and the identification UI will be pushed on an existing navigation controller if possible.                                                                                                                                                                               |
-| modalPresentationStyle  | **Optional:** Specifies the presentation style for the modal ident viewcontroller. E.g. Can be set to`UIModalPresentationCurrentContext` to allow presenting ident view controller within a popover on an iPad.                                                                                                                                                                                                        |
 | apiHost                 | The target server url for REST calls if custom server is used.                                                                                                                                                                                                                                                                                                                                                         |
 | websocketHost           | The target server url for websocket calls if custom server is used.                                                                                                                                                                                                                                                                                                                                                    |
 | connectionType          | The connection type to use to talk the backend.`IDnowConnectionType` <br />Possible values:<br />- IDnowConnectionTypeWebsocket *(default)*<br />- IDnowConnectionTypeLongPolling                                                                                                                                                                                                                                      |
@@ -469,15 +468,15 @@ You can check the certificate provider + certificates [here](https://github.com/
 
 | Property name                | Description                                                                                                                                                                                                                                                                                                                                              | Appearance                                                       |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| defaultTextColor             | Optional color that replaces the default text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                    | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
-| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                  | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
-| primaryBrandColor            | Optional color that replaces the default brand color.<br />Default: <a href="#"><img valign='middle' alt='#F95602' src='https://readme-swatches.vercel.app/F95602?style=round'/></a><br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with light color.                                             | <img src="/screenshots/vi_brand_color.jpeg" width="300">         |
+| defaultTextColor             | Optional color that replaces the default text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                    | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
+| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                  | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
+| primaryBrandColor            | Optional color that replaces the default brand color.<br />Default: <a href="#"><img valign='middle' alt='#F95602' src='https://readme-swatches.vercel.app/F95602?style=round'/></a> #F95602<br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with light color.                                             | <img src="/screenshots/vi_brand_color.jpeg" width="300">         |
 | proceedButtonBackgroundColor | Optional color that replaces the proceed button background color.<br />Default: `primaryBrandColor`                                                                                                                                                                                                                                                      | <img src="/screenshots/vi_primary_button.jpeg" width="300">      |
-| proceedButtonTextColor       | Optional color that replaces the proceed button text color.<br />Default value: <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a>                                                                                                                                                         | <img src="/screenshots/vi_primary_button_text.jpeg" width="300"> |
+| proceedButtonTextColor       | Optional color that replaces the proceed button text color.<br />Default value: <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/> #FFFFFF</a>                                                                                                                                                         | <img src="/screenshots/vi_primary_button_text.jpeg" width="300"> |
 | textFieldColor               | Optional color that replaces the default color of the text in the textField components.<br />Default: `defaultTextColor`                                                                                                                                                                                                                                 | <img src="/screenshots/vi_textfield_color.jpeg" width="300">     |
 | checkIconColor               | Optional color that replaces the color that will be used for checkboxes.<br />Default: `primaryBrandColor`.<br />Recommendation: it should be a color that does not collide with light color.                                                                                                                                                            | <img src="/screenshots/vi_checkbox_color.jpeg" width="300">      |
 | primaryAlertActionColor      | Optional color, that replaces the color on the left action of alert controller.<br />Default: <a href="#"><img valign='middle' alt='#8D96A6' src='https://readme-swatches.vercel.app/8D96A6?style=round'/></a>                                                                                                                                           | <img src="/screenshots/vi_alert_primary.jpeg" width="300">       |
-| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: *dark mode* <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a> *light mode* <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> | <img src="/screenshots/vi_alert_secondary.jpeg" width="300">     |
+| secondaryAlertActionColor    | Optional color, that replaces the color on the right action of alert controller<br />Default: *dark mode* <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a> #FFFFFF *light mode* <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/> #000000</a> | <img src="/screenshots/vi_alert_secondary.jpeg" width="300">     |
 
 <details>
     <summary>Deprecated parameters (not used in VideoIdent+)</summary>
@@ -591,8 +590,8 @@ Below is the list of possible errors.
 
 | Error Code                                | Description                                                                                                                                                                                                                                                             |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IDnowErrorMissingTransactionToken         | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `transactionToken`.                                                                                                          |
-| IDnowErrorMissingCompanyID                | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `companyID`.                                                                                                                 |
+| IDnowErrorMissingTransactionToken         | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `transactionToken`.                                                                                                      |
+| IDnowErrorMissingCompanyID                | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `companyID`.                                                                                                             |
 | IDnowErrorOfficeClosed                    | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when an identification cannot be initialized because the time is outside business hours.                                                                                      |
 | IDnowErrorMissingCamera                   | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the device does either have no front camera or no back camera.                                                                                                           |
 | IDnowErrorCameraAccessNotGranted          | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but the camera access was not granted by the user.                                                                                          |
@@ -612,7 +611,7 @@ Below is the list of possible errors.
 | IDnowErrorInvalidServerCertificate        | Server trust certificate is not valid.                                                                                                                                                                                                                                  |
 | IDnowErrorUnsupportedProduct              | Unsupported products.                                                                                                                                                                                                                                                   |
 | IDnowErrorUnsupportedBluetoothHeadset     | Bluetooth headset not supported.                                                                                                                                                                                                                                        |
-| IDnowInstantSignDocumentExpired           | `INSTANT_SIGN` rejected, the trusted document is expired. This document is not valid.   |
+| IDnowInstantSignDocumentExpired           | `INSTANT_SIGN` rejected, the trusted document is expired. This document is not valid.                                                                                                                                                                                   |
 
 ## Localization
 
