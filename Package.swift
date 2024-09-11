@@ -7,14 +7,11 @@ let package = Package(
     name: "IDnowSDK",
     platforms: [.iOS(.v11)],
     products: [
-        .library(
-            name: "IDnowSDK",
-            targets: ["IDnowSDK"]),
+        .library(name: "IDnowSDK", targets: ["IDnowVideo"]),
+        .library(name: "IDnowSDK-with-NFC", targets: ["IDnowVideo", "IDnowEID"]),
     ],
     targets: [
-        .binaryTarget(
-                            name: "IDnowSDK",
-                            path: "idnow_vi.xcframework"
-                    )
+        .binaryTarget(name: "IDnowVideo", path: "idnow_vi.xcframework"),
+        .binaryTarget(name: "IDnowEID", path: "eid/idnow_eid.xcframework"),
     ]
 )
