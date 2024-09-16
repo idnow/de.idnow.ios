@@ -80,7 +80,7 @@ pod 'IDnowSDK'
 pod install
 ```
 
-__Note:__ when integrating VideoIdent SDK into your project, please ensure you have the `-ObjC` flag in your project's `Other Linker Flags`. This can be done by:
+__Note:__ When integrating VideoIdent SDK into your project, please ensure you have the `-ObjC` flag in your project's `Other Linker Flags`. This can be done by:
 
 1. Opening your project in Xcode
 2. Navigating to the project settings
@@ -187,7 +187,7 @@ appearance.fontNameMedium = @"AmericanTypewriter-CondensedBold";
 // To adjust navigation bar / bar button items etc. you should follow Apples UIAppearance protocol.
 ```
 
-**Step 3:** Instantiate the `IDnowSettings` with your company id and the transaction token obtained from the user. The complete list of settings can be found [here](#settings).
+**Step 3:** Instantiate the `IDnowSettings` with your `companyId` and the `transactionToken` obtained from the user. The complete list of settings can be found [here](#settings).
 
 #### Swift
 
