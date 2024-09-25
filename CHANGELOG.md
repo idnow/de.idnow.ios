@@ -1,5 +1,11 @@
 ## Changelog
 
+### 8.5.0
+
+- **Name verification screen**: We have introduced a new 'Name Verification' screen at the beginning of the flow. The purpose of this screen is to allow users to verify whether or not the name stored against their identification token matches the name on their identification document.
+- **UI/UX enhancements**: We have made various adjustments to our user interface (UI) and user experience (UX) to ensure users have a consistent experience throughout the flow.
+- **Reporting**: We have made a small change to ensure more reliable reporting across our iOS and Android SDK.
+- **Bug fixes**: We regularly test our products to assess areas where there is any room for improvement. We identified some minor bugs and fixed those as part of this release.
 
 ### 8.4.0 
 
