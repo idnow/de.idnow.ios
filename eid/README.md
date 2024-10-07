@@ -116,11 +116,7 @@ idnowController.initialize(completionBlock: {(success, error, canceledByUser) ->
     if canceledByUser {
         // Handle cancellation
     } else if success {
-        if IDnowSettings.sharedSettings.enable_eID {
-            // Initialize the eID flow (See step 5)
-        } else {
-            // Continue with the VideoIdent flow as described in the SDK documentation
-        }
+        // Initialize the eID flow (See step 5). Note: This should be used instead of the regular VideIdent flow.
     }           
 })
 ```
@@ -136,14 +132,7 @@ idnowController.initialize(completionBlock: {(success, error, canceledByUser) ->
         }
         else if (success)
         {
-            if ([IDnowSettings sharedSettings].enable_eID)
-            {
-                // Initialize the eID flow (See step 5)
-            } 
-            else
-            {
-                // Continue with the VideoIdent flow as described in the SDK documentation
-            }
+            // Initialize the eID flow (See step 5). Note: This should be used instead of the regular VideIdent flow.
         }
         else if (cancelledByUser)
         {
