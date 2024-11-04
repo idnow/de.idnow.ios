@@ -1,5 +1,10 @@
 ## Changelog
 
+
+### 8.5.1
+
+- **Bug fixes**: We regularly test our products to assess areas where there is any room for improvement. We identified some minor bugs and fixed those as part of this release.
+- 
 ### 8.5.0
 
 - **Name verification screen**: We have introduced a new 'Name Verification' screen at the beginning of the flow. The purpose of this screen is to allow users to verify whether or not the name stored against their identification token matches the name on their identification document.
