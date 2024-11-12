@@ -70,6 +70,13 @@ enum APPEARANCE_MODE
 @property (strong, nonatomic) UIColor *defaultTextColor;
 
 /**
+ *  Optional color, that replaces the secondary text color.
+ *  Default: A nearly black color
+ *  Recommendation: Should be some kind of a dark color that does not collide with white color.
+ */
+@property (strong, nonatomic) UIColor *secondaryTextColor;
+
+/**
  *  Optional color, that replaces the default brand color.
  *  Default: IDnow orange color.
  *  Used in headlines, checkboxes, links, alerts etc.
@@ -124,21 +131,6 @@ enum APPEARANCE_MODE
  *  Recommendation: Should be a color that does not collide with proceedButtonBackgroundColor.
  */
 @property (strong, nonatomic) UIColor *proceedButtonTextColor;
-
-
-/**
- *  Optional color, that replaces the photo ident retake button background color.
- *  Default value: defaultTextColor
- *  Recommendation: Should be a color that does not collide with photoIdentRetakeButtonTextColor.
- */
-@property (strong, nonatomic) UIColor *photoIdentRetakeButtonBackgroundColor;
-
-/**
- *  Optional color, that replaces the photo ident retake button text color.
- *  Default value: proceedButtonTextColor
- *  Recommendation: Should be a color that does not collide with photoIdentRetakeButtonBackgroundColor.
- */
-@property (strong, nonatomic) UIColor *photoIdentRetakeButtonTextColor;
 
 /**
  *  Optional color that replaces the "Back" button color in the WebConsentProtocol-Signing contract review screen.
