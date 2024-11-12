@@ -143,6 +143,11 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *  Not support bluetooth headset
      */
     IDnowErrorUnsupportedBluetoothHeadset  = 1023,
+    
+    /**
+     *  INSTANT_SIGN rejected, the trusted document is expired. This document is not valid.
+     */
+    IDnowInstantSignDocumentExpired = 1024
 };
 
 @interface NSError (IDnowError)
