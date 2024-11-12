@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .binaryTarget(
                             name: "IDnowSDK",
-                            path: "idnow_vi.xcframework"
+                            path: "vi/idnow_vi.xcframework"
                     )
     ]
 )
