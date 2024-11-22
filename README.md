@@ -30,6 +30,10 @@
   - [Custom Certificate Providers](#custom-certificate-providers)
       - [DTLS](#dtls)
       - [mTLS](#mtls)
+  - [Enabling Front-End TLS Certificate Validation for UDP Connections](#enabling-front-end-tls-certificate-validation-for-udp-connections)
+    - [Example Implementation](#example-implementation)
+      - [Header File](#header-file)
+      - [Implementation File](#implementation-file)
   - [Branding](#branding)
     - [Colors](#colors)
     - [Fonts](#fonts)
@@ -460,6 +464,74 @@ Feature flags for certificate provider allow usage of the corresponding features
 ```
 
 You can check the certificate provider + certificates [here](https://github.com/idnow/de.idnow.ios/tree/master/IDnow).
+
+## Enabling Front-End TLS Certificate Validation for UDP Connections
+
+To enable front-end TLS certificate validation for UDP connections, you must assign the `dtlsUDPCertificateProvider` property of `IDnowSettings` with a custom subclass of `IDnowDtlsCertificateProvider`. This must be done **before** the controller initialization call.
+
+### Example Implementation
+
+Below is an example of how to set up a custom provider for front-end certificate validation:
+
+#### Header File
+
+```objectivec
+#import "IDnowDtlsCertificateProvider.h"
+
+@interface IDnowDtlsUDPProvider : IDnowDtlsCertificateProvider
+
+- (NSMutableData*)providePrivateKeyBytestream;
+- (NSMutableData*)provideCertificateBytestream;
+- (NSData*)provideServerFingerPrintByteStream;
+
+@end
+```
+
+#### Implementation File
+
+```objectivec
+#import "IDnowDtlsUDPProvider.h"
+
+static NSString* CERTIFICATE_FILENAME = @"certificate.der";
+
+@implementation IDnowDtlsUDPProvider
+
+- (NSMutableData*)provideCertificateBytestream {
+    NSMutableData* data = [self readBytesInAppBundleFromFile:CERTIFICATE_FILENAME];
+    return data;
+}
+
+- (BOOL)featureFingerPrint {
+    return true;
+}
+
+- (NSMutableData*)readBytesInAppBundleFromFile:(NSString*)fileName {
+    NSFileManager* manager = [NSFileManager defaultManager];
+    NSMutableData* data = nil;
+    NSArray *names = [fileName componentsSeparatedByString:@"."];
+    if (names.count < 2) {
+        return nil;
+    }
+    NSString *fileString = [[NSBundle mainBundle] pathForResource:names[0] ofType:names[names.count - 1]];
+    if ([manager fileExistsAtPath:fileString]) {
+        data = [[NSMutableData alloc] initWithContentsOfFile:fileString options:NSDataReadingUncached error:NULL];
+    }
+    return data;
+}
+
+- (NSMutableData *)providePrivateKeyBytestream {
+    return nil;
+}
+
+- (NSData *)provideServerFingerPrintByteStream {
+    return nil;
+}
+
+@end
+```
+
+By implementing this provider and assigning it to `dtlsUDPCertificateProvider`, front-end certificate validation for all UDP connections will be enabled.
+
 
 ## Branding
 
