@@ -10,8 +10,13 @@
 
 @interface IDNMyMtlsCertificateProvider : IDnowCertificateProvider
 
+@property (nonatomic, strong) NSString *clientCertFileName;
+
 - (SecIdentityRef)provideCertificateIdentity;
 - (NSArray<NSData*>*)provideServerFingerPrintByteStreams;
-- (BOOL)verifyServerCertificate:(NSData*)serverCertificate;
+
+- (NSArray<NSData *> *)provideServerCertificateByteStreams;
+
+- (NSArray<NSString *> *)availableClientCertificateFileNames;
 
 @end

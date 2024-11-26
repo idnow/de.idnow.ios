@@ -393,7 +393,7 @@ SHA fingerprint of the server certificate (`featureFingerprint == YES`).
 
 For custom mTLS certificates use `certificateProvider` parameter of `IDnowSettings`.
 
-Starting from SDK version 6.5.0 we offer mTLS support for API connections.
+Starting from SDK version 6.5.0 we offer mTLS support for API connections, couple of enhancements were added in 9.1.0.
 
 mTLS enables server/client certificate validation. SDK can provide custom client certificate and several server certificates.
 
@@ -402,39 +402,6 @@ What has changed:
 - Certificate provider now can validate multiple server certificates/fingerprints
 - REST supports mTLS
 - WebSocket support for mTLS. For this purpose, SRWebsocket implementation was slightly updated. So, now we have a local version of SRWebsocket.
-
-To enable mTLS, it should be available in the customer backend configuration, and client (consumer) should supply certificate provider to the SDK.
-
-Certificate Generation:
-
-Client certificate and private key pair can be generated in a number of ways, for example, with Certificate Sign Request on Mac OS X Keychain.
-
-Client Certificates:
-
-For iOS, key pair can be imported by platform tools from p12 package format. For example:
-
-```objectivec
-
-+ (SecIdentityRef)loadIdentityFromP12:(NSData *)p12Data password:(NSString *)password {
-    const void *keys[] = { kSecImportExportPassphrase };
-    const void *values[] = { (__bridge CFStringRef)password };
-    CFDictionaryRef optionsDictionary = CFDictionaryCreate(NULL, keys, values, 1, NULL, NULL);
-    CFArrayRef p12Items;
-    OSStatus status = SecPKCS12Import((__bridge CFDataRef) p12Data, optionsDictionary, &p12Items);
-    if (status != errSecSuccess) {
-        return NULL;
-    }
-  
-    CFDictionaryRef identityDict = CFArrayGetValueAtIndex(p12Items, 0);
-    SecIdentityRef identityApp = (SecIdentityRef) CFDictionaryGetValue(identityDict, kSecImportItemIdentity);
-  
-    CFRetain(identityApp);
-    CFRelease(optionsDictionary);
-    CFRelease(p12Items);
-  
-    return identityApp;
-}
-```
 
 How to do it:
 
@@ -451,15 +418,198 @@ let settings = IDnowSettings()
 settings.certificateProvider = IDNMyMtlsCertificateProvider()
 ```
 
+Data streams for server certificates either SHA256 fingerprint data or raw data from cert files (.cert extension)
+
+```objectivec
+- (NSArray<NSData*>*)provideServerFingerPrintByteStreams;
+- (NSArray<NSData*>*)provideServerCertificateByteStreams;
+```
 Feature flags for certificate provider allow usage of the corresponding features:
 
 ```objectivec
-- (BOOL)featureCertificate;  // use client certificate
-- (BOOL)featureFingerPrint;  // use server certificate fingerprints
-- (BOOL)featureServerCert;   // use server certificates
+- (BOOL)featureCertificate;  // use client certificate - // DEFAULT: true
+- (BOOL)featureFingerPrint;  // use server certificate fingerprints - // DEFAULT: true
+- (BOOL)featureServerCert;   // use server certificates - // DEFAULT: true
 ```
 
-You can check the certificate provider + certificates [here](https://github.com/idnow/de.idnow.ios/tree/master/IDnow).
+SHA256 fingerprint for STAGING1 and TEST environments:
+
+```objectivec
+static NSString* TEST_SERVER_FINGERPRINT = @"90:5A:42:E5:A5:42:C3:9A:C9:FF:1E:F5:78:29:CB:F8:29:9B:C2:A0:4E:06:C6:B1:E7:3F:EE:F4:7B:D7:DE:AF";
+static NSString* STAGING1_SERVER_FINGERPRINT = @"A3:8E:02:5C:B4:17:FA:2A:6D:A2:4F:BF:BF:2D:19:0C:52:E3:65:28:DC:4D:C7:61:18:E1:31:F1:44:BA:C8:06";
+```
+
+To enable mTLS, it should be available in the customer backend configuration, and integrator app should supply certificate provider to the SDK.
+
+```objectivec
+- (SecIdentityRef)provideCertificateIdentity;
+```
+
+The key pair can be imported as p12 package format and provide to the SDK. For example:
+
+```objectivec
++ (SecIdentityRef)loadIdentityFromP12:(NSData *)p12Data password:(NSString *)password {
+    const void *keys[] = { kSecImportExportPassphrase };
+    const void *values[] = { (__bridge CFStringRef)password };
+    CFDictionaryRef optionsDictionary = CFDictionaryCreate(NULL, keys, values, 1, NULL, NULL);
+    CFArrayRef p12Items;
+    OSStatus status = SecPKCS12Import((__bridge CFDataRef) p12Data, optionsDictionary, &p12Items);
+    if (status != errSecSuccess) {
+        return NULL;
+    }
+    
+    CFDictionaryRef identityDict = CFArrayGetValueAtIndex(p12Items, 0);
+    SecIdentityRef identityApp = (SecIdentityRef) CFDictionaryGetValue(identityDict, kSecImportItemIdentity);
+    
+    CFRetain(identityApp);
+    CFRelease(optionsDictionary);
+    CFRelease(p12Items);
+    
+    return identityApp;
+}
+```
+
+Certificate Generation:
+Client certificate and private key pair can be generated in a number of ways, for example, with Certificate Sign Request on Mac OS X Keychain.
+
+
+Example:
+
+```objectivec
+// Header file (*.h)
+#import "IDnowCertificateProvider.h"
+
+@interface IDNMyMtlsCertificateProvider : IDnowCertificateProvider
+
+@property (nonatomic, strong) NSString *clientCertFileName;
+
+- (SecIdentityRef)provideCertificateIdentity;
+- (NSArray<NSData*>*)provideServerFingerPrintByteStreams;
+
+- (NSArray<NSData *> *)provideServerCertificateByteStreams;
+
+- (NSArray<NSString *> *)availableClientCertificateFileNames;
+
+@end
+
+// Implementation file (*.m)
+
+#import "IDNMyMtlsCertificateProvider.h"
+
+static NSString* TEST_SERVER_FINGERPRINT = @"90:5A:42:E5:A5:42:C3:9A:C9:FF:1E:F5:78:29:CB:F8:29:9B:C2:A0:4E:06:C6:B1:E7:3F:EE:F4:7B:D7:DE:AF";
+static NSString* STAGING1_SERVER_FINGERPRINT = @"A3:8E:02:5C:B4:17:FA:2A:6D:A2:4F:BF:BF:2D:19:0C:52:E3:65:28:DC:4D:C7:61:18:E1:31:F1:44:BA:C8:06";
+
+@interface IDNMyMtlsCertificateProvider()
+
+@property (nonatomic, strong) NSMutableArray *serverCerts;
+
+- (NSMutableData*)readBytesFromFile:(NSString*)fileName;
+
+@end
+
+@implementation IDNMyMtlsCertificateProvider
+
+- (instancetype)init {
+    self = [super init];
+    if (self != nil) {
+        self.serverCerts = [NSMutableArray array];
+        [self loadServerCerts];
+        
+        self.clientCertFileName = self.availableClientCertificateFileNames.firstObject;
+    }
+    
+    return self;
+}
+
+- (SecIdentityRef)provideCertificateIdentity {
+    NSMutableData* data = [self readBytesFromFile:self.clientCertFileName];
+    return [[self class] loadIdentityFromP12:data password:@"YOUR_PASSWORD"];
+}
+
+- (NSArray<NSData*>*)provideServerFingerPrintByteStreams
+{
+    NSMutableArray<NSData *>* data = [NSMutableArray new];
+    for (NSString *fingerprint in @[TEST_SERVER_FINGERPRINT, STAGING1_SERVER_FINGERPRINT]) {
+        [data addObject:[self dataFromHex:fingerprint]];
+    }
+
+    return data;
+}
+
+- (NSArray<NSData *> *)provideServerCertificateByteStreams {
+    return self.serverCerts;
+}
+
+#pragma mark - Helpers
+
+- (NSArray<NSString*> *)pathesForServerCerts {
+    return [[NSBundle mainBundle] pathsForResourcesOfType:@"cer" inDirectory:@"server_certs"];
+}
+
+- (NSArray<NSString *> *)availableClientCertificateFileNames {
+    return [[NSBundle mainBundle] pathsForResourcesOfType:@"p12" inDirectory:@"client_certs"];
+}
+
+- (NSMutableData*)readBytesFromFile:(NSString*)filePath
+{
+    NSFileManager* manager = [NSFileManager defaultManager];
+    NSMutableData* data = nil;
+    if ([manager fileExistsAtPath:filePath]) {
+        data = [[NSMutableData alloc] initWithContentsOfFile:filePath];
+    }
+    
+    return data;
+}
+
+- (NSData *)dataFromHex:(NSString *)hex {
+    NSMutableData *result = [[NSMutableData alloc] init];
+    NSString *sourceHex = [hex stringByReplacingOccurrencesOfString:@":" withString:@""];
+    char currentByte[3] = {'\0','\0','\0'};
+    for (int i = 0; i < [sourceHex length] / 2; i++) {
+        currentByte[0] = [sourceHex characterAtIndex:i*2];
+        currentByte[1] = [sourceHex characterAtIndex:i*2+1];
+        char wholeByte = strtol(currentByte, NULL, 16);
+        [result appendBytes:&wholeByte length:1];
+    }
+    
+    return result;
+}
+
+- (void)loadServerCerts {
+    NSArray* serverCertFileNames = [self pathesForServerCerts];
+    
+    [serverCertFileNames enumerateObjectsUsingBlock:^(NSString *fileName, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSData *data = [self readBytesFromFile:fileName];
+        [self.serverCerts addObject:data];
+    }];
+}
+
+#pragma mark - Loading cert identity
+
++ (SecIdentityRef)loadIdentityFromP12:(NSData *)p12Data password:(NSString *)password {
+    const void *keys[] = { kSecImportExportPassphrase };
+    const void *values[] = { (__bridge CFStringRef)password };
+    CFDictionaryRef optionsDictionary = CFDictionaryCreate(NULL, keys, values, 1, NULL, NULL);
+    CFArrayRef p12Items;
+    OSStatus status = SecPKCS12Import((__bridge CFDataRef) p12Data, optionsDictionary, &p12Items);
+    if (status != errSecSuccess) {
+        return NULL;
+    }
+    
+    CFDictionaryRef identityDict = CFArrayGetValueAtIndex(p12Items, 0);
+    SecIdentityRef identityApp = (SecIdentityRef) CFDictionaryGetValue(identityDict, kSecImportItemIdentity);
+    
+    CFRetain(identityApp);
+    CFRelease(optionsDictionary);
+    CFRelease(p12Items);
+    
+    return identityApp;
+}
+
+@end
+
+```
+You can check more the certificate provider + certificates [here](https://github.com/idnow/de.idnow.ios/blob/master/examples/IDnow/IDnow).
 
 ## Branding
 

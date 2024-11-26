@@ -8,9 +8,8 @@
 
 #import "IDNMyMtlsCertificateProvider.h"
 
-static NSString* CLIENT_IDENTITY_FILENAME = @"client_cert.p12";
-static NSString* TEST_SERVER_FINGERPRINT =
-    @"90:3A:43:09:E3:34:6E:8F:EE:DA:03:11:5E:03:12:E0:3D:10:3D:19:67:40:70:A5:39:54:F5:75:CF:80:99:66";
+static NSString* TEST_SERVER_FINGERPRINT = @"90:5A:42:E5:A5:42:C3:9A:C9:FF:1E:F5:78:29:CB:F8:29:9B:C2:A0:4E:06:C6:B1:E7:3F:EE:F4:7B:D7:DE:AF";
+static NSString* STAGING1_SERVER_FINGERPRINT = @"A3:8E:02:5C:B4:17:FA:2A:6D:A2:4F:BF:BF:2D:19:0C:52:E3:65:28:DC:4D:C7:61:18:E1:31:F1:44:BA:C8:06";
 
 @interface IDNMyMtlsCertificateProvider()
 
@@ -27,40 +26,40 @@ static NSString* TEST_SERVER_FINGERPRINT =
     if (self != nil) {
         self.serverCerts = [NSMutableArray array];
         [self loadServerCerts];
+        
+        self.clientCertFileName = self.availableClientCertificateFileNames.firstObject;
     }
     
     return self;
 }
 
 - (SecIdentityRef)provideCertificateIdentity {
-    NSMutableData* data = [self readBytesFromFile:[self pathForClientCert:CLIENT_IDENTITY_FILENAME]];
-    return [[self class] loadIdentityFromP12:data password:@"unbreakablePassword"];
+    NSMutableData* data = [self readBytesFromFile:self.clientCertFileName];
+    return [[self class] loadIdentityFromP12:data password:@"YOUR_PASSWORD"];
 }
 
 - (NSArray<NSData*>*)provideServerFingerPrintByteStreams
 {
-    NSData* data = [self dataFromHex:TEST_SERVER_FINGERPRINT];
-    return @[data];
+    NSMutableArray<NSData *>* data = [NSMutableArray new];
+    for (NSString *fingerprint in @[STAGING1_SERVER_FINGERPRINT]) {
+        [data addObject:[self dataFromHex:fingerprint]];
+    }
+
+    return data;
 }
 
-- (BOOL)verifyServerCertificate:(NSData*)serverCertificate {
-    NSUInteger matchIndex = [self.serverCerts indexOfObjectPassingTest:^BOOL(NSData *obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        *stop = [serverCertificate isEqualToData:obj];
-        return *stop;
-    }];
-    
-    return matchIndex != NSNotFound;
+- (NSArray<NSData *> *)provideServerCertificateByteStreams {
+    return self.serverCerts;
 }
 
 #pragma mark - Helpers
 
-- (NSString *)pathForClientCert:(NSString *)certFileName {
-    NSString *relPath = [@"client_cert" stringByAppendingPathComponent:certFileName];
-    return [[NSBundle mainBundle] pathForResource:relPath ofType:@""];
-}
-
 - (NSArray<NSString*> *)pathesForServerCerts {
     return [[NSBundle mainBundle] pathsForResourcesOfType:@"cer" inDirectory:@"server_certs"];
+}
+
+- (NSArray<NSString *> *)availableClientCertificateFileNames {
+    return [[NSBundle mainBundle] pathsForResourcesOfType:@"p12" inDirectory:@"client_certs"];
 }
 
 - (NSMutableData*)readBytesFromFile:(NSString*)filePath
