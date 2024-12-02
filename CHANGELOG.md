@@ -1,5 +1,9 @@
 ## Changelog
 
+### 9.1.1
+
+- We noticed a minor UI inconsistency while using the Picture-in-Picture (PiP) feature that was released in the last version i.e. v9.1.0. As part of this hotfix we have fixed that UI inconsistency.
+
 ### 9.1.0
 
 - **Picture-in-Picture (PiP)**: We have release the PiP feature that will show the agent's video feed to the user when the user puts the app in the background. The user will continue to see it unless the flow has been explicitly aborted. We are expecting this to improve agent-user communication and reduce the chances of WebSocket connection dropping. Like most features in our SDK, this is a configurable feature and can be enabled/disabled depending on our customers' choosing.
