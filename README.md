@@ -49,7 +49,7 @@
 
 ## Requirements
 
-- Xcode 14.3 or above for Swift Package Manager (SPM)
+- Xcode 15 or above for Swift Package Manager (SPM)
 - Cocoapods installed v1.11.2 or above (Note: Xcode 15 requires Cocoapods v1.13.0 or above)
 - Device with WiFi/3G/LTE
 
