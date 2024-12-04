@@ -1,20 +1,27 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name idnow_eid
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name idnow_eid
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AuthadaAuthenticationLibrary
 import CoreGraphics
 import CoreText
+import DeveloperToolsSupport
 import Foundation
 import PDFKit
 import QuartzCore
 import Swift
+import SwiftUI
 import SystemConfiguration
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_exported import idnow_eid
+@objc @_inheritsConvenienceInitializers public class IDnowCountryProvider : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
 public typealias eIDRouterInitializationHandler = (Swift.Bool, (any Swift.Error)?) -> Swift.Void
 public typealias eIDRouterCompletionHandler = (Swift.Bool, Swift.Bool, (any Swift.Error)?) -> Swift.Void
 @_inheritsConvenienceInitializers @objc public class IDN_eID : ObjectiveC.NSObject {
@@ -86,7 +93,6 @@ extension idnow_eid.IDN_eIDNetworkError : Swift.CustomStringConvertible {
   @objc public var secondaryTextColor: UIKit.UIColor
   @objc public var primaryBrandColor: UIKit.UIColor
   @objc public var primaryVariantColor: UIKit.UIColor
-  @objc public var linkColor: UIKit.UIColor
   @objc public var proceedButtonBackgroundColor: UIKit.UIColor {
     @objc get
     @objc set
@@ -117,7 +123,7 @@ extension idnow_eid.IDN_eIDNetworkError : Swift.CustomStringConvertible {
     @objc get
     @objc set
   }
-  @objc public var backgraundCellsColor: UIKit.UIColor
+  @objc public var backgroundCellsColor: UIKit.UIColor
   @objc public var primarySubstitutionColor: UIKit.UIColor {
     @objc get
     @objc set
@@ -193,6 +199,10 @@ public enum IDnoweIDServices : idnow_eid.IDnowServiceProtocol {
   }
 }
 public typealias BoolClosure = (Swift.Bool, (any Swift.Error)?) -> Swift.Void
+@objc @_inheritsConvenienceInitializers public class IDnowRegexPhoneManager : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
 public class IDNowAsset : Swift.Codable {
   final public let id: Swift.String
   required public init(from decoder: any Swift.Decoder) throws
