@@ -13,14 +13,24 @@ let package = Package(
         ),
     ],
     targets: [
-        // Binary target for the actual framework, including resources
         .binaryTarget(
-            name: "IDnowSDK",
-            path: "vi/idnow_vi.xcframework",
+            name: "IDnowSDKBinary",
+            path: "vi/idnow_vi.xcframework"
+        ),
+        
+        // Resource target to bundle the resources
+        .target(
+            name: "IDnowSDKResources",
             resources: [
                 .process("vi/idnow_vi.xcframework/ios-arm64/idnow_vi.framework/IDnowImages.bundle"),
                 .process("vi/idnow_vi.xcframework/ios-arm64/idnow_vi.framework/IDnowVideoIdentPlusImages.bundle")
             ]
+        ),
+        
+        // The main SDK target, which depends on both the binary and the resources
+        .target(
+            name: "IDnowSDK",
+            dependencies: ["IDnowSDKBinary", "IDnowSDKResources"]
         )
     ]
 )
