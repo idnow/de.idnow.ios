@@ -612,6 +612,7 @@ Below is the list of possible errors.
 | IDnowErrorUnsupportedProduct              | Unsupported products.                                                                                                                                                                                                                                                   |
 | IDnowErrorUnsupportedBluetoothHeadset     | Bluetooth headset not supported.                                                                                                                                                                                                                                        |
 | IDnowInstantSignDocumentExpired           | `INSTANT_SIGN` rejected, the trusted document is expired. This document is not valid.                                                                                                                                                                                   |
+| IDnowErrorTimeOut                         | When a request times out (NSURLErrorTimedOut), it may be due to the user's poor internet connection or a lack of response from the server.                                                                                                                              |
 
 ## Localization
 
