@@ -4,6 +4,7 @@
 
 - [IDnow eID SDK](#idnow-eid-sdk)
   - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
   - [Requirements](#requirements)
   - [Installation](#installation)
     - [Host app configuration](#host-app-configuration)
@@ -32,10 +33,19 @@
 
 ---
 
+## Overview
+
+IDnow eID is an automated and fully AML-compliant identification product. All it requires is an NFC-enabled (Near Field Communication) smartphone and a German ID document (ID card or Residence permit) with an activated eID function or the eID card for EU citizens.
+
+German government introduced RFID chip based electronic ID cards in November 2010. Usage of this card has been accepted by BSI (Bundesamt für Sicherheit in der Informationstechnik) for digital identification of the citizens.
+
+Please note that IDnow eID is not a standalone product and requires IDnow VideoIdent to be already integrated into the project.
+
 ## Requirements
 
-- Xcode 14.3 or later
-- Deployment Target: iOS 11.0 or later (__Note__: NFC can work only with iPhone 7 or higher)
+- Xcode 15 or above
+- Deployment Target: iOS 11.0+ (__Note__: NFC can work only with iPhone 7 or higher)
+- Device with a camera and NFC reading capabilities
 
 ---
 
