@@ -39,8 +39,6 @@ IDnow eID is an automated and fully AML-compliant identification product. All it
 
 German government introduced RFID chip based electronic ID cards in November 2010. Usage of this card has been accepted by BSI (Bundesamt für Sicherheit in der Informationstechnik) for digital identification of the citizens.
 
-Please note that IDnow eID is not a standalone product and requires IDnow VideoIdent to be already integrated into the project.
-
 ## Requirements
 
 - Xcode 15 or above
@@ -68,6 +66,8 @@ Download the latest version of the [eID framework](https://github.com/idnow/de.i
     ![alt text](/screenshots/eid_screenshot_3.png)
 
 ### Usage:
+
+__Note:__ Use optional steps only if you want to configure IDnow VideoIdent SDK as a fallback for eID. Otherwise the optional steps can be ignored.
 
 **Step 1:** Import the library into your source code.
 
@@ -111,9 +111,9 @@ appearance.fontNameRegular           = @"TimesNewRomanPSMT";
 appearance.fontNameBold              = @"TimesNewRomanPS-BoldMT";
 ```
 
-**Step 3:** Obtain the ident token and configure the `IDnowController` same as for the regular VideoIdent flow. This is needed to properly instantiate the identification system. For details see the [VideoIdent configuration.](../README.md#usage)
+**Step 3 (optional):** Obtain the ident token and configure the `IDnowController` same as for the regular VideoIdent flow. This is needed to properly instantiate the identification system. For details see the [VideoIdent configuration.](../README.md#usage)
 
-**Step 4:** Once the initialization is finished, check for errors and proceed to the eID identification.
+**Step 4 (optional):** Once the initialization is finished, check for errors and proceed to the eID identification.
 
 #### Swift
 

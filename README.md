@@ -127,15 +127,6 @@ pod 'IDnowSDK'
 pod install
 ```
 
-__Note:__ When integrating VideoIdent SDK into your project, please ensure you have the `-ObjC` flag in your project's `Other Linker Flags`. This can be done by:
-
-1. Opening your project in Xcode
-2. Navigating to the project settings
-3. Selecting your application target
-4. Going to the `Build Settings` tab
-5. Searching for Other Linker Flags
-6. Adding `-ObjC` to the list of flags
-
 ### Manually
 
 #### Static XCFramework
