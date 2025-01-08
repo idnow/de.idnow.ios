@@ -60,7 +60,7 @@
 
 ## Overview
 
-This document covers the integradion process for the IDnow VideoIdent SDK for iOS. Public API documentation is available [here](https://docs-videoident.idnow.io/?version=latest&_gl=1*rur251*_gcl_aw*R0NMLjE3MzE1OTYwMzkuRUFJYUlRb2JDaE1JZ3UtaDg0bmNpUU1WVXBDREJ4MHkzakJqRUFBWUFTQUFFZ0tPeFBEX0J3RQ..*_gcl_au*MTU1OTcyODAxMS4xNzMxNTk2MDM3#107f6d04-34a7-4ac7-a8b4-e0243b9f4450).
+This document covers the integration process for the IDnow VideoIdent SDK for iOS. Public API documentation is available [here](https://docs-videoident.idnow.io/?version=latest&_gl=1*rur251*_gcl_aw*R0NMLjE3MzE1OTYwMzkuRUFJYUlRb2JDaE1JZ3UtaDg0bmNpUU1WVXBDREJ4MHkzakJqRUFBWUFTQUFFZ0tPeFBEX0J3RQ..*_gcl_au*MTU1OTcyODAxMS4xNzMxNTk2MDM3#107f6d04-34a7-4ac7-a8b4-e0243b9f4450).
 
 ### Purpose and audience
 
@@ -69,7 +69,7 @@ This guide is designed for developers integrating IDnow VideoIdent SDK into iOS 
 ### Applicability
 This guide covers VideoIdent (VI) and eSign. For eID integration, please refer to [this document](/eid/README.md).
 
-VI and eSign support React Native.
+__Note:__ VI and eSign support React Native.
 eID requires native integration and doesn’t support React Native bridges. Use native code examples provided in this guide for integration.
 
 ### VideoIdent
@@ -86,7 +86,7 @@ IDnow eSign issues Qualified Electronic Signatures (QES) on one or more PDF docu
 
 - Xcode 15 or above
 - Deployment target: iOS 11+
-- CocoaPods v1.13.0 or above (for the CocoaPods dstribution)
+- CocoaPods v1.13.0 or above (for the CocoaPods distribution)
 - Device with WiFi/3G/LTE, camera, and microphone
 
 ### Permissions
@@ -96,7 +96,7 @@ Identification process requests the following permissions from the user automati
 - Microphone
 - Camera
 
-Both of them are required for video identification process.
+Both are required for video identification process.
 
 ### Supported Versions
 
@@ -383,7 +383,7 @@ indowController.delegate = self; // Conforms to IDnowControllerDelegate
 
 ### Settings
 
-Before initializing the identification process at least a `transactionToken` and a `companyID` have to be set in the `IDnowSettings`. Below is an example of setting a field in the `IDnowSettings`
+Before initializing the identification process a `transactionToken` and a `companyID` must be set in the `IDnowSettings`. Below is an example of setting a field in the `IDnowSettings`
 
 #### Swift
 
@@ -425,7 +425,7 @@ Available environments:
 <br>- ```IDnowEnvironmentLive``` → Production environment (```LIVE```);
 <br>- ```IDnowEnvironmentCustom``` → Custom environment (```CUSTOM```).
 
-In order to use a custom environment following settings need to be specified as well:
+To use a custom environment following settings need to be specified as well:
 
 #### Swift
 
@@ -471,7 +471,7 @@ To enable mTLS, it should be available in the customer backend configuration, an
 
 Certificate Generation:
 
-Client certificate and private key pair can be generated in a number of ways, for example, with Certificate Sign Request on Mac OS X Keychain.
+Client certificate and private key pair can be generated in several ways, for example, with Certificate Sign Request on Mac OS X Keychain.
 
 Client Certificates:
 
@@ -532,8 +532,8 @@ You can check the certificate provider + certificates [here](https://github.com/
 
 | Property name                | Description                                                                                                                                                                                                                                                                                                                                              | Appearance                                                       |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| defaultTextColor             | Optional color that replaces the default text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                    | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
-| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                  | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
+| defaultTextColor             | Optional color that replaces the default text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be a dark color that does not collide with light color.                                                                    | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
+| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be a dark color that does not collide with light color.                                                                  | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
 | primaryBrandColor            | Optional color that replaces the default brand color.<br />Default: <a href="#"><img valign='middle' alt='#F95602' src='https://readme-swatches.vercel.app/F95602?style=round'/></a> #F95602<br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with light color.                                             | <img src="/screenshots/vi_brand_color.jpeg" width="300">         |
 | proceedButtonBackgroundColor | Optional color that replaces the proceed button background color.<br />Default: `primaryBrandColor`                                                                                                                                                                                                                                                      | <img src="/screenshots/vi_primary_button.jpeg" width="300">      |
 | proceedButtonTextColor       | Optional color that replaces the proceed button text color.<br />Default value: <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a>  #FFFFFF    | <img src="/screenshots/vi_primary_button_text.jpeg" width="300"> |
@@ -584,18 +584,18 @@ Default: San Francisco Light
 
 #### underlineButtonTitles
 
-Default: `false` - Underline all button titles. Set this to `true` in order to underline button title text
+Default: `false` - Underline all button titles. Set this to `true` to underline button title text
 
 #### boldButtonTitles
 
-Default: `true` - Make button titles bold. Set this to `false` in order to use normal font weight in button titles
+Default: `true` - Make button titles bold. Set this to `false` to use normal font weight in button titles
 
 ## PushNotifications
 
-In order to use push notifications via the IDnow SDK it is neccessary that your own `AppDelegate` inherits from
+To use push notifications via the IDnow SDK it is necessary that your own `AppDelegate` inherits from
 the provided `IDnowAppDelegate`. This is necessary because the callbacks from Apple regarding the registration and reception of push notifications are solely handled through the `AppDelegate`, which is not part of our SDK. If your own `IDnowAppDelegate` subclass overrides some methods, please make sure to call the superclass's implementation within your overrides.
 
-Additionally we will need the production certifcate/key pair to send notifications via push to your app via
+Additionally, we will need the production certifcate/key pair to send notifications via push to your app via
 our backend.
 
 ```objectivec
@@ -667,7 +667,7 @@ Below is the list of possible errors.
 | IDnowErrorIdentificationFailed            | Can occur during an identification process (e.g. triggered by`[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed.                                                                                                      |
 | IDnowErrorJailbreakPhoneNotSupported      | Unable to perform an identification on a jailbroken device.                                                                                                                                                                                                             |
 | IDnowErrorInvalidWebRTCToken              | Using LiveSwitch with an invalid key.                                                                                                                                                                                                                                   |
-| IDnowErrorHighCallVolumeTryLater          | User agreeed to try the identification later due to the high call volume.                                                                                                                                                                                               |
+| IDnowErrorHighCallVolumeTryLater          | User agreed to try the identification later due to the high call volume.                                                                                                                                                                                               |
 | IDnowErrorEnrolledInWaitingList           | User enrolled in the Waiting List so current identification session aborted.                                                                                                                                                                                            |
 | IDnowErrorDeviceNotMeetPVIDRequirements   | The PVID requirements only allow users with devices that support the required resolution criteria (minimum 720p: 1280 × 720 at 25 frames per second) for the VideoIdent process.                                                                                       |
 | IDnowErrorUnifiedIdentAnotherMethod       | Error for a Unified Ident which states the user decided to switch to another type of identification.                                                                                                                                                                    |
@@ -681,7 +681,28 @@ Below is the list of possible errors.
 
 In case you would like to change the localization used by the IDnow SDK at runtime you can do it by supplying the language code to the `IDnowSettings` instance:
 
-Supported values are: en (English), de (German), fr (French), es (Spanish), it (Italian), pt (Portugese), et (Estonian), hr (Croatian), hu (Hungarian), ka (Georgian), ko(Korean), lt(Lithuanian), lv (Latvian), nl (Dutch), pl (Polish), ua (Ukrainian),  zh (Chinese), ru (Russian).
+Supported values are:
+| Language | Code |
+|----------|------|
+| English  | en   |
+| German   | de   |
+| French   | fr   |
+| Spanish  | es   |
+| Italian  | it   |
+| Portuguese | pt |
+| Estonian | et   |
+| Croatian | hr   |
+| Hungarian | hu  |
+| Georgian | ka   |
+| Korean   | ko   |
+| Lithuanian | lt |
+| Latvian  | lv   |
+| Dutch    | nl   |
+| Polish   | pl   |
+| Ukrainian | ua  |
+| Chinese  | zh   |
+| Russian  | ru   |
+
 
 ```objectivec
 settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de, en, it, es, pt, fr, et, hr, hu, uk, ka, ko, lt, lv, nl, pl, ru, zh).
@@ -693,12 +714,12 @@ settings.userInterfaceLanguage = @"de"; // this field accepts the following lang
 ## Cordova
 
 Our Cordova plugin offers the possibility of integrating our native Android and iOS SDK into the Cordova-based applications. The plugin offers the possibility to customize and setup of the SDK. At the end of the identification process, the SDK communicates with the plug-in via a callback, allowing the Cordova application to update the flow. Please refer to this [link](https://www.npmjs.com/package/com-idnow-plugin) for implementation details.
-**Note**: Only VideoIdent and eSign are supported so far. eID is not supported.
+**Note**: Only VideoIdent and eSign are supported. eID is not supported.
 
 ## React native
 
 Our React Native plug-in offers the possibility of integrating our native Android and iOS SDK into the React Native-based applications. It offers the possibility to customize and setup the SDK, and uses the latest expo native modules to create the bridging mechanism. Please refer to this [link](https://www.npmjs.com/package/react-native-vi-idnow-library) for implementation details.
-**Note**: Only VideoIdent and eSign are supported so far. eID is not supported
+**Note**: Only VideoIdent and eSign are supported. eID is not supported
 
 ## Examples
 
