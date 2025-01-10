@@ -4,9 +4,16 @@
 
 - [IDnowSDK](#idnowsdk)
   - [Table of Contents](#table-of-contents)
-  - [Requirements](#requirements)
-  - [Supported Versions](#supported-versions)
-  - [Compatibility, End of Support, End of Life](#compatibility-end-of-support-end-of-life)
+  - [Overview](#overview)
+    - [Purpose and audience](#purpose-and-audience)
+    - [Applicability](#applicability)
+    - [VideoIdent](#videoident)
+    - [eSign](#esign)
+    - [Requirements](#requirements)
+    - [Permissions](#permissions)
+    - [Supported Versions](#supported-versions)
+    - [Supported Architectures](#supported-architectures)
+    - [Compatibility, End of Support, End of Life](#compatibility-end-of-support-end-of-life)
   - [Installation](#installation)
     - [CocoaPods](#cocoapods)
     - [Manually](#manually)
@@ -27,6 +34,9 @@
     - [Settings](#settings)
       - [Swift](#swift-5)
       - [Objective C](#objective-c-5)
+  - [Environments](#environments)
+      - [Swift](#swift-6)
+      - [Objective C](#objective-c-6)
   - [Custom Certificate Providers](#custom-certificate-providers)
       - [DTLS](#dtls)
       - [mTLS](#mtls)
@@ -45,27 +55,64 @@
 - [Other Supported Platforms](#other-supported-platforms)
   - [Cordova](#cordova)
   - [React native](#react-native)
+  - [Examples](#examples)
 - [eID Framework](#eid-framework)
 
-## Requirements
+## Overview
 
-- Xcode 15 or above for Swift Package Manager (SPM)
-- Cocoapods installed v1.11.2 or above (Note: Xcode 15 requires Cocoapods v1.13.0 or above)
-- Device with WiFi/3G/LTE
+This document covers the integration process for the IDnow VideoIdent SDK for iOS. Public API documentation is available [here](https://docs-videoident.idnow.io/?version=latest&_gl=1*rur251*_gcl_aw*R0NMLjE3MzE1OTYwMzkuRUFJYUlRb2JDaE1JZ3UtaDg0bmNpUU1WVXBDREJ4MHkzakJqRUFBWUFTQUFFZ0tPeFBEX0J3RQ..*_gcl_au*MTU1OTcyODAxMS4xNzMxNTk2MDM3#107f6d04-34a7-4ac7-a8b4-e0243b9f4450).
 
-## Supported Versions
+### Purpose and audience
 
-The minimum SDK version required for publishing to the App Store is now 8.0.1, following the introduction of Apple's Privacy Manifest. The SDK is compiled with Xcode 15.4, which is recommended for optimal compatibility and performance.
+This guide is designed for developers integrating IDnow VideoIdent SDK into iOS applications. The guide focuses on simplifying the integration process through clear instructions and practical examples.
 
-## Compatibility, End of Support, End of Life
+### Applicability
+This guide covers VideoIdent (VI) and eSign. For eID integration, please refer to [this document](/eid/README.md).
+
+__Note:__ VI and eSign support React Native.
+eID requires native integration and doesn’t support React Native bridges. Use native code examples provided in this guide for integration.
+
+### VideoIdent
+
+IDnow VideoIdent is used to verify the identity of an individual. The user must present a supported ID document, which is matched with the ID holder or user in a process guided by an IDnow Ident Specialist. The user and the IDnow Ident Specialist interact with each other during this process using a video-chat.
+
+IDnow offers mobile Apps for iOS and Android for user verification process. Customers can integrate VideoIdent into native mobile apps. VideoIdent can also be used with a web browser by the user.
+
+### eSign
+
+IDnow eSign issues Qualified Electronic Signatures (QES) on one or more PDF documents. The IDnow eSign product relies on the IDnow’s VideoIdent application or the German eID technology to verify the identity of the person signing the documents. VideoIdent with eSign is available on mobile devices and web browsers; eID with eSign is only available on mobile devices due to NFC hardware limitations.
+
+### Requirements
+
+- Xcode 15 or above
+- Deployment target: iOS 11+
+- CocoaPods v1.13.0 or above (for the CocoaPods distribution)
+- Device with WiFi/3G/LTE, camera, and microphone
+
+### Permissions
+
+Identification process requests the following permissions from the user automatically:
+
+- Microphone
+- Camera
+
+Both are required for video identification process.
+
+### Supported Versions
+
+The minimum SDK version required for publishing to the App Store is now 8.0.1, following the introduction of Apple's Privacy Manifest.
+
+### Supported Architectures
+
+VideoIdent SDK currently supports `arm64` for iOS devices as well as `arm64` and `x86_64` simulator architectures. Please note that due to lack of camera support on the simulators we do not provide the complete flow and just mark the identification as successful not to block the testing flow.
+
+### Compatibility, End of Support, End of Life
 
 Please refer to the following link to find information about compatibility, end-of-support (EOS) and end-of-life (EOL) dates pertaining to our products: [IDnow Compatibility Matrix: Browser & OS Compatibility guide](https://www.idnow.io/developers/compatibility-overview/)
 
 ## Installation
 
 ### CocoaPods
-
-[![Watch the video](/screenshots/Screenshot_vid.png)](https://www.youtube.com/watch?v=kLCUDDoHwlQ)
 
 - Add the following config and pod dependencies to your podfile:
 
@@ -80,18 +127,7 @@ pod 'IDnowSDK'
 pod install
 ```
 
-__Note:__ When integrating VideoIdent SDK into your project, please ensure you have the `-ObjC` flag in your project's `Other Linker Flags`. This can be done by:
-
-1. Opening your project in Xcode
-2. Navigating to the project settings
-3. Selecting your application target
-4. Going to the `Build Settings` tab
-5. Searching for Other Linker Flags
-6. Adding `-ObjC` to the list of flags
-
 ### Manually
-
-[![Watch the video](/screenshots/Screenshot_vid.png)](https://www.youtube.com/watch?v=eHawhnaCcas)
 
 #### Static XCFramework
 
@@ -126,9 +162,7 @@ Since the release of VideoIdent SDK v7.4.1, we now support Swift Package Manager
 
 - Add swift package: `https://github.com/idnow/de.idnow.ios` as dependency ![swift_package_manager_choose](/screenshots/Screenshot_spm.png)
 - Follow the regular setup described in the [Usage](#usage) section.
-- Reference [spm example project](/examples/spm-example-idnow)
-
-**Note:** This is only available for Xcode 14.3 or above.
+- For futher information see the [spm example project](/examples/spm-example-idnow)
 
 ## Usage
 
@@ -349,7 +383,7 @@ indowController.delegate = self; // Conforms to IDnowControllerDelegate
 
 ### Settings
 
-Before initializing the identification process at least a `transactionToken` and a `companyID` have to be set in the `IDnowSettings`. Below is an example of setting a field in the `IDnowSettings`
+Before initializing the identification process a `transactionToken` and a `companyID` must be set in the `IDnowSettings`. Below is an example of setting a field in the `IDnowSettings`
 
 #### Swift
 
@@ -368,9 +402,9 @@ settings.transactionToken = validatedToken;
 
 | Property name           | Description                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| transactionToken        | A token that will be used for instantiating a video identification.                                                                                                                                                                                                                                                                                                                                                    |
+| transactionToken        | A token that will be used for instantiating a video identification. The token format is `XXX-XXXXX`.                                                                                                                                                                                                                                                                                                                                                    |
 | companyID               | Your Company ID provided by IDnow.                                                                                                                                                                                                                                                                                                                                                                                     |
-| environment             | **Optional:** The environment that should be used for the identification (DEV, TEST, LIVE) The default value is`IDnowEnvironmentNotDefined`. The used environment will then base on the prefix of the transaction token (DEV -> DEV, TST -> Test, else -> Live). You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the apiHost and websocketHost. |
+| environment             | **Optional:** The environment that should be used for the identification (DEV, TEST, LIVE) The default value is`IDnowEnvironmentNotDefined`. The used environment will then base on the prefix of the transaction token (DEV -> DEV, TST -> Test, else -> Live). You can use the special IDnowEnvironmentCustom to define a custom environment. If this is done, you need to set the apiHost and websocketHost. See [environments](#environments). |
 | showErrorSuccessScreen  | **Optional:** If set to `false`, the Error-Success-Screen provided by the SDK will not be displayed. <br />The default value of this property is `true`.                                                                                                                                                                                                                                                               |
 | showVideoOverviewCheck  | **Optional:** If set to `false`, the `Terms and Conditions` screen will not be shown before starting a video identification. <br />The default value of this property is `true`.                                                                                                                                                                                                                                       |
 | forceModalPresentation  | **Optional:** If set to`true`, the UI for the identification will always be displayed modal. By default the value of this property is `false` and the identification UI will be pushed on an existing navigation controller if possible.                                                                                                                                                                               |
@@ -380,6 +414,36 @@ settings.transactionToken = validatedToken;
 | certificateProvider     | Accepts a subclass of`IDnowCertificateProvider`. Used to provide custom mTLS certificates used by the network connections. See [Custom certificate providres](#custom-certificate-providers).                                                                                                                                                                                                                          |
 | dtlsCertificateProvider | Accepts a subclass of`IDnowDtlsCertificateProvider`. Used to provide custom DTLS certificates used by the WebRTC connection. See [Custom certificate providres](#custom-certificate-providers).                                                                                                                                                                                                                        |
 
+## Environments
+
+To specify the environment used for the identification process, you can set a specific environment value. If no environment is defined it will be automatically determined based on the prefix of the transaction token. Usually, this is the desired behavior, so use this property only if there is a need to use the specific environment.
+
+Available environments:
+<br>- ```IDnowEnvironmentDev``` → Development environments (```DEV```, ```DEV2```, ```DV3```, ..., ```DV20```);
+<br>- ```IDnowEnvironmentTest``` → Test environments (```TEST```, ```TEST1```, ```TEST2```, ```TEST3```);
+<br>- ```IDnowEnvironmentStag1``` → Staging environment (```SG1```);
+<br>- ```IDnowEnvironmentLive``` → Production environment (```LIVE```);
+<br>- ```IDnowEnvironmentCustom``` → Custom environment (```CUSTOM```).
+
+To use a custom environment following settings need to be specified as well:
+
+#### Swift
+
+```swift
+let settings = IDnowSettings()
+settings.apiHost = "http://\(ipAddress):\(port)"
+settings.websocketHost = "http://\(ipAddress):\(port)"
+settings.videoHost = "http://\(ipAddress):3000"
+settings.stunHost = hostUrl
+```
+#### Objective C
+```objectivec
+IDnowSettings *settings = [IDnowSettings sharedSettings];
+settings.apiHost       = [NSString stringWithFormat:@"http://%@:%@", ipAdress, port];
+settings.websocketHost = [NSString stringWithFormat:@"http://%@:%@", ipAdress, port];
+settings.videoHost     = [NSString stringWithFormat:@"http://%@:3000", ipAdress];
+settings.stunHost      = [NSString stringWithFormat:HOST_URL];
+```
 ## Custom Certificate Providers
 
 #### DTLS
@@ -407,7 +471,7 @@ To enable mTLS, it should be available in the customer backend configuration, an
 
 Certificate Generation:
 
-Client certificate and private key pair can be generated in a number of ways, for example, with Certificate Sign Request on Mac OS X Keychain.
+Client certificate and private key pair can be generated in several ways, for example, with Certificate Sign Request on Mac OS X Keychain.
 
 Client Certificates:
 
@@ -468,8 +532,8 @@ You can check the certificate provider + certificates [here](https://github.com/
 
 | Property name                | Description                                                                                                                                                                                                                                                                                                                                              | Appearance                                                       |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| defaultTextColor             | Optional color that replaces the default text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                    | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
-| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be some kind of a dark color that does not collide with light color.                                                                  | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
+| defaultTextColor             | Optional color that replaces the default text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be a dark color that does not collide with light color.                                                                    | <img src="/screenshots/vi_default_text.jpeg" width="300">        |
+| secondaryTextColor           | Optional color that replaces the secondary text color.<br />Default: <a href="#"><img valign='middle' alt='#000000' src='https://readme-swatches.vercel.app/000000?style=round'/></a> #000000 <br />Recommendation: Should be a dark color that does not collide with light color.                                                                  | <img src="/screenshots/vi_secondary_text.jpeg" width="300">      |
 | primaryBrandColor            | Optional color that replaces the default brand color.<br />Default: <a href="#"><img valign='middle' alt='#F95602' src='https://readme-swatches.vercel.app/F95602?style=round'/></a> #F95602<br />Used in buttons, labels, links etc.<br />Recommendation: Should be a color that does not collide with light color.                                             | <img src="/screenshots/vi_brand_color.jpeg" width="300">         |
 | proceedButtonBackgroundColor | Optional color that replaces the proceed button background color.<br />Default: `primaryBrandColor`                                                                                                                                                                                                                                                      | <img src="/screenshots/vi_primary_button.jpeg" width="300">      |
 | proceedButtonTextColor       | Optional color that replaces the proceed button text color.<br />Default value: <a href="#"><img valign='middle' alt='#FFFFFF' src='https://readme-swatches.vercel.app/f6f6f6?style=round'/></a>  #FFFFFF    | <img src="/screenshots/vi_primary_button_text.jpeg" width="300"> |
@@ -520,18 +584,18 @@ Default: San Francisco Light
 
 #### underlineButtonTitles
 
-Default: `false` - Underline all button titles. Set this to `true` in order to underline button title text
+Default: `false` - Underline all button titles. Set this to `true` to underline button title text
 
 #### boldButtonTitles
 
-Default: `true` - Make button titles bold. Set this to `false` in order to use normal font weight in button titles
+Default: `true` - Make button titles bold. Set this to `false` to use normal font weight in button titles
 
 ## PushNotifications
 
-In order to use push notifications via the IDnow SDK it is neccessary that your own `AppDelegate` inherits from
+To use push notifications via the IDnow SDK it is necessary that your own `AppDelegate` inherits from
 the provided `IDnowAppDelegate`. This is necessary because the callbacks from Apple regarding the registration and reception of push notifications are solely handled through the `AppDelegate`, which is not part of our SDK. If your own `IDnowAppDelegate` subclass overrides some methods, please make sure to call the superclass's implementation within your overrides.
 
-Additionally we will need the production certifcate/key pair to send notifications via push to your app via
+Additionally, we will need the production certifcate/key pair to send notifications via push to your app via
 our backend.
 
 ```objectivec
@@ -603,7 +667,7 @@ Below is the list of possible errors.
 | IDnowErrorIdentificationFailed            | Can occur during an identification process (e.g. triggered by`[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed.                                                                                                      |
 | IDnowErrorJailbreakPhoneNotSupported      | Unable to perform an identification on a jailbroken device.                                                                                                                                                                                                             |
 | IDnowErrorInvalidWebRTCToken              | Using LiveSwitch with an invalid key.                                                                                                                                                                                                                                   |
-| IDnowErrorHighCallVolumeTryLater          | User agreeed to try the identification later due to the high call volume.                                                                                                                                                                                               |
+| IDnowErrorHighCallVolumeTryLater          | User agreed to try the identification later due to the high call volume.                                                                                                                                                                                               |
 | IDnowErrorEnrolledInWaitingList           | User enrolled in the Waiting List so current identification session aborted.                                                                                                                                                                                            |
 | IDnowErrorDeviceNotMeetPVIDRequirements   | The PVID requirements only allow users with devices that support the required resolution criteria (minimum 720p: 1280 × 720 at 25 frames per second) for the VideoIdent process.                                                                                       |
 | IDnowErrorUnifiedIdentAnotherMethod       | Error for a Unified Ident which states the user decided to switch to another type of identification.                                                                                                                                                                    |
@@ -617,7 +681,28 @@ Below is the list of possible errors.
 
 In case you would like to change the localization used by the IDnow SDK at runtime you can do it by supplying the language code to the `IDnowSettings` instance:
 
-Supported values are: en (English), de (German), fr (French), es (Spanish), it (Italian), pt (Portugese), et (Estonian), hr (Croatian), hu (Hungarian), ka (Georgian), ko(Korean), lt(Lithuanian), lv (Latvian), nl (Dutch), pl (Polish), ua (Ukrainian),  zh (Chinese), ru (Russian).
+Supported values are:
+| Language | Code |
+|----------|------|
+| English  | en   |
+| German   | de   |
+| French   | fr   |
+| Spanish  | es   |
+| Italian  | it   |
+| Portuguese | pt |
+| Estonian | et   |
+| Croatian | hr   |
+| Hungarian | hu  |
+| Georgian | ka   |
+| Korean   | ko   |
+| Lithuanian | lt |
+| Latvian  | lv   |
+| Dutch    | nl   |
+| Polish   | pl   |
+| Ukrainian | ua  |
+| Chinese  | zh   |
+| Russian  | ru   |
+
 
 ```objectivec
 settings.userInterfaceLanguage = @"de"; // this field accepts the following languages (de, en, it, es, pt, fr, et, hr, hu, uk, ka, ko, lt, lv, nl, pl, ru, zh).
@@ -629,12 +714,16 @@ settings.userInterfaceLanguage = @"de"; // this field accepts the following lang
 ## Cordova
 
 Our Cordova plugin offers the possibility of integrating our native Android and iOS SDK into the Cordova-based applications. The plugin offers the possibility to customize and setup of the SDK. At the end of the identification process, the SDK communicates with the plug-in via a callback, allowing the Cordova application to update the flow. Please refer to this [link](https://www.npmjs.com/package/com-idnow-plugin) for implementation details.
-**Note**: Only VideoIdent and eSign are supported so far. eID is not supported.
+**Note**: Only VideoIdent and eSign are supported. eID is not supported.
 
 ## React native
 
 Our React Native plug-in offers the possibility of integrating our native Android and iOS SDK into the React Native-based applications. It offers the possibility to customize and setup the SDK, and uses the latest expo native modules to create the bridging mechanism. Please refer to this [link](https://www.npmjs.com/package/react-native-vi-idnow-library) for implementation details.
-**Note**: Only VideoIdent and eSign are supported so far. eID is not supported
+**Note**: Only VideoIdent and eSign are supported. eID is not supported
+
+## Examples
+
+You can find integration code examples in the [examples folder](/examples/).
 
 # eID Framework
 

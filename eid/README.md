@@ -4,6 +4,7 @@
 
 - [IDnow eID SDK](#idnow-eid-sdk)
   - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
   - [Requirements](#requirements)
   - [Installation](#installation)
     - [Host app configuration](#host-app-configuration)
@@ -32,10 +33,17 @@
 
 ---
 
+## Overview
+
+IDnow eID is an automated and fully AML-compliant identification product. All it requires is an NFC-enabled (Near Field Communication) smartphone and a German ID document (ID card or Residence permit) with an activated eID function or the eID card for EU citizens.
+
+German government introduced RFID chip based electronic ID cards in November 2010. Usage of this card has been accepted by BSI (Bundesamt für Sicherheit in der Informationstechnik) for digital identification of the citizens.
+
 ## Requirements
 
-- Xcode 14.3 or later
-- Deployment Target: iOS 11.0 or later (__Note__: NFC can work only with iPhone 7 or higher)
+- Xcode 15 or above
+- Deployment Target: iOS 11.0+ (__Note__: NFC can work only with iPhone 7 or higher)
+- Device with a camera and NFC reading capabilities
 
 ---
 
@@ -58,6 +66,8 @@ Download the latest version of the [eID framework](https://github.com/idnow/de.i
     ![alt text](/screenshots/eid_screenshot_3.png)
 
 ### Usage:
+
+__Note:__ Use optional steps only if you want to configure IDnow VideoIdent SDK as a fallback for eID. Otherwise the optional steps can be ignored.
 
 **Step 1:** Import the library into your source code.
 
@@ -101,9 +111,9 @@ appearance.fontNameRegular           = @"TimesNewRomanPSMT";
 appearance.fontNameBold              = @"TimesNewRomanPS-BoldMT";
 ```
 
-**Step 3:** Obtain the ident token and configure the `IDnowController` same as for the regular VideoIdent flow. This is needed to properly instantiate the identification system. For details see the [VideoIdent configuration.](../README.md#usage)
+**Step 3 (optional):** Obtain the ident token and configure the `IDnowController` same as for the regular VideoIdent flow. This is needed to properly instantiate the identification system. For details see the [VideoIdent configuration.](../README.md#usage)
 
-**Step 4:** Once the initialization is finished, check for errors and proceed to the eID identification.
+**Step 4 (optional):** Once the initialization is finished, check for errors and proceed to the eID identification.
 
 #### Swift
 
