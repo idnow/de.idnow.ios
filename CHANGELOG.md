@@ -1,5 +1,13 @@
 ## Changelog
 
+
+### 9.2.0
+
+- **Enhanced security validation**: To reduce the chances of a Man-in-the-Middle (MITM) attack over TLS, we have implemented an additional layer of validation. This increases the security of the communication channel between the backend and client side.
+- **UI/UX enhancements**: We have made various adjustments to our user interface (UI) and user experience (UX) to ensure users have a consistent experience throughout the flow.
+- **Fixed crashes**: As part of this version we have also identified and fixed some crashes to ensure that users can go through the flow uninterrupted.
+- **Bug fixes**: We regularly test our products to assess areas where there is any room for improvement. We identified some minor bugs and fixed those as part of this release as well.
+
 ### 9.1.1
 
 - We noticed a minor UI inconsistency while using the Picture-in-Picture (PiP) feature that was released in the last version i.e. v9.1.0. As part of this hotfix we have fixed that UI inconsistency.
