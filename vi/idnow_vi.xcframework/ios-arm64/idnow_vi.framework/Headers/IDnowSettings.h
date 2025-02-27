@@ -228,9 +228,11 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  * The certificate provider can be used to provide a custom DTLS certificate (featureCertificate == YES) and/or to check the
  * SHA fingerprint of the server certificate (featureFingerprint == YES)
  */
-@property (strong, nullable, nonatomic)IDnowCertificateProvider* certificateProvider;
+@property (strong, nullable, nonatomic) IDnowCertificateProvider* certificateProvider;
 
-@property (strong, nullable, nonatomic)IDnowDtlsCertificateProvider* dtlsCertificateProvider;
+@property (strong, nullable, nonatomic) IDnowDtlsCertificateProvider* dtlsCertificateProvider;
+
+@property (strong, nullable, nonatomic)IDnowDtlsCertificateProvider* dtlsUDPCertificateProvider;
 
 /**
  * The device token is needed to uniquely identify the device. Its used to send push notifications.
@@ -284,14 +286,6 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  *  You can use the special IDnowEnvironmentCustom to define a custom IDnow installation. If this is done, you need to set the apiHost and websocketHost.
  */
 @property (assign, nonatomic) IDnowEnvironment environment;
-
-/**
- *  If set to `true`, the SDK will accept invalid (e.g. self signed certificates).
- *  Please note that iOS might still reject the certs if you dont also set
- *  NSAllowsArbitraryLoads in NSAppTransportSecurity and also NSTemporaryExceptionAllowsInsecureHTTPLoads
- *  in NSExceptionDomains for your domains
- */
-@property (assign, nonatomic) BOOL allowInvalidCertificates;
 
 /**
  *  The target server url for REST calls if custom server is used

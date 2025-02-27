@@ -77,6 +77,9 @@
 "CONTINUE" = "Continue";
 
 /* No comment provided by engineer. */
+"CONFIRM_AND_SIGN" = "Confirm and sign";
+
+/* No comment provided by engineer. */
 "CONTRACTS_BACK_BUTTON_TITLE" = "Back";
 
 /* No comment provided by engineer. */
@@ -231,6 +234,8 @@
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1013" = "It looks like you are trying to perform an AutoIdent. Would you like to download this application on AppStore?";
+
+"IDNOW_ERROR_DESCRIPTION_UNEXPECTED" = "An unexpected error has occurred";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_TITLE" = "Identification Failed";

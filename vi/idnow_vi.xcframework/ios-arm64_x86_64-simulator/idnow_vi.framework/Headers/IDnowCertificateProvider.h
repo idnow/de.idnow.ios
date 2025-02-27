@@ -36,13 +36,13 @@
  */
 - (NSArray<NSData*>*)provideServerFingerPrintByteStreams;
 
-
 /**
- *  this will get called once the server certificate has been received
- *  the >>serverCertificate<< will contain the DER encoded bytes of the received server certificate
- *  @return TRUE if the validation has been successful
+ *  subclasses need to implement this function in a way that it returns the raw bytes
+ *  of the used server certificates
+ *
+ *  @return raw bytes of the server certificates
  */
-- (BOOL)verifyServerCertificate:(NSData*)serverCertificate;
+- (NSArray<NSData*>*)provideServerCertificateByteStreams;
 
 /**
  *  these bool flags configure which features the underlying network connection uses

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		tHyNam2FyWJfr8fCjcL6fa3VUjQ=
+		pu3NOfDY7FagB3Gpex4EOo33WeE=
 		</data>
 		<key>Headers/idnow_eid-Swift.h</key>
 		<data>
-		hzNQpt9gTdPOFPT1GZlomq+fSro=
+		QuOvhrPmcFEH3XxgWv+p5YpqHjk=
 		</data>
 		<key>Headers/idnow_eid.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uq2uj+K9Wk3e11DJP0q/z5Bnz5s=
+		a4ovKjQrBxMdSTrHQJEZM5HIf3E=
 		</data>
 		<key>Main.storyboardc/4A7-6o-ySM-view-S9Q-Fw-hIu.nib/objects-13.0+.nib</key>
 		<data>
@@ -178,27 +178,27 @@
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		nDvlXIw+LkwVHiMvamo3EZmNDUs=
+		Ea/1VRm79NFvc55HuxJKyVH1Cqg=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1/tAqz2lnLcweFUeSI8O0vDojUw=
+		5M5lsQBoDNHSZ3k7NULjJxofx6Q=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		llYga/IGjhxtRB3WArOxKU7YqoA=
+		ErWAJ06O+ltS6JY98hUY0qcA24w=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		a0sLN3VDFQvfaxLNiIcqtj0Mjyk=
+		qN9GFrj7hUYBrv85KLCpuJkAbjQ=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		llYga/IGjhxtRB3WArOxKU7YqoA=
+		ErWAJ06O+ltS6JY98hUY0qcA24w=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		gDv/UDyaC0HvkSxaKFJ0zOoAImQ=
+		4w1Kcr0ArhS5GcdZXhzhxD9Su0E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -241,7 +241,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dkytGtJN3lMoyvmu2qHFrm66mHU=
+			/l8pnj/6d10BbHR9SvtGOruNgkw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -299,6 +299,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>idn-animation-loading.json</key>
+		<data>
+		kqodUiyrPeSxPNH6qySeQoKSK68=
+		</data>
 		<key>idn_eid_static_generic_error.json</key>
 		<data>
 		dMuo/LAbYK0ipCEA0VDSKNg76UU=
@@ -449,14 +453,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lGTsg5wjVaQ0MquY3NOglknaCJiA9G4MJRYpO6fThgo=
+			guDPqRK0ipfHJs3dvhtOBMkoUHLN7JRlxawbXYToVnY=
 			</data>
 		</dict>
 		<key>Headers/idnow_eid-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cGZjGLPiPPno1mj6r+onrFxhLwWp/An452n8Mv3DkOQ=
+			HYZHdxKnTbHHm82UJ25smHrxUIrYeG1Rs/aME6TmH0I=
 			</data>
 		</dict>
 		<key>Headers/idnow_eid.h</key>
@@ -743,42 +747,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tjINBdc1TI3exsJr0YIoU1Q6hqZre00yHSkA2XW2eY0=
+			8TTUdO5C14UiHjwexuZgnq2BZyH6EcVfrRxFvhdgQhc=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vIXpxB/6nOnGdYbxG+B3I8Ix+cdDUmjjJwgEF6P1U90=
+			aMtMxf7LU9SeUZT2xhA+x2UfNYHYGyoDqSKjkMOjA10=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9sZI8rkx1NPcI6WZzdTWDjdlS+ffeZiPv42mRP7FZDI=
+			fOxdEbAlgERyByLV+Sh4EW4GEMkxwJSJz4nQ848hiI4=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6qL0rvs2j/mGgNmoysF62r42uCDGTNFoeRoNUZviACk=
+			HOZOpxUFcx9gliWuKBBS8NNdSzcKVQ+Ug3MHwJcc2UE=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9sZI8rkx1NPcI6WZzdTWDjdlS+ffeZiPv42mRP7FZDI=
+			fOxdEbAlgERyByLV+Sh4EW4GEMkxwJSJz4nQ848hiI4=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lqLJTyMq+MtTc2S7UsuLQooRsgLBw78IvdKpP5ngGYU=
+			4rdFsGQdPco3Z4Ny3mnNR57LTqCxaEftZ4YvFPmdRCA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -843,7 +847,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gQ5HUN3PD64UoI9S+iPhL70fLTLWaeeaxlHuAP43Fe8=
+			1Ae2xpUKojIhu62cLW0fh3vaQW+HKrd5TiO13do8Y5g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -906,6 +910,13 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>idn-animation-loading.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cVEsZgK2BVJ7V0GGNt1qq+o4loQ8wJ/B+Mi+rQFFlkY=
+			</data>
 		</dict>
 		<key>idn_eid_static_generic_error.json</key>
 		<dict>

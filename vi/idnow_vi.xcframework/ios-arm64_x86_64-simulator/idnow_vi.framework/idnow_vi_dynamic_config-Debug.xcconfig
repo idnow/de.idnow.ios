@@ -1,0 +1,12 @@
+//
+//  idnow_vi_dynamic_config.xcconfig
+//  idnow-sdk
+//
+//  Created by Phu Nguyen on 11/22/24.
+//  Copyright © 2024 IDnow GmbH. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-idnow-sdk-framework/Pods-idnow-sdk-framework.debug.xcconfig"
+MARKETING_VERSION=9.3.0
