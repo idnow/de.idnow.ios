@@ -1,5 +1,8 @@
 ## Changelog
 
+### 9.3.1
+- Fixed issue that prevented updating the SDK from 9.2.0 to 9.3.0.
+
 ### 9.3.0
 - **OTP Step**: We have made the required changes to the flow that allow us to control whether or not the OTP step is displayed to the user.
 
