@@ -42,7 +42,7 @@ German government introduced RFID chip based electronic ID cards in November 201
 ## Requirements
 
 - Xcode 15 or above
-- Deployment Target: iOS 11.0+ (__Note__: NFC can work only with iPhone 7 or higher)
+- Deployment Target: iOS 14.0+ (__Note__: NFC can work only with iPhone 7 or higher)
 - Device with a camera and NFC reading capabilities
 
 ---
@@ -55,9 +55,10 @@ Download the latest version of the [eID framework](https://github.com/idnow/de.i
 
 - Add the `idnow_eid.framework` and `AuthadaAuthenticationLibrary.xcframework` to your Xcode project files. __NOTE__:
   - Due to technical reasons, we cannot make the following library available on Github: `AuthadaAuthenticationLibrary.xcframework`. Please contact your customer success manager so that they can provide it to you.
+- Add the following SPM (Swift Package Manager) dependency to your project: https://github.com/Governikus/AusweisApp2-SDK-iOS. **Important**: use the version `2.2.2` for iOS 14 compatibility.
 - Navigate to your project settings, select your build target and open `Build Phases`.
 - Add the `idnow_eid.framework`, `CoreNFC.framework` and `AuthadaAuthenticationLibrary.xcframework` to `Link Binary With Libraries` ![alt text](/screenshots/eid_screenshot_1.png)
-- Make sure both `AuthadaAuthenticationLibrary` and `idnow_eid` frameworks are added in `Embed Frameworks` section.![alt text](/screenshots/eid_screenshot_4.png)
+- Make sure `AuthadaAuthenticationLibrary`, `idnow_eid`, and `AusweisApp2.xcframework` frameworks are added in `Embed Frameworks` section.![alt text](/screenshots/eid_screenshot_4.png)
 - Add `Near Field Communication Tag Reading` as a capability. In the entitlements file, check if there is an array for the key `Near Field Communication Tag Reader Session Format`, make sure the array contains the entry `NFC tag-specific data protocol`. ![alt text](/screenshots/eid_screenshot_2.png)
 - Update the `Info.plist` file:
 
