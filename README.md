@@ -85,7 +85,7 @@ IDnow eSign issues Qualified Electronic Signatures (QES) on one or more PDF docu
 ### Requirements
 
 - Xcode 15 or above
-- Deployment target: iOS 11+
+- Deployment target: iOS 14+
 - CocoaPods v1.13.0 or above (for the CocoaPods distribution)
 - Device with WiFi/3G/LTE, camera, and microphone
 
