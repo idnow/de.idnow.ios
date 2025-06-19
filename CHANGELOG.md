@@ -1,5 +1,9 @@
 ## Changelog
 
+### 9.6.0
+- We have made technical and UI enhancements to our eID solution to allow users to seamlessly go through the process.
+- Please note that as part of this release the minimum supported version for iOS has been increased to 14.
+
 ### 9.3.1
 - Fixed issue that prevented updating the SDK from 9.2.0 to 9.3.0.
 
