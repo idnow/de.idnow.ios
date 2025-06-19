@@ -20,7 +20,7 @@ FOUNDATION_EXPORT NSString *const IDnowCauseErrorKey;
 FOUNDATION_EXPORT NSString *const IDnowSupportEmail;
 
 /**
- * Declares possible error codes that can occur within a video or photo identification.
+ * Declares possible error codes that can occur within identification process.
  */
 typedef NS_ENUM (NSInteger, IDnowError)
 {

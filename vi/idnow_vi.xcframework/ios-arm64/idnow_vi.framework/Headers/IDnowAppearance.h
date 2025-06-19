@@ -422,6 +422,12 @@ enum APPEARANCE_MODE
 
 @property (assign, nonatomic) BOOL lightBlurForIdentCodeContainer;
 
+/**
+ * Animation name for the custom waiting list animation
+ */
+
+@property (nonatomic) NSString *waitingListAnimationName;
+
 // -----------------------------------------------------------------------------------
 //                                    Call Quality Check
 // -----------------------------------------------------------------------------------

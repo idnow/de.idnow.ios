@@ -161,7 +161,7 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  *
  *  @param companyID The company identifier provided by IDnow.
  *
- *    @param transactionToken A token used for instantiating a photo or video identification.
+ *    @param transactionToken A token used for instantiating a identification method
  *
  *  @return An IDnowSettings instance.
  */
@@ -174,7 +174,7 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 // -----------------------------------------------------------------------------------
 
 /**
- *  A token that will be used for instantiating a photo or video identification.
+ *  A token that will be used for instantiating a identification method
  */
 @property (nullable, strong, nonatomic) NSString *transactionToken;
 
