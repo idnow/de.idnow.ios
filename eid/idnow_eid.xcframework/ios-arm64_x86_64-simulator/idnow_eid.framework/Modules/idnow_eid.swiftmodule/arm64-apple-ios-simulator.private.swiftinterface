@@ -1,10 +1,12 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name idnow_eid
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature OpaqueTypeErasure -enable-bare-slash-regex -module-name idnow_eid
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
+import AusweisApp2
 import AuthadaAuthenticationLibrary
 import CoreGraphics
+import CoreNFC
 import CoreText
 import DeveloperToolsSupport
 import Foundation
@@ -15,6 +17,7 @@ import SwiftUI
 import SystemConfiguration
 import UIKit
 import _Concurrency
+import _CoreNFC_UIKit
 import _StringProcessing
 import _SwiftConcurrencyShims
 @_exported import idnow_eid
@@ -171,6 +174,7 @@ extension Foundation.URLRequest {
 }
 public enum IDnoweIDServices : idnow_eid.IDnowServiceProtocol {
   case start(payload: idnow_eid.IDnowParameters)
+  case startEid(payload: idnow_eid.IDnowParameters)
   case updateMobile(payload: idnow_eid.IDnowParameters)
   case getApprovalPhrases
   case getDocumentList
@@ -199,7 +203,6 @@ public enum IDnoweIDServices : idnow_eid.IDnowServiceProtocol {
     get
   }
 }
-public typealias BoolClosure = (Swift.Bool, (any Swift.Error)?) -> Swift.Void
 @objc @_inheritsConvenienceInitializers public class IDnowRegexPhoneManager : ObjectiveC.NSObject {
   @objc override dynamic public init()
   @objc deinit
@@ -563,6 +566,16 @@ public class IDNowFilepathImageProvider : idnow_eid.IDNowAnimationImageProvider 
   public func imageForAsset(asset: idnow_eid.IDNowImageAsset) -> CoreGraphics.CGImage?
   @objc deinit
 }
+public struct AusweisApp {
+  public struct Command : Swift.Hashable, Swift.Equatable {
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: idnow_eid.AusweisApp.Command, b: idnow_eid.AusweisApp.Command) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public typealias BoolClosure = (Swift.Bool, (any Swift.Error)?) -> Swift.Void
 extension UIKit.UIColor {
   public var lottieColorValueIDNow: idnow_eid.IDNowColor {
     get

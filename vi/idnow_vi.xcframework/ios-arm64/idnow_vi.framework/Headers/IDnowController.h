@@ -27,7 +27,7 @@ typedef void (^IDnowCompletionBlock)(BOOL success, NSError *__nullable error, BO
 
 /**
  *  The main class of the SDK. It provides functionality to instantiate a new
- *  identification process and presents the UI needed for a video or photo ident.
+ *  identification process and presents the UI needed for the configured identification method
  *
  *  First you should create an IDnowSettings object, which should contain at least a transactionToken and a companyID.
  *  You can customize the identification process by setting some of the additional properties of the IDnowSettings instance.

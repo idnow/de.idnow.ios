@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/IDnowAppearance.h</key>
 		<data>
-		cKIuC6rcizwxFX9i6YzCH8wa9ts=
+		lHtmdeRoyIGCGbLHtZ2Avj/m+hE=
 		</data>
 		<key>Headers/IDnowCertificateProvider.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/IDnowController.h</key>
 		<data>
-		8dM90tvhPNRmC3phmx2/fA5deuI=
+		0iaOfVx5WDhJo5LuugyN6qbTqzE=
 		</data>
 		<key>Headers/IDnowDtlsCertificateProvider.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/IDnowSettings.h</key>
 		<data>
-		vTuWLBB2u/0Kflnqa1gMey7icL8=
+		IRdJxt47mQVN3W32sixMt9U4YWw=
 		</data>
 		<key>Headers/NSError+IDnowError.h</key>
 		<data>
-		kBzHPuI+Uey36vqTtFEb2ALRM34=
+		AgkLRUSdkq77a2Yb35x0BUt5AD8=
 		</data>
 		<key>Headers/idnow_vi.h</key>
 		<data>
@@ -88,14 +88,6 @@
 		<data>
 		AQI9WSmENHkClVmDHnZPeKMMmzk=
 		</data>
-		<key>IDnowImages.bundle/idn-document-DRIVERS_LICENSE-DE@2x.png</key>
-		<data>
-		hSO6rPqIw/zbb7cDgZrHxOHGj6g=
-		</data>
-		<key>IDnowImages.bundle/idn-document-DRIVERS_LICENSE-DE@3x.png</key>
-		<data>
-		D0pCLVcDoj/7lPWlZoUaPVW0bfM=
-		</data>
 		<key>IDnowImages.bundle/idn-document-IDCARD-DE@2x.png</key>
 		<data>
 		cWbVf8RBJqijrsAQfyMUnlfDvtM=
@@ -103,22 +95,6 @@
 		<key>IDnowImages.bundle/idn-document-IDCARD-DE@3x.png</key>
 		<data>
 		RDct3Qu+39iapleC0czEhj3JiAY=
-		</data>
-		<key>IDnowImages.bundle/idn-document-PASSPORT-DE@2x.png</key>
-		<data>
-		CBjDh4Unv6NhH9SSOspW4hZUr/k=
-		</data>
-		<key>IDnowImages.bundle/idn-document-PASSPORT-DE@3x.png</key>
-		<data>
-		sVVwBy6u/96us6i9XJXtc3II00c=
-		</data>
-		<key>IDnowImages.bundle/idn-document-RESIDENCE_PERMIT-DE@2x.png</key>
-		<data>
-		bN92/1klevk+lvv89W8IYTYfRtM=
-		</data>
-		<key>IDnowImages.bundle/idn-document-RESIDENCE_PERMIT-DE@3x.png</key>
-		<data>
-		VHQejsdGq/s81KJQigd3wPn6DOw=
 		</data>
 		<key>IDnowImages.bundle/idn-flag-AD.png</key>
 		<data>
@@ -3976,15 +3952,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		EZo+VMv9XXzwB7MnPFGwREWrX9Y=
+		Jb4zvMkun5z0L+zJiBqRf6zxcOg=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		uo0pO0J5429FdUSNEJo06F7z7ys=
+		g/b5xzeyQQEtzjwzqjoWP7DNztA=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		dGOdkKhARZK2eEOCk2vT5DwSJnA=
+		FER3wXlUSLJAA5hHTDKRJ8BFCF0=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -3992,19 +3968,19 @@
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tr3NJdAm/hROLLHcGPHDQG8NH8A=
+		+RdncjF8gxJrxZ5hKQBTp16lCSU=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		iackj1S7iZciilqO/H9MSSd0eK0=
+		z9bUBLj+gOroj01zlZGf9nea7G4=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tr3NJdAm/hROLLHcGPHDQG8NH8A=
+		+RdncjF8gxJrxZ5hKQBTp16lCSU=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hqGoE9EXAL4LF2VI6v5XWF0Lqdg=
+		PQY6XhCTiOwTPj1gjlUV+p7j9qI=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -4012,19 +3988,19 @@
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		f4DjC5Nk6Uw/XUkZLAj/x/b2vbE=
+		QBsxquLPLTfdNCTd3weHFGxvQ3M=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vc1owkntfKlh5kcPve6H/WtkYhk=
+		0N7HhBmYzY0ovle/sEvnBJV1ips=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		f4DjC5Nk6Uw/XUkZLAj/x/b2vbE=
+		QBsxquLPLTfdNCTd3weHFGxvQ3M=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zONSiO7wa6dBUNt9mwo+vf3CLTs=
+		z+CjtLKNHlmmbUUhJSKZQrgp8NE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4036,11 +4012,11 @@
 		</data>
 		<key>idnow_vi_dynamic_config-Debug.xcconfig</key>
 		<data>
-		LuxJdWCij7Q2ZKd2G/RnYLJfc68=
+		BNZbgym+Nvsu4SykIw12lIEQa04=
 		</data>
 		<key>idnow_vi_dynamic_config-Release.xcconfig</key>
 		<data>
-		+NCgl8N7g9QX9z8tI3i/Lzzo6bY=
+		tn0AjsV9WqcHAM/B1m8NA+k7n3E=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -4063,7 +4039,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AuG339BcVrgmsbADBB35ye65JQxr72lvs1XsdtgNQsA=
+			fYLvC2s/2rVN0tuu2cGXAbQfoBOm15YgrkrCLPs9Sxs=
 			</data>
 		</dict>
 		<key>Headers/IDnowCertificateProvider.h</key>
@@ -4077,7 +4053,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GMZnfApUZbiFbDGK2IbXBnlm59d81EMKufNR4Mgd3xw=
+			xLouaEm80MSIboZP/FIKUhSytwe8/JO5tjoZO8iDdHw=
 			</data>
 		</dict>
 		<key>Headers/IDnowDtlsCertificateProvider.h</key>
@@ -4098,14 +4074,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fen4gCA0Q0WUqSltJqvD0edXuP6dCxP8vqd93Yk3Syg=
+			phtGMwJcLY4ugr5O5gks06w0Bi3gZm1Dnrp4vSJS19o=
 			</data>
 		</dict>
 		<key>Headers/NSError+IDnowError.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ghJfYsgSv3IthIuVKxHy6PQBg/izyyh70Zea/Di5tzo=
+			h1PN7a/WeE2y+yGNNcoSdSTfvoxPieJYwZonktcdAuw=
 			</data>
 		</dict>
 		<key>Headers/idnow_vi.h</key>
@@ -4192,20 +4168,6 @@
 			rE0o3IM+OGIcEvlRxpUtegJ7v5YEfDsxEuoz4mCL5AQ=
 			</data>
 		</dict>
-		<key>IDnowImages.bundle/idn-document-DRIVERS_LICENSE-DE@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MpvMBFfznhfNzLFdBHG3/M00NP3xGrVgJMausNKFZlA=
-			</data>
-		</dict>
-		<key>IDnowImages.bundle/idn-document-DRIVERS_LICENSE-DE@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FqDHWQOLo6grkYWVwOjG7ANRH57sl1/Yxsj9fdhW8FA=
-			</data>
-		</dict>
 		<key>IDnowImages.bundle/idn-document-IDCARD-DE@2x.png</key>
 		<dict>
 			<key>hash2</key>
@@ -4218,34 +4180,6 @@
 			<key>hash2</key>
 			<data>
 			0DafiVyhcUqMCe8uEqcbnQDxPiFzbTHOqfClsuglzx8=
-			</data>
-		</dict>
-		<key>IDnowImages.bundle/idn-document-PASSPORT-DE@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			byMGKo8/xBxO6j//XvAzOiT+PzRMFdgwg7eMeLjnPfg=
-			</data>
-		</dict>
-		<key>IDnowImages.bundle/idn-document-PASSPORT-DE@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M8cHuwR7XhxSPTOxOgSnAWmu3O6zyBz8oflCak6u61E=
-			</data>
-		</dict>
-		<key>IDnowImages.bundle/idn-document-RESIDENCE_PERMIT-DE@2x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3ecex3exnaSe2yNdQI7As3hR355QTToh46FQmZCSl0g=
-			</data>
-		</dict>
-		<key>IDnowImages.bundle/idn-document-RESIDENCE_PERMIT-DE@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hjg2fwfwNPjP+LmNZhKhpuQ5s4LKFfmW5uk7mwvvtjg=
 			</data>
 		</dict>
 		<key>IDnowImages.bundle/idn-flag-AD.png</key>
@@ -10875,14 +10809,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dTrF8O9N0UnoXUHPdnnmnMLDBcirsAQ/gBqieKq91VM=
+			eqyL62KAnd/uf3IVEPTQkjvVZEHEzZ/qwq1D/IpcuCs=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DhJcPJr3eZAg8Ga7Z+6YluXbEEUY5cvZNnkZy6fXS4w=
+			Wq5nOdc2yHfZs3rBvmM3U9aiCriDcpbjbQ+R3aFU1C0=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -10896,28 +10830,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AwJqezZVZcI2Zl7xIV4keeHiEDkVH9B3/SpYYxJfjqo=
+			1wHX1a1YmYgOjYqtuNnD6suIzGMMFRoWRmK6doKswaI=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mb9/B4YWDEXYft2O/2m0Sr+r7eN08DujwTdAbtmL3wA=
+			G0/Bdht/FaqiOsRGHsimfPjo4O17JYAqHfSeR+7oMVw=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AwJqezZVZcI2Zl7xIV4keeHiEDkVH9B3/SpYYxJfjqo=
+			1wHX1a1YmYgOjYqtuNnD6suIzGMMFRoWRmK6doKswaI=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LTMEFgAqjkfTz1GFR91qPmafFZFlr+LynkB02wohoAs=
+			CkwlcxEP29iNJWTlBFa2Boxng2O5/LLR08BCpZ3EU3w=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -10931,28 +10865,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UXUTv9OYUAXdKlSUBB1W/5KOFk+1fEQ0QfXyyNzmvc8=
+			kQHLYWxiBW44meXjxjW5+3CEZ1d7VjszfK6O8DjWL9U=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r5fc63hBcK27f+lpN82tTjjlGKj8vslbSa8yjq4yhKE=
+			qUsDLTtfz/h+bef4Q27GFBcc/wn973mVnxlo4CqfZ4c=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UXUTv9OYUAXdKlSUBB1W/5KOFk+1fEQ0QfXyyNzmvc8=
+			kQHLYWxiBW44meXjxjW5+3CEZ1d7VjszfK6O8DjWL9U=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lMaoQWwqD1jg2kKQlNy/wRzVqY8W3Ttqh5KtMjMIZhY=
+			bZMbf9I4qzyB44LrB7rAnLX15PtCOBxUY/7KbocjsIY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -10973,14 +10907,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bp4xhmrY1lkeWXyjB9VM8RH7qX0vKLlNOyf4ZI5Zivs=
+			x5oVdFlemWVujeaKq/4VPZVsKPFNuLdMyklL/jNuREI=
 			</data>
 		</dict>
 		<key>idnow_vi_dynamic_config-Release.xcconfig</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sQRbQF7Aop7XRTru7pBkRqRKm3SD6dh7ZEbBuvP0rvA=
+			5Y5FOsReQFbsePsyGXJ2wmdyXChLairkQowtjiqYe/M=
 			</data>
 		</dict>
 	</dict>
