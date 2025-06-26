@@ -1,5 +1,8 @@
 ## Changelog
 
+### 9.6.1
+- We have made minor adjustments to the dTLS implementation that were required for everything to work as expected with new certificates.
+
 ### 9.6.0
 - We have made technical and UI enhancements to our eID solution to allow users to seamlessly go through the process.
 - Please note that as part of this release the minimum supported version for iOS has been increased to 14.
