@@ -1,5 +1,8 @@
 ## Changelog
 
+### 9.6.2
+- Stability improvements and bug fixes.
+
 ### 9.6.1
 - We have made minor adjustments to the dTLS implementation that were required for everything to work as expected with new certificates.
 
