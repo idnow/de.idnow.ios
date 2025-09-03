@@ -58,8 +58,8 @@ Download the latest version of the [eID framework](https://github.com/idnow/de.i
 - Add the following SPM (Swift Package Manager) dependency to your project: https://github.com/Governikus/AusweisApp2-SDK-iOS. **Important**: use the version `2.2.2` for iOS 14 compatibility.
 ![alt text](/screenshots/eid_governikus_spm.png)
 - Navigate to your project settings, select your build target and open `Build Phases`.
-- Add the `idnow_eid.framework`, `CoreNFC.framework` and `AuthadaAuthenticationLibrary.xcframework` to `Link Binary With Libraries` ![alt text](/screenshots/eid_screenshot_1.png)
-- Make sure `AuthadaAuthenticationLibrary`, `idnow_eid`, and `AusweisApp2` frameworks are added in `Embed Frameworks` section.![alt text](/screenshots/eid_screenshot_4.png)
+- Add the `idnow_eid.framework`, `CoreNFC.framework`, `AuthadaAuthenticationLibrary.xcframework`, and `AusweisApp2` to `Link Binary With Libraries` ![alt text](/screenshots/eid_screenshot_1.png)
+- Make sure `AuthadaAuthenticationLibrary` and `idnow_eid` frameworks are added in `Embed Frameworks` section.![alt text](/screenshots/eid_screenshot_4.png)
 - Add `Near Field Communication Tag Reading` as a capability. In the entitlements file, check if there is an array for the key `Near Field Communication Tag Reader Session Format`, make sure the array contains the entry `NFC tag-specific data protocol`. ![alt text](/screenshots/eid_screenshot_2.png)
 - Update the `Info.plist` file:
 
