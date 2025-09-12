@@ -1,5 +1,10 @@
 ## Changelog
 
+### 9.7.0
+- Support for iOS 26
+- Updated Liveswitch version
+- Bug fixes
+
 ### 9.6.2
 - Stability improvements and bug fixes.
 
