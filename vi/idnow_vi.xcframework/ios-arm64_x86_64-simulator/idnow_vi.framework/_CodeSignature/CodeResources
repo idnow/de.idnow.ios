@@ -3952,7 +3952,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6AWoAoFpbiQ7XLP5mV5QYJmqQF0=
+		53rO2Dt+pit0FCQNWaehyxC27N8=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -4012,11 +4012,11 @@
 		</data>
 		<key>idnow_vi_dynamic_config-Debug.xcconfig</key>
 		<data>
-		+I15+cIqDOlyGkvUC7c5aGshvts=
+		IGWhjPZkmDoFIwobg7drZAXySGY=
 		</data>
 		<key>idnow_vi_dynamic_config-Release.xcconfig</key>
 		<data>
-		oRP24Gi+e06j9oqi469r1c0Ml3Y=
+		8Q1mim14T67l6IPsn8mPo9pHwEM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -10907,14 +10907,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			03Zqla1MzXWUJF1ND9tz3F37KBmh4xHRTrjiz3NbRTU=
+			sQ4y5GH/x74PaTEwwQ9MZ9v70AuXhGmRYGrF74My/wc=
 			</data>
 		</dict>
 		<key>idnow_vi_dynamic_config-Release.xcconfig</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			knMxZiyJqyu4xlDirU98cZcS3RFFnVk3tPsLnt00FRE=
+			U2EhwbhCrUp3gt9Bk9A8Cb8426sVpyt6DILyUmuxTg8=
 			</data>
 		</dict>
 	</dict>
