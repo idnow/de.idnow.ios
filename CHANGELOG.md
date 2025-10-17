@@ -1,5 +1,9 @@
 ## Changelog
 
+### 9.7.1
+- Further iOS 26 improvements
+- dTLS implementation improvements
+- Bug fixes
 ### 9.7.0
 - Support for iOS 26
 - Updated Liveswitch version
