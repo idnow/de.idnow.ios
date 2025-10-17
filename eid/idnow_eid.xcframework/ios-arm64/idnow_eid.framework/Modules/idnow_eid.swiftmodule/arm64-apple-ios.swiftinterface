@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name idnow_eid
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AusweisApp2
 import AuthadaAuthenticationLibrary
@@ -37,10 +37,18 @@ public typealias eIDRouterCompletionHandler = (Swift.Bool, Swift.Bool, (any Swif
 }
 @objc public class IDN_eIDRouter : ObjectiveC.NSObject {
   public var currentNavController: UIKit.UINavigationController!
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(withController controller: UIKit.UIViewController, token: Swift.String, completion: idnow_eid.eIDRouterInitializationHandler?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func present(_ completionHandler: idnow_eid.eIDRouterCompletionHandler?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func startUnifiedEID(showPopUp: Swift.Bool, unifiedToken: Swift.String?, completionHandler: idnow_eid.eIDRouterCompletionHandler?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func startWithoutChooserPage(_ completionHandler: idnow_eid.eIDRouterCompletionHandler?)
+  #endif
   @objc deinit
 }
 @objc public protocol IDnowLoggerProtocol {
@@ -49,8 +57,12 @@ public typealias eIDRouterCompletionHandler = (Swift.Bool, Swift.Bool, (any Swif
   @objc func endSession()
   @objc func startEvent(_ name: Swift.String)
   @objc func endEvent(_ name: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func recordEvent(_ name: Swift.String, segmentation: [Swift.String : Swift.String]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func recordView(_ name: Swift.String, segmentation: [Swift.String : Swift.String]?)
+  #endif
 }
 extension Foundation.URLComponents {
   public init(service: any idnow_eid.IDnowServiceProtocol)
@@ -85,7 +97,9 @@ extension idnow_eid.IDN_eIDNetworkError : Swift.CustomStringConvertible {
   case light
   case dark
   case system
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -110,22 +124,30 @@ extension idnow_eid.IDN_eIDNetworkError : Swift.CustomStringConvertible {
     @objc set
   }
   @objc public var usedNewBrand: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var fontNameBold: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var fontNameRegular: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var fontNameMedium: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public var fontNameLight: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @objc public var backgroundCellsColor: UIKit.UIColor
   @objc public var primarySubstitutionColor: UIKit.UIColor {
     @objc get
@@ -148,12 +170,22 @@ final public class IDNowAnimation : Swift.Codable {
   final public func encode(to encoder: any Swift.Encoder) throws
 }
 extension idnow_eid.IDNowAnimation {
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: (any idnow_eid.IDNowAnimationCacheProvider)? = nil) -> idnow_eid.IDNowAnimation?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func filepath(_ filepath: Swift.String, animationCache: (any idnow_eid.IDNowAnimationCacheProvider)? = nil) -> idnow_eid.IDNowAnimation?
+  #endif
   public typealias IDNowDownloadClosure = (idnow_eid.IDNowAnimation?) -> Swift.Void
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func loadedFrom(url: Foundation.URL, closure: @escaping idnow_eid.IDNowAnimation.IDNowDownloadClosure, animationCache: (any idnow_eid.IDNowAnimationCacheProvider)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func progressTime(forMarker named: Swift.String) -> idnow_eid.IDNowAnimationProgressTime?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func frameTime(forMarker named: Swift.String) -> idnow_eid.IDNowAnimationFrameTime?
+  #endif
   final public func progressTime(forFrame frameTime: idnow_eid.IDNowAnimationFrameTime) -> idnow_eid.IDNowAnimationProgressTime
   final public func frameTime(forProgress progressTime: idnow_eid.IDNowAnimationProgressTime) -> idnow_eid.IDNowAnimationFrameTime
   final public func time(forFrame frameTime: idnow_eid.IDNowAnimationFrameTime) -> Foundation.TimeInterval
@@ -170,7 +202,9 @@ extension idnow_eid.IDNowAnimation {
 }
 extension Foundation.URLRequest {
   public init(service: any idnow_eid.IDnowServiceProtocol)
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(url: Foundation.URL, parameters: [Swift.String : Swift.String]?)
+  #endif
 }
 public enum IDnoweIDServices : idnow_eid.IDnowServiceProtocol {
   case start(payload: idnow_eid.IDnowParameters)
@@ -196,9 +230,11 @@ public enum IDnoweIDServices : idnow_eid.IDnowServiceProtocol {
   public var task: idnow_eid.IDnowTask {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var defaultHeaders: idnow_eid.IDnowHeaders? {
     get
   }
+  #endif
   public var parametersEncoding: idnow_eid.IDnowParametersEncoding {
     get
   }
@@ -226,7 +262,9 @@ public enum IDnowHTTPMethod : Swift.String {
   case post
   case put
   case delete
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -240,7 +278,9 @@ public enum IDnowTask {
 @objc public enum IDnowParametersEncoding : Swift.Int {
   case url
   case json
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -253,12 +293,18 @@ public protocol IDnowServiceProtocol {
   var path: Swift.String { get }
   var method: idnow_eid.IDnowHTTPMethod { get }
   var task: idnow_eid.IDnowTask { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var defaultHeaders: idnow_eid.IDnowHeaders? { get }
+  #endif
   var parametersEncoding: idnow_eid.IDnowParametersEncoding { get }
 }
 public protocol IDnowProviderProtocol : ObjectiveC.NSObjectProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   func request<T>(type: T.Type, service: any idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<T, idnow_eid.IDN_eIDNetworkError>) -> ()) where T : Swift.Decodable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func requestData(service: any idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<Foundation.Data, idnow_eid.IDN_eIDNetworkError>) -> ())
+  #endif
 }
 public protocol IDnowURLSessionProtocol {
   typealias DataTaskResult = (Foundation.Data?, Foundation.URLResponse?, (any Swift.Error)?) -> ()
@@ -272,7 +318,9 @@ public enum IDNowLayerType : Swift.Int, Swift.Codable {
   case shape
   case text
   public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -283,7 +331,9 @@ public enum IDNowMatteType : Swift.Int, Swift.Codable {
   case add
   case invert
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -306,7 +356,9 @@ public enum IDNowBlendMode : Swift.Int, Swift.Codable {
   case saturation
   case color
   case luminosity
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -333,7 +385,9 @@ public protocol IDN_eIDNErrorProtocol {
   public var error: Foundation.NSError {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
     get
@@ -359,7 +413,9 @@ public protocol IDN_eIDNErrorProtocol {
   public var error: Foundation.NSError {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public static var _nsErrorDomain: Swift.String {
     get
@@ -400,7 +456,9 @@ public struct IDNowVector3D {
 public enum IDNowCoordinateSpace : Swift.Int, Swift.Codable {
   case type2d
   case type3d
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -429,7 +487,9 @@ extension idnow_eid.IDNowVector3D {
 infix operator +| : DefaultPrecedence
 infix operator +- : DefaultPrecedence
 public protocol IDNowAnimationCacheProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func animation(forKey: Swift.String) -> idnow_eid.IDNowAnimation?
+  #endif
   func setAnimation(_ animation: idnow_eid.IDNowAnimation, forKey: Swift.String)
   func clearCache()
 }
@@ -438,7 +498,9 @@ public class IDNowLRUAnimationCache : idnow_eid.IDNowAnimationCacheProvider {
   public func clearCache()
   public static let sharedCache: idnow_eid.IDNowLRUAnimationCache
   public var cacheSize: Swift.Int
+  #if compiler(>=5.3) && $NonescapableTypes
   public func animation(forKey: Swift.String) -> idnow_eid.IDNowAnimation?
+  #endif
   public func setAnimation(_ animation: idnow_eid.IDNowAnimation, forKey: Swift.String)
   @objc deinit
 }
@@ -522,7 +584,9 @@ final public class IDNowGradientValueProvider : idnow_eid.IDNowAnyValueProvider 
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(block: @escaping idnow_eid.IDNowGradientValueProvider.IDNowColorsValueBlock, locations: idnow_eid.IDNowGradientValueProvider.IDNowColorLocationsBlock? = nil)
+  #endif
   public init(_ colors: [idnow_eid.IDNowColor], locations: [Swift.Double] = [])
   final public var valueType: any Any.Type {
     get
@@ -545,25 +609,37 @@ final public class IDNowDefaultTextProvider : idnow_eid.IDNowAnimationTextProvid
   @objc deinit
 }
 public protocol IDNowAnimationFontProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
+  #endif
 }
 final public class IDNowDefaultFontProvider : idnow_eid.IDNowAnimationFontProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
+  #endif
   public init()
   @objc deinit
 }
 public protocol IDNowAnimationImageProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   func imageForAsset(asset: idnow_eid.IDNowImageAsset) -> CoreGraphics.CGImage?
+  #endif
 }
 public class IDNowBundleImageProvider : idnow_eid.IDNowAnimationImageProvider {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(bundle: Foundation.Bundle, searchPath: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func imageForAsset(asset: idnow_eid.IDNowImageAsset) -> CoreGraphics.CGImage?
+  #endif
   @objc deinit
 }
 public class IDNowFilepathImageProvider : idnow_eid.IDNowAnimationImageProvider {
   public init(filepath: Swift.String)
   public init(filepath: Foundation.URL)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func imageForAsset(asset: idnow_eid.IDNowImageAsset) -> CoreGraphics.CGImage?
+  #endif
   @objc deinit
 }
 public struct AusweisApp {
@@ -598,9 +674,15 @@ public enum IDNowLottieBackgroundBehavior {
   @objc deinit
 }
 @objc public class IDnowURLSessionProvider : ObjectiveC.NSObject, idnow_eid.IDnowProviderProtocol {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func request<T>(type: T.Type, service: any idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<T, idnow_eid.IDN_eIDNetworkError>) -> ()) where T : Swift.Decodable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func requestData(service: any idnow_eid.IDnowServiceProtocol, completion: @escaping (Swift.Result<Foundation.Data, idnow_eid.IDN_eIDNetworkError>) -> ())
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(session: any idnow_eid.IDnowURLSessionProtocol = URLSession.shared, headers: [Swift.String : Swift.String]? = nil)
+  #endif
   @objc deinit
 }
 public typealias IDNowLottieCompletionBlock = (Swift.Bool) -> Swift.Void
