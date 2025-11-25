@@ -1,9 +1,17 @@
 ## Changelog
 
+### 9.7.2 & eID 3.5.1
+#### eID
+- Add correct identification tutorial steps
+- Fix the issue causing missing document capture files
+#### VideoIdent
+- Bugfixes and stability improvements
+
 ### 9.7.1
 - Further iOS 26 improvements
 - dTLS implementation improvements
 - Bug fixes
+
 ### 9.7.0
 - Support for iOS 26
 - Updated Liveswitch version
