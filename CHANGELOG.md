@@ -1,5 +1,12 @@
 ## Changelog
 
+### 9.7.3 & eID 3.5.2
+#### VideoIdent
+- OTP screen UI improvement
+#### eID
+- Fix the eID modal presentation issue
+
+
 ### 9.7.2 & eID 3.5.1
 #### eID
 - Add correct identification tutorial steps

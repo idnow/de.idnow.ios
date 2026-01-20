@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		BW+ejCkxrOkPpxW0vlDA3yb3+C0=
+		PrQB8ATatE+Ih/rMG15ii7XhVtg=
 		</data>
 		<key>Headers/idnow_eid-Swift.h</key>
 		<data>
-		uncYpoyamYS1s21PAdxljOJcejU=
+		5oKFvkoW6R2kyfrDtuvDAFTAcTs=
 		</data>
 		<key>Headers/idnow_eid.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ax7Rx+uXe3DGkLbhXjB153Ki7AE=
+		4X4udFDOCbu0UoOaTrwyirxTZ5k=
 		</data>
 		<key>Main.storyboardc/4A7-6o-ySM-view-S9Q-Fw-hIu.nib</key>
 		<data>
@@ -114,51 +114,51 @@
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		AOLSGF67U+VwQijXuodUYg4smFM=
+		Dxf/Le07gZcbwPuv1ScVeE42dfw=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		RbHpJcZqysIEB5f4TJrt+FJlOWQ=
+		AGbwwfC7o/aAia9fokEW2GblihM=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		EIyFEOUY+R7FvKc1vIJVCALnxkM=
+		9XDqf3OmDnVmMahD0JGQaZJhmaU=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KUyxgxDRRb+9mY6c/2iI/vEvVWI=
+		dyG6nsuJrRZLka8KK8yaIDxX4y0=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Bfx1KaA6JfbAbptdvkrdnIux6+U=
+		UqPFncLaEM2yy0lhGfRDngocM2o=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KUyxgxDRRb+9mY6c/2iI/vEvVWI=
+		dyG6nsuJrRZLka8KK8yaIDxX4y0=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		X9mnJwfa2WH3yB92CGOKlrPgh6M=
+		CQfaLz+N0jKYACrDjqfwPpvZRas=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		EIyFEOUY+R7FvKc1vIJVCALnxkM=
+		9XDqf3OmDnVmMahD0JGQaZJhmaU=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NMuCDDn7VCov9FIiVeyn7LymKvU=
+		bllQeyr7e6/ojxhFroK80h8sO/o=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Dz73FyShMKQvfs67HcrgyN601c8=
+		1BcngQByT/5jJz5uYWv8EOd+khg=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NMuCDDn7VCov9FIiVeyn7LymKvU=
+		bllQeyr7e6/ojxhFroK80h8sO/o=
 		</data>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RliQSu+yMvzl+YsR/MplVjtVCmc=
+		YsCAOpaJyD81qPHRdG9NfANcTr0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -413,14 +413,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VZ6LKE099bmlnckupTnK8C4jGKDwYFsgYVEJ3SpgAdU=
+			1o82LStLTAZ2NmfhdW92+1cJH0O+EKylowtv0cLgHTw=
 			</data>
 		</dict>
 		<key>Headers/idnow_eid-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3kV4lorFbT1RkBWrwmTWu7PAEKHusAARaDvv9on4nk=
+			alFwGDvykaPZzGYjiZpC2T55dGV3LnXk+eLwxYgrFdg=
 			</data>
 		</dict>
 		<key>Headers/idnow_eid.h</key>
@@ -595,84 +595,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M8vw0BSRTQdXPCDd5rUmjLn3DtwmXX07MX3jD5R9Nrw=
+			MHbQNFQ0sl20qT4//zqWTJfXeMWF7HQ1thY5n9wDgBc=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pB5WvKJoJdxmKvUKqfxC6zZX8J7KimaGLwYHYRAXSuc=
+			NGjz8FvIpuucMtl30+8wOFSXXWv4ombR9J2fnDTkIqs=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iONC2DWB9z+WahZtwSu8WfnXhx1IV1P/7GCuKdKW6os=
+			nqj+lHpmRuOTazD1Bf6DjIlawFBHnJDW8OMXitvrTzw=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZlGLvVcPww2H72HDRgZumA9oWdCnmLp0CLdRl5dd20E=
+			hV6GEFUWbbOlvkAwZD53elxUCkGM8j0iMvrXZa8DOSs=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ambvuMdJIaytXLnfFc4A9w3RsBLaM3ZWeSR8N1Ev9as=
+			GklIOlpcOhFaJBeUQKhAuCpe/rGXQF5b6fcfP2FaIw4=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZlGLvVcPww2H72HDRgZumA9oWdCnmLp0CLdRl5dd20E=
+			hV6GEFUWbbOlvkAwZD53elxUCkGM8j0iMvrXZa8DOSs=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LI+r7hdfeo+HaovqBzFo43AYWUWkV+VvR2yv+CbhORo=
+			zCSBVnqXsbG8SRNJDEXt0K2sJgEgZLcqhTAueB8gCd4=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iONC2DWB9z+WahZtwSu8WfnXhx1IV1P/7GCuKdKW6os=
+			nqj+lHpmRuOTazD1Bf6DjIlawFBHnJDW8OMXitvrTzw=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oPTVGBghqE0g9LpaYhgC9kZISlXNcs2CrLA+bWhYZ20=
+			zoUMiPLCNfm0SOnafIymW0pJvH/zYGgaDwaz57Z+RKI=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZSbYPoUeEjn6LduuLWZdAbogpgbtsxKfe/gIzfB1HUk=
+			jAu6mrUSGslVZ5R/7eoufCjn3WuM+RydLhB206P+jEI=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oPTVGBghqE0g9LpaYhgC9kZISlXNcs2CrLA+bWhYZ20=
+			zoUMiPLCNfm0SOnafIymW0pJvH/zYGgaDwaz57Z+RKI=
 			</data>
 		</dict>
 		<key>Modules/idnow_eid.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xb59+J7POUFOJu8fHL9NXtegcmdE8gNMIPeA8jrGU4A=
+			5UbwIuXs/3KQ7eLMoih6Tyct2cI5MlRJl6h1vAn4iZ0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
