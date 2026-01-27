@@ -221,18 +221,18 @@ appearance.fontNameMedium = @"AmericanTypewriter-CondensedBold";
 // To adjust navigation bar / bar button items etc. you should follow Apples UIAppearance protocol.
 ```
 
-**Step 3:** Instantiate the `IDnowSettings` with your `companyId` and the `transactionToken` obtained from the user. The complete list of settings can be found [here](#settings).
+**Step 3:** Instantiate the `IDnowSettings` with the `transactionToken` generated for the user. The complete list of settings can be found [here](#settings).
 
 #### Swift
 
 ```swift
-let settings = IDnowSettings(companyID: "example_comp", transactionToken: "DEV-EXMPL") 
+let settings = IDnowSettings(transactionToken: "DEV-EXMPL") 
 ```
 
 #### Objective C
 
 ```objectivec
-IDnowSettings *settings = [IDnowSettings settingsWithCompanyID:@"example_comp" transactionToken:@"DEV-EXMPL"];
+IDnowSettings *settings = [IDnowSettings settingsWithTransactionToken:@"DEV-EXMPL"];
 ```
 
 **Step 4:** Initialize and start the identification controller
@@ -383,7 +383,7 @@ indowController.delegate = self; // Conforms to IDnowControllerDelegate
 
 ### Settings
 
-Before initializing the identification process a `transactionToken` and a `companyID` must be set in the `IDnowSettings`. Below is an example of setting a field in the `IDnowSettings`
+Before initializing the identification process a `transactionToken` must be set in the `IDnowSettings`. Below is an example of setting a field in the `IDnowSettings`
 
 #### Swift
 
@@ -403,7 +403,7 @@ settings.transactionToken = validatedToken;
 | Property name           | Description                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | transactionToken        | A token that will be used for instantiating a video identification. The token format is `XXX-XXXXX`.                                                                                                                                                                                                                                                                                                                                                    |
-| companyID               | Your Company ID provided by IDnow.                                                                                                                                                                                                                                                                                                                                                                                     |
+| companyID               | **Optional:** Your Company ID provided by IDnow. If not provided it will be derived from the `transactionToken`.                                                                                                                                                                                                                                                                                                                                                                                     |
 | environment             | **Optional:** The environment that should be used for the identification (DEV, TEST, LIVE) The default value is`IDnowEnvironmentNotDefined`. The used environment will then base on the prefix of the transaction token (DEV -> DEV, TST -> Test, else -> Live). You can use the special IDnowEnvironmentCustom to define a custom environment. If this is done, you need to set the apiHost and websocketHost. See [environments](#environments). |
 | showErrorSuccessScreen  | **Optional:** If set to `false`, the Error-Success-Screen provided by the SDK will not be displayed. <br />The default value of this property is `true`.                                                                                                                                                                                                                                                               |
 | showVideoOverviewCheck  | **Optional:** If set to `false`, the `Terms and Conditions` screen will not be shown before starting a video identification. <br />The default value of this property is `true`.                                                                                                                                                                                                                                       |
@@ -655,23 +655,18 @@ Below is the list of possible errors.
 | Error Code                                | Description                                                                                                                                                                                                                                                             |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IDnowErrorMissingTransactionToken         | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `transactionToken`.                                                                                                      |
-| IDnowErrorMissingCompanyID                | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `companyID`.                                                                                                             |
 | IDnowErrorOfficeClosed                    | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when an identification cannot be initialized because the time is outside business hours.                                                                                      |
-| IDnowErrorMissingCamera                   | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the device does either have no front camera or no back camera.                                                                                                           |
+| IDnowErrorUnsupportedDevice | The identification can't be performed because the device does not meet the minimal requirements.
 | IDnowErrorCameraAccessNotGranted          | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but the camera access was not granted by the user.                                                                                          |
-| IDnowErrorMicrophoneAccessNotGranted      | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but the microphone access was not granted by the user.                                                                                      |
-| IDnowErrorMissingMicrophone               | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but the device does not provide a microphone.                                                                                               |
+| IDnowErrorMicrophoneAccessNotGranted      | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but the microphone access was not granted by the user. |
 | IDnowErrorNoInternetConnection            | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but no internet connection is present.                                                                                                      |
 | IDnowErrorServer                          | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`) and identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). The error object will also contain the status code returned by the server. |
 | IDnowErrorWebRTC                          | Can occur during an identification process (e.g. WebRTC service could not establish a video connection).                                                                                                                                                                |
 | IDnowErrorIdentificationFailed            | Can occur during an identification process (e.g. triggered by`[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed.                                                                                                      |
 | IDnowErrorJailbreakPhoneNotSupported      | Unable to perform an identification on a jailbroken device.                                                                                                                                                                                                             |
-| IDnowErrorInvalidWebRTCToken              | Using LiveSwitch with an invalid key.                                                                                                                                                                                                                                   |
 | IDnowErrorHighCallVolumeTryLater          | User agreed to try the identification later due to the high call volume.                                                                                                                                                                                               |
 | IDnowErrorEnrolledInWaitingList           | User enrolled in the Waiting List so current identification session aborted.                                                                                                                                                                                            |
-| IDnowErrorUnifiedIdentAnotherMethod       | Error for a Unified Ident which states the user decided to switch to another type of identification.                                                                                                                                                                    |
 | IDnowErrorTokenNotSupported_eIDStandalone | eID standalone tokens are not supported.                                                                                                                                                                                                                                |
-| IDnowErrorInvalidServerCertificate        | Server trust certificate is not valid.                                                                                                                                                                                                                                  |
 | IDnowErrorUnsupportedProduct              | Unsupported products.                                                                                                                                                                                                                                                   |
 | IDnowErrorUnsupportedBluetoothHeadset     | Bluetooth headset not supported.                                                                                                                                                                                                                                        |
 | IDnowInstantSignDocumentExpired           | `INSTANT_SIGN` rejected, the trusted document is expired. This document is not valid.                                                                                                                                                                                   |
