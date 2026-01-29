@@ -652,24 +652,24 @@ In case the identification process ends with an error a resulting callback will 
 Below is the list of possible errors.
 
 
-| Error Code                                | Description                                                                                                                                                                                                                                                             |
-| ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| IDnowErrorMissingTransactionToken         | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `transactionToken`.                                                                                                      |
-| IDnowErrorOfficeClosed                    | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when an identification cannot be initialized because the time is outside business hours.                                                                                      |
-| IDnowErrorUnsupportedDevice | The identification can't be performed because the device does not meet the minimal requirements.
-| IDnowErrorCameraAccessNotGranted          | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but the camera access was not granted by the user.                                                                                          |
-| IDnowErrorMicrophoneAccessNotGranted      | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but the microphone access was not granted by the user. |
-| IDnowErrorNoInternetConnection            | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`). Occurs when a video ident was requested, but no internet connection is present.                                                                                                      |
-| IDnowErrorServer                          | Can occur during initialization (e.g. triggered by`[IDnowController initialize]`) and identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). The error object will also contain the status code returned by the server. |
-| IDnowErrorWebRTC                          | Can occur during an identification process (e.g. WebRTC service could not establish a video connection).                                                                                                                                                                |
-| IDnowErrorIdentificationFailed            | Can occur during an identification process (e.g. triggered by`[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed.                                                                                                      |
-| IDnowErrorJailbreakPhoneNotSupported      | Unable to perform an identification on a jailbroken device.                                                                                                                                                                                                             |
-| IDnowErrorHighCallVolumeTryLater          | User agreed to try the identification later due to the high call volume.                                                                                                                                                                                               |
-| IDnowErrorEnrolledInWaitingList           | User enrolled in the Waiting List so current identification session aborted.                                                                                                                                                                                            |
-| IDnowErrorTokenNotSupported_eIDStandalone | eID standalone tokens are not supported.                                                                                                                                                                                                                                |
-| IDnowErrorUnsupportedProduct              | Unsupported products.                                                                                                                                                                                                                                                   |
-| IDnowErrorUnsupportedBluetoothHeadset     | Bluetooth headset not supported.                                                                                                                                                                                                                                        |
-| IDnowInstantSignDocumentExpired           | `INSTANT_SIGN` rejected, the trusted document is expired. This document is not valid.                                                                                                                                                                                   |
+| Error Code | Description |
+| --- | --- |
+| `IDnowErrorMissingTransactionToken` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `transactionToken`. |
+| `IDnowErrorOfficeClosed` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when an identification cannot be initialized because the time is outside business hours. |
+| `IDnowErrorUnsupportedDevice` | The identification can't be performed because the device does not meet the minimal requirements. |
+| `IDnowErrorCameraAccessNotGranted` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but the camera access was not granted by the user. |
+| `IDnowErrorMicrophoneAccessNotGranted` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but the microphone access was not granted by the user. |
+| `IDnowErrorNoInternetConnection` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but no internet connection is present. |
+| `IDnowErrorServer` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`) and identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). The error object will also contain the status code returned by the server. |
+| `IDnowErrorWebRTC` | Can occur during an identification process (e.g. WebRTC service could not establish a video connection). |
+| `IDnowErrorIdentificationFailed` | Can occur during an identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed. |
+| `IDnowErrorJailbreakPhoneNotSupported` | Unable to perform an identification on a jailbroken device. |
+| `IDnowErrorHighCallVolumeTryLater` | User agreed to try the identification later due to the high call volume. |
+| `IDnowErrorEnrolledInWaitingList` | User enrolled in the Waiting List so current identification session aborted. |
+| `IDnowErrorTokenNotSupported_eIDStandalone` | eID standalone tokens are not supported. |
+| `IDnowErrorUnsupportedProduct` | Unsupported products. |
+| `IDnowErrorUnsupportedBluetoothHeadset` | Bluetooth headset was used despite being disabled in the configuration. |
+| `IDnowInstantSignDocumentExpired` | `INSTANT_SIGN` rejected, the trusted document is expired. This document is not valid. |
 
 ## Localization
 
