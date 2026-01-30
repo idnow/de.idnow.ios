@@ -409,9 +409,6 @@ SWIFT_CLASS("_TtC9idnow_eid17IDN_eIDAppearance")
 ///   </li>
 /// </ul>
 @property (nonatomic) CGFloat cornerRadius;
-/// If set to <code>true</code>, the new IDNow branding will be used
-/// By default the value of this property is <code>true</code>
-@property (nonatomic) BOOL usedNewBrand;
 /// <ul>
 ///   <li>
 ///     An optional font name that can be used to replace the bold font used by the SDK.
@@ -965,9 +962,6 @@ SWIFT_CLASS("_TtC9idnow_eid17IDN_eIDAppearance")
 ///   </li>
 /// </ul>
 @property (nonatomic) CGFloat cornerRadius;
-/// If set to <code>true</code>, the new IDNow branding will be used
-/// By default the value of this property is <code>true</code>
-@property (nonatomic) BOOL usedNewBrand;
 /// <ul>
 ///   <li>
 ///     An optional font name that can be used to replace the bold font used by the SDK.

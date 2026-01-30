@@ -1,5 +1,15 @@
 ## Changelog
 
+### 9.7.6 & eID 3.5.3
+#### Videoident
+- Aligned iOS error management with our Android implementation to make the error codes similar and more predictable.
+  ##### Breaking changes
+- Removed the `useNewBrand` flag. The **“New Brand”** experience is now permanently active in the iOS SDK. Remove usages of this flag from your codebase.
+- Replaced the `IDnowSettings(companyID: String)` constructor with `IDnowSettings(transactionID: String)` since passing the company ID is optional. If you used this constructor, you need to change it to the new one, otherwise no action required.
+#### eID
+- Improved the eID flow presentation. Fixed the issues for both modal presentation and displaying the flow from an existing `UINavigationController`.
+- Removed the `useNewBrand` flag. Removal of the usage is required (see above).
+
 ### 9.7.3 & eID 3.5.2
 #### VideoIdent
 - OTP screen UI improvement

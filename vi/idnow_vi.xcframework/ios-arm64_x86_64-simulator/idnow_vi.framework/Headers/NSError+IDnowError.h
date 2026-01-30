@@ -31,19 +31,9 @@ typedef NS_ENUM (NSInteger, IDnowError)
     IDnowErrorMissingTransactionToken		  = 1000,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
-     *  Occurs when the IDnowSettings instance does not contain a companyID.
-     */
-    IDnowErrorMissingCompanyID				  = 1001,
-    /**
-     *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when an identification cannot be initialized because the time is outside business hours.
      */
     IDnowErrorOfficeClosed                    = 1003,
-    /**
-     *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
-     *  Occurs when the device does either have no front camera or no back camera.
-     */
-    IDnowErrorMissingCamera                   = 1004,
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when a video ident was request, but the camera access was not granted by the user.
@@ -57,11 +47,6 @@ typedef NS_ENUM (NSInteger, IDnowError)
     /**
      *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
      *  Occurs when a video ident was requested, but the device does not provide a microphone.
-     */
-    IDnowErrorMissingMicrophone               = 1007,
-    /**
-     *  Can occur during initialization (e.g. triggered by [IDnowController initialize]).
-     *  Occurs when a video ident was requested, but no internet connection is present.
      */
     IDnowErrorNoInternetConnection            = 1008,
     /**
@@ -94,12 +79,6 @@ typedef NS_ENUM (NSInteger, IDnowError)
     IDnowErrorJailbreakPhoneNotSupported      = 1014,
     
     /**
-     *  Using LiveSwitch with invalid key
-     *
-     */
-    IDnowErrorInvalidWebRTCToken              = 1015,
-    
-    /**
      *  High call volume so user agree to try later
      *
      */
@@ -110,29 +89,11 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *
      */
     IDnowErrorEnrolledInWaitingList            = 1017,
-    
-    /**
-     *  The PVID requirements is to only allow those users with the VideoIdent process whose device supports the required resolution criteria specified in the PVID standard
-     *  i.e. The minimum resolution cannot be lower than 720p: 1280 × 720 at 25 frames per second.
-     *
-     */
-    IDnowErrorDeviceNotMeetPVIDRequirements    = 1018,
-    
-    /**
-     *  Error for a Unified Ident
-     *  which states user decided to switch to another type of identification
-     */
-    IDnowErrorUnifiedIdentAnotherMethod  = 1019,
 
     /**
      *  eID standalone tokens
      */
     IDnowErrorTokenNotSupported_eIDStandalone  = 1020,
-
-    /**
-     *  Server trust certificate is not valid
-     */
-    IDnowErrorInvalidServerCertificate    = 1021,
     
     /**
      *  Unsupported products
@@ -148,11 +109,6 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *  INSTANT_SIGN rejected, the trusted document is expired. This document is not valid.
      */
     IDnowInstantSignDocumentExpired = 1024,
-
-    /**
-     *  Client certificate is not valid
-     */
-    IDnowErrorInvalidClientCertificate    = 1025,
     
     /**
      *    UDP frontend certificate validation failed
@@ -162,7 +118,12 @@ typedef NS_ENUM (NSInteger, IDnowError)
     /**
      *    When a request times out (NSURLErrorTimedOut), it may be due to the user's poor internet connection or a lack of response from the server.
      */
-    IDnowErrorTimeOut = 1027
+    IDnowErrorTimeOut = 1027,
+    
+    /**
+     * The identification can't be performed because the device is not compatible
+     */
+    IDnowErrorUnsupportedDevice = 1033,
 };
 
 @interface NSError (IDnowError)

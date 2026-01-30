@@ -123,7 +123,6 @@ extension idnow_eid.IDN_eIDNetworkError : Swift.CustomStringConvertible {
     @objc get
     @objc set
   }
-  @objc public var usedNewBrand: Swift.Bool
   #if compiler(>=5.3) && $NonescapableTypes
   @objc public var fontNameBold: Swift.String? {
     @objc get
