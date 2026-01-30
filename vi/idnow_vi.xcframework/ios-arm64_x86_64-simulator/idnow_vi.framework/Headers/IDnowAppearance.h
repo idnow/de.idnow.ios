@@ -333,12 +333,6 @@ enum APPEARANCE_MODE
 @property (assign, nonatomic) BOOL identCodeLayoutHalf;
 
 /**
- * If set to `true`, the new IDNow branding will be used
- * By default the value of this property is `true`
- */
-@property (assign, nonatomic) BOOL usedNewBrand;
-
-/**
  * Default nil - Set this to a UIBarButtonItem of your preference in order to customize its appearance throughout the SDK
  */
 @property (nullable, strong, nonatomic) UIBarButtonItem *customBackButtonItem;

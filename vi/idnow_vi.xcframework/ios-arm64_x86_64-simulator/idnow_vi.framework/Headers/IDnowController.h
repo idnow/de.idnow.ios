@@ -29,7 +29,7 @@ typedef void (^IDnowCompletionBlock)(BOOL success, NSError *__nullable error, BO
  *  The main class of the SDK. It provides functionality to instantiate a new
  *  identification process and presents the UI needed for the configured identification method
  *
- *  First you should create an IDnowSettings object, which should contain at least a transactionToken and a companyID.
+ *  First you should create an IDnowSettings object, which should contain at least a transactionToken.
  *  You can customize the identification process by setting some of the additional properties of the IDnowSettings instance.
  *  For more information take a look at the IDnowSettings class.
  *
@@ -73,7 +73,7 @@ typedef void (^IDnowCompletionBlock)(BOOL success, NSError *__nullable error, BO
  *  Creates a new instance of IDNowController with the specified settings object.
  *
  *  @param settings An IDnowSettings object that contains the params and options of the identification process.
- *  Should contain at least a transactionToken and a companyID (see IDnowSettings).
+ *  Should contain at least a transactionToken (see IDnowSettings).
  *
  *  @return An IDnowController instance.
  */

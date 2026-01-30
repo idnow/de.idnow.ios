@@ -138,7 +138,7 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 /**
  *  This class is used to instantiate an instance of IDnowController.
  *  It lets you customize the identification process.
- *  At least a transactionToken and a companyID have to be set before calling [IDnowController initialize].
+ *  At least a transactionToken have to be set before calling [IDnowController initialize].
  *  You can also explicitly set the environment, which describes on which server the identificaton will be executed.
  */
 @interface IDnowSettings : NSObject
@@ -148,13 +148,13 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
 // -----------------------------------------------------------------------------------
 
 /**
- *  Creates an instance of IDnowSettings taking a company identifier into account.
+ *  Creates an instance of IDnowSettings taking a transaction token of the format: XXX-XXXXX or XXX-XXXXXX-XX.
  *
- *  @param companyID The company identifier provided by IDnow.
+ *  @param transactionToken The company identifier provided by IDnow.
  *
  *  @return An IDnowSettings instance.
  */
-+ (instancetype) settingsWithCompanyID: (NSString *) companyID;
++ (instancetype) settingsWithTransactionToken: (NSString *) transactionToken;
 
 /**
  *  Creates an instance of IDnowSettings taking a company identifier and a transaction token into account.
@@ -246,11 +246,6 @@ typedef NS_ENUM (NSInteger, IDnowConnectionType)
  /* The name the resulting app should use in the UINavigation bar
  */
 @property (strong, nullable, nonatomic)NSString* productName;
-
-/**
- *  If true the first api request will take the token instead of the companyid into account.
- */
-@property (assign, nonatomic) BOOL ignoreCompanyID;
 
 /**
  * The current logger instance that implement IDNLogClient interface.

@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/IDnowAppearance.h</key>
 		<data>
-		lHtmdeRoyIGCGbLHtZ2Avj/m+hE=
+		GNle30fR/Ikjxe9RB08Oez5rb3E=
 		</data>
 		<key>Headers/IDnowCertificateProvider.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/IDnowController.h</key>
 		<data>
-		0iaOfVx5WDhJo5LuugyN6qbTqzE=
+		UI4fWRNyzQW+nekFgnVKQNM3Q0c=
 		</data>
 		<key>Headers/IDnowDtlsCertificateProvider.h</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Headers/IDnowSettings.h</key>
 		<data>
-		IRdJxt47mQVN3W32sixMt9U4YWw=
+		o4wI/bnVSfaQH85DYkTwY2ruXHY=
 		</data>
 		<key>Headers/NSError+IDnowError.h</key>
 		<data>
-		AgkLRUSdkq77a2Yb35x0BUt5AD8=
+		m6jqWUnikA6/Zp6CXJcODmH5NP0=
 		</data>
 		<key>Headers/idnow_vi.h</key>
 		<data>
@@ -3952,15 +3952,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		e8lZ/Z/GG0CZBXvmioh+ZXColhU=
+		7g5ty1zbHkHUc6zikYMBO3iV4UY=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		1g03vYH1eaIym0/LWvNhrf1UdS0=
+		lj1Z3mExmWV3M2PkWv2glzM0R64=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yAeDmN90QX3AgDmcAn5hnvSbxMs=
+		KzdLfs9BHp8nTCLV9uRjSCKfeXw=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -3980,7 +3980,7 @@
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		padjnaAByJn6z1Ic41OZGOFh5FE=
+		E+p2WXxqw9SZzAOP6iVrSZX1YOo=
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -4000,7 +4000,7 @@
 		</data>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DV4TxzAIgmM3jXRCp4e2rWZYqAQ=
+		r049qSLKqF+IA6rbW8sfmzKyEUw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4012,11 +4012,11 @@
 		</data>
 		<key>idnow_vi_dynamic_config-Debug.xcconfig</key>
 		<data>
-		yhYKgQP+bm3krvmlL/24UCe1Dlg=
+		b6QlENBiZiBvAy+TVh25KuVdw6U=
 		</data>
 		<key>idnow_vi_dynamic_config-Release.xcconfig</key>
 		<data>
-		KFOBJIZonDnhrWMSEKjmZB6ugWE=
+		YfYtnXSZpF2DpsLQcV7y0PnwsuU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -4039,7 +4039,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fYLvC2s/2rVN0tuu2cGXAbQfoBOm15YgrkrCLPs9Sxs=
+			o5+b8XWAYWyFsK7TZgpgdUJNMLVjRng2Wwqa2vsEmdw=
 			</data>
 		</dict>
 		<key>Headers/IDnowCertificateProvider.h</key>
@@ -4053,7 +4053,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xLouaEm80MSIboZP/FIKUhSytwe8/JO5tjoZO8iDdHw=
+			utyPDIPk4MUSgYZU/z/KLlHLzbx1+cZrYwa2fp4gkXU=
 			</data>
 		</dict>
 		<key>Headers/IDnowDtlsCertificateProvider.h</key>
@@ -4074,14 +4074,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			phtGMwJcLY4ugr5O5gks06w0Bi3gZm1Dnrp4vSJS19o=
+			pjSDWwUEMbWUovMeQqY6NK4eFUiYENUHMMwxMZMEBi4=
 			</data>
 		</dict>
 		<key>Headers/NSError+IDnowError.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h1PN7a/WeE2y+yGNNcoSdSTfvoxPieJYwZonktcdAuw=
+			9oe9qivf4QccA9+ijDwlj3Yi1x6f8L05KrmjFw8rfmo=
 			</data>
 		</dict>
 		<key>Headers/idnow_vi.h</key>
@@ -10809,14 +10809,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xDqV/iQ14isRz8PDlmJMGkLnYiRoCHj+3NSZGYVfwRc=
+			hUr8rEfdJ/OIaV9rfL6A80BjJ/eBvZH+/a577hjwgXg=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nt20HT83rlyM+kWXs248CVUN0EztRghBuIVVSFoZfZ8=
+			c8n5IWjtU2tfgsIAZvvidMCYIzZkMaz4HCe3hde2w7Y=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -10851,7 +10851,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JdmPPnpZhmr5FI8JPtvCDr/4wbh2PZakzzVzTpzp8iE=
+			0/Uwrj6fGbh+6X+9OKTGfr9AU9oexX8QptKWETjkEWI=
 			</data>
 		</dict>
 		<key>Modules/idnow_vi.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -10886,7 +10886,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1fqBDHabyJOwkpo9HHqSg+UUDG3RfBi+NZ3K2Eo6b2g=
+			7Nwr4ZQck0UrD0hSv3/DJRNrelOA42mm3xC5uv7tY7c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -10907,14 +10907,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pnncJuuxL0xD9g9gIEuxRMoRSJTx6rYGaDWSRjNA8jA=
+			ZCvhqxb7l/dR3+QvYDSJLSD0TdgDw+9vpm2cIapvN84=
 			</data>
 		</dict>
 		<key>idnow_vi_dynamic_config-Release.xcconfig</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J/He7PsT8KLD9RgWywSIGsz2fz4QAnhnxDP1nAFiyy8=
+			GcBJwv/JkbyQ9xNZfY7CJ+9XEatrB4jJKzPpsVhd75o=
 			</data>
 		</dict>
 	</dict>

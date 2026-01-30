@@ -10,4 +10,4 @@
 // https://help.apple.com/xcode/#/dev745c5c974
 
 #include "Pods/Target Support Files/Pods-idnow-sdk-framework/Pods-idnow-sdk-framework.release.xcconfig"
-MARKETING_VERSION=9.7.3
+MARKETING_VERSION=9.7.6
