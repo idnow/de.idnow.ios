@@ -665,10 +665,13 @@ Below is the list of possible errors.
 | `IDnowErrorIdentificationFailed` | Can occur during an identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed. |
 | `IDnowErrorJailbreakPhoneNotSupported` | Unable to perform an identification on a jailbroken device. |
 | `IDnowErrorHighCallVolumeTryLater` | User agreed to try the identification later due to the high call volume. |
-| `IDnowErrorTokenNotSupported_eIDStandalone` | eID standalone tokens are not supported. |
+| `IDnowErrorTokenNotSupported` | The token used for this identification is meant for another product. |
+| `IDnowErrorTokenNotSupported_eIDStandalone` | eID standalone tokens cannot be used to start the VideoIdent flow. Instead of `[IDnowController initialize]` use `IDN_eIDRouter.init(withController controller: UIViewController, token: String, completion: eIDRouterInitializationHandler?)`. More information on how to start the eID flow [here](/eid/README.md). |
 | `IDnowErrorUnsupportedProduct` | Unsupported products. |
 | `IDnowErrorUnsupportedBluetoothHeadset` | Bluetooth headset was used despite being disabled in the configuration. |
 | `IDnowInstantSignDocumentExpired` | `INSTANT_SIGN` rejected, the trusted document is expired. This document is not valid. |
+
+Additionally, the SDK may return `IDnowErrorEnrolledInWaitingList`, indicating that the user has chosen to join the waiting list and will resume the identification once they receive an SMS notification. This error marks the end of the current identification session and hands control back to the main application. It corresponds to `IDnowSDK.RESULT_USER_IN_QUEUE` on Android.
 
 ## Localization
 
