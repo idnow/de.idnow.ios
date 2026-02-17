@@ -1,5 +1,11 @@
 ## Changelog
 
+### 9.7.7 & eID 3.5.4
+#### Videoident
+- Fixed an issue when Language selector was not dismissed during the cancellation.
+#### Both products
+- Addedd the full list of data being processed by the products to the privacy manifests.
+
 ### 9.7.6 & eID 3.5.3
 #### Videoident
 - Aligned iOS error management with our Android implementation to make the error codes similar and more predictable.
