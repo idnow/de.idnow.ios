@@ -1,5 +1,10 @@
 ## Changelog
 
+### 9.7.8 & eID 3.5.5
+### eID
+- Fixed an issue with the loading screen on iOS 18
+
+
 ### 9.7.7 & eID 3.5.4
 #### Videoident
 - Fixed an issue when Language selector was not dismissed during the cancellation.
