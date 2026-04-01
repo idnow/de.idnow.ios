@@ -1,5 +1,10 @@
 ## Changelog
 
+### 9.7.9
+- Significantly improved the call quality test stability
+- Added support for camera switching during custom identification steps
+- Stability improvements and bugfixes
+
 ### 9.7.8 & eID 3.5.5
 ### eID
 - Fixed an issue with the loading screen on iOS 18
