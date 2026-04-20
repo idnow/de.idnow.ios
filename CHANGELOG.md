@@ -1,5 +1,8 @@
 ## Changelog
 
+### 9.7.10
+- Improvements to the UDP connection security.
+
 ### 9.7.9
 - Significantly improved the call quality test stability
 - Added support for camera switching during custom identification steps
