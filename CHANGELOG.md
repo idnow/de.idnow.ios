@@ -1,5 +1,8 @@
 ## Changelog
 
+### 9.7.11
+- Improved connection stability checks during video call setup.
+
 ### 9.7.10
 - Improvements to the UDP connection security.
 
