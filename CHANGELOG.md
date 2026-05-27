@@ -1,5 +1,10 @@
 ## Changelog
 
+### 9.7.12
+- Improvements of the document signing flow
+- UI presenation improvements for sdk dismissal, legacy call quality check navigation
+- Fixed missing document capture mask during the video call
+
 ### 9.7.10
 - Improvements to the UDP connection security.
 
