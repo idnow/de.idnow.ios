@@ -70,6 +70,18 @@ typedef void (^IDnowCompletionBlock)(BOOL success, NSError *__nullable error, BO
 @property (nullable, weak, nonatomic) NSObject<IDnowControllerDelegate> *delegate;
 
 /**
+ *  When a VideoIdent+ identification is canceled by the user, this contains a stable step
+ *  identifier describing where in the flow the cancelation occurred
+ *  (e.g. @"LANGUAGE_SELECTION", @"CONSENT", @"CALL_QUALITY_CHECK", @"WAITING_ROOM").
+ *
+ *  It is nil otherwise, and is always nil for legacy VideoIdent and eID identifications.
+ *
+ *  Read it inside your IDnowCompletionBlock when canceledByUser is YES, or from within the
+ *  idnowControllerCanceledByUser: delegate callback.
+ */
+@property (copy, readonly, nullable, nonatomic) NSString *cancelationStepName;
+
+/**
  *  Creates a new instance of IDNowController with the specified settings object.
  *
  *  @param settings An IDnowSettings object that contains the params and options of the identification process.

@@ -1,5 +1,8 @@
 ## Changelog
 
+### 9.7.13
+- Logging improvements
+
 ### 9.7.12
 - Improvements of the document signing flow
 - UI presenation improvements for sdk dismissal, legacy call quality check navigation
