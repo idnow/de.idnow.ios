@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Kantel je document alstublieft omhoog en omlaag, zodat we de beveiligingsdelen zien.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Niet in staat om een identificatie uit te voeren op een apparaat dat een jailbreak heeft.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Apparaat met jailbreak";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Terug";
 
 /* No comment provided by engineer. */

@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Palun kallutage oma dokumenti üles ja alla, et näeksime selle turvaelemente.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Tuvastamist ei ole võimalik läbi viia häkitud seadmel.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Häkitud seade";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Tagasi";
 
 /* No comment provided by engineer. */

@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "请将您的护照从上到下来回倾斜，以便于护照上的防伪标识可以清晰被认出。";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "身份认证无法在越狱的手机上进行。";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "已越狱的手机";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "返回";
 
 /* No comment provided by engineer. */

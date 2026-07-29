@@ -1,5 +1,8 @@
 ## Changelog
 
+### 9.7.14
+- Security enchancements and stability improvements.
+
 ### 9.7.13
 - Logging improvements
 

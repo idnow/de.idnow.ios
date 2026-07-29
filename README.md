@@ -50,6 +50,10 @@
       - [underlineButtonTitles](#underlinebuttontitles)
       - [boldButtonTitles](#boldbuttontitles)
   - [PushNotifications](#pushnotifications)
+  - [Handling user cancelation](#handling-user-cancelation)
+      - [Swift](#swift-7)
+      - [Objective C](#objective-c-7)
+      - [Possible cancelation steps](#possible-cancelation-steps)
   - [Error codes](#error-codes)
   - [Localization](#localization)
 - [Other Supported Platforms](#other-supported-platforms)
@@ -645,6 +649,92 @@ our backend.
 
 ```
 
+## Handling user cancelation
+
+When the user cancels a VideoIdent+ identification, the SDK reports *where* in the flow the cancelation happened via the read-only `cancelationStepName` property of `IDnowController`:
+
+```objectivec
+@property (copy, readonly, nullable, nonatomic) NSString *cancelationStepName;
+```
+
+Read it as soon as you are notified about the cancelation — either inside your completion block when `canceledByUser` is `true`, or from within the `idnowControllerCanceledByUser:` delegate callback. The value is a stable string identifier of the screen the user was on (see [the table below](#possible-cancelation-steps)).
+
+The property is `nil` when the identification was not canceled by the user, and it is always `nil` for legacy VideoIdent and eID identifications.
+
+#### Swift
+
+```swift
+self.controller.startIdentification(from: ViewUtils.rootController(), withCompletionBlock: {(success, error, canceledByUser) -> Void in
+
+    if (canceledByUser) {
+        // The ident process was cancelled by the user
+        if let step = self.controller.cancelationStepName {
+            print("User canceled on step: \(step)") // e.g. "CONSENT"
+        }
+        return
+    }
+})
+```
+
+Or, when using the delegate:
+
+```swift
+func idnowControllerCanceledByUser(_ idnowController: IDnowController) {
+    if let step = idnowController.cancelationStepName {
+        print("User canceled on step: \(step)") // e.g. "CONSENT"
+    }
+}
+```
+
+#### Objective C
+
+```objectivec
+[idnowController startIdentificationFromViewController: self
+withCompletionBlock: ^(BOOL success, NSError *error, BOOL canceledByUser)
+{
+    if ( canceledByUser )
+    {
+        // identification canceled by the user
+        NSString *step = idnowController.cancelationStepName;
+        if ( step )
+        {
+            NSLog(@"User canceled on step: %@", step); // e.g. @"CONSENT"
+        }
+    }
+}];
+```
+
+Or, when using the delegate:
+
+```objectivec
+- (void) idnowControllerCanceledByUser: (IDnowController *) idnowController
+{
+    NSString *step = idnowController.cancelationStepName;
+    if ( step )
+    {
+        NSLog(@"User canceled on step: %@", step); // e.g. @"CONSENT"
+    }
+}
+```
+
+#### Possible cancelation steps
+
+| Value | Screen the user canceled on |
+| --- | --- |
+| `LANGUAGE_SELECTION` | The agent language selection screen. |
+| `CONSENT` | The `Terms and Conditions` / consent screen shown before the identification starts. |
+| `CALL_QUALITY_CHECK` | The call quality check performed before connecting to an agent. |
+| `INSTRUCTIONS` | The instructions screen shown before starting the video call. |
+| `HIGH_CALL_VOLUME` | The high call volume screen offering the user to try again later. |
+| `WAITING_ROOM` | The waiting screen shown while the user waits to be served. |
+| `WAITING_LIST` | The waiting list screen offering the user to be notified via SMS. |
+| `WAITING_FOR_AGENT` | The video call is established, but no agent has joined the conversation yet. |
+| `AGENT_CONVERSATION` | The video conversation with the IDnow Ident Specialist is in progress. |
+| `DOCUMENT_CLASSIFICATION` | The manual document capture / classification step. |
+| `NAME_VERIFICATION` | The name verification screen. |
+
+__Note:__ These string values are a stable public contract and will not be renamed. New values may be added when new screens are introduced to the flow, so handle unknown values gracefully.
+
 ## Error codes
 
 In case the identification process ends with an error a resulting callback will be passed an instance of an `NSError` with a corresponding error code. The full localized description of the error can be found in the `userInfo` of the `error` object.
@@ -656,14 +746,13 @@ Below is the list of possible errors.
 | --- | --- |
 | `IDnowErrorMissingTransactionToken` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when the `IDnowSettings` instance does not contain a `transactionToken`. |
 | `IDnowErrorOfficeClosed` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when an identification cannot be initialized because the time is outside business hours. |
-| `IDnowErrorUnsupportedDevice` | The identification can't be performed because the device does not meet the minimal requirements. |
+| `IDnowErrorUnsupportedDevice` | Device doesn't meet the requirements. The identification can't be performed on this device. |
 | `IDnowErrorCameraAccessNotGranted` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but the camera access was not granted by the user. |
 | `IDnowErrorMicrophoneAccessNotGranted` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but the microphone access was not granted by the user. |
 | `IDnowErrorNoInternetConnection` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`). Occurs when a video ident was requested, but no internet connection is present. |
 | `IDnowErrorServer` | Can occur during initialization (e.g. triggered by `[IDnowController initialize]`) and identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). The error object will also contain the status code returned by the server. |
 | `IDnowErrorWebRTC` | Can occur during an identification process (e.g. WebRTC service could not establish a video connection). |
 | `IDnowErrorIdentificationFailed` | Can occur during an identification process (e.g. triggered by `[IDnowController startIdentificationFromViewController:]`). Describes that an identification failed. |
-| `IDnowErrorJailbreakPhoneNotSupported` | Unable to perform an identification on a jailbroken device. |
 | `IDnowErrorHighCallVolumeTryLater` | User agreed to try the identification later due to the high call volume. |
 | `IDnowErrorTokenNotSupported` | The token used for this identification is meant for another product. |
 | `IDnowErrorTokenNotSupported_eIDStandalone` | eID standalone tokens cannot be used to start the VideoIdent flow. Instead of `[IDnowController initialize]` use `IDN_eIDRouter.init(withController controller: UIViewController, token: String, completion: eIDRouterInitializationHandler?)`. More information on how to start the eID flow [here](/eid/README.md). |

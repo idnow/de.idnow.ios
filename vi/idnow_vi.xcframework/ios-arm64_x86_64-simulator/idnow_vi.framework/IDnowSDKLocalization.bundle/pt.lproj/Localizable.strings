@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Por favor incline o seu documento para a frente e para trás, para podermos verificar as características de segurança.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Não é possível iniciar a Identificação num dispositivo modificado (jailbreak).";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Dispositivo alterado (jailbrake)";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Voltar";
 
 /* No comment provided by engineer. */

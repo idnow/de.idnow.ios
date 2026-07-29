@@ -72,12 +72,7 @@ typedef NS_ENUM (NSInteger, IDnowError)
      *  The token for Auto Ident
      */
     IDnowErrorTokenNotSupported               = 1013,
-    /**
-     *  Unable to perform an identification on a jailbroken device.
-     *
-     */
-    IDnowErrorJailbreakPhoneNotSupported      = 1014,
-    
+
     /**
      *  High call volume so user agree to try later
      *

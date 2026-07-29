@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Adesso ruoti il documento d'identità dall'alto verso il basso in modo che siano visibili le caratteristiche di sicurezza.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Impossibile eseguire l'identificazione su un dispositivo sul quale è stato eseguito il jailbreak.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Dispositivo su cui è stato effettuato il jailbreak";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Indietro";
 
 /* No comment provided by engineer. */

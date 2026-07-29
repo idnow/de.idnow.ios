@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Incline el documento hacia adelante y hacia atrás, para que podamos ver las características de seguridad.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "No es posible efectuar una identificación en un dispositivo con jailbreak";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Dispositivo con jailbreak";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Atrás";
 
 /* No comment provided by engineer. */

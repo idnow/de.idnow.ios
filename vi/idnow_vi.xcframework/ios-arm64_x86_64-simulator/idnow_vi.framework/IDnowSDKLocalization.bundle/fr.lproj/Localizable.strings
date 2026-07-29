@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Veuillez maintenant tourner votre carte vers le bas afin que nous puissions lire les caractéristiques de sécurité.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Impossible d'effectuer une identification sur un appareil jailbreaké.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Appareil jailbreaké";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Retour";
 
 /* No comment provided by engineer. */
