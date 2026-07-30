@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Lūdzu, salieciet slīpi savu dokumentu virzienā uz augšu un uz leju, lai varam redzēt tā drošības elementus.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Identifikāciju nav iespējams veikt no nelegāli atbloķētas ierīces.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Nelegāli atbloķēta ierīce";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Atpkaļ";
 
 /* No comment provided by engineer. */

@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Nakosite dokument gore/dolje kako bi se mogle vidjeti sigurnosne značajke na njemu.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Nije moguće obaviti identifikaciju na provaljenom uređaju.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Provaljeni uređaj";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Natrag";
 
 /* No comment provided by engineer. */

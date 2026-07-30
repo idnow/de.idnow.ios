@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Пожалуйста, наклоните ваш документ вверх и вниз, чтобы мы могли увидеть его защитные элементы.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Невозможно провести идентификацию на взломанном устройстве.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Взломанное устройство";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Назад";
 
 /* No comment provided by engineer. */

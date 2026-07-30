@@ -400,12 +400,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Please tilt your document up and down, so we can see it's security features.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Unable to perform an identification on a jailbroken device.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Jailbroken Device";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Back";
 
 /* No comment provided by engineer. */

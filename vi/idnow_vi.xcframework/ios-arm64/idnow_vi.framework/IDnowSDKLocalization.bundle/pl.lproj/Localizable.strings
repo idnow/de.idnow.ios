@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Przechyl dokument w górę i w dół, abyśmy mogli zobaczyć jego zabezpieczenia.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Nie można wykonać weryfikacji na urządzeniu ze złamanym zabezpieczeniem (jailbrake).";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Urządzenie ze złamanym zabezpieczeniem (jailbreak)";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Cofnij";
 
 /* No comment provided by engineer. */

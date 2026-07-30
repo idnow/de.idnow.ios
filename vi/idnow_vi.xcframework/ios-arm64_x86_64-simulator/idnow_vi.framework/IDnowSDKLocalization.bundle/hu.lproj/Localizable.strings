@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Kérjük, döntse meg az okmányt felfelé és lefelé, hogy a biztonsági jelzések, vízjelek jól láthatóak legyenek.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Feltört eszközön nem lehetséges az azonosítás végrehajtása.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Feltört eszköz";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Vissza";
 
 /* No comment provided by engineer. */

@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "Pamažu paverskite dokumentą viršun-apačion, kad galėtume pamatyti jo apsaugos priemones.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "Nulaužtu prietaisu identifikacijos nepavyks atlikti.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "Nulaužtas prietaisas";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "Grįžti";
 
 /* No comment provided by engineer. */

@@ -395,12 +395,6 @@
 "INFO_LICENSE_WIGGLE_DESCRIPTION" = "문서를 위아래로 기울여야 보안 기능을 식별할 수 있습니다.";
 
 /* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_MESSAGE" = "해킹된 장치에서는 신원 확인을 진행할 수 없습니다.";
-
-/* No comment provided by engineer. */
-"JAILBREAK_ERROR_ALERT_TITLE" = "해킹된 장치";
-
-/* No comment provided by engineer. */
 "NAVIGATION_ITEM_BACK_BUTTON_TITLE_DEFAULT" = "뒤로";
 
 /* No comment provided by engineer. */
