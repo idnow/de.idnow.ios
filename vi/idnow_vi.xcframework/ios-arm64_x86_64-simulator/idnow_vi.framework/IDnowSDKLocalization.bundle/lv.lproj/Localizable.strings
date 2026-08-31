@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Jūsu Ident-ID nav pareizs. Lūdzu, pārbaudiet un mēģiniet vēlreiz.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Jūsu Ident ID vairs nav derīgs. Lūdzu, sazinieties ar klientu atbalstu: support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Jūsu Ident ID vairs nav derīgs. Lūdzu, sazinieties ar klientu atbalstu: support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Jūsu Ident ID vairs nav derīgs. Lūdzu, sazinieties ar klientu atbalstu: support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Jūsu Ident ID vairs nav derīgs. Lūdzu, sazinieties ar klientu atbalstu: support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Diemžēl radās iekšēja kļūda. Lūdzu, sazinietis ar mūsu atbalsta dienestu %@ un norādiet šādu kļūdas numuru: %@";

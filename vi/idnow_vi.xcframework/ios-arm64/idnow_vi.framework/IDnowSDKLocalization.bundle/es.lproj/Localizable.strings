@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "El Ident-ID no es correcto. Compruébelo e inténtelo de nuevo.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Su identificador de identidad ya no es válido. Póngase en contacto con nuestro soporte support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Su identificador de identidad ya no es válido. Póngase en contacto con nuestro soporte support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Su identificador de identidad ya no es válido. Póngase en contacto con nuestro soporte support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Su identificador de identidad ya no es válido. Póngase en contacto con nuestro soporte support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Se ha producido un error interno. Contacte con nuestro %@ de soporte indicando el siguiente número de error: %@";

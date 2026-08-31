@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Neteisingas Ident-ID. Patikrinkite ir mėginkite dar kartą.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Jūsų Ident-ID nebegalioja. Susisiekite su klientų konsultantais adresu support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Jūsų Ident-ID nebegalioja. Susisiekite su klientų konsultantais adresu support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Jūsų Ident-ID nebegalioja. Susisiekite su klientų konsultantais adresu support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Jūsų Ident-ID nebegalioja. Susisiekite su klientų konsultantais adresu support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Deja, įvyko vidinė klaida. Kreipkitės į mūsų pagalbos tarnybą %@ ir nurodykite tokį klaidos numerį: %@";

@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Vaš Ident ID nije ispravan. Provjerite i pokušajte ponovno.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Vaš Ident ID više nije važeći. Kontaktirajte našu podršku na support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Vaš Ident ID više nije važeći. Kontaktirajte našu podršku na support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Vaš Ident ID više nije važeći. Kontaktirajte našu podršku na support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Vaš Ident ID više nije važeći. Kontaktirajte našu podršku na support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Nažalost, došl je do interne greške. Kontaktirajte našu podršku %@ i navedite sljedeći broj pogreške: %@";
