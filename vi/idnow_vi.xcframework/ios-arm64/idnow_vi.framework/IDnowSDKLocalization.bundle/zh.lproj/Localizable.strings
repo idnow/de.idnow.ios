@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "您的认证码错误。请再试一次。";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "您的身份证不再有效。 请联系我们的支持support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "您的身份证不再有效。 请联系我们的支持support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "您的身份证不再有效。 请联系我们的支持support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "您的身份证不再有效。 请联系我们的支持support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "很抱歉，出错了！请您跟我们的客服支持联系%@ 并且告知他错误代码：%@";

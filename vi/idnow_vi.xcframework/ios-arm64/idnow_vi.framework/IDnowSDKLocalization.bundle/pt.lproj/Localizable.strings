@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "O ID de identificação inserido está incorreto. Por favor tente novamente. ";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Sua identidade não é mais válida. Contate por favor nosso apoio support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Sua identidade não é mais válida. Contate por favor nosso apoio support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Sua identidade não é mais válida. Contate por favor nosso apoio support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Sua identidade não é mais válida. Contate por favor nosso apoio support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Oops. Ocorreu um erro inesperado. Por favor contacte o serviço de apoio %@ e reporte o seguinte código de erro: %@";

@@ -1,5 +1,13 @@
 ## Changelog
 
+### 9.7.15 & eID 3.5.6
+#### VideoIdent
+- Improved the redirect URL behavior after a completed ident
+- Improved the call volume during the ident
+- Small stability and UI/UX improvements
+#### eID
+- Added the document image resizing logic to reduce the size of the identification materials
+
 ### 9.7.14
 - Security enchancements and stability improvements.
 

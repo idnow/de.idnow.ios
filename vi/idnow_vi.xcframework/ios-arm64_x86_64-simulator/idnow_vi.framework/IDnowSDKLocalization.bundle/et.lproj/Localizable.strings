@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Teie Ident-ID ei ole õige. Palun kontrollige seda ja proovige uuesti.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Teie tuvastuskood ei kehti enam. Palun võtke ühendust meie klienditeenindusega aadressil support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Teie tuvastuskood ei kehti enam. Palun võtke ühendust meie klienditeenindusega aadressil support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Teie tuvastuskood ei kehti enam. Palun võtke ühendust meie klienditeenindusega aadressil support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Teie tuvastuskood ei kehti enam. Palun võtke ühendust meie klienditeenindusega aadressil support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Kahjuks tekkis sisemine tõrge. Palun võtke ühendust meie klienditoega aadressil %@ ja mainige järgnevat veakoodi: %@";

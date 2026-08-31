@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Невірний ідентифікаційний номер посвідчення особи. Перевірте та спробуйте ще раз.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Ваш Ident ID більше не дійсний. Зверніться до нашої служби підтримки support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Ваш Ident ID більше не дійсний. Зверніться до нашої служби підтримки support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Ваш Ident ID більше не дійсний. Зверніться до нашої служби підтримки support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Ваш Ident ID більше не дійсний. Зверніться до нашої служби підтримки support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Виникла внутрішня помилка. Зверніться до нашої служби підтримки %@ і вкажіть наступний номер помилки: %@";

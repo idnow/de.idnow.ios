@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Jouw Ident-ID is niet correct. Controleer en probeer het opnieuw.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Je Ident ID is niet langer geldig. Neem contact op met onze assistentie support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Je Ident ID is niet langer geldig. Neem contact op met onze assistentie support@idnow.io";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Je Ident ID is niet langer geldig. Neem contact op met onze assistentie support@mail.idnow.de";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Je Ident ID is niet langer geldig. Neem contact op met onze assistentie support@idnow.io";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Helaas is er een interne fout opgetreden. Neem contact op met onze hulpdienst %@] en vermeld het volgende foutnummer: %@";

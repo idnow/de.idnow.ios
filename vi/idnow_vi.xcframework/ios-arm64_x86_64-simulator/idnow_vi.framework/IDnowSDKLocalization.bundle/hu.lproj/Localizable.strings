@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Az ön Ident-ID-ja helytelen. Kérjük, ellenőrizze, majd próbálja meg újból.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Az ön Ident-ID-ja már nem érvényes. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal a support@mail.idnow.de emailcímen.";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Az ön Ident-ID-ja már nem érvényes. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal a support@idnow.io emailcímen.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Az ön Ident-ID-ja már nem érvényes. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal a support@mail.idnow.de emailcímen.";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Az ön Ident-ID-ja már nem érvényes. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal a support@idnow.io emailcímen.";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Sajnálatos módon belső hiba lépett fel. Kérjük, vegye fel a kapcsolatot az ügyfélszolgálattal (%@), és adja meg a következő hibakódot: %@";

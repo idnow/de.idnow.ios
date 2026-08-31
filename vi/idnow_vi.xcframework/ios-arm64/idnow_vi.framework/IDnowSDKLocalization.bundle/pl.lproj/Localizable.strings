@@ -212,10 +212,10 @@
 "IDNOW_ERROR_DESCRIPTION_1009_404" = "Twój identyfikator jest niepoprawny. Sprawdź i spróbuj ponownie.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_410" = "Twój identyfikator jest już nieważny. Skontaktuj się z naszym działem wsparcia support@mail.idnow.de.";
+"IDNOW_ERROR_DESCRIPTION_1009_410" = "Twój identyfikator jest już nieważny. Skontaktuj się z naszym działem wsparcia support@idnow.io.";
 
 /* No comment provided by engineer. */
-"IDNOW_ERROR_DESCRIPTION_1009_412" = "Twój identyfikator jest już nieważny. Skontaktuj się z naszym działem wsparcia support@mail.idnow.de.";
+"IDNOW_ERROR_DESCRIPTION_1009_412" = "Twój identyfikator jest już nieważny. Skontaktuj się z naszym działem wsparcia support@idnow.io.";
 
 /* No comment provided by engineer. */
 "IDNOW_ERROR_DESCRIPTION_1009_500" = "Niestety wystąpił błąd wewnętrzny. Skontaktuj się z naszym działem pomocy %@ i podaj następujący numer błędu: %@.";
