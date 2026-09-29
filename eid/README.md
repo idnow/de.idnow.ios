@@ -41,8 +41,8 @@ German government introduced RFID chip based electronic ID cards in November 201
 
 ## Requirements
 
-- Xcode 15 or above
-- Deployment Target: iOS 14.0+ (__Note__: NFC can work only with iPhone 7 or higher)
+- Xcode 27 or above
+- Deployment Target: iOS 15.0+ (__Note__: NFC can work only with iPhone 7 or higher)
 - Device with a camera and NFC reading capabilities
 
 ---
