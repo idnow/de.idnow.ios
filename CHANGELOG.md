@@ -1,5 +1,13 @@
 ## Changelog
 
+### 9.7.16 & eID 3.5.7
+**Important:** this release reaises the minimum iOS target to iOS 15 to comply with XCode 27 requirements
+#### VideoIdent
+- Stability improvements and bugfixes
+#### eID
+- Fixed an issue with not being able to restart the NFC card scanning process
+- UX improvements for the card scanning process
+
 ### 9.7.15 & eID 3.5.6
 #### VideoIdent
 - Improved the redirect URL behavior after a completed ident
